@@ -1,0 +1,39 @@
+% !TEX root = Master.tex
+
+Forest inventories must be conducted in regular intervals to sustainably manage a forest. Forest inventories are
+traditionally conducted on different scales. On the larger enterprise level sample-based approaches are
+implemented. However, for decisions at the level of the management units (compartments) taxations are done
+by experienced foresters. Information on growth, mortality, age and stand structure and volume stock are
+collected in field by visits of each compartment. Tenants are especially interested in the growing stock of the
+forest as it presents the main source of incomes. The growing stock can be modeled by measuring the diameter
+of trees at breast height (1.3m). Such measurements are commonly done on small sample plots (locations
+where multiple measurements are conducted).\\
+
+Alternative approaches to forest inventory are in development to be a more objective and cost efficient. One of
+those alternatives are airborne LiDAR (Light detection and ranging) systems. An airplane flies in a grid over the
+forest. The LiDAR system collects the distance to a target by illuminating the target with pulsed laser light and
+measuring the reflected pulses with a sensor. Differences in laser return times and intensities can then be used
+to obtain 3-D structural information of the target forest.\\
+
+The 3-D model of the forest thus implies the height of trees from which a detailed canopy height model (CHM)
+can be generated, which represents tree / canopy height for each pixel. High trees are indicated with bright
+colors and objects with a height smaller then 5m will appear black. Using feature detection algorithms tree tops
+can be detected in the CHM and tree crowns delineated. Note that trees below the 5m threshold are of little
+relevance for growing stock estimates, as the diameter is simply too small.\\
+
+Hence an estimate of the number of trees is obtained, including their associated height and crown area can be automatically extracted from the LiDAR point clouds analysis. However, two limitations hinder the direct
+integration into the forest inventory estimation setup:
+
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+\begin{enumerate}
+\item To estimate growing stock and other relevant forest variables a diameter estimate is required which
+cannot be directly observed from the LiDAR data. Therefore, statistical models need to be developed.
+\item Furthermore, the tree detection algorithms are unable to detect smaller trees which are partially
+covered by larger trees. Thus, a systematic bias of the diameter distribution is towards trees with larger
+diameters is expected and needs to be corrected.
+This correction must be performed on compartment level. A compartments level is a relatively homogeneous area within the forest, further described in 2.1 Forest Classification.
+\end{enumerate}
+
+The objective of this study is to contribute to the development of LiDAR assisted forest inventories by developing a statistical sound approach to derive unbiased diameter distribution models from LiDAR data for homogeneous compartments of the forest.
+
+

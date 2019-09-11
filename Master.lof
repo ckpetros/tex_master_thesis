@@ -1,0 +1,28 @@
+\babel@toc {english}{}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The bar plots (left to right: stratum 1, stratum 4). The bars indicate the mean volume per ha for different diameter classes [1].\relax }}{4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The forest of Gartow is divided into stratums based on past observed variation and ownership and subdivided into compartments indicated by grey lines. Each point within a section indicate a sampling point [1].\relax }}{4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 3-D Image of a small area of the forest of Gartow made by the airborne LiDAR. The determined height is colorized. A dense group of height trees is found almost in the middle and directly behind an aisle of small trees.\relax }}{6}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualization of detection problems. Left: a dominant tree covers subdominant trees (challange 1). Right: Close equally tall trees (green) are detected as one tree, causing overestimation of the crown area (challange 4).\relax }}{9}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Boxplots based on Stratum (upper) and Tree Species (lower). Same patterns show potential correlation in height and diameter.\relax }}{13}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Relation between diameter and height. Tree species are visualized by colouring\relax }}{14}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Scatterplot of log transformed diameter and height for Stratum 1.\relax }}{14}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces While the estimates and confidence intervals of the gamma and log-linear model tend to be similar. The Gaussian model estimates are larger for values greater 0 and smaller for values smaller then 0.\relax }}{16}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Predicted pane of the gamma model for oaks (Ei red) and pines (Ki brown)\relax }}{18}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Residual plots of GLM gamma. Data points with an index are considered outliers.\relax }}{19}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Scatterplot of the sections with the grouping based on k-means clustering\relax }}{20}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Boxplots for the used variables - clusters\relax }}{21}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Cluster 1 section ID's from left to right: 155a1, 311b1, 261a2\relax }}{21}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Cluster 2 section ID's from left to right: 37a2, 71b5, 309a2\relax }}{22}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Cluster 3 section IDs from left to right: 314a2, 207a2, 36c1\relax }}{22}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Measured vs predicted densities of the tree diameter for compartments of the $2^{nd}$ cluster\relax }}{23}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Graphical fit diagnostics for cluster 2 - Tree diameter\relax }}{23}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Measured vs predicted densities of the tree diameter for the $1^{st}$ cluster - Comparison\relax }}{25}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Measured vs predicted densities of the tree diameter for the $2^{nd}$ cluster - Comparison\relax }}{25}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Measured vs predicted densities of the tree diameter for the $3^{rd}$ cluster - Comparison\relax }}{25}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Measured vs predicted densities of the tree diameter for compartment 218a\relax }}{26}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Measured vs predicted densities of the tree diameter for compartment 295a1\relax }}{26}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Measured vs predicted densities of the tree diameter for compartment 275a2\relax }}{26}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Measured vs predicted densities of the tree diameter for compartment 140a\relax }}{27}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Sampled mean diameter vs observed mean diameter for compartments with sufficient samples.\relax }}{27}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Clustered sections with respect to mean and variance of both height and diameter using principal components.\relax }}{32}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces : Log-linear regression models log(diameter) \textasciitilde height for each cluster. The color indicates the tree species.\relax }}{32}

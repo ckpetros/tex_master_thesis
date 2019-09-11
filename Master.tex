@@ -1,0 +1,202 @@
+%%notwendige packages
+
+%----------------------------
+
+\documentclass[12pt]{article}
+%benötigt man immer
+\usepackage{amsmath}
+%is used for numbering of equations
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{varwidth}
+\usepackage{float}
+% Table caption on top of tables
+\floatstyle{plaintop}
+\restylefloat{table}
+%----
+\usepackage{makecell}
+\usepackage{enumitem}
+
+% allows index generation
+\usepackage{makeidx}
+\makeindex
+
+% equation, table and figure numbering should start with section number e.g. (3.1)
+\numberwithin{equation}{section}
+\numberwithin{table}{section}
+\numberwithin{figure}{section}
+
+%fonts
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{mathptmx}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{enumitem}
+%small fonts for captions of figures and tables
+\usepackage{caption}
+\captionsetup[figure]{font = footnotesize}
+\captionsetup[table]{font = footnotesize}
+
+
+%format
+% Witwen und Waisenkinder vermeiden
+\clubpenalty=4500	% Waisen vermeiden (erste Zeile eines neuen Absatzes als letzte Zeile einer Seite)
+\widowpenalty=10000	% keine Witwen zulassen (letzte Zeile eines Absatzes am Beginn einer neuen Seite)
+
+% Seitenraender einstellen
+\usepackage{geometry}
+\geometry{a4paper,left=30mm,right=20mm, top=20mm, bottom=20mm}
+
+% Zeilenabstand
+\linespread{1.5} 
+
+%Graphics
+\usepackage[final]{graphicx} 	
+\usepackage[twoside,figuresright]{rotating}
+\usepackage{subcaption} 
+%\usepackage{subfigure} 
+
+% Adjust tables (and figures) to textwidth...
+\usepackage{adjustbox}
+
+%For tables, to color whole row without missing pieces...
+\usepackage{tabularx}
+%\usepackage[table]{xcolor}  % option loads »colortbl«
+
+% Initialize Makro for table heads
+\renewcommand\theadfont{\bfseries\sffamily}
+
+% Highlighting rows, columns and headers of tables
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.9}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{SeaBlue}{rgb}{0.3, 0.58, 1}
+
+%acronym package for Abbreviations
+\usepackage{acronym}
+
+%Create Statutory Declaration page for signatures
+\newcommand{\namesigdate}[2][3cm]{%
+  \begin{tabular}{@{}p{#1}@{}}
+    #2 \\[2\normalbaselineskip] \hrule \\[0pt]
+    {\small \textit{Signature}}
+  \end{tabular}
+}
+
+%----------------------------
+
+\begin{document}
+
+\thispagestyle{empty}	
+\input{Titelseite}
+%\clearpage
+\newpage
+\null\thispagestyle{empty}
+\newpage
+\thispagestyle{empty}
+\section*{Statutory Declaration}
+\input{Statutory_Declaration}
+\newpage
+\null\thispagestyle{empty}
+\newpage
+\thispagestyle{empty}
+\section*{Acknowledgments}
+\input{Acknowledgments}
+\newpage
+\null\thispagestyle{empty}
+\newpage
+
+
+	
+%\pagenumbering{Roman} 	
+\thispagestyle{empty}
+\tableofcontents
+\newpage
+
+
+
+
+\newpage
+
+\pagenumbering{arabic} 
+\setcounter{page}{1} 
+
+\section{Introduction}
+\input{Introduction}
+\clearpage
+\section{Study Area \& Data Sources}
+\subsection{Forest Classification}
+\input{Forest_Classification}
+\subsection{Inventory Data} \label{Inventory Data}
+\input{Inventory_Data}
+\subsection{LiDAR} \label{LiDAR}
+\input{LiDAR}
+\clearpage
+\section{Methodology}
+\subsection{Challenges} \label{Challenges}
+\input{Challenges}
+\subsection{Methodology} \label{Methodology}
+\input{Methodology}
+\clearpage
+\section{Analysis}
+\input{Analysis}
+\subsection{General Overview of the Variables} \label{Overview variables}
+\input{Overview_variables}
+\subsection{Regression Models} \label{Regression Models}
+\input{Regression_Models}
+\subsection{The Regression Outputs} \label{Regression Outputs}
+\input{Regression_Outputs}
+\subsection{Clustering} \label{Clustering}
+\input{Clustering}
+\subsection{Distribution Engineering} \label{Distribution Engineering}
+\input{Distribution_Engineering}
+\subsection{Validation of the Results} \label{Results}
+\input{Results}
+\clearpage
+\section{Discussion} 
+\input{conclusion}
+\clearpage
+
+
+
+\addcontentsline{toc}{section}{Appendix}
+\section*{Appendix} \label{Appendix}
+\input{Appendix}
+
+\clearpage
+
+\addcontentsline{toc}{section}{References}
+\section*{References}
+%\subsection*{Literature}
+\input{Literature}
+%\subsection*{R-Packages}
+%\input{R-Packages}
+
+	
+\clearpage
+
+\addcontentsline{toc}{section}{List of Figures}	
+\listoffigures
+
+
+\clearpage
+
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+
+
+\clearpage
+
+\addcontentsline{toc}{section}{List of Abbreviations}
+\section*{List of Abbreviations}
+\input{abkuerzungen}
+\subsection*{Tree Species}
+\input{Tree_Species_abbr}
+
+
+\clearpage
+
+	
+\end{document}
+

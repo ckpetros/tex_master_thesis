@@ -1,0 +1,30 @@
+% !TEX root = Master.tex
+
+The objective of this study is to contribute to the development of LiDAR assisted forest inventories by developing
+a statistical sound approach to derive unbiased diameter distribution models from LiDAR data for homogeneous
+compartments of the forest. Prediction is successfully performed by a generalized linear
+regression model using the gamma distribution with log as a link function. Clustering the compartments into three groups led to enough samples per cluster to
+perform distribution engineering. Clustering is not meant to find groups upon a decision for more or less correction is made, but
+to find an appropriate correction for similar compartments. Clustering further uncovered the issue of not detecting
+equally height trees, which introduced additional bias in the tree diameter prediction. Bias correction is
+achieved by fitting a gamma distribution on the diameter distribution of each cluster from the inventory dataset
+and subsequently the predicted diameter distribution. A correction factor is calculated based on the ratio of the
+shape and scale parameter of both fitted distributions for each cluster. High confidence is thus given to the
+inventory dataset. Subsequently, the correction factor is applied for each section. \\
+
+This approach could solve all present challenges, without relying on any heuristic methods apart from choosing
+an appropriate amount of clusters and variables. Hence the objective of finding a statistical sound approach is achieved.\\
+
+We could not find studies with similar approaches to the objective. 
+The achieved residual standard error of the mean diameter of the corrected compartment distribution of 5.49cm (see Section \ref{Results}) is satisfying.
+To compare and assess the modelling of the distribution, a inventory dataset of fully sampled compartments is necessary. 
+The RSE could be further reduced by improving the tree species detection rate and likely crown area estimation. Comparing different amount of k cluster could be an interesting extension. 
+The residual standard error of the regression model with 3.81cm is compared to another study. G. Liu, J. Wang, P. Dong, Y. Chen, Z. Liu (2018) [17] achieved a significantly better diameter residual standard error of 1.28 cm using solely LiDAR data. \textit{"Octree segmentation, connected component labelling and random Hough transform are comprehensively used to identify trunks and extract DBH of trees in sample plots."} \\
+
+Nevertheless, this sophisticated approach can only be applied on plot level (small sampling location in a forest) and likely not scaled up on a whole forest. Ultimately, a residual standard error of below 5cm is satisfying. \\
+
+The advantage of the presented approach is that an extension of the estimation of the unbiased tree diameter distribution based on just the LiDAR scanning system can be achieved, even though the majority of the area did not undergo any manual sampling activities.\\
+Additionally, by making use of this bias correction attempt by fitting and adjusting parametric distributions instead of just relying on the predicted diameter distribution, outlier occurrences at the outer quantiles are no longer an issue (due to overestimated crown areas), meaning that overestimation of the tree diameter is also prevented. 
+
+
+
