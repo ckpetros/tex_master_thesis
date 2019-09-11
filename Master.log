@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  11 SEP 2019 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  11 SEP 2019 15:14
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -540,14 +540,7 @@ ng.tex"
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 \AC@clearlist=\toks38
-) (Master.aux
-
-LaTeX Warning: Label `fig:cluster2_pred' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:cluster2_pred' multiply defined.
-
-)
+) (Master.aux)
 \openout1 = `Master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -564,8 +557,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
 LaTeX Font Info:    ... okay on input line 89.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
- ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
-"
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 89.
@@ -778,23 +771,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--23
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 129.
  (Forest_Classification.tex
+
+LaTeX Warning: Reference `tab:sizes' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Reference `fig:Gartow Map' on page 3 undefined on input line 31.
+
+
+
+LaTeX Warning: Reference `tab:Sample_Variation' on page 3 undefined on input li
+ne 32.
+
+
+LaTeX Warning: Reference `fig:barplots_Gartow' on page 3 undefined on input lin
+e 63.
+
 <barplots_Gartow.png, id=38, 843.90282pt x 344.03531pt>
 File: barplots_Gartow.png Graphic file (type png)
 <use barplots_Gartow.png>
 Package pdftex.def Info: barplots_Gartow.png  used on input line 66.
 (pdftex.def)             Requested size: 455.24411pt x 185.59256pt.
- [3
+[3
 
 ]
+
+LaTeX Warning: Reference `Inventory Data' on page 4 undefined on input line 71.
+
+
 <Gartow_map.png, id=42, 820.56563pt x 585.68813pt>
 File: Gartow_map.png Graphic file (type png)
 <use Gartow_map.png>
 Package pdftex.def Info: Gartow_map.png  used on input line 74.
 (pdftex.def)             Requested size: 455.24411pt x 324.93564pt.
+
+LaTeX Warning: Reference `fig:Gartow Map' on page 4 undefined on input line 79.
+
+
 ) [4 <./barplots_Gartow.png> <./Gartow_map.png>] (Inventory_Data.tex
+
+LaTeX Warning: Reference `tab:Sample_Variation' on page 5 undefined on input li
+ne 3.
+
+
+LaTeX Warning: Reference `fig:Gartow Map' on page 5 undefined on input line 3.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
+
+
+LaTeX Warning: Reference `tab:Measured Trees' on page 5 undefined on input line
+ 5.
 
 ) (LiDAR.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -805,20 +833,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
+
+LaTeX Warning: Reference `fig:LiDAR' on page 6 undefined on input line 5.
+
 <lidar.png, id=49, 666.99188pt x 310.91156pt>
 File: lidar.png Graphic file (type png)
 <use lidar.png>
 Package pdftex.def Info: lidar.png  used on input line 8.
 (pdftex.def)             Requested size: 455.24411pt x 212.21407pt.
- [6 <./lidar.png>]) [7] (Challenges.tex
+[6 <./lidar.png>]) [7] (Challenges.tex
+
+LaTeX Warning: Reference `fig:dominant_trees' on page 8 undefined on input line
+ 9.
+
+
+LaTeX Warning: Reference `Regression Models' on page 8 undefined on input line 
+17.
+
+
+LaTeX Warning: Reference `Clustering' on page 8 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:dominant_trees' on page 8 undefined on input line
+ 20.
+
 <dominant_trees.png, id=57, 1204.5pt x 371.13657pt>
 File: dominant_trees.png Graphic file (type png)
 <use dominant_trees.png>
 Package pdftex.def Info: dominant_trees.png  used on input line 23.
 (pdftex.def)             Requested size: 455.24411pt x 140.2745pt.
- [8
+[8
 
-]) (Methodology.tex [9 <./dominant_trees.png>]
+]) (Methodology.tex
+
+LaTeX Warning: Reference `Overview variables' on page 9 undefined on input line
+ 4.
+
+[9 <./dominant_trees.png>]
+
+LaTeX Warning: Reference `tab:Prediction Models' on page 10 undefined on input 
+line 50.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 72--77
 
  []
@@ -854,6 +910,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
  []
 
 
+LaTeX Warning: Reference `tab:variables' on page 12 undefined on input line 10.
+
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
@@ -864,9 +924,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 ) (Overview_variables.tex
+
+LaTeX Warning: Reference `Methodology' on page 12 undefined on input line 23.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 22--26
 
  []
+
+
+LaTeX Warning: Reference `fig:boxplots Overview' on page 12 undefined on input 
+line 27.
 
 [12
 
@@ -876,12 +944,21 @@ File: boxplots_overview.jpg Graphic file (type jpg)
 <use boxplots_overview.jpg>
 Package pdftex.def Info: boxplots_overview.jpg  used on input line 33.
 (pdftex.def)             Requested size: 301.1254pt x 330.03345pt.
+
+
+LaTeX Warning: Reference `fig:diameter vs height' on page 13 undefined on input
+ line 38.
+
 <diam_vs_height.jpg, id=80, 376.40625pt x 412.54124pt>
 File: diam_vs_height.jpg Graphic file (type jpg)
 <use diam_vs_height.jpg>
 Package pdftex.def Info: diam_vs_height.jpg  used on input line 45.
 (pdftex.def)             Requested size: 282.30399pt x 309.40517pt.
- [13 <./boxplots_overview.jpg>]
+[13 <./boxplots_overview.jpg>]
+
+LaTeX Warning: Reference `fig:log transformation diam vs height' on page 14 und
+efined on input line 50.
+
 <log_diam_vs_height.png, id=84, 963.6pt x 510.40688pt>
 File: log_diam_vs_height.png Graphic file (type png)
 <use log_diam_vs_height.png>
@@ -892,17 +969,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[14 <./diam_vs_height.jpg> <./log_diam_vs_height.png>]) (Regression_Outputs.tex
-[15]
+[14 <./diam_vs_height.jpg> <./log_diam_vs_height.png>]
+
+LaTeX Warning: Reference `Challenges' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Reference `Overview variables' on page 15 undefined on input lin
+e 23.
+
+) (Regression_Outputs.tex [15]
+
+LaTeX Warning: Reference `tab:Prediction Models' on page 16 undefined on input 
+line 48.
+
+
+LaTeX Warning: Reference `fig:Coefficients' on page 16 undefined on input line 
+49.
+
+
+LaTeX Warning: Reference `tab:CI' on page 16 undefined on input line 50.
+
 <figures/coefficients.png, id=91, 963.6pt x 510.40688pt>
 File: figures/coefficients.png Graphic file (type png)
 <use figures/coefficients.png>
 Package pdftex.def Info: figures/coefficients.png  used on input line 53.
 (pdftex.def)             Requested size: 455.24411pt x 241.13736pt.
- [16 <./figures/coefficients.png>]
+[16 <./figures/coefficients.png>]
+
+LaTeX Warning: Reference `Model Selection' on page 17 undefined on input line 9
+8.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
+
+
+LaTeX Warning: Reference `Distribution Engineering' on page 17 undefined on inp
+ut line 126.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--127
@@ -910,6 +1014,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--127
  []
 
 [17]
+
+LaTeX Warning: Reference `fig:Pane' on page 18 undefined on input line 128.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
@@ -919,6 +1027,10 @@ File: predicted_pane.png Graphic file (type png)
 <use predicted_pane.png>
 Package pdftex.def Info: predicted_pane.png  used on input line 133.
 (pdftex.def)             Requested size: 455.24411pt x 189.39136pt.
+
+LaTeX Warning: Reference `fig:Residuals GLM gamma' on page 18 undefined on inpu
+t line 138.
+
 <residuals_glm_gamma.png, id=100, 963.6pt x 510.40688pt>
 File: residuals_glm_gamma.png Graphic file (type png)
 <use residuals_glm_gamma.png>
@@ -929,7 +1041,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
+
+LaTeX Warning: Reference `tab:auxiliary_variables' on page 19 undefined on inpu
+t line 7.
+
 [19 <./residuals_glm_gamma.png>]
+
+LaTeX Warning: Reference `fig:Clusterplot' on page 20 undefined on input line 3
+1.
+
+
 Overfull \hbox (1.63615pt too wide) in paragraph at lines 29--35
 []\T1/ptm/m/n/12 All vari-able com-bi-na-tions were tested by a time-consuming 
 trial-and-error pro-ce-dure. Mean-
@@ -946,6 +1067,14 @@ File: clusterplot.png Graphic file (type png)
 Package pdftex.def Info: clusterplot.png  used on input line 38.
 (pdftex.def)             Requested size: 346.82236pt x 227.80212pt.
 
+LaTeX Warning: Reference `fig:Clusterplot' on page 20 undefined on input line 4
+4.
+
+
+LaTeX Warning: Reference `fig:Boxplots Cluster' on page 20 undefined on input l
+ine 44.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 43--47
 
  []
@@ -956,6 +1085,19 @@ File: boxplots_cluster.png Graphic file (type png)
 <use boxplots_cluster.png>
 Package pdftex.def Info: boxplots_cluster.png  used on input line 50.
 (pdftex.def)             Requested size: 346.82236pt x 227.80212pt.
+
+
+LaTeX Warning: Reference `fig:LiDAR Cluster 1' on page 21 undefined on input li
+ne 58.
+
+
+LaTeX Warning: Reference `fig:LiDAR Cluster 2' on page 21 undefined on input li
+ne 59.
+
+
+LaTeX Warning: Reference `fig:LiDAR Cluster 3' on page 21 undefined on input li
+ne 60.
+
 <cluster1_lidar.png, id=113, 491.58656pt x 124.96687pt>
 File: cluster1_lidar.png Graphic file (type png)
 <use cluster1_lidar.png>
@@ -966,7 +1108,7 @@ File: cluster2_lidar.png Graphic file (type png)
 <use cluster2_lidar.png>
 Package pdftex.def Info: cluster2_lidar.png  used on input line 70.
 (pdftex.def)             Requested size: 455.24411pt x 125.91864pt.
- [21 <./boxplots_cluster.png> <./cluster1_lidar.png>]
+[21 <./boxplots_cluster.png> <./cluster1_lidar.png>]
 <cluster3_lidar.png, id=119, 493.845pt x 121.20282pt>
 File: cluster3_lidar.png Graphic file (type png)
 <use cluster3_lidar.png>
@@ -977,7 +1119,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
 
+
+LaTeX Warning: Reference `Challenges' on page 22 undefined on input line 86.
+
 ) (Distribution_Engineering.tex
+
+LaTeX Warning: Reference `Challenges' on page 22 undefined on input line 3.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -994,6 +1143,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 [22 <./cluster2_lidar.png> <./cluster3_lidar.png>]
+
+LaTeX Warning: Reference `fig:Fits' on page 23 undefined on input line 13.
+
 <cluster2_valid.png, id=124, 596.2275pt x 330.48468pt>
 File: cluster2_valid.png Graphic file (type png)
 <use cluster2_valid.png>
@@ -1005,6 +1157,16 @@ File: cluster2_pred.png Graphic file (type png)
 Package pdftex.def Info: cluster2_pred.png  used on input line 25.
 (pdftex.def)             Requested size: 193.48013pt x 112.24643pt.
 
+LaTeX Warning: Reference `fig:cluster2_pred' on page 23 undefined on input line
+ 33.
+
+
+LaTeX Warning: Reference `Challenges' on page 23 undefined on input line 33.
+
+
+LaTeX Warning: Reference `Clustering' on page 23 undefined on input line 33.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
@@ -1015,6 +1177,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
  []
 
 [23 <./dens2.png> <./cluster2_valid.png> <./cluster2_pred.png>]
+
+LaTeX Warning: Reference `tab:fitdistrplus_inventory' on page 24 undefined on i
+nput line 38.
+
+
+LaTeX Warning: Reference `tab:fitdistrplus_lidar' on page 24 undefined on input
+ line 38.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
@@ -1023,6 +1194,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--82
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
+
+
+LaTeX Warning: Reference `fig:cluster1_entire_corrected' on page 24 undefined o
+n input line 89.
+
+
+LaTeX Warning: Reference `fig:cluster3_entire_corrected' on page 24 undefined o
+n input line 89.
 
 <dens1.png, id=132, 408.02437pt x 268.00125pt>
 File: dens1.png Graphic file (type png)
@@ -1057,8 +1236,17 @@ File: correction_entire_cluster3.png Graphic file (type png)
 Package pdftex.def Info: correction_entire_cluster3.png  used on input line 137
 .
 (pdftex.def)             Requested size: 191.65668pt x 134.94551pt.
- [25 <./dens1.png> <./correction_entire_cluster1.png> <./correction_entire_clus
-ter2.png> <./dens3.png> <./correction_entire_cluster3.png>]
+
+
+LaTeX Warning: Reference `fig:correction_polygon_218a' on page 25 undefined on 
+input line 150.
+
+
+LaTeX Warning: Reference `fig:correction_polygon_140a' on page 25 undefined on 
+input line 150.
+
+[25 <./dens1.png> <./correction_entire_cluster1.png> <./correction_entire_clust
+er2.png> <./dens3.png> <./correction_entire_cluster3.png>]
 <cluster1_218a_24.png, id=149, 408.02437pt x 268.00125pt>
 File: cluster1_218a_24.png Graphic file (type png)
 <use cluster1_218a_24.png>
@@ -1102,12 +1290,19 @@ Package pdftex.def Info: corrected_cluster3_140a.png  used on input line 220.
  [26 <./cluster1_218a_24.png> <./corrected_cluster1_218a.png> <./cluster2_295a1
 _87.png> <./corrected_cluster2_295a1.png> <./cluster2_275a2_72.png> <./correcte
 d_cluster2_275a2.png>]) (Results.tex
+
+LaTeX Warning: Reference `fig:radius' on page 27 undefined on input line 3.
+
+
+LaTeX Warning: Reference `summary statistics' on page 27 undefined on input lin
+e 4.
+
 <radius.png, id=166, 554.07pt x 299.61937pt>
 File: radius.png Graphic file (type png)
 <use radius.png>
 Package pdftex.def Info: radius.png  used on input line 9.
 (pdftex.def)             Requested size: 221.62407pt x 119.84561pt.
- [27 <./cluster3_140a_50.png> <./corrected_cluster3_140a.png> <./radius.png>]) 
+[27 <./cluster3_140a_50.png> <./corrected_cluster3_140a.png> <./radius.png>])
 [28] (conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
@@ -1117,6 +1312,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--14
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
+
+
+LaTeX Warning: Reference `Results' on page 29 undefined on input line 19.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--23
@@ -1168,13 +1366,22 @@ File: appendix_cluster.png Graphic file (type png)
 <use appendix_cluster.png>
 Package pdftex.def Info: appendix_cluster.png  used on input line 20.
 (pdftex.def)             Requested size: 364.09947pt x 187.06223pt.
+
+
+LaTeX Warning: Reference `fig:appendix_cluster' on page 32 undefined on input l
+ine 25.
+
 <multi_regression.png, id=188, 428.35031pt x 220.07219pt>
 File: multi_regression.png Graphic file (type png)
 <use multi_regression.png>
 Package pdftex.def Info: multi_regression.png  used on input line 29.
 (pdftex.def)             Requested size: 364.09947pt x 187.06223pt.
- [32 <./appendix_cluster.png> <./multi_regression.png>]) [33]
-(Literature.tex
+[32 <./appendix_cluster.png> <./multi_regression.png>]
+
+LaTeX Warning: Reference `fig:multi_regression' on page 33 undefined on input l
+ine 66.
+
+) [33] (Literature.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
@@ -1278,13 +1485,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
 ]) [40] (Master.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  8802 strings out of 493305
  137028 string characters out of 3128495
- 213127 words of memory out of 3000000
+ 210234 words of memory out of 3000000
  12014 multiletter control sequences out of 15000+200000
  67427 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1301,7 +1511,7 @@ ers/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb>
 8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmr8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on Master.pdf (47 pages, 2344840 bytes).
+Output written on Master.pdf (47 pages, 2346227 bytes).
 PDF statistics:
  249 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
