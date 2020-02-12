@@ -17,6 +17,9 @@
 \usepackage{makecell}
 \usepackage{enumitem}
 
+% For the type of citation and bibliographic style
+\usepackage{harvard}
+
 % allows index generation
 \usepackage{makeidx}
 \makeindex
@@ -46,7 +49,7 @@
 
 % Seitenraender einstellen
 \usepackage{geometry}
-\geometry{a4paper,left=30mm,right=20mm, top=20mm, bottom=20mm}
+\geometry{a4paper,left=30mm,right=30mm, top=20mm, bottom=20mm}
 
 % Zeilenabstand
 \linespread{1.5} 
@@ -146,6 +149,11 @@
 \input{LiDAR}
 \clearpage
 
+
+\section{Data Exploration} \label{Data Exploration}
+\input{Data_exploration}
+\clearpage
+
 \section{Conclusion} 
 \input{Conclusion}
 \clearpage
@@ -158,17 +166,7 @@
 
 \clearpage
 
-\addcontentsline{toc}{section}{References}
-\section*{References}
-%\subsection*{Literature}
-\input{References}
-%\subsection*{R-Packages}
-%\input{R-Packages}
 
-
-% MAKE THE REFERENCES PROPER; CITATIONS ETC....
-	
-\clearpage
 
 \addcontentsline{toc}{section}{List of Figures}	
 \listoffigures
@@ -191,6 +189,11 @@
 
 \clearpage
 
-	
+\addcontentsline{toc}{section}{References}
+% MAKE THE REFERENCES PROPER; CITATIONS ETC....
+% Insert bibliography and the bibliographic style
+\bibliographystyle{agsm}
+\bibliography{references}
+
 \end{document}
 

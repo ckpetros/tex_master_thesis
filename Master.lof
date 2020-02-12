@@ -2,5 +2,5 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The bar plots (left to right: stratum 1, stratum 4). The bars indicate the mean volume per ha for different diameter classes [1].\relax }}{4}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The forest of Gartow is divided into stratums based on past observed variation and ownership and subdivided into compartments indicated by grey lines. Each point within a section indicate a sampling point [1].\relax }}{4}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 3-D Image of a small area of the forest of Gartow made by the airborne LiDAR. The determined height is colorized. A dense group of height trees is found almost in the middle and directly behind an aisle of small trees.\relax }}{6}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Clustered sections with respect to mean and variance of both height and diameter using principal components.\relax }}{11}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces : Log-linear regression models log(diameter) \textasciitilde height for each cluster. The color indicates the tree species.\relax }}{11}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Clustered sections with respect to mean and variance of both height and diameter using principal components.\relax }}{12}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces : Log-linear regression models log(diameter) \textasciitilde height for each cluster. The color indicates the tree species.\relax }}{12}
