@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  14 FEB 2020 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  17 FEB 2020 14:11
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -392,14 +392,6 @@ Package: xparse 2018-10-17 L3 Experimental document command parser
 \l__xparse_mandatory_args_int=\count195
 \l__xparse_v_nesting_int=\count196
 ))
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\harvard\harvard
-.sty"
-Package: harvard 
-
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
-"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-))
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\makeidx.st
 y"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
@@ -636,6 +628,11 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotati
 ng.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
 \c@r@tfl@t=\count287
 \rotFPtop=\skip60
 \rotFPbot=\skip61
@@ -942,7 +939,7 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
 \tf@toc=\write4
 \openout4 = `Master.toc'.
 
- [10] (Introduction.tex
+ [10] (introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
@@ -957,10 +954,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--23
 
  []
 
-[1]) [2] (theory_and_methods.tex)
+[1])
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 160.
- (glm.tex) (lmm.tex [3
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 156.
+ (data_sources.tex) [2] (theory_and_methods.tex) (glm.tex) (lmm.tex
+[3
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 6.
@@ -1139,10 +1137,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18900 strings out of 493305
- 327682 string characters out of 3128495
- 391181 words of memory out of 3000000
- 22128 multiletter control sequences out of 15000+200000
+ 18799 strings out of 493305
+ 326359 string characters out of 3128495
+ 389152 words of memory out of 3000000
+ 22029 multiletter control sequences out of 15000+200000
  633193 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,14n,77p,1292b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1164,7 +1162,7 @@ ublic/amsfonts/cm/cmsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (29 pages, 1336321 bytes).
+Output written on Master.pdf (29 pages, 1336320 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

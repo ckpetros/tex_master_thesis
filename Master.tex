@@ -27,7 +27,7 @@
 
 
 % For the type of citation and bibliographic style
-\usepackage{harvard}
+%\usepackage{apacite}
 
 % allows index generation
 \usepackage{makeidx}
@@ -151,17 +151,19 @@
 \pagenumbering{arabic} 
 \setcounter{page}{1} 
 
-\section{Introduction}
-\input{Introduction}
+\section{Introduction} \label{introduction}
+\input{introduction}
+\subsection{Data Sources} \label{data_sources}
+\input{data_sources}
 \clearpage
 
-\section{Theory \& Methods}
+\section{Theory \& Methods} \label{theory_and_methods}
 \input{theory_and_methods}
-\subsection{Generalized Linear Models}
+\subsection{Generalized Linear Models} \label{glm}
 \input{glm}
-\subsection{Generalized Additive Models}
+\subsection{Generalized Additive Models} \label{gam}
 %input{gam}
-\subsection{Mixed Effects Models}
+\subsection{Mixed Effects Models} \label{mixed_models}
 \input{lmm}
 %\input{random_intercept_model}
 
@@ -220,7 +222,8 @@
 \addcontentsline{toc}{section}{References}
 % MAKE THE REFERENCES PROPER; CITATIONS ETC....
 % Insert bibliography and the bibliographic style
-\bibliographystyle{agsm}
+\bibliographystyle{apalike}
+%\nocite{*}
 \bibliography{references}
 
 \end{document}

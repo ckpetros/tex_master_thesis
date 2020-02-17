@@ -1,9 +1,7 @@
-\begin{thebibliography}{xx}
+\begin{thebibliography}{}
 
-\harvarditem[Fahrmeir et~al.]{Fahrmeir, Kneib, Lang \harvardand\
-  Marx}{2003}{fahrmeir2003regression}
-Fahrmeir, L., Kneib, T., Lang, S. \harvardand\ Marx, B.  \harvardyearleft
-  2003\harvardyearright , `{Regression; Models, Methods and Applications.
-  2013}'.
+\bibitem[Fahrmeir et~al., 2003]{fahrmeir2003regression}
+Fahrmeir, L., Kneib, T., Lang, S., and Marx, B. (2003).
+\newblock {Regression; Models, Methods and Applications. 2013}.
 
 \end{thebibliography}
