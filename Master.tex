@@ -17,6 +17,15 @@
 \usepackage{makecell}
 \usepackage{enumitem}
 
+% Für fette Mathesymbole
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{bm}
+\renewcommand*{\mathbf}[1]{\ifmmode\bm{#1}\else\textbf{#1}\fi}
+\usepackage{physics}
+
+
+
 % For the type of citation and bibliographic style
 \usepackage{harvard}
 
@@ -31,8 +40,13 @@
 
 %fonts
 \usepackage[T1]{fontenc}
+
+\usepackage{uarial}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{blindtext}
+
 \usepackage{textcomp}
-\usepackage{mathptmx}
+%\usepackage{mathptmx}
 \usepackage{tabularx}
 \usepackage{multirow}
 \usepackage{enumitem}
@@ -140,6 +154,21 @@
 \section{Introduction}
 \input{Introduction}
 \clearpage
+
+\section{Theory \& Methods}
+\input{theory_and_methods}
+\subsection{Generalized Linear Models}
+\input{glm}
+\subsection{Generalized Additive Models}
+%input{gam}
+\subsection{Mixed Effects Models}
+\input{lmm}
+%\input{random_intercept_model}
+
+
+
+\clearpage
+
 \section{Study Area \& Data Sources}
 \subsection{Forest Classification}
 \input{Forest_Classification}
@@ -182,9 +211,8 @@
 
 \addcontentsline{toc}{section}{List of Abbreviations}
 \section*{List of Abbreviations}
-\input{abkuerzungen}
-\subsection*{Tree Species}
-\input{Tree_Species_abbr}
+\input{abbreviations}
+
 
 
 \clearpage

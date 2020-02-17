@@ -1,0 +1,21 @@
+% !TEX root = Master.tex
+\textit{\acl{GLM}s (\acs{GLM}s}) are an extension of the \textit{Classical Linear Regression Model (\acs{LM})}
+$$
+\begin{aligned}
+&y_{i}=\beta_{0}+\beta_{1} x_{i 1}+\ldots+\beta_{k} x_{i k}+\varepsilon_{i}, &i=1, \ldots, n
+\end{aligned}
+$$
+which in matrix notation can be written as
+$$ y = X\beta + \epsilon $$
+where the response variable $y_i$ can take values from several probability distributions (e.g. Poisson, Binomial, Gamma and others), which are members of the exponential family \cite{fahrmeir2003regression}. The linear predictor $$\eta_i = \beta_{0}+\beta_{1} x_{i 1}+\ldots+\beta_{k} x_{i k}+\varepsilon_{i} = x'_i \beta$$  
+
+
+is passed through a \textit{response function h} (a one-to-one, twice differentiable transformation), such that
+$$ E(y_i) = h(\eta_i)$$
+i.e. the expected value of the response variable belongs to the value range of \textit{h}. The inverse of the response function, 
+$$g = h^{-1}$$ is called the \textit{link function}.
+
+% MAXIMUM LIKELIHOOD ESTIMATION HERE??...
+
+
+

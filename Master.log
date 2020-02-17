@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  7 FEB 2020 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  14 FEB 2020 16:54
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -190,6 +190,208 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 \enit@count@id=\count105
 \enitdp@description=\count106
 )
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfon
+ts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.s
+ty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks31
+\thm@bodyfont=\toks32
+\thm@headfont=\toks33
+\thm@notefont=\toks34
+\thm@headpunct=\toks35
+\thm@preskip=\skip49
+\thm@postskip=\skip50
+\thm@headsep=\skip51
+\dth@everypar=\toks36
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\physics\physics
+.sty"
+Package: physics 
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xpar
+se\xparse.sty"
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.
+sty"
+Package: expl3 2019-02-15 L3 programming layer (loader) 
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-
+code.tex"
+Package: expl3 2019-02-15 L3 programming layer (code)
+\c_max_int=\count107
+\l_tmpa_int=\count108
+\l_tmpb_int=\count109
+\g_tmpa_int=\count110
+\g_tmpb_int=\count111
+\g__kernel_prg_map_int=\count112
+\c_log_iow=\count113
+\l_iow_line_count_int=\count114
+\l__iow_line_target_int=\count115
+\l__iow_one_indent_int=\count116
+\l__iow_indent_int=\count117
+\c_zero_dim=\dimen119
+\c_max_dim=\dimen120
+\l_tmpa_dim=\dimen121
+\l_tmpb_dim=\dimen122
+\g_tmpa_dim=\dimen123
+\g_tmpb_dim=\dimen124
+\c_zero_skip=\skip52
+\c_max_skip=\skip53
+\l_tmpa_skip=\skip54
+\l_tmpb_skip=\skip55
+\g_tmpa_skip=\skip56
+\g_tmpb_skip=\skip57
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count118
+\l__intarray_loop_int=\count119
+\c__intarray_sp_dim=\dimen125
+\g__intarray_font_int=\count120
+\c__fp_leading_shift_int=\count121
+\c__fp_middle_shift_int=\count122
+\c__fp_trailing_shift_int=\count123
+\c__fp_big_leading_shift_int=\count124
+\c__fp_big_middle_shift_int=\count125
+\c__fp_big_trailing_shift_int=\count126
+\c__fp_Bigg_leading_shift_int=\count127
+\c__fp_Bigg_middle_shift_int=\count128
+\c__fp_Bigg_trailing_shift_int=\count129
+\c__kernel_randint_max_int=\count130
+\g__fp_array_int=\count131
+\l__fp_array_loop_int=\count132
+\l__sort_length_int=\count133
+\l__sort_min_int=\count134
+\l__sort_top_int=\count135
+\l__sort_max_int=\count136
+\l__sort_true_max_int=\count137
+\l__sort_block_int=\count138
+\l__sort_begin_int=\count139
+\l__sort_end_int=\count140
+\l__sort_A_int=\count141
+\l__sort_B_int=\count142
+\l__sort_C_int=\count143
+\l__tl_analysis_normal_int=\count144
+\l__tl_analysis_index_int=\count145
+\l__tl_analysis_nesting_int=\count146
+\l__tl_analysis_type_int=\count147
+\l__regex_internal_a_int=\count148
+\l__regex_internal_b_int=\count149
+\l__regex_internal_c_int=\count150
+\l__regex_balance_int=\count151
+\l__regex_group_level_int=\count152
+\l__regex_mode_int=\count153
+\c__regex_cs_in_class_mode_int=\count154
+\c__regex_cs_mode_int=\count155
+\l__regex_catcodes_int=\count156
+\l__regex_default_catcodes_int=\count157
+\c__regex_catcode_D_int=\count158
+\c__regex_catcode_S_int=\count159
+\c__regex_catcode_L_int=\count160
+\c__regex_catcode_O_int=\count161
+\c__regex_catcode_A_int=\count162
+\c__regex_all_catcodes_int=\count163
+\l__regex_show_lines_int=\count164
+\l__regex_min_state_int=\count165
+\l__regex_max_state_int=\count166
+\l__regex_left_state_int=\count167
+\l__regex_right_state_int=\count168
+\l__regex_capturing_group_int=\count169
+\l__regex_min_pos_int=\count170
+\l__regex_max_pos_int=\count171
+\l__regex_curr_pos_int=\count172
+\l__regex_start_pos_int=\count173
+\l__regex_success_pos_int=\count174
+\l__regex_curr_char_int=\count175
+\l__regex_curr_catcode_int=\count176
+\l__regex_last_char_int=\count177
+\l__regex_case_changed_char_int=\count178
+\l__regex_curr_state_int=\count179
+\l__regex_step_int=\count180
+\l__regex_min_active_int=\count181
+\l__regex_max_active_int=\count182
+\l__regex_replacement_csnames_int=\count183
+\l__regex_match_count_int=\count184
+\l__regex_min_submatch_int=\count185
+\l__regex_submatch_int=\count186
+\l__regex_zeroth_submatch_int=\count187
+\g__regex_trace_regex_int=\count188
+\c_empty_box=\box32
+\l_tmpa_box=\box33
+\l_tmpb_box=\box34
+\g_tmpa_box=\box35
+\g_tmpb_box=\box36
+\l__box_top_dim=\dimen126
+\l__box_bottom_dim=\dimen127
+\l__box_left_dim=\dimen128
+\l__box_right_dim=\dimen129
+\l__box_top_new_dim=\dimen130
+\l__box_bottom_new_dim=\dimen131
+\l__box_left_new_dim=\dimen132
+\l__box_right_new_dim=\dimen133
+\l__box_internal_box=\box37
+\l__coffin_internal_box=\box38
+\l__coffin_internal_dim=\dimen134
+\l__coffin_offset_x_dim=\dimen135
+\l__coffin_offset_y_dim=\dimen136
+\l__coffin_x_dim=\dimen137
+\l__coffin_y_dim=\dimen138
+\l__coffin_x_prime_dim=\dimen139
+\l__coffin_y_prime_dim=\dimen140
+\c_empty_coffin=\box39
+\l__coffin_aligned_coffin=\box40
+\l__coffin_aligned_internal_coffin=\box41
+\l_tmpa_coffin=\box42
+\l_tmpb_coffin=\box43
+\g_tmpa_coffin=\box44
+\g_tmpb_coffin=\box45
+\c__coffin_empty_coffin=\box46
+\l__coffin_display_coffin=\box47
+\l__coffin_display_coord_coffin=\box48
+\l__coffin_display_pole_coffin=\box49
+\l__coffin_display_offset_dim=\dimen141
+\l__coffin_display_x_dim=\dimen142
+\l__coffin_display_y_dim=\dimen143
+\g__file_internal_ior=\read1
+\l__coffin_bounding_shift_dim=\dimen144
+\l__coffin_left_corner_dim=\dimen145
+\l__coffin_right_corner_dim=\dimen146
+\l__coffin_bottom_corner_dim=\dimen147
+\l__coffin_top_corner_dim=\dimen148
+\l__coffin_scaled_total_height_dim=\dimen149
+\l__coffin_scaled_width_dim=\dimen150
+\l__seq_internal_a_int=\count189
+\l__seq_internal_b_int=\count190
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfm
+ode.def"
+File: l3pdfmode.def 2019-02-15 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count191
+))
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count192
+\g__xparse_grabber_int=\count193
+\l__xparse_m_args_int=\count194
+\l__xparse_mandatory_args_int=\count195
+\l__xparse_v_nesting_int=\count196
+))
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\harvard\harvard
 .sty"
 Package: harvard 
@@ -216,6 +418,42 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\uarial.st
+y"
+Package: uarial 2006/03/21 1.0 (WaS)
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks37
+))
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\blindtext\blind
+text.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.st
+y"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count197
+\c@Blindtext=\count198
+\c@blind@countparstart=\count199
+\blind@countxx=\count266
+\blindtext@numBlindtext=\count267
+\blind@countyy=\count268
+\c@blindlist=\count269
+\c@blindlistlevel=\count270
+\c@blindlist@level=\count271
+\blind@listitem=\count272
+\c@blind@listcount=\count273
+\c@blind@levelcount=\count274
+\blind@mathformula=\count275
+\blind@Mathformula=\count276
+\c@blind@randomcount=\count277
+\c@blind@randommax=\count278
+\c@blind@pangramcount=\count279
+\c@blind@pangrammax=\count280
+)
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.s
 ty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
@@ -300,61 +538,24 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathptmx
-.sty"
-Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
-LaTeX Info: Redefining \hbar on input line 50.
-)
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.
 sty"
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-\TX@col@width=\dimen119
-\TX@old@table=\dimen120
-\TX@old@col=\dimen121
-\TX@target=\dimen122
-\TX@delta=\dimen123
-\TX@cols=\count107
-\TX@ftn=\toks31
+\TX@col@width=\dimen151
+\TX@old@table=\dimen152
+\TX@old@col=\dimen153
+\TX@target=\dimen154
+\TX@delta=\dimen155
+\TX@cols=\count281
+\TX@ftn=\toks38
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multir
 ow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip49
-\multirow@cntb=\count108
-\multirow@dima=\skip50
-\bigstrutjot=\dimen124
+\multirow@colwidth=\skip58
+\multirow@cntb=\count282
+\multirow@dima=\skip59
+\bigstrutjot=\dimen156
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
 .sty"
@@ -364,21 +565,15 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
-.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks32
+\captionmargin=\dimen157
+\captionmargin@=\dimen158
+\captionwidth=\dimen159
+\caption@tempdima=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
 )
-\captionmargin=\dimen125
-\captionmargin@=\dimen126
-\captionwidth=\dimen127
-\caption@tempdima=\dimen128
-\caption@indent=\dimen129
-\caption@parindent=\dimen130
-\caption@hangindent=\dimen131
-)
-\c@ContinuedFloat=\count109
+\c@ContinuedFloat=\count283
 Package caption Info: float package is loaded.
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
@@ -398,18 +593,18 @@ Package ifvtex Info: VTeX not detected.
 ex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count110
-\Gm@cntv=\count111
-\c@Gm@tempcnt=\count112
-\Gm@bindingoffset=\dimen132
-\Gm@wd@mp=\dimen133
-\Gm@odd@mp=\dimen134
-\Gm@even@mp=\dimen135
-\Gm@layoutwidth=\dimen136
-\Gm@layoutheight=\dimen137
-\Gm@layouthoffset=\dimen138
-\Gm@layoutvoffset=\dimen139
-\Gm@dimlist=\toks33
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
+\Gm@dimlist=\toks39
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
 ry.cfg"))
@@ -435,23 +630,23 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 ftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotati
 ng.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count113
-\rotFPtop=\skip51
-\rotFPbot=\skip52
-\rot@float@box=\box32
-\rot@mess@toks=\toks34
+\c@r@tfl@t=\count287
+\rotFPtop=\skip60
+\rotFPbot=\skip61
+\rot@float@box=\box50
+\rot@mess@toks=\toks40
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcapt
 ion.sty"
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count114
-\c@subtable=\count115
+\c@subfigure=\count288
+\c@subtable=\count289
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjus
 tbox.sty"
@@ -465,10 +660,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 al.tex"
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvut
 ils.tex"
-\XKV@toks=\toks35
-\XKV@tempa@toks=\toks36
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count116
+\XKV@depth=\count290
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjca
@@ -483,31 +678,31 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\coll
 ectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box33
+\collectedbox=\box51
 )
-\tc@llx=\dimen142
-\tc@lly=\dimen143
-\tc@urx=\dimen144
-\tc@ury=\dimen145
+\tc@llx=\dimen174
+\tc@lly=\dimen175
+\tc@urx=\dimen176
+\tc@ury=\dimen177
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pd
 ftex.def"
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen146
-\adjbox@Height=\dimen147
-\adjbox@Depth=\dimen148
-\adjbox@Totalheight=\dimen149
-\adjbox@pwidth=\dimen150
-\adjbox@pheight=\dimen151
-\adjbox@pdepth=\dimen152
-\adjbox@ptotalheight=\dimen153
+\adjbox@Width=\dimen178
+\adjbox@Height=\dimen179
+\adjbox@Depth=\dimen180
+\adjbox@Totalheight=\dimen181
+\adjbox@pwidth=\dimen182
+\adjbox@pheight=\dimen183
+\adjbox@pdepth=\dimen184
+\adjbox@ptotalheight=\dimen185
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifodd
 page.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count117
+\c@checkoddpage=\count291
 ))
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.
 sty"
@@ -522,8 +717,8 @@ Package color Info: Driver file: pdftex.def on input line 147.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colort
 bl.sty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
-\everycr=\toks37
-\minrowclearance=\skip53
+\everycr=\toks43
+\minrowclearance=\skip62
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\acronym\acronym
 .sty"
@@ -537,39 +732,39 @@ Package: suffix 2006/07/15 1.5a Variant command support
 .sty"
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstri
 ng.tex"
-\integerpart=\count118
-\decimalpart=\count119
+\integerpart=\count292
+\decimalpart=\count293
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-\AC@clearlist=\toks38
+\AC@clearlist=\toks44
 ) (Master.aux)
 \openout1 = `Master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
+
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 92.
-
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 106.
+ ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\t1ua1.fd
 "
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def
 "
@@ -617,17 +812,17 @@ Package caption Info: End \AtBeginDocument code.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen154
-\scratchbox=\box34
-\nofMPsegments=\count121
-\nofMParguments=\count122
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen155
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count294
+\scratchdimen=\dimen186
+\scratchbox=\box52
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen187
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks46
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
 df-base.sty"
@@ -693,52 +888,24 @@ File: figures/uni_goettingen_logo.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/uni_goettingen_logo.pdf  used on input line 11
 .
 (pdftex.def)             Requested size: 320.39482pt x 62.53319pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 17.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 29.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 45
-.
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 29.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm
-.fd"
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 45
-.
-
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omlztmcm
-.fd"
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 45
-.
-
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsztmcm
-.fd"
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 45
-.
-
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omxztmcm
-.fd"
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 45.
-
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.f
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.f
 d"
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.f
+d"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 52.
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
@@ -747,10 +914,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--54
 [1
 
 {C:/Users/Petro Ck/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figure
-s/uni_goettingen_logo.pdf>]) [2
+s/uni_goettingen_logo.pdf>] [2]) [3
 
-] (Confidentiality_Clause.tex) [3] [4]
-(Statutory_Declaration.tex) [5] [6] (Acknowledgments.tex
+] (Confidentiality_Clause.tex) [4]
+[5] (Statutory_Declaration.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/ua1/m/n/12 Clemens
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\T1/ua1/m/n/12 Petros
+ []
+
+) [6] [7] (Acknowledgments.tex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
@@ -758,14 +935,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [7] [8] (Master.toc
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+) [8] [9] (Master.toc
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 2.
 )
 \tf@toc=\write4
 \openout4 = `Master.toc'.
 
- [9] (Introduction.tex
+ [10] (Introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
@@ -780,47 +957,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--23
 
  []
 
-[1]) [2]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 144.
- (Forest_Classification.tex
-<barplots_Gartow.png, id=44, 843.90282pt x 344.03531pt>
+[1]) [2] (theory_and_methods.tex)
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 160.
+ (glm.tex) (lmm.tex [3
+
+]
+LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 6.
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\ts1ua1.fd
+"
+File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
+)
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 24.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 24.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 30.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 30.
+
+
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 39.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 39.
+
+
+) [4] (Forest_Classification.tex
+<barplots_Gartow.png, id=65, 843.90282pt x 344.03531pt>
 File: barplots_Gartow.png Graphic file (type png)
 <use barplots_Gartow.png>
 Package pdftex.def Info: barplots_Gartow.png  used on input line 66.
 (pdftex.def)             Requested size: 426.79135pt x 173.99106pt.
- [3
+ [5
 
 ]
-<Gartow_map.png, id=48, 820.56563pt x 585.68813pt>
+<Gartow_map.png, id=69, 820.56563pt x 585.68813pt>
 File: Gartow_map.png Graphic file (type png)
 <use Gartow_map.png>
 Package pdftex.def Info: Gartow_map.png  used on input line 74.
 (pdftex.def)             Requested size: 426.79135pt x 304.62213pt.
-) (Inventory_Data.tex
+) [6 <./barplots_Gartow.png> <./Gartow_map.png>] (Inventory_Data.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[4 <./barplots_Gartow.png> <./Gartow_map.png>]) (LiDAR.tex
+) (LiDAR.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[5]
+[7]
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-<lidar.png, id=56, 666.99188pt x 310.91156pt>
+<lidar.png, id=76, 666.99188pt x 310.91156pt>
 File: lidar.png Graphic file (type png)
 <use lidar.png>
 Package pdftex.def Info: lidar.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 198.9495pt.
- [6 <./lidar.png>]) [7] (Data_exploration.tex) [8
+ [8 <./lidar.png>]) [9] (Data_exploration.tex) [10
 
 ] (Conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
+ []
+
+
+Overfull \hbox (2.79807pt too wide) in paragraph at lines 15--17
+[]\T1/ua1/m/n/12 This ap-proach could solve all present chal-lenges, with-out r
+e-ly-ing on any heuris-
  []
 
 
@@ -829,21 +1042,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-LaTeX Warning: Reference `Results' on page 9 undefined on input line 19.
+LaTeX Warning: Reference `Results' on page 11 undefined on input line 19.
+
+
+Overfull \hbox (6.55727pt too wide) in paragraph at lines 18--23
+[]\T1/ua1/m/n/12 We could not find stud-ies with sim-i-lar ap-proaches to the o
+b-jec-tive. The achieved
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--23
 
  []
 
+[11
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[9
-
-]) [10] (Appendix.tex
+) [12] (Appendix.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -873,36 +1092,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-[11
+[13
 
 ]
-<appendix_cluster.png, id=76, 428.35031pt x 220.07219pt>
+<appendix_cluster.png, id=96, 428.35031pt x 220.07219pt>
 File: appendix_cluster.png Graphic file (type png)
 <use appendix_cluster.png>
 Package pdftex.def Info: appendix_cluster.png  used on input line 20.
 (pdftex.def)             Requested size: 364.09947pt x 187.06223pt.
-<multi_regression.png, id=77, 428.35031pt x 220.07219pt>
+<multi_regression.png, id=97, 428.35031pt x 220.07219pt>
 File: multi_regression.png Graphic file (type png)
 <use multi_regression.png>
 Package pdftex.def Info: multi_regression.png  used on input line 29.
 (pdftex.def)             Requested size: 364.09947pt x 187.06223pt.
- [12 <./appendix_cluster.png> <./multi_regression.png>]) [13] (Master.lof)
+ [14 <./appendix_cluster.png>]) [15 <./multi_regression.png>] (Master.lof
+Overfull \hbox (1.22453pt too wide) in paragraph at lines 5--5
+ [][] []\T1/ua1/m/n/12 Clustered sec-tions with re-spect to mean and vari-ance 
+of both height 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `Master.lof'.
 
+ [16
 
-[14
+] (Master.lot
+Overfull \hbox (1.58057pt too wide) in paragraph at lines 3--3
+ \T1/ua1/m/n/12 tory 2008. Stra-tum 2 and 3 show lit-tle rel-a-tive stan-dard e
+r-ror (SE%), 
+ []
 
-] (Master.lot)
+)
 \tf@lot=\write6
 \openout6 = `Master.lot'.
 
- [15
+ [17
 
-] (abkuerzungen.tex) (Tree_Species_abbr.tex [16
+] (abbreviations.tex) [18
 
-]) [17]
-(Master.bbl) [18
+] (Master.bbl) [19
 
 ] (Master.aux)
 
@@ -910,21 +1139,34 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8570 strings out of 493305
- 130928 string characters out of 3128495
- 211423 words of memory out of 3000000
- 11855 multiletter control sequences out of 15000+200000
- 52163 words of font info for 62 fonts, out of 3000000 for 9000
+ 18900 strings out of 493305
+ 327682 string characters out of 3128495
+ 391181 words of memory out of 3000000
+ 22128 multiletter control sequences out of 15000+200000
+ 633193 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,77p,1292b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,14n,77p,1292b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
-enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/
-utmb8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
-/times/utmr8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on Master.pdf (27 pages, 1257619 bytes).
+enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cmextra/cmbsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Petro Ck/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Petro Ck/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Us
+ers/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmib10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Petro Ck/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Petro C
+k/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on Master.pdf (29 pages, 1336321 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

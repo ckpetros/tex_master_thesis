@@ -1,0 +1,42 @@
+% !TEX root = Master.tex
+\textit{\acl{LMM}s (\acs{LMM}s}) are powerful tools when dealing with clustered data or data with a longitudinal structure (repeated measurements of individuals).
+As in the classical \acs{LM}, there are population-specific effects, namely the parameter vector of \textit{fixed effects} $\boldsymbol{\beta}$, as well as the cluster- or individual-specific effects of such models called \textit{random effects} \cite{fahrmeir2003regression}. In the following, we will refer to our clusters or individuals as "groups" for briefness.\ Mathematically speaking, the linear predictor $\eta_{ij}= \mathbf{x}'_{ij} \mathbf{\beta} $ is extended to
+$$\eta_{ij} = \mathbf{{x'}}_{ij} \mathbf{\beta} + \mathbf{u'}_{ij}\mathbf{\gamma}_i, \quad j=1, \ldots, m, \quad i=1, \ldots, n_i, \quad \text{where}$$
+\begin{itemize}
+\item $i$ is the number of groups
+\item $j$ is the number of observations per group
+\item $\bm{\beta}$ is the vector of fixed effects
+\item $\bm{\gamma}_i$ is the vector of random effects
+\item $\mathbf{x'}_{ij}$ is the vector of covariates and
+\item $\mathbf{u'}_{ij}$ is a subvector of $\mathbf{x'}_{ij}$.
+\end{itemize}
+$\mathbf{x'}_{ij} = (1, x_{ij1}, \ldots, x_{ijk}) $ \& $ \mathbf{u'}_{ij} = (1, u_{ij1}, \ldots, u_{ijk}) $ are therefore the design vectors and $\epsilon_{ij}$ are the error terms of the \textit{measurement model}
+
+\begin{equation}
+y_{ij} =  \mathbf{x'}_{ij} \mathbf{\beta} + \mathbf{u'}_{ij} \mathbf{\gamma}_i + \epsilon_{ij}, \quad \varepsilon_{i j} \overset{i.i.d.} \sim N\left(0, \sigma^{2}\right) 
+\end{equation}
+
+or in matrix notation
+
+$$
+y_i \quad
+\bm{y_i} \quad
+\boldmath{y_i} \quad
+\mathbf{y_i} \quad
+\mathbf{y}_i \quad
+\beta \quad
+\bm{\beta} \quad
+\boldsymbol{\beta} \quad
+\boldmath{\beta} \quad
+\vb{\beta} \quad
+\gamma \quad
+\mathbf{\gamma} \quad
+\bm{\gamma} \quad
+\boldsymbol{\gamma} \quad
+\Omega \quad
+\mathbf{\Omega} \quad
+\bm{\Omega} \quad
+\boldmath{\beta}
+$$
+
+
