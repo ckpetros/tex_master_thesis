@@ -1,3 +1,76 @@
 % !TEX root = Master.tex
 
-vrkefakjdvna vasd
+Throughout each season, transactional data are collected from online purchases of the sports brand's eCommerce website. Specifically, we are provided with weekly sales data for western European countries depicted in table \ref{tab:transactional_data}.
+
+\begin{table}[H]
+\setlength\arrayrulewidth{1pt}  
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{|l|l|l|}
+\hline
+\rowcolor{Gray} 
+\textbf{Column}         & \textbf{Description}                                                                                                        & \textbf{Values}              \\ \hline
+week\_id                & Calender week of a specific year (YYYYWW)                                                                         & Factors:\textit{ 201648, ..., 201852}          \\ \hline
+article\_number         & Unique article identification number (article ID)                                                                           & Factors: \textit{10669, 10, ...       }        \\ \hline
+min\_date\_of\_week     & \begin{tabular}[c]{@{}l@{}} Minimum date of the respective week; always a Monday \\ (YYYY-MM-DD)                                                          \end{tabular} & Dates: \textit{2016-11-28, ..., 2018-12-24}  \\ \hline
+art\_min\_price         & Minimal recorded price of the article                                                                                       & Non-negative (integer) value \\ \hline
+month\_id               & Calender month of a specific year (YYYYMM)                                                                               & Factors: \textit{201612, ..., 201812}          \\ \hline
+season                  & \begin{tabular}[c]{@{}l@{}}Season of year (format: SSYY) \\ (Spring-Summer [SS]:  December - May)\\  Fall-Winter [FW]: June - November)\end{tabular} & \begin{tabular}[c]{@{}l@{}}  Factors: \\ \textit{SS17, FW17,} \\\textit{ SS18, FW18, SS19} \end{tabular} \\
+
+ \hline
+bf\_w                   & Weekly "Black Friday" promotion intensity of the article                                                                    & Between 0 and 1              \\ \hline
+ff\_w                   & Weekly "Friends \& Family" promotion intensity of the article                                                               & Between 0 and 1              \\ \hline
+ot\_w                   & Weekly article promotion intensity of "Other" type                                                                          & Between 0 and 1              \\ \hline
+gross\_demand\_quantity & Weekly amount of added articles to shopping cart                                                                            & Non-negative (integer) value \\ \hline
+base\_price\_locf       & Retail price of the article without any discounts                                                                           & Non-negative (integer) value \\ \hline
+total\_markdown\_pct    &                                                                                                                             &                              \\ \hline
+day\_of\_month          & Day of the month                                                                                                            & Integers: \textit{1 - 31}                       \\ \hline
+month\_of\_year         & Month of the year                                                                                                           & Factors: \textit{January, ..., December}       \\ \hline
+year                    & Year                                                                                                                        & Integers: \textit{2016, 2017, 2018}             \\ \hline
+week\_of\_year          & Week of the year                                                                                                            & Integers: \textit{1 - 52}                       \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Transactional raw data description from online purchases of western European countries}
+\label{tab:transactional_data}
+\end{table}
+
+Due to legal regulations of the company, some columns had to undergo anonymization in order for the data to be released. To ensure data protection and confidentiality, numeric variables (with exception of time-indicating columns) were transformed. As a consequence for the analysis part, most integer values were converted to float numbers. This fact should be kept in mind by the reader, since the above table serves as a reminder and reference point for the data documentation.\\
+
+Another peculiarity of this setup is to be considered, too. We will often refer to the variable \textit{gross demand quantity} as \textit{sales}, even though it is obviously not exactly the same. In the eCommerce environment, there are several stages before the purchase is complete, e.g. addition to cart, removal from cart, proceeding to checkout \& even the return of bought articles. Targeting the articles added to cart, i.e. the (gross) demand quantity, provides the optimal data extraction for analytical purposes and is the closest to adequately model the dependency structure between net sales of articles.\\
+
+Besides the transactional data, \textit{article master data}, i.e. attributes of the articles, are provided and depicted in table \ref{tab:article_master_data}.
+
+\begin{table}[H]
+\setlength\arrayrulewidth{1pt}  
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{|l|l|l|}
+\hline
+\rowcolor{Gray} 
+\textbf{Column}         & \textbf{Description}                                                                                                        & \textbf{Values}              \\ \hline
+week\_id                & Calender week of a specific year (YYYYWW)                                                                         & Factors:\textit{ 201648, ..., 201852}          \\ \hline
+article\_number         & Unique article identification number (article ID)                                                                           & Factors: \textit{10669, 10, ...       }        \\ \hline
+min\_date\_of\_week     & \begin{tabular}[c]{@{}l@{}} Minimum date of the respective week; always a Monday \\ (YYYY-MM-DD)                                                          \end{tabular} & Dates: \textit{2016-11-28, ..., 2018-12-24}  \\ \hline
+art\_min\_price         & Minimal recorded price of the article                                                                                       & Non-negative (integer) value \\ \hline
+month\_id               & Calender month of a specific year (YYYYMM)                                                                               & Factors: \textit{201612, ..., 201812}          \\ \hline
+season                  & \begin{tabular}[c]{@{}l@{}}Season of year (format: SSYY) \\ (Spring-Summer [SS]:  December - May)\\  Fall-Winter [FW]: June - November)\end{tabular} & \begin{tabular}[c]{@{}l@{}}  Factors: \\ \textit{SS17, FW17,} \\\textit{ SS18, FW18, SS19} \end{tabular} \\
+
+ \hline
+bf\_w                   & Weekly "Black Friday" promotion intensity of the article                                                                    & Between 0 and 1              \\ \hline
+ff\_w                   & Weekly "Friends \& Family" promotion intensity of the article                                                               & Between 0 and 1              \\ \hline
+ot\_w                   & Weekly article promotion intensity of "Other" type                                                                          & Between 0 and 1              \\ \hline
+gross\_demand\_quantity & Weekly amount of added articles to shopping cart                                                                            & Non-negative (integer) value \\ \hline
+base\_price\_locf       & Retail price of the article without any discounts                                                                           & Non-negative (integer) value \\ \hline
+total\_markdown\_pct    &                                                                                                                             &                              \\ \hline
+day\_of\_month          & Day of the month                                                                                                            & Integers: \textit{1 - 31}                       \\ \hline
+month\_of\_year         & Month of the year                                                                                                           & Factors: \textit{January, ..., December}       \\ \hline
+year                    & Year                                                                                                                        & Integers: \textit{2016, 2017, 2018}             \\ \hline
+week\_of\_year          & Week of the year                                                                                                            & Integers: \textit{1 - 52}                       \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Article master data}
+\label{tab:article_master_data}
+\end{table}
+
+
+

@@ -7,11 +7,4 @@
   publisher = {Berlin, Heidelberg: Springer Berlin Heidelberg},
 }
 
-@Book{lutkepohl2005new,
-  title     = {New introduction to multiple time series analysis},
-  publisher = {Springer Science \& Business Media},
-  year      = {2005},
-  author    = {L{\"u}tkepohl, Helmut},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}

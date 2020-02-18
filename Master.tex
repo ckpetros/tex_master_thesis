@@ -11,7 +11,7 @@
 \usepackage{varwidth}
 \usepackage{float}
 % Table caption on top of tables
-\floatstyle{plaintop}
+%\floatstyle{plaintop}
 \restylefloat{table}
 %----
 \usepackage{makecell}
@@ -51,7 +51,7 @@
 \usepackage{multirow}
 \usepackage{enumitem}
 %small fonts for captions of figures and tables
-\usepackage{caption}
+\usepackage[center]{caption}
 \captionsetup[figure]{font = footnotesize}
 \captionsetup[table]{font = footnotesize}
 
@@ -67,6 +67,12 @@
 
 % Zeilenabstand
 \linespread{1.5} 
+
+% Disable indentation for the entire document
+\setlength\parindent{0pt}
+
+ % turn off hyphenation and justification
+%\raggedright
 
 %Graphics
 \usepackage[final]{graphicx} 	
@@ -106,7 +112,7 @@
 \begin{document}
 
 \thispagestyle{empty}	
-\input{Titelseite}
+\input{titlepage}
 
 
 \newpage
@@ -223,7 +229,7 @@
 % MAKE THE REFERENCES PROPER; CITATIONS ETC....
 % Insert bibliography and the bibliographic style
 \bibliographystyle{apalike}
-%\nocite{*}
+\nocite{*}
 \bibliography{references}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  17 FEB 2020 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  18 FEB 2020 11:49
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -738,27 +738,27 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 ) (Master.aux)
 \openout1 = `Master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 112.
 
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 106.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 112.
  ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\t1ua1.fd
 "
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
@@ -878,7 +878,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) (Titelseite.tex
+) (titlepage.tex
 <figures/uni_goettingen_logo.pdf, id=1, 457.71pt x 89.33376pt>
 File: figures/uni_goettingen_logo.pdf Graphic file (type pdf)
 <use figures/uni_goettingen_logo.pdf>
@@ -903,18 +903,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 52.
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
-
- []
-
-[1
+ [1
 
 {C:/Users/Petro Ck/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figure
-s/uni_goettingen_logo.pdf>] [2]) [3
+s/uni_goettingen_logo.pdf>]) [2
 
-] (Confidentiality_Clause.tex) [4]
-[5] (Statutory_Declaration.tex
+] (Confidentiality_Clause.tex) [3]
+[4] (Statutory_Declaration.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 []|\T1/ua1/m/n/12 Clemens
  []
@@ -924,41 +919,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 []|\T1/ua1/m/n/12 Petros
  []
 
-) [6] [7] (Acknowledgments.tex
+) [5] [6] (Acknowledgments.tex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-) [8] [9] (Master.toc
+)) [7] [8] (Master.toc
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 2.
 )
 \tf@toc=\write4
 \openout4 = `Master.toc'.
 
- [10] (introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--23
-
- []
-
-[1])
+ [9] (introduction.tex)
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 156.
- (data_sources.tex) [2] (theory_and_methods.tex) (glm.tex) (lmm.tex
-[3
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 162.
+ (data_sources.tex [1]) [2]
+(theory_and_methods.tex) (glm.tex) (lmm.tex [3
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 6.
@@ -966,30 +941,8 @@ LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 6.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\ts1ua1.fd
 "
 File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
-)
-
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 24.
-
-
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 24.
-
-
-
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 30.
-
-
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 30.
-
-
-
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 39.
-
-
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 39.
-
-
-) [4] (Forest_Classification.tex
-<barplots_Gartow.png, id=65, 843.90282pt x 344.03531pt>
+)) [4] (Forest_Classification.tex
+<barplots_Gartow.png, id=60, 843.90282pt x 344.03531pt>
 File: barplots_Gartow.png Graphic file (type png)
 <use barplots_Gartow.png>
 Package pdftex.def Info: barplots_Gartow.png  used on input line 66.
@@ -997,26 +950,17 @@ Package pdftex.def Info: barplots_Gartow.png  used on input line 66.
  [5
 
 ]
-<Gartow_map.png, id=69, 820.56563pt x 585.68813pt>
+<Gartow_map.png, id=64, 820.56563pt x 585.68813pt>
 File: Gartow_map.png Graphic file (type png)
 <use Gartow_map.png>
 Package pdftex.def Info: Gartow_map.png  used on input line 74.
 (pdftex.def)             Requested size: 426.79135pt x 304.62213pt.
-) [6 <./barplots_Gartow.png> <./Gartow_map.png>] (Inventory_Data.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-) (LiDAR.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-[7]
+) [6 <./barplots_Gartow.png> <./Gartow_map.png>] (Inventory_Data.tex) (LiDAR.te
+x [7]
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-<lidar.png, id=76, 666.99188pt x 310.91156pt>
+<lidar.png, id=71, 666.99188pt x 310.91156pt>
 File: lidar.png Graphic file (type png)
 <use lidar.png>
 Package pdftex.def Info: lidar.png  used on input line 8.
@@ -1024,86 +968,25 @@ Package pdftex.def Info: lidar.png  used on input line 8.
  [8 <./lidar.png>]) [9] (Data_exploration.tex) [10
 
 ] (Conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
-
- []
-
-
-Overfull \hbox (2.79807pt too wide) in paragraph at lines 15--17
-[]\T1/ua1/m/n/12 This ap-proach could solve all present chal-lenges, with-out r
-e-ly-ing on any heuris-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
-
- []
-
 
 LaTeX Warning: Reference `Results' on page 11 undefined on input line 19.
 
-
-Overfull \hbox (6.55727pt too wide) in paragraph at lines 18--23
-[]\T1/ua1/m/n/12 We could not find stud-ies with sim-i-lar ap-proaches to the o
-b-jec-tive. The achieved
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--23
-
- []
-
 [11
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-) [12] (Appendix.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-[13
+]) [12] (Appendix.tex [13
 
 ]
-<appendix_cluster.png, id=96, 428.35031pt x 220.07219pt>
+<appendix_cluster.png, id=91, 428.35031pt x 220.07219pt>
 File: appendix_cluster.png Graphic file (type png)
 <use appendix_cluster.png>
 Package pdftex.def Info: appendix_cluster.png  used on input line 20.
 (pdftex.def)             Requested size: 364.09947pt x 187.06223pt.
-<multi_regression.png, id=97, 428.35031pt x 220.07219pt>
+<multi_regression.png, id=92, 428.35031pt x 220.07219pt>
 File: multi_regression.png Graphic file (type png)
 <use multi_regression.png>
 Package pdftex.def Info: multi_regression.png  used on input line 29.
 (pdftex.def)             Requested size: 364.09947pt x 187.06223pt.
- [14 <./appendix_cluster.png>]) [15 <./multi_regression.png>] (Master.lof
+ [14 <./appendix_cluster.png> <./multi_regression.png>]) [15] (Master.lof
 Overfull \hbox (1.22453pt too wide) in paragraph at lines 5--5
  [][] []\T1/ua1/m/n/12 Clustered sec-tions with re-spect to mean and vari-ance 
 of both height 
@@ -1116,7 +999,7 @@ of both height
  [16
 
 ] (Master.lot
-Overfull \hbox (1.58057pt too wide) in paragraph at lines 3--3
+Overfull \hbox (1.58057pt too wide) in paragraph at lines 5--5
  \T1/ua1/m/n/12 tory 2008. Stra-tum 2 and 3 show lit-tle rel-a-tive stan-dard e
 r-ror (SE%), 
  []
@@ -1137,34 +1020,32 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18799 strings out of 493305
- 326359 string characters out of 3128495
- 389152 words of memory out of 3000000
- 22029 multiletter control sequences out of 15000+200000
+ 18802 strings out of 493305
+ 326429 string characters out of 3128495
+ 389171 words of memory out of 3000000
+ 22033 multiletter control sequences out of 15000+200000
  633193 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,14n,77p,1292b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,17n,77p,1292b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
 enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cmextra/cmbsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Petro Ck/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Petro Ck/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Us
-ers/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmib10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Petro Ck/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Petro C
-k/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (29 pages, 1336320 bytes).
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Petro Ck/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Petro Ck/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
+rs/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mib10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Petro Ck/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Petro Ck/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
+/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C
+:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a
+.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial
+/ua1ri8a.pfb>
+Output written on Master.pdf (28 pages, 1323795 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
