@@ -46,26 +46,25 @@ Besides the transactional data, \textit{article master data}, i.e. attributes of
 \begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{|l|l|l|}
 \hline
-\rowcolor{Gray} 
-\textbf{Column}         & \textbf{Description}                                                                                                        & \textbf{Values}              \\ \hline
-week\_id                & Calender week of a specific year (YYYYWW)                                                                         & Factors:\textit{ 201648, ..., 201852}          \\ \hline
-article\_number         & Unique article identification number (article ID)                                                                           & Factors: \textit{10669, 10, ...       }        \\ \hline
-min\_date\_of\_week     & \begin{tabular}[c]{@{}l@{}} Minimum date of the respective week; always a Monday \\ (YYYY-MM-DD)                                                          \end{tabular} & Dates: \textit{2016-11-28, ..., 2018-12-24}  \\ \hline
-art\_min\_price         & Minimal recorded price of the article                                                                                       & Non-negative (integer) value \\ \hline
-month\_id               & Calender month of a specific year (YYYYMM)                                                                               & Factors: \textit{201612, ..., 201812}          \\ \hline
-season                  & \begin{tabular}[c]{@{}l@{}}Season of year (format: SSYY) \\ (Spring-Summer [SS]:  December - May)\\  Fall-Winter [FW]: June - November)\end{tabular} & \begin{tabular}[c]{@{}l@{}}  Factors: \\ \textit{SS17, FW17,} \\\textit{ SS18, FW18, SS19} \end{tabular} \\
-
- \hline
-bf\_w                   & Weekly "Black Friday" promotion intensity of the article                                                                    & Between 0 and 1              \\ \hline
-ff\_w                   & Weekly "Friends \& Family" promotion intensity of the article                                                               & Between 0 and 1              \\ \hline
-ot\_w                   & Weekly article promotion intensity of "Other" type                                                                          & Between 0 and 1              \\ \hline
-gross\_demand\_quantity & Weekly amount of added articles to shopping cart                                                                            & Non-negative (integer) value \\ \hline
-base\_price\_locf       & Retail price of the article without any discounts                                                                           & Non-negative (integer) value \\ \hline
-total\_markdown\_pct    &                                                                                                                             &                              \\ \hline
-day\_of\_month          & Day of the month                                                                                                            & Integers: \textit{1 - 31}                       \\ \hline
-month\_of\_year         & Month of the year                                                                                                           & Factors: \textit{January, ..., December}       \\ \hline
-year                    & Year                                                                                                                        & Integers: \textit{2016, 2017, 2018}             \\ \hline
-week\_of\_year          & Week of the year                                                                                                            & Integers: \textit{1 - 52}                       \\ \hline
+\rowcolor{Gray}
+\textbf{Column}           & \textbf{Description}                                   & \textbf{Values (all Factors)}                 \\ \hline
+article\_number           & Unique article identification number (article ID)      & 10669, 10, ...                                \\ \hline
+gender                    & Gender type of the article (Men, Women, Unisex)        & M, W, U                                       \\ \hline
+age\_group                & Age group of the article (Adult, Infant, Junior, Kids) & A, I, J, K                                    \\ \hline
+product\_division\_descr  & Product division of the article                        & APPAREL, FOOTWEAR, HARDWARE                   \\ \hline
+product\_group\_descr     & Product group of the article                           & BAGS, BALLS, FOOTWEAR ACCESSORIES, SHOES, ... \\ \hline
+color                     & Consolidated color group of the article                & BEIGE, BLACK, BROWN, ORANGE, PINK, RED, ...   \\ \hline
+sports\_category\_descr   & Sports category of the article                         & encoded: SC\_1, ..., SC\_22                   \\ \hline
+sales\_line\_descr        & Sales line of the article                              & encoded: SL\_1, ..., SL\_379                  \\ \hline
+business\_unit\_descr     & The article's Business Unit membership                 & encoded: BU\_1, ..., BU\_18                   \\ \hline
+business\_segment\_descr  & The article's Business Segment membership              & encoded: BS\_1, ..., BS\_49                   \\ \hline
+sub\_brand\_descr         & Sub-brand of the article                               & encoded: sub-brand\_1, ..., sub-brand\_4      \\ \hline
+item\_type                & Item type of the article                               & encoded: IT\_1, ..., IT\_171                  \\ \hline
+brand\_element            & Brand element of the article                           & encoded: BE\_1, ..., BE131                    \\ \hline
+product\_franchise\_descr & Product franchise of the article                       & encoded: franchise\_1, ..., franchise\_72     \\ \hline
+product\_line\_descr      & Product line of the article                            & encoded: PL\_1, ..., PL\_105                  \\ \hline
+franchise\_bin            & Franchise indicator of the article                     & FRANCHISE, NON-FRANCHISE                      \\ \hline
+category                  & Category of the article                                & encoded: category\_1, category\_2             \\ \hline
 \end{tabular}
 \end{adjustbox}
 \caption{Article master data}
