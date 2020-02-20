@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  18 FEB 2020 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  20 FEB 2020 10:11
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -738,27 +738,27 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 ) (Master.aux)
 \openout1 = `Master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 115.
 
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 112.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 115.
  ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\t1ua1.fd
 "
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
@@ -909,17 +909,7 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <17.28> not available
 s/uni_goettingen_logo.pdf>]) [2
 
 ] (Confidentiality_Clause.tex) [3]
-[4] (Statutory_Declaration.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]|\T1/ua1/m/n/12 Clemens
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]|\T1/ua1/m/n/12 Petros
- []
-
-) [5] [6] (Acknowledgments.tex
+[4] (Statutory_Declaration.tex) [5] [6] (Acknowledgments.tex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )) [7] [8] (Master.toc
@@ -931,7 +921,7 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
 
  [9] (introduction.tex)
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 162.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 165.
  (data_sources.tex [1]) [2]
 (theory_and_methods.tex) (glm.tex) (lmm.tex [3
 
@@ -986,25 +976,13 @@ File: multi_regression.png Graphic file (type png)
 <use multi_regression.png>
 Package pdftex.def Info: multi_regression.png  used on input line 29.
 (pdftex.def)             Requested size: 364.09947pt x 187.06223pt.
- [14 <./appendix_cluster.png> <./multi_regression.png>]) [15] (Master.lof
-Overfull \hbox (1.22453pt too wide) in paragraph at lines 5--5
- [][] []\T1/ua1/m/n/12 Clustered sec-tions with re-spect to mean and vari-ance 
-of both height 
- []
-
-)
+ [14 <./appendix_cluster.png>]) [15 <./multi_regression.png>] (Master.lof)
 \tf@lof=\write5
 \openout5 = `Master.lof'.
 
  [16
 
-] (Master.lot
-Overfull \hbox (1.58057pt too wide) in paragraph at lines 5--5
- \T1/ua1/m/n/12 tory 2008. Stra-tum 2 and 3 show lit-tle rel-a-tive stan-dard e
-r-ror (SE%), 
- []
-
-)
+] (Master.lot)
 \tf@lot=\write6
 \openout6 = `Master.lot'.
 
@@ -1012,7 +990,8 @@ r-ror (SE%),
 
 ] (abbreviations.tex) [18
 
-] (Master.bbl) [19
+]
+(Master.bbl) [19
 
 ] (Master.aux)
 
@@ -1022,7 +1001,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  18802 strings out of 493305
  326429 string characters out of 3128495
- 389171 words of memory out of 3000000
+ 389177 words of memory out of 3000000
  22033 multiletter control sequences out of 15000+200000
  633193 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1043,7 +1022,7 @@ ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
 :/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a
 .pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial
 /ua1ri8a.pfb>
-Output written on Master.pdf (28 pages, 1323795 bytes).
+Output written on Master.pdf (28 pages, 1326575 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
