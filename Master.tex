@@ -25,6 +25,9 @@
 \usepackage{physics}
 
 
+% Create links to references etc.. Usually with function autoref{}...
+\usepackage{hyperref}
+
 
 % For the type of citation and bibliographic style
 %\usepackage{apacite}
@@ -160,26 +163,30 @@
 \pagenumbering{arabic} 
 \setcounter{page}{1} 
 
-\section{Introduction} \label{introduction}
+\section{Introduction} \label{sec:introduction}
 \input{introduction}
-\subsection{Data Sources} \label{data_sources}
+\subsection{Data Sources} \label{ssec:data_sources}
 \input{data_sources}
 \clearpage
 
-\section{Theory \& Methods} \label{theory_and_methods}
+\section{Statistical Theory \& Methods} \label{sec:theory_and_methods}
 \input{theory_and_methods}
-\subsection{Generalized Linear Models} \label{glm}
+\subsection{Generalized Linear Models} \label{ssec:glm}
 \input{glm}
-\subsection{Generalized Additive Models} \label{gam}
+\subsection{Generalized Additive Models} \label{sec:gam}
 %input{gam}
-\subsection{Mixed Effects Models} \label{mixed_models}
+\subsection{Mixed Effects Models} \label{ssec:mixed_models}
 \input{lmm}
 %\input{random_intercept_model}
+\clearpage
 
+\section{Copulas \& Dependence Modelling} \label{sec:copulas_and_dependence_moelling}
+\input{copulas_and_dependence_modelling}
+\subsection{Copulas} \label{ssec:copulas}
+\input{copulas}
 
 
 \clearpage
-
 
 
 
@@ -192,38 +199,30 @@
 
 
 \addcontentsline{toc}{section}{Appendix}
-%\section*{Appendix} \label{appendix}
-%\input{Appendix}
-
-%\clearpage
+\section*{Appendix} \label{sec:appendix}
+\input{appendix}
+\clearpage
 
 
 
 \addcontentsline{toc}{section}{List of Figures}	
 \listoffigures
-
-
 \clearpage
 
 \addcontentsline{toc}{section}{List of Tables}
 \listoftables
-
-
 \clearpage
 
 \addcontentsline{toc}{section}{List of Abbreviations}
 \section*{List of Abbreviations}
 \input{abbreviations}
-
-
-
 \clearpage
 
 \addcontentsline{toc}{section}{References}
-% MAKE THE REFERENCES PROPER; CITATIONS ETC....
 % Insert bibliography and the bibliographic style
 \bibliographystyle{apalike}
-\nocite{*}
+%Include references that are not explicitly cited in the documtent
+\nocite{*} 
 \bibliography{references}
 
 \end{document}

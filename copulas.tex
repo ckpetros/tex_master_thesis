@@ -1,0 +1,22 @@
+% !TEX root = Master.tex
+
+A $d$-dimensional function $C: [0,1]^d \rightarrow [0,1]$ is called a \textit{copula}, if it is a \ac{CDF} with uniform margins, i.e.
+\begin{equation*}
+P\left(U_{1} \leq u_{1}, \ldots, U_{d} \leq u_{d}\right)=C\left(u_{1}, \ldots, u_{d}\right)
+\end{equation*}
+where 
+$ U_{i}, i = 1, \ldots, d $ 
+are uniformly distributed in $[0,1]$.\\
+
+\textbf{Sklar's Theorem} \\
+Let $F$ be a $d$-dimensional \ac{CDF} with marginal distributions $F_{i}, i = 1, \ldots, d$.
+Then there exists a copula $C$ such that
+\begin{equation}
+F(x_1, \ldots, x_d) = C (F_1(x_1), \ldots, F_d(x_d))
+\label{eq:sklar}
+\end{equation}
+for all $x_i \in \mathbb{R}, i = 1, \ldots, d $. The copula $C$ is unique, if $ \forall i = 1, \ldots, d$, $F_i$ is continuous. Otherwise $C$ is uniquely determined only on
+$Ran(F_1) \times \ldots \times Ran(F_d)$, where $Ran(F_{i})$ is the range of $F_i$.\\
+Conversely, if $C$ is a $d$-dimensional copula and $F_1, \ldots, F_d$ are univariate \ac{CDF}'s, then $F$ as defined in \autoref{eq:sklar} is a 
+$d$-dimensional \ac{CDF}.
+

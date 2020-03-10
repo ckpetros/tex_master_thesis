@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
 
-Throughout each season, transactional data are collected from online purchases of the sports brand's eCommerce website. Specifically, we are provided with weekly sales data for western European countries depicted in table \ref{tab:transactional_data}.
+Throughout each season, transactional data are collected from online purchases of the sports brand's eCommerce website. Specifically, we are provided with weekly sales data for western European countries. A short description is depicted in \autoref{tab:transactional_data}.
 
 \begin{table}[H]
 \setlength\arrayrulewidth{1pt}  
@@ -38,7 +38,7 @@ Due to legal regulations of the company, some columns had to undergo anonymizati
 
 Another peculiarity of this setup is to be considered, too. We will often refer to the variable \textit{gross demand quantity} as \textit{sales}, even though it is obviously not exactly the same. In the eCommerce environment, there are several stages before the purchase is complete, e.g. addition to cart, removal from cart, proceeding to checkout \& even the return of bought articles. Targeting the articles added to cart, i.e. the (gross) demand quantity, provides the optimal data extraction for analytical purposes and is the closest to adequately model the dependency structure between net sales of articles.\\
 
-Besides the transactional data, \textit{article master data}, i.e. attributes of the articles, are provided and depicted in table \ref{tab:article_master_data}.
+Besides the transactional data, \textit{article master data}, i.e. attributes of the articles, are provided and described in \autoref{tab:article_master_data}.
 
 \begin{table}[H]
 \setlength\arrayrulewidth{1pt}  
@@ -48,28 +48,29 @@ Besides the transactional data, \textit{article master data}, i.e. attributes of
 \hline
 \rowcolor{Gray}
 \textbf{Column}           & \textbf{Description}                                   & \textbf{Values (all Factors)}                 \\ \hline
-article\_number           & Unique article identification number (article ID)      & 10669, 10, ...                                \\ \hline
-gender                    & Gender type of the article (Men, Women, Unisex)        & M, W, U                                       \\ \hline
-age\_group                & Age group of the article (Adult, Infant, Junior, Kids) & A, I, J, K                                    \\ \hline
-product\_division\_descr  & Product division of the article                        & APPAREL, FOOTWEAR, HARDWARE                   \\ \hline
-product\_group\_descr     & Product group of the article                           & BAGS, BALLS, FOOTWEAR ACCESSORIES, SHOES, ... \\ \hline
-color                     & Consolidated color group of the article                & BEIGE, BLACK, BROWN, ORANGE, PINK, RED, ...   \\ \hline
-sports\_category\_descr   & Sports category of the article                         & encoded: SC\_1, ..., SC\_22                   \\ \hline
-sales\_line\_descr        & Sales line of the article                              & encoded: SL\_1, ..., SL\_379                  \\ \hline
-business\_unit\_descr     & The article's Business Unit membership                 & encoded: BU\_1, ..., BU\_18                   \\ \hline
-business\_segment\_descr  & The article's Business Segment membership              & encoded: BS\_1, ..., BS\_49                   \\ \hline
-sub\_brand\_descr         & Sub-brand of the article                               & encoded: sub-brand\_1, ..., sub-brand\_4      \\ \hline
-item\_type                & Item type of the article                               & encoded: IT\_1, ..., IT\_171                  \\ \hline
-brand\_element            & Brand element of the article                           & encoded: BE\_1, ..., BE131                    \\ \hline
-product\_franchise\_descr & Product franchise of the article                       & encoded: franchise\_1, ..., franchise\_72     \\ \hline
-product\_line\_descr      & Product line of the article                            & encoded: PL\_1, ..., PL\_105                  \\ \hline
-franchise\_bin            & Franchise indicator of the article                     & FRANCHISE, NON-FRANCHISE                      \\ \hline
-category                  & Category of the article                                & encoded: category\_1, category\_2             \\ \hline
+article\_number           & Unique article identification number (article ID)      & \textit{10669, 10, ...}                                \\ \hline
+gender                    & Gender type of the article (Men, Women, Unisex)        & \textit{M, W, U}                                       \\ \hline
+age\_group                & Age group of the article (Adult, Infant, Junior, Kids) & \textit{A, I, J, K}                                    \\ \hline
+product\_division\_descr  & Product division of the article                        & \textit{APPAREL, FOOTWEAR, HARDWARE}                   \\ \hline
+product\_group\_descr     & Product group of the article                           & \textit{BAGS, BALLS, FOOTWEAR ACCESSORIES, SHOES, ...} \\ \hline
+color                     & Consolidated color group of the article                & \textit{BEIGE, BLACK, BROWN, ORANGE, PINK, RED, ... }  \\ \hline
+sports\_category\_descr   & Sports category of the article                         & encoded: \textit{SC\_1, ..., SC\_22 }                  \\ \hline
+sales\_line\_descr        & Sales line of the article                              & encoded: \textit{SL\_1, ..., SL\_379 }                 \\ \hline
+business\_unit\_descr     & The article's Business Unit membership                 & encoded:\textit{ BU\_1, ..., BU\_18   }                \\ \hline
+business\_segment\_descr  & The article's Business Segment membership              & encoded: \textit{BS\_1, ..., BS\_49  }                 \\ \hline
+sub\_brand\_descr         & Sub-brand of the article                               & encoded: \textit{sub-brand\_1, ..., sub-brand\_4 }     \\ \hline
+item\_type                & Item type of the article                               & encoded: \textit{IT\_1, ..., IT\_171 }                 \\ \hline
+brand\_element            & Brand element of the article                           & encoded: \textit{BE\_1, ..., BE\_131 }                   \\ \hline
+product\_franchise\_descr & Product franchise of the article                       & encoded: \textit{franchise\_1, ..., franchise\_72}     \\ \hline
+product\_line\_descr      & Product line of the article                            & encoded: \textit{PL\_1, ..., PL\_105 }                 \\ \hline
+franchise\_bin            & Franchise indicator of the article                     &\textit{ FRANCHISE, NON-FRANCHISE }                     \\ \hline
+category                  & Category of the article                                & encoded: \textit{category\_1, category\_2}             \\ \hline
 \end{tabular}
 \end{adjustbox}
 \caption{Article master data}
 \label{tab:article_master_data}
 \end{table}
 
-
+Plenty of additional information is stored in the database, but we are neglecting columns omitted in these tables, as they are redundant, already summarized, transformed or simply do not provide any value.\\
+Overall, we will be dealing with data collected over two years, namely the years 2017 and 2018, while some transactions of late 2016 might be attached marginally. In summary, after joining the transactional observations to the article attributes by the article ID, this translates to a dataset of over 587,000 rows and over 30 variables. 
 
