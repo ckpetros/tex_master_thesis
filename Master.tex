@@ -113,6 +113,19 @@
   \end{tabular}
 }
 
+% Headers for the pages
+%\usepackage{fancyhdr}
+%\pagestyle{headings}
+
+%\fancyhf{}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\scriptsize \nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
 %----------------------------
 
 \begin{document}
@@ -197,27 +210,33 @@
 %\clearpage
 
 
-
+\fancyhead[L]{\scriptsize Appendix}
 \addcontentsline{toc}{section}{Appendix}
 \section*{Appendix} \label{sec:appendix}
 \input{appendix}
 \clearpage
 
 
-
+\fancyhead[L]{\scriptsize List of Figures}
 \addcontentsline{toc}{section}{List of Figures}	
 \listoffigures
 \clearpage
 
+
+\fancyhead[L]{\scriptsize List of Tables}
 \addcontentsline{toc}{section}{List of Tables}
 \listoftables
 \clearpage
 
+
+\fancyhead[L]{\scriptsize List of Abbreviations}
 \addcontentsline{toc}{section}{List of Abbreviations}
 \section*{List of Abbreviations}
 \input{abbreviations}
 \clearpage
 
+
+\fancyhead[L]{\scriptsize References}
 \addcontentsline{toc}{section}{References}
 % Insert bibliography and the bibliographic style
 \bibliographystyle{apalike}
