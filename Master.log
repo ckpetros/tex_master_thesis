@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  11 MAR 2020 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  11 MAR 2020 12:52
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1079,10 +1079,10 @@ Package rerunfilecheck Info: File `Master.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
- 21578 strings out of 493305
- 371298 string characters out of 3128495
+ 21584 strings out of 493305
+ 371442 string characters out of 3128495
  472303 words of memory out of 3000000
- 24785 multiletter control sequences out of 15000+200000
+ 24789 multiletter control sequences out of 15000+200000
  618706 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,17n,75p,668b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1100,13 +1100,14 @@ ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Petro Ck/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
 s/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (12 pages, 165902 bytes).
+amsfonts/symbols/msam10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Petro Ck/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro 
+Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on Master.pdf (12 pages, 174969 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,4 +9,15 @@ L{\"u}tkepohl, H. (2005).
 \newblock {\em New introduction to multiple time series analysis}.
 \newblock Springer Science \& Business Media.
 
+\bibitem[Vatter and Chavez-Demoulin, 2015]{vatter2015generalized}
+Vatter, T. and Chavez-Demoulin, V. (2015).
+\newblock Generalized additive models for conditional dependence structures.
+\newblock {\em Journal of Multivariate Analysis}, 141:147--167.
+
+\bibitem[Vatter and Nagler, 2018]{vatter2018generalized}
+Vatter, T. and Nagler, T. (2018).
+\newblock Generalized additive models for pair-copula constructions.
+\newblock {\em Journal of Computational and Graphical Statistics},
+  27(4):715--727.
+
 \end{thebibliography}
