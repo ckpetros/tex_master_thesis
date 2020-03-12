@@ -35,4 +35,18 @@
   publisher = {Elsevier},
 }
 
+@Book{hofert2019elements,
+  title     = {Elements of copula modeling with {R}},
+  publisher = {Springer},
+  year      = {2019},
+  author    = {Hofert, Marius and Kojadinovic, Ivan and M{\"a}chler, Martin and Yan, Jun},
+}
+
+@Book{mcneil2015quantitative,
+  title     = {Quantitative risk management: concepts, techniques and tools-revised edition},
+  publisher = {Princeton university press},
+  year      = {2015},
+  author    = {McNeil, Alexander J. and Frey, R{\"u}diger and Embrechts, Paul},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

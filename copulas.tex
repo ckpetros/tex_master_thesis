@@ -5,23 +5,65 @@ A $d$-dimensional function $C: [0,1]^d \rightarrow [0,1]$ is called a \textit{co
 P\left(U_{1} \leq u_{1}, \ldots, U_{d} \leq u_{d}\right)=C\left(u_{1}, \ldots, u_{d}\right)
 \end{equation*}
 where 
-$ U_{i}, i = 1, \ldots, d $ 
-are uniformly distributed in $[0,1]$.\\
+$ U_{i}, \hspace{0.25em} i = 1, \ldots, d $ 
+are uniformly distributed random variables in $[0,1]$.\\
 
 \textbf{Sklar's Theorem} \\
-Let $F$ be a $d$-dimensional \ac{CDF} with marginal distributions $F_{i}, i = 1, \ldots, d$.
+Let $F$ be a $d$-dimensional \ac{CDF} with marginal distributions $F_{i}, \hspace{0.25em} i = 1, \ldots, d$.
 Then there exists a copula $C$ such that
 \begin{equation}
 F(x_1, \ldots, x_d) = C (F_1(x_1), \ldots, F_d(x_d))
 \label{eq:sklar}
 \end{equation}
-for all $x_i \in \mathbb{R}, i = 1, \ldots, d $. The copula $C$ is unique, if $ \forall i = 1, \ldots, d$, $F_i$ is continuous. Otherwise $C$ is uniquely determined only on
+for all $x_i \in \mathbb{R}, \hspace{0.25em} i = 1, \ldots, d $.\\
+The copula $C$ is unique, if $ \hspace{0.25em} \forall i = 1, \ldots, d \hspace{0.25em}$,  $F_i \hspace{0.25em}$  is continuous. Otherwise $C$ is uniquely determined only on
 $Ran(F_1) \times \ldots \times Ran(F_d)$, where $Ran(F_{i})$ is the range of $F_i$.\\
 Conversely, if $C$ is a $d$-dimensional copula and $F_1, \ldots, F_d$ are univariate \ac{CDF}'s, then $F$ as defined in \autoref{eq:sklar} is a 
 $d$-dimensional \ac{CDF}.
 
-\hfill $\square$
+\hfill $\square$ \\
 
 
-NOW TRY SOME \cite{vatter2018generalized} AND \cite{vatter2015generalized}
+If the copula has a \ac{PDF}, then the \textit{copula density} is defined as
+\begin{equation}
+c(\mathbf{u})=\frac{\partial^{d} C\left(u_{1}, \ldots, u_{d}\right)}{\partial u_{1} \cdots \partial u_{d}} 
+\label{eq:copula_density_1}
+\end{equation}
+for a differentiable copula function $C$ and the realization of a random vector $ \bm{u} = (u_1, \ldots, u_d)$.\\
+
+By virtue of \autoref{eq:sklar} in Sklar's theorem and given that
+\begin{equation} 
+C(\mathbf{u})=F\left(F_{1}^{-1}\left(u_{1}\right), \ldots, F_{d}^{-1}\left(u_{d}\right)\right) ,
+\label{eq:sklar_inverse}
+\end{equation}
+i.e. inversible \ac{CDF}s $ F_i, \hspace{0.25em} i = 1, \ldots, d, \hspace{0.25em}$ we can rewrite the copula density to
+\begin{equation}
+c\left(u_{1}, \ldots, u_{d}\right)=\frac{f\left(F_{1}^{-1}\left(u_{1}\right), \ldots, F_{d}^{-1}\left(u_{d}\right)\right)}{\prod \limits _{i=1}^{d} f_{i}\left(F_{i}^{-1}\left(u_{i}\right)\right)}
+\label{eq:copula_density_2}
+\end{equation}
+for densities $f$ of $F$ and $f_1, \ldots, f_d$ of the corresponding marginals.\\
+
+
+\textbf{Invariance Principal}\\
+Suppose the random variables $ X_1, \ldots, X_d $  have continuous marginals and copula $C$. For strictly increasing functions $T_i : \mathbb{R} \rightarrow \mathbb{R}, i = 1, \ldots, d$, the random variables $T_1(X_1), \ldots, T_d(X_d)$ also have copula $C$.
+
+\hfill $\square$ \\
+
+
+\textbf{The Fr\'echet-Hoeffding Bounds}\\
+Let $C(\bm{u}) = C(u_1, \ldots, u_d)$ be any $d$-dimensional copula.\\
+Then for
+$W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, 0\right\}$
+and
+$M(\boldsymbol{u})=\min \limits _{1 \leq i \leq d}\left\{u_{i}\right\}$,\\
+it holds that
+\begin{equation}
+W(\bm{u}) \leq C(\bm{u}) \leq M(\bm{u}), \quad \bm{u} \in[0,1]^{d}
+\end{equation}
+
+Note that $W$ is a copula if and only if $d=2$, whereas $M$ is a copula for all $d \geq 2$ 
+
+\hfill $\square$ \\
+
+
 

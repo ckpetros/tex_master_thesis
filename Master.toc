@@ -7,8 +7,8 @@
 \contentsline {subsection}{\numberline {2.3}Mixed Effects Models}{3}{subsection.2.3}
 \contentsline {section}{\numberline {3}Copulas \& Dependence Modelling}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Copulas}{5}{subsection.3.1}
-\contentsline {section}{Appendix}{6}{equation.3.1}
-\contentsline {section}{List of Figures}{7}{section*.3}
-\contentsline {section}{List of Tables}{8}{section*.4}
-\contentsline {section}{List of Abbreviations}{9}{section*.5}
-\contentsline {section}{References}{10}{section*.6}
+\contentsline {section}{Appendix}{7}{equation.3.5}
+\contentsline {section}{List of Figures}{8}{section*.8}
+\contentsline {section}{List of Tables}{9}{section*.9}
+\contentsline {section}{List of Abbreviations}{10}{section*.10}
+\contentsline {section}{References}{11}{section*.11}

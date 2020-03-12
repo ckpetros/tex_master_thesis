@@ -25,4 +25,21 @@
   publisher = {Taylor \& Francis},
 }
 
+@Article{vatter2015generalized,
+  author    = {Vatter, Thibault and Chavez-Demoulin, Val{\'e}rie},
+  title     = {Generalized additive models for conditional dependence structures},
+  journal   = {Journal of Multivariate Analysis},
+  year      = {2015},
+  volume    = {141},
+  pages     = {147--167},
+  publisher = {Elsevier},
+}
+
+@Book{hofert2019elements,
+  title     = {Elements of copula modeling with {R}},
+  publisher = {Springer},
+  year      = {2019},
+  author    = {Hofert, Marius and Kojadinovic, Ivan and M{\"a}chler, Martin and Yan, Jun},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
