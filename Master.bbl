@@ -20,6 +20,21 @@ McNeil, A.~J., Frey, R., and Embrechts, P. (2015).
   tools-revised edition}.
 \newblock Princeton university press.
 
+\bibitem[Ruppert and Matteson, 2015]{Ruppert2015}
+Ruppert, D. and Matteson, D.~S. (2015).
+\newblock {\em Copulas}, pages 183--215.
+\newblock Springer New York, New York, NY.
+
+\bibitem[Schmidt, 2007]{schmidt2007coping}
+Schmidt, T. (2007).
+\newblock Coping with copulas.
+\newblock {\em Copulas-From theory to application in finance}, pages 3--34.
+
+\bibitem[Sklar, 1959]{sklar1959fonctions}
+Sklar, M. (1959).
+\newblock Fonctions de repartition an dimensions et leurs marges.
+\newblock {\em Publ. inst. statist. univ. Paris}, 8:229--231.
+
 \bibitem[Vatter and Chavez-Demoulin, 2015]{vatter2015generalized}
 Vatter, T. and Chavez-Demoulin, V. (2015).
 \newblock Generalized additive models for conditional dependence structures.
