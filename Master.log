@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  14 MAR 2020 18:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  15 MAR 2020 18:47
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -982,7 +982,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) (titlepage.tex
-<figures/uni_goettingen_logo.pdf, id=66, 457.71pt x 89.33376pt>
+<figures/uni_goettingen_logo.pdf, id=70, 457.71pt x 89.33376pt>
 File: figures/uni_goettingen_logo.pdf Graphic file (type pdf)
 <use figures/uni_goettingen_logo.pdf>
 Package pdftex.def Info: figures/uni_goettingen_logo.pdf  used on input line 11
@@ -1052,30 +1052,32 @@ File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
 Package acronym Info: Label `acro:GLMM' newly defined as it shall be overridden
 
 although it is yet undefined on input line 31.
-) [4] (copulas_and_dependence_modelling.tex) (copula_theory.tex
+) [4] (copulas_and_dependence_modelling.tex) (intro_to_copulas.tex
 Package acronym Info: Label `acro:CDF' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
+Package acronym Info: Label `acro:RV' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:PDF' newly defined as it shall be overridden
 although it is yet undefined on input line 27.
  [5
 
 ])
-(copula_classes.tex) [6] (appendix.tex) [7
+(copula_classes.tex) (fundamental_copulas.tex [6] [7]) [8] (appendix.tex)
+[9
 
 ] (Master.lof)
 \tf@lof=\write6
 \openout6 = `Master.lof'.
 
- [8
+ [10
 
 ] (Master.lot)
 \tf@lot=\write7
 \openout7 = `Master.lot'.
 
+ [11
 
-[9
-
-] (abbreviations.tex) [10
+] (abbreviations.tex) [12
 
 ] (Master.bbl)
 
@@ -1083,63 +1085,47 @@ Package caption Warning: Unused \captionsetup[figure] on input line 58.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-[11
+[13
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
  (Master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
-
-
-Package rerunfilecheck Warning: File `Master.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Master.out':
-(rerunfilecheck)             Before: B4094493828C409354F64359747A5A65;1003
-(rerunfilecheck)             After:  ECD83B1FC619DC7766227EDF6497A0C0;1103.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `Master.out' has not changed.
+(rerunfilecheck)             Checksum: 4E45B6A89127771D5FD693158F0F4EE9;1114.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
- 21657 strings out of 493305
- 372745 string characters out of 3128495
- 472303 words of memory out of 3000000
- 24837 multiletter control sequences out of 15000+200000
+ 21666 strings out of 493305
+ 372913 string characters out of 3128495
+ 472392 words of memory out of 3000000
+ 24840 multiletter control sequences out of 15000+200000
  618706 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,17n,75p,668b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
-c}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cmextra/cmbsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Petro Ck/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Petro Ck/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
-s/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmib10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Petro Ck/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Petro Ck/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/symbols/msam10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Petro Ck/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (13 pages, 190792 bytes).
+{C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
+enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cmextra/cmbsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Petro Ck/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Petro Ck/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Us
+ers/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmib10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Petro Ck/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Petro Ck/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/symbols/msam10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Petro Ck/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro 
+Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on Master.pdf (15 pages, 200214 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

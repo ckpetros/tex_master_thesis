@@ -6,13 +6,13 @@
 \contentsline {subsection}{\numberline {2.2}Generalized Additive Models}{3}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Mixed Effects Models}{3}{subsection.2.3}
 \contentsline {section}{\numberline {3}Copulas \& Dependence Modelling}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Copula Theory}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Introduction to Copulas}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Copula Classes}{6}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Fundamental Copulas}{6}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Elliptical Copulas}{6}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Archimedian Copulas}{6}{subsubsection.3.2.3}
-\contentsline {section}{Appendix}{7}{subsubsection.3.2.3}
-\contentsline {section}{List of Figures}{8}{section*.8}
-\contentsline {section}{List of Tables}{9}{section*.9}
-\contentsline {section}{List of Abbreviations}{10}{section*.10}
-\contentsline {section}{References}{11}{section*.11}
+\contentsline {subsubsection}{\numberline {3.2.1}Fundamental Copulas}{7}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Elliptical Copulas}{8}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Archimedean Copulas}{8}{subsubsection.3.2.3}
+\contentsline {section}{Appendix}{9}{subsubsection.3.2.3}
+\contentsline {section}{List of Figures}{10}{section*.9}
+\contentsline {section}{List of Tables}{11}{section*.10}
+\contentsline {section}{List of Abbreviations}{12}{section*.11}
+\contentsline {section}{References}{13}{section*.12}

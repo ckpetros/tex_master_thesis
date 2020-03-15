@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
-The \textit{\ac{LMM}} is powerful tool when dealing with clustered data or data with a longitudinal structure (repeated measurements of individuals).
-As in the classical \acs{LM}, there are population-specific effects, namely the parameter vector of \textit{fixed effects} $\boldsymbol{\beta}$, as well as the cluster- or individual-specific effects of such models called \textit{random effects} \cite{fahrmeir2003regression}. In the following, we will refer to our clusters or individuals as "groups" for briefness.\ Mathematically speaking, the linear predictor $\eta_{ij}= \mathbf{x}'_{ij} \mathbf{\beta} $ is extended to
+\textit{\acp{LMM}} are powerful tools when dealing with clustered data or data with a longitudinal structure (repeated measurements of individuals).
+As in the classical \ac{LM}, there are population-specific effects, namely the parameter vector of \textit{fixed effects} $\boldsymbol{\beta}$, as well as the cluster- or individual-specific effects of such models called \textit{random effects} \cite{fahrmeir2003regression}. In the following, we will refer to our clusters or individuals as "groups" for briefness.\ Mathematically speaking, the linear predictor $\eta_{ij}= \mathbf{x}'_{ij} \mathbf{\beta} $ is extended to
 \begin{equation}
 \eta_{ij} = \bm{{x'}}_{ij} \bm{\beta} + \bm{u'}_{ij}\bm{\gamma}_i, \quad j=1, \ldots, m, \quad i=1, \ldots, n_i, 
 \label{eq:linear_mixed_predictor}
@@ -28,7 +28,7 @@ or in matrix notation
 \end{equation}
 for group $ i=1, \ldots, m $ with $ E(\bm{\varepsilon}_{i}) = \bm{0}$. \\
 
-Similar to \ac{GLM}s, the \textit{\ac{GLMM}} relates the linear mixed predictor \ref{eq:linear_mixed_predictor} to the conditional mean 
+Similar to \acp{GLM}, \textit{\acp{GLMM}} relate the linear mixed predictor \ref{eq:linear_mixed_predictor} to the conditional mean 
 $ \mu_{ij} = E(y_{ij} | \bm{\gamma}_{i}) $
 via a suitable response function $h$, such that
 $ \mu_{ij} = h(\eta_{ij}) $ and thus the conditional density of $y_{ij}$ belongs to the exponential family.

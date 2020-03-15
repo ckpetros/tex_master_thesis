@@ -1,0 +1,46 @@
+% !TEX root = Master.tex
+
+Fundamental copulas are a basic class of copulas, which emerge directly from the copula framework and do not depend on any parametric components. \\
+
+\textbf{Independence Copula}\\
+It is well known that the joint probability of a finite set of events
+$E_i, i = 1, \ldots, k$, is equal to the product of the marginals if and only if the Events $E_i$ are independent.
+$$\mathrm{P}\left(\bigcap_{i=1}^{k} E_{i}\right)=\prod_{i=1}^{k} \mathrm{P}\left(E_{i}\right).$$
+Analogously, the same concept applies when we talk about the \textit{independence copula}
+\begin{equation}
+\Pi (\bm{u}) = \prod \limits _{i = 1}^d u_i.
+\end{equation}
+As a result of Sklar's theorem the \ac{RV}s $u_i$ are independent if and only if their copula is the independence copula, i.e.
+$$ C(\bm{u}) = \Pi (\bm{u}) $$
+and thus the copula density would be 
+$$c(\boldsymbol{u})=1, \quad \boldsymbol{u} \in[0,1]^{d}.$$
+
+\hfill $\square$ \\
+
+
+From \autoref{eq:frechet_hoeffding}, it is obvious that the Fr\'echet-Hoeffding bounds correspond to the extreme cases of perfect dependence between the \ac{RV}s $X_i, i = 1, \ldots, d$. \\
+
+\textbf{Comonotonicity Copula}\\
+Consider the \ac{RV}s $X_1, \ldots, X_d$ and strictly increasing transformations $T_1, \ldots, T_d$ and $X_i = T(X_i)$ for $i = 2, \ldots, d$. Making use of the \textit{invariance principal}, it can be shown that these \ac{RV}s have as copula the upper Fr\'echet-Hoeffding bound 
+$$M(\bm{u}) = \min\{ u_1, \ldots, u_d \}.$$ Since this yields perfect positive dependence between those \ac{RV}s, we call $M$ the \textit{comonotonicity copula}. The number of dimensions $d$ can be any finite number greater than or equal to $2$ for $M$ to be a copula, as the minimum remains well defined.
+
+\hfill $\square$ \\
+
+
+
+\textbf{Countermonotonicity Copula}\\
+Similar to the comonotonic case, it can be shown that if two \acp{RV} $X_1$ and $X_2$ are perfectly negatively dependent, their copula is the lower Fr\'echet-Hoeffding bound
+$$
+W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\}.
+$$
+Therefore, $W$ is known as the \textit{countermonotonicity copula}. Because of the fact that countermonotonicity is not valid for a dimension greater than $2$, we end up with the restriction $d=2$ for $W$ to be indeed a copula.
+
+\hfill $\square$ \\
+
+
+
+
+
+
+
+
