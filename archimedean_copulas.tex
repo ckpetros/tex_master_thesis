@@ -1,0 +1,19 @@
+% !TEX root = Master.tex
+
+Unlike implicit copulas, \textit{explicit copulas} can be specified directly by taking into account certain constructional principles. The most important aspects of a such explicit copulas, in particular \textit{archimedean copulas}, are showcased in this subsection. Archimedian copulas are of the general form
+\begin{equation}C(\boldsymbol{u})=\psi\left(\psi^{-1}\left(u_{1}\right)+\cdots+\psi^{-1}\left(u_{d}\right)\right),
+\label{eq:archimedean_generator}
+\end{equation}
+where the function $\psi:[0, \infty) \rightarrow[0,1]$ is the \textit{(archimedean) generator} and satisfies the following properties:
+\begin{itemize}
+\item $\psi$ is strictly decreasing in the entire domain $[0, \infty)$
+\item $\psi (0) = 1$
+\item $\psi(\infty)=\lim \limits _{t \rightarrow \infty} \psi(t)=0$
+\item We set $\psi^{-1}(0)=\inf \{t: \psi(t)=0\}$
+\end{itemize}
+If $\psi(t)>0, t \in[0, \infty)$, we call $\psi$ \textit{strict}. The set of all generators is denoted by $\Psi$.\\
+Based on \autoref{eq:archimedean_generator} and the generator, we can construct several copula families. Three of the most popular ones are the \textit{Gumbel}, the \textit{Clayton} and the \textit{Frank} \textit{copula}.
+
+
+
+

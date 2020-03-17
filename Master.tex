@@ -104,7 +104,13 @@
 
 %acronym package for Abbreviations
 \usepackage{acronym}
-\usepackage{glossaries-extra}
+% macro for first letter capital (e.g. in new sentence)
+%\usepackage{etoolbox}
+
+
+%package to capitalize first letter in a word. Use function 
+%\capitalisewords{first letter upper case}
+%\usepackage{mfirstuc}
 
 %Create Statutory Declaration page for signatures
 \newcommand{\namesigdate}[2][3cm]{%
@@ -209,7 +215,7 @@
 \subsubsection{Elliptical Copulas} \label{sssec:elliptical_copulas}
 \input{elliptical_copulas}
 \subsubsection{Archimedean Copulas} \label{sssec:archimedean_copulas}
-%\input{archimedean_copulas}
+\input{archimedean_copulas}
 
 
 
