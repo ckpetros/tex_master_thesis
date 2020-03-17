@@ -52,17 +52,20 @@ Suppose the \ac{RV}s $ X_1, \ldots, X_d $  have continuous marginals and copula 
 
 \textbf{Fr\'echet-Hoeffding Bounds}\\
 Let $C(\bm{u}) = C(u_1, \ldots, u_d)$ be any $d$-dimensional copula.\\
-Then for
-$W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\}$
-and
-$M(\boldsymbol{u})=\min \limits _{1 \leq i \leq d}\left\{u_{i}\right\}$,\\
+Then, for
+$$
+W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\} \quad
+\text{as well as}
+\quad
+M(\boldsymbol{u})=\min \limits _{1 \leq i \leq d}\left\{u_{i}\right\},
+$$
 it holds that
 \begin{equation}
 W(\bm{u}) \leq C(\bm{u}) \leq M(\bm{u}), \quad \bm{u} \in[0,1]^{d}.
 \label{eq:frechet_hoeffding}
 \end{equation}\\
 We call $W$ the \textit{lower Fr\'echet-Hoeffding bound} and $M$ the \textit{upper Fr\'echet-Hoeffding bound}.\\
-Note that $W$ is a copula if and only if $d=2$, whereas $M$ is a copula for all $d \geq 2$.
+Note that $W$ is a copula if and only if $d=2$, whereas $M$ is a copula for all $d \geq 2$ (more on this later in Section \ref{sssec:fundamental_copulas}).
 
 \hfill $\square$ \\
 

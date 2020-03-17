@@ -104,6 +104,7 @@
 
 %acronym package for Abbreviations
 \usepackage{acronym}
+\usepackage{glossaries-extra}
 
 %Create Statutory Declaration page for signatures
 \newcommand{\namesigdate}[2][3cm]{%
@@ -123,7 +124,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\scriptsize \nouppercase{\leftmark}}
-\fancyhead[R]{\scriptsize \thepage}
+%\fancyhead[R]{\scriptsize \thepage}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.5pt}
 % Hide section number in headnote
@@ -206,7 +207,7 @@
 \subsubsection{Fundamental Copulas} \label{sssec:fundamental_copulas}
 \input{fundamental_copulas}
 \subsubsection{Elliptical Copulas} \label{sssec:elliptical_copulas}
-%\input{elliptical_copulas}
+\input{elliptical_copulas}
 \subsubsection{Archimedean Copulas} \label{sssec:archimedean_copulas}
 %\input{archimedean_copulas}
 
