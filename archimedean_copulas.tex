@@ -1,18 +1,16 @@
 % !TEX root = Master.tex
 
 Unlike implicit copulas, \textit{explicit copulas} can be specified directly by taking into account certain constructional principles. The most important aspects of a such explicit copulas, in particular \textit{archimedean copulas}, are showcased in this subsection. Archimedian copulas are of the general form
-\begin{equation}C(\boldsymbol{u})=\phi^{-1}\left(\phi\left(u_{1}\right)+\cdots+\phi\left(u_{d}\right)\right)
+\begin{equation}C(\boldsymbol{u})=\phi^{-1}\left(\phi\left(u_{1}\right)+\cdots+\phi\left(u_{d}\right)\right),
 \label{eq:archimedean_copula_1}
 \end{equation}
-or equivalently
-
 where the function $\phi:[0,1] \rightarrow [0, \infty)$ is the \textit{(archimedean) generator} and satisfies the following properties:
 \begin{itemize}
 \item $\phi$ is strictly decreasing in the entire domain $[0, 1]$
 \item We set $\phi (1) = 0$
 \item If  $\phi(0)=\lim \limits _{u \rightarrow 0^{-}} \phi(u)= \infty$, then $\phi$ is called \textit{strict}.
 \end{itemize}
-Based on \autoref{eq:archimedean_copula_1} and according to the form of the generator, we can construct several copula families. Three of the most popular ones are the \textit{Gumbel}, the \textit{Clayton} and the \textit{Frank} \textit{copula}, which will be discussed. \footnote{We will look into these copulas for the bivariate case ($d=2$) only.} The advantage of such copulas lies in the fact that they interpolate between certain fundamental dependency structures.\\
+Based on \autoref{eq:archimedean_copula_1} and according to the form of the generator, we can construct several copula families. Three of the most popular ones are the \textit{Gumbel}, the \textit{Clayton} and the \textit{Frank} \textit{copula}, which will be discussed.\footnote{We will look into these copulas for the bivariate case ($d=2$) only.} The advantage of such copulas lies in the fact that they interpolate between certain fundamental dependency structures.\\
 
 \textbf{Clayton Copula}\\
 If the generator takes on the form
@@ -23,7 +21,7 @@ then we obtain the \textit{Clayton copula} given by
 \begin{equation}
 C_{\theta}^{C l}\left(u_{1}, u_{2}\right)=\left(\max \left\{u_{1}^{-\theta}+u_{2}^{-\theta}-1,0\right\}\right)^{-\frac{1}{\theta}},
 \end{equation}
-where $\theta \in[-1, \infty) \backslash\{0\}$.
+where $\theta \in[-1, \infty) \backslash\{0\}$.\\
 For $\theta > 0$ the generator of the Clayton copula is strict and we arrive at 
 \begin{equation}
 C_{\theta}^{C l}\left(u_{1}, u_{2}\right)= (u_{1}^{-\theta}+u_{2}^{-\theta}-1)^{-\frac{1}{\theta}}.
@@ -50,7 +48,7 @@ Note that for $\theta= 1$, we obtain the independence copula, while for $\theta 
 \textbf{Frank Copula}\\
 If the generator takes on the form
 \begin{equation}
-\ln \left(e^{-\theta}-1\right)-\ln \left(e^{-\theta u}-1\right), \quad \theta \in \mathbb{R} \backslash\{0\},
+\phi_{Fr}(u) = \ln \left(e^{-\theta}-1\right)-\ln \left(e^{-\theta u}-1\right), \quad \theta \in \mathbb{R} \backslash\{0\},
 \end{equation}
 we obtain the \textit{Frank copula} given by
 \begin{equation}

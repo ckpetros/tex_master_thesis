@@ -8,6 +8,31 @@ where
 $ U_{i}, \hspace{0.25em} i = 1, \ldots, d $ 
 are uniformly distributed \acp{RV} in $[0,1]$.\\
 
+\textbf{Probability Transformation}\\
+If a \ac{RV} $Y$ has a continuous \ac{CDF} $F$, then
+\begin{equation}
+F(Y) \sim U[0,1].
+\label{eq:probability_transformation}
+\end{equation}
+
+\hfill $\square$ \\
+
+The reverse of the \textit{probability transformation} is the \textit{quantile transformation}.\\
+
+\textbf{Quantile Transformation}\\
+If $U \sim U[0,1]$ and $F$ be a \ac{CDF}, then
+\begin{equation}
+P\left(F^{-1}(U) \leq x\right)=F(x)
+\label{eq:quantile_transformation}
+\end{equation}
+
+\hfill $\square$ \\
+
+The above two transformations allow us to move back and forth between $\mathbb{R}^d$ and $[0,1]^d$ and are the primary building blocks regarding copulas. Against this backdrop, we introduce \textit{Sklar's theorem} which is considered the foundation of all copula related applications.\\
+
+
+
+
 \textbf{Sklar's Theorem} \cite{sklar1959fonctions} \\
 Let $F$ be a $d$-dimensional \ac{CDF} with marginal distributions $F_{i}, \hspace{0.25em} i = 1, \ldots, d$.
 Then there exists a copula $C$ such that
@@ -53,12 +78,15 @@ Suppose the \ac{RV}s $ X_1, \ldots, X_d $  have continuous marginals and copula 
 \textbf{Fr\'echet-Hoeffding Bounds}\\
 Let $C(\bm{u}) = C(u_1, \ldots, u_d)$ be any $d$-dimensional copula.\\
 Then, for
-$$
-W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\} \quad
-\text{as well as}
-\quad
+\begin{equation}
+W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\}
+\label{eq:frechet_hoeffding_lower}
+\end{equation}
+as well as
+\begin{equation}
 M(\boldsymbol{u})=\min \limits _{1 \leq i \leq d}\left\{u_{i}\right\},
-$$
+\label{eq:frechet_hoeffding_upper}
+\end{equation}
 it holds that
 \begin{equation}
 W(\bm{u}) \leq C(\bm{u}) \leq M(\bm{u}), \quad \bm{u} \in[0,1]^{d}.

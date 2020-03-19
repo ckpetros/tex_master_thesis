@@ -1,0 +1,25 @@
+% !TEX root = Master.tex
+
+Undoubtedly, the most famous association metric for two \acp{RV} $X_1$ and $X_2$ is the \textit{Linear or Pearson's correlation coefficient}
+\begin{equation}
+\rho\left(X_{1}, X_{2}\right)=
+\frac{\operatorname{Cov}\left(X_{1}, X_{2}\right)}{\sqrt{\operatorname{Var} (X_{1})} \sqrt{\operatorname{Var} (X_{2})}}
+\in [-1, 1].
+\label{eq:pearsons_rho}
+\end{equation}
+Note that $E(X_1) < \infty$ and $E(X_2) < \infty$ have to hold, i.e. the first two moments have to exist, for $\rho$ to be defined.\\
+The Pearson correlation coefficient is interpretable for \acp{RV} which have (approximately) a linear relationship, where $\rho = -1$ indicates perfect negative linear correlation, $\rho=1$ indicates perfect positive linear correlation and $\rho=0$ indicates no correlation between $X_1$ and $X_2$. However, comprehensibility of this measure comes along with some drawbacks:
+\begin{itemize}
+\item A correlation of $0$ is in general not equivalent to independence. This property holds only for normally distributed \acp{RV}.\footnote{e.g. $X_2 =X_1^2$ implies perfect dependence, yet $\rho(X_1,X_2) = 0$. Conversely though, independence always yields $\rho=0$.}
+\item $\rho$ is invariant only under linear transformations, but not under transformations in general.
+\item Given the marginals and correlation $\rho$, one is able to construct a joint distribution only for the class of elliptical distributions. (MAYBE PLOT qrm)
+\item Given the marginals, only for elliptically distributed \acp{RV} any $\rho \in [-1,1]$ is attainable.
+\end{itemize}
+
+
+
+
+
+
+
+
