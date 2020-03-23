@@ -7,6 +7,28 @@ P\left(U_{1} \leq u_{1}, \ldots, U_{d} \leq u_{d}\right)=C\left(u_{1}, \ldots, u
 where 
 $ U_{i}, \hspace{0.25em} i = 1, \ldots, d $ 
 are uniformly distributed \acp{RV} in $[0,1]$.\\
+Since $C$ is a \ac{CDF}, following properties emerge:
+\begin{itemize}
+\item $C(\mathbf{u})=C\left(u_{1}, \ldots, u_{d}\right)$ is increasing in each component $u_i, i = 1, \ldots, d$.
+\item The $i^{th}$ marginal distribution is obtained by setting $u_j = 1$ for $j \neq i$ and it has to be uniformly distributed $$C\left(1, \ldots, 1, u_{i}, 1, \ldots, 1\right)=u_{i}$$
+\item For $a_i \leq b_i$, the probability $P\left(U_{1} \in\left[a_{1}, b_{1}\right], \ldots, U_{d} \in\left[a_{d}, b_{d}\right]\right)$ mus be non-negative, so we obtain the \textit{rectangle inequality} 
+\begin{equation}
+\sum_{i_{1}=1}^{2} \cdots \sum_{i_{d}=1}^{2}(-1)^{i_{1}+\cdots+i_{d}} C\left(u_{1, i_{1}}, \ldots, u_{d, i_{d}}\right) \geq 0,
+\end{equation}
+where $u_{j,1} = a_j$ and $u_{j,2} = b_j$.
+\label{eq:rectangle_inequality}
+\end{itemize}
+The reverse is also true, i.e. any function $C$ that satisfies the above properties is a copula. Furthermore, $C\left(1, u_{1}, \ldots, u_{d-1}\right)$ is also a $(d-1)$-dimensional copula and thus all $k$-dimensional marginals with $2<k<d$ are copulas.\\ 
+
+\textbf{Generalized Inverse}\\
+For a \ac{CDF}, the \textit{generalized inverse} is defined by
+$$
+F^{\leftarrow}(y):=\inf \{x: F(x) \geq y\}
+\label{eq:generalized_inverse}
+$$
+(similar to the definition of a \textit{quantile function}).
+
+\hfill $\square$ \\
 
 \textbf{Probability Transformation}\\
 If a \ac{RV} $Y$ has a continuous \ac{CDF} $F$, then
@@ -22,7 +44,7 @@ The reverse of the \textit{probability transformation} is the \textit{quantile t
 \textbf{Quantile Transformation}\\
 If $U \sim U[0,1]$ and $F$ be a \ac{CDF}, then
 \begin{equation}
-P\left(F^{-1}(U) \leq x\right)=F(x)
+P\left(F^{\leftarrow}(U) \leq x\right)=F(x)
 \label{eq:quantile_transformation}
 \end{equation}
 
@@ -58,12 +80,12 @@ for a differentiable copula function $C$ and the realization of a random vector 
 
 By virtue of \autoref{eq:sklar} in Sklar's theorem and given that
 \begin{equation} 
-C(\mathbf{u})=F\left(F_{1}^{-1}\left(u_{1}\right), \ldots, F_{d}^{-1}\left(u_{d}\right)\right) ,
+C(\mathbf{u})=F\left(F_{1}^{\leftarrow}\left(u_{1}\right), \ldots, F_{d}^{\leftarrow}\left(u_{d}\right)\right) ,
 \label{eq:sklar_inverse}
 \end{equation}
 i.e. inversible \ac{CDF}s $ F_i, \hspace{0.25em} i = 1, \ldots, d, \hspace{0.25em}$ we can rewrite the copula density to
 \begin{equation}
-c\left(u_{1}, \ldots, u_{d}\right)=\frac{f\left(F_{1}^{-1}\left(u_{1}\right), \ldots, F_{d}^{-1}\left(u_{d}\right)\right)}{\prod \limits _{i=1}^{d} f_{i}\left(F_{i}^{-1}\left(u_{i}\right)\right)}
+c\left(u_{1}, \ldots, u_{d}\right)=\frac{f\left(F_{1}^{\leftarrow}\left(u_{1}\right), \ldots, F_{d}^{\leftarrow}\left(u_{d}\right)\right)}{\prod \limits _{i=1}^{d} f_{i}\left(F_{i}^{\leftarrow}\left(u_{i}\right)\right)}
 \label{eq:copula_density_2}
 \end{equation}
 for densities $f$ of $F$ and $f_1, \ldots, f_d$ of the corresponding marginals.\\

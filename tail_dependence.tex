@@ -1,0 +1,36 @@
+% !TEX root = Master.tex
+
+\textit{Coefficients of tail dependence} express the strength of the dependency in the extremes of distributions, i.e. the joint tails. We distinguish between \textit{lower} and \textit{upper tail dependence} between $X_j \sim F_j, j = 1,2$ and provided that the below limits exist, they are given by
+\begin{equation}
+\lambda_{l}=\lim \limits _ {q \rightarrow 0^+} P \left(X_{2} \leq F_{2}^{\leftarrow}(q) | X_{1} \leq F_{1}^{\leftarrow}(q)\right) 
+\label{eq:lower_tail_dependence}
+\end{equation}
+and 
+\begin{equation}
+\lambda_{u}=\lim \limits _ {q \rightarrow 1^-} P \left(X_{2} > F_{2}^{\leftarrow}(q) | X_{1} > F_{1}^{\leftarrow}(q)\right).
+\label{eq:upper_tail_dependence}
+\end{equation}
+If $\lambda_l$ (or $\lambda_u$) $=0$, then we say that $X_1$ and $X_2$ are \textit{asymptotically independent} in the lower (or upper) tail,\footnote{Not necessarily true for the other way around} otherwise we have lower (or upper) tail dependence.\\
+For continuous \acp{CDF} and by using Bayes' theorem, these expressions can be re-written to
+$$
+\begin{aligned}
+\lambda_{l} &=\lim _{q \rightarrow 0^+} \frac{P\left(X_{2} \leq F_{2}^{\leftarrow}(q), X_{1} \leq F_{1}^{\leftarrow}(q)\right)}{P\left(X_{1} \leq F_{1}^{*}(q)\right)} \\
+&=\lim _{q \rightarrow 0^+} \frac{C(q, q)}{q}
+\end{aligned}
+$$
+and similarly
+$$
+\lambda_u = 2-\lim _{q \rightarrow 1^-} \frac{1-C(q, q)}{1-q}.
+$$
+Therefore, tail dependencies can be assessed by means of the copula itself when approaching the points $(0,0)$ and $(1,1)$. In addition, for all radially symmetric copulas (e.g. the bivariate Gaussian or the t-copula) we have $\lambda_l = \lambda_u = \lambda$.\\
+Some examples are:
+\begin{itemize}
+\item Clayton: $\lambda_l = 2^{-1/ \theta}$, $\lambda_u = 0$ (only lower tail dependence)
+\item Gumbel: $\lambda_l = 0$, $\lambda_u = 2 - 2^{1/ \theta}$ (only upper tail dependence)
+\item Frank: $\lambda_l = 0$, $\lambda_u = 0$ (no tail dependence)
+\end{itemize}
+Following such guidelines, the choice of a practicable copula can be facilitated.
+
+
+
+

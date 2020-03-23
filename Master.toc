@@ -7,16 +7,16 @@
 \contentsline {subsection}{\numberline {2.3}Mixed Effects Models}{3}{subsection.2.3}
 \contentsline {section}{\numberline {3}Copulas \& Dependence Modelling}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introduction to Copulas}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Copula Classes}{7}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Fundamental Copulas}{7}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2}Copula Classes}{8}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Fundamental Copulas}{8}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Elliptical Copulas}{9}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Archimedean Copulas}{10}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3}Archimedean Copulas}{11}{subsubsection.3.2.3}
 \contentsline {subsection}{\numberline {3.3}Dependence Measures}{12}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Linear Correlation}{12}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1}Linear Correlation}{13}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Rank Correlation}{13}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}Tail Dependence}{14}{subsubsection.3.3.3}
-\contentsline {section}{Appendix}{15}{subsubsection.3.3.3}
-\contentsline {section}{List of Figures}{16}{section*.11}
-\contentsline {section}{List of Tables}{17}{section*.12}
-\contentsline {section}{List of Abbreviations}{18}{section*.13}
-\contentsline {section}{References}{19}{section*.14}
+\contentsline {subsubsection}{\numberline {3.3.3}Tail Dependence}{15}{subsubsection.3.3.3}
+\contentsline {section}{Appendix}{16}{equation.3.31}
+\contentsline {section}{List of Figures}{17}{section*.11}
+\contentsline {section}{List of Tables}{18}{section*.12}
+\contentsline {section}{List of Abbreviations}{19}{section*.13}
+\contentsline {section}{References}{20}{section*.14}
