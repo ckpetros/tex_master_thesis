@@ -26,6 +26,7 @@
 
 
 % Don't use natbib, it messes up everything with fancyhdr for headnotes.
+% You can load this AFTER fancyhdr I gues...
 %\usepackage[square]{natbib}
 
 
@@ -153,6 +154,9 @@
   \let\@evenhead\@empty
   \let\@evenfoot\@oddfoot}
 \makeatother
+
+% This line has to come AFTER package fancyhdr and pagestyle fancy
+\usepackage[square]{natbib}
 
 
 %----------------------------
@@ -298,7 +302,7 @@
 \cleardoublepage
 
 
-%\fancyhead[L]{\scriptsize Appendix}
+
 \addcontentsline{toc}{section}{Appendix}
 \thispagestyle{plain}
 \section*{Appendix} \label{sec:appendix}
@@ -308,7 +312,7 @@
 \cleardoublepage
 
 
-%\fancyhead[L]{\scriptsize List of Figures}
+
 \addcontentsline{toc}{section}{List of Figures}
 \thispagestyle{plain}
 \listoffigures
@@ -317,7 +321,7 @@
 \cleardoublepage
 
 
-%\fancyhead[L]{\scriptsize List of Tables}
+
 \addcontentsline{toc}{section}{List of Tables}
 \thispagestyle{plain}
 \listoftables
@@ -326,7 +330,7 @@
 \cleardoublepage
 
 
-%\fancyhead[L]{\scriptsize List of Abbreviations}
+
 \addcontentsline{toc}{section}{List of Abbreviations}
 \thispagestyle{plain}
 \section*{List of Abbreviations}
@@ -336,11 +340,11 @@
 \cleardoublepage
 
 
-%\fancyhead[L]{\scriptsize References}
+
 \addcontentsline{toc}{section}{References}
 \thispagestyle{plain}
 % Insert bibliography and the bibliographic style
-\bibliographystyle{apalike}
+\bibliographystyle{dinat-en}
 %Include references that are not explicitly cited in the documtent
 \nocite{*} 
 \bibliography{references}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  28 MAR 2020 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  28 MAR 2020 22:55
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -859,32 +859,40 @@ s
 \f@nch@O@erf=\skip70
 \f@nch@O@olf=\skip71
 \f@nch@O@orf=\skip72
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.s
+ty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip73
+\bibsep=\skip74
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count304
 ) (Master.aux)
 \openout1 = `Master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 160.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 160.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 164.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 164.
 
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 160.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 164.
  ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\t1ua1.fd
 "
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
@@ -894,7 +902,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 160.
+Package hyperref Info: Link coloring OFF on input line 164.
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namere
 f.sty"
@@ -904,11 +912,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count304
+\c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 160.
-LaTeX Info: Redefining \pageref on input line 160.
-LaTeX Info: Redefining \nameref on input line 160.
+LaTeX Info: Redefining \ref on input line 164.
+LaTeX Info: Redefining \pageref on input line 164.
+LaTeX Info: Redefining \nameref on input line 164.
  (Master.out) (Master.out)
 \@outlinefile=\write4
 \openout4 = `Master.out'.
@@ -955,16 +963,16 @@ Package caption Info: End \AtBeginDocument code.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
+\scratchcounter=\count306
 \scratchdimen=\dimen190
 \scratchbox=\box53
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\nofMPsegments=\count307
+\nofMParguments=\count308
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count308
+\MPscratchCnt=\count309
 \MPscratchDim=\dimen191
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
 \everyMPtoPDFconversion=\toks46
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
@@ -1025,7 +1033,7 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
 
 [9] [10] (introduction.tex)
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 226.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 230.
  (data_sources.texpdfTeX warning (ext4): destination with the same identifier (
 name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -1039,18 +1047,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.230 \subsection
+l.234 \subsection
                  {Motivation} \label{ssec:motivation} [2]pdfTeX warning (ext4):
  destination with the same identifier (name{page.3}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
-l.232 \newpage
+l.236 \newpage
                [3]pdfTeX warning (ext4): destination with the same identifier (
 name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.234 \cleardoublepage
+l.238 \cleardoublepage
                        [4
 
 ] (theory_and_methods.tex) (glm.tex
@@ -1088,12 +1096,12 @@ although it is yet undefined on input line 29.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.245 \newpage
+l.249 \newpage
                [7]pdfTeX warning (ext4): destination with the same identifier (
 name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.247 \cleardoublepage
+l.251 \cleardoublepage
                        [8
 
 ] (copulas_and_dependency_structures.tex)
@@ -1151,60 +1159,73 @@ although it is yet undefined on input line 28.
 ]
 (abbreviations.tex) [33] [34
 
-] (Master.bbl [35])
+] (Master.bbl
 
-Package caption Warning: Unused \captionsetup[figure] on input line 63.
+LaTeX Font Warning: Font shape `T1/ua1/m/sc' undefined
+(Font)              using `T1/ua1/m/n' instead on input line 12.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 61.
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [35])
+
+Package caption Warning: Unused \captionsetup[figure] on input line 64.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 348.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 352.
 [36]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 348.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 348.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 348.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 352.
 Package rerunfilecheck Info: File `Master.out' has not changed.
 (rerunfilecheck)             Checksum: A56D25080C19E00D46FD091EBE704834;1793.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
  ) 
 Here is how much of TeX's memory you used:
- 21877 strings out of 493305
- 376676 string characters out of 3128495
- 473964 words of memory out of 3000000
- 24939 multiletter control sequences out of 15000+200000
- 629334 words of font info for 97 fonts, out of 3000000 for 9000
+ 22224 strings out of 493305
+ 381601 string characters out of 3128495
+ 479531 words of memory out of 3000000
+ 25278 multiletter control sequences out of 15000+200000
+ 629647 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,17n,75p,737b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
-enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cmextra/cmbsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Petro Ck/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Petro Ck/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
-ers/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Petro Ck/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Petro Ck/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><
-C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Petro Ck/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Petro Ck/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
-s/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy6.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Petro Ck/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1
-b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ar
-ial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (46 pages, 330501 bytes).
+ 47i,17n,75p,737b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Petro Ck\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ectt1200.pk>{C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+vips/base/8r.enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cmextra/cmbsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Petro Ck/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users
+/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Petro Ck/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Petro Ck/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users
+/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra
+/cmmib8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Petro Ck/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Petro Ck/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
+/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Petro Ck/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Petro Ck/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Use
+rs/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on Master.pdf (46 pages, 340780 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
+ 644 PDF objects out of 1000 (max. 8388607)
  148 named destinations out of 1000 (max. 500000)
  230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
