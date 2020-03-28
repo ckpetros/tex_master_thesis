@@ -1,0 +1,24 @@
+% !TEX root = Master.tex
+
+\textit{Additive Models} expand models with just a linear predictor  
+$$
+\eta_{i}^{lin} = \beta_{0}+\beta_{1} x_{i1}+\ldots+\beta_{k} x_{i k}
+$$
+(such as the \ac{LM}) to 
+\begin{equation}
+y_{i} = \eta_{i}^{add} + \varepsilon_{i} ,
+\end{equation}
+where 
+\begin{equation}
+\eta_{i}^{a d d}=f_{1}\left(z_{i 1}\right)+\ldots+f_{q}\left(z_{i q}\right)+\eta_{i}^{l i n}, \quad i = 1, \ldots, n.
+\end{equation}
+
+The functions $f_{1}(z_{1}), \ldots, f_{q}(z_{q})$ are non-linear univariate \textit{smooth effects} of the \textit{continuous} covariates $z_1, \ldots, z_q$ and are defined as
+\begin{equation}
+f_{j}\left(z_{j}\right)=\sum_{i=l}^{d_{j}} \gamma_{j l} B_{l}\left(z_{j}\right)
+\end{equation}
+with $B_{l}\left(z_{j}\right)$ being \textit{basis functions} for $j = 1, \ldots, q$ and $d_j$ the number of basis function for covariate $z_j$. For more content on basis functions we refer to \cite{wood2017generalized}
+
+
+
+

@@ -2,7 +2,7 @@
 
 %----------------------------
 
-\documentclass[12pt]{article}
+\documentclass[12pt, twoside]{article}
 %benötigt man immer
 \usepackage{amsmath}
 %is used for numbering of equations
@@ -23,6 +23,14 @@
 \usepackage{bm}
 \renewcommand*{\mathbf}[1]{\ifmmode\bm{#1}\else\textbf{#1}\fi}
 \usepackage{physics}
+
+% For referencing without brackets, etc...
+\usepackage[square]{natbib}
+%\let\bibhang\relax
+%\usepackage{apalike}
+
+
+
 
 
 % Create links to references etc.. Usually with function autoref{}...
@@ -128,13 +136,26 @@
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{\scriptsize \nouppercase{\leftmark}}
-%\fancyhead[R]{\scriptsize \thepage}
-\fancyfoot[C]{\thepage}
+
+%\fancyfoot[C]{ \thepage}
+%headnote linewidth
 \renewcommand{\headrulewidth}{0.5pt}
 % Hide section number in headnote
 %\renewcommand\sectionmark[1]{\markboth{#1}{}}
+%space between footnote line and footnote text
+\addtolength{\footnotesep}{3mm}
+% change footnotesize (forever). First pt value of the following line
+%\renewcommand{\footnotesize}{\fontsize{8pt}{9pt}\selectfont}
+
+% For individual page numbering, change the 
+% "plain" command in \thispagestyle
+\makeatletter
+\def\ps@plain{\let\@mkboth\@gobbletwo
+  \let\@oddhead\@empty
+  \def\@oddfoot{\reset@font\hfill\thepage}% page number on right
+  \let\@evenhead\@empty
+  \let\@evenfoot\@oddfoot}
+\makeatother
 
 
 %----------------------------
@@ -145,67 +166,91 @@
 \input{titlepage}
 
 
-%\newpage
-%\null\thispagestyle{empty}
-%\newpage
-%\thispagestyle{empty}
-%\section*{Confidentiality Clause}
-%\input{confidentiality_clause}
+\newpage
+\null\thispagestyle{empty}
+\newpage
 
-%\clearpage
-%\newpage
-%\null\thispagestyle{empty}
-%\newpage
-%\thispagestyle{empty}
-%\section*{Statutory Declaration}
-%\input{statutory_declaration}
-
-
-
-%\newpage
-%\null\thispagestyle{empty}
-%\newpage
-%\thispagestyle{empty}
-%\section*{Acknowledgments}
-%\input{acknowledgments}
-%\newpage
-%\null\thispagestyle{empty}
-%\newpage
-
-
-	
-%\pagenumbering{Roman} 	
 \thispagestyle{empty}
+\section*{Confidentiality Clause}
+%\input{confidentiality_clause}
+\clearpage
+
+\newpage
+\null\thispagestyle{empty}
+
+\newpage
+\thispagestyle{empty}
+\section*{Statutory Declaration}
+%\input{statutory_declaration}
+\clearpage
+
+\newpage
+\null\thispagestyle{empty}
+
+
+\newpage
+\thispagestyle{empty}
+\section*{Acknowledgments}
+%\input{acknowledgments}
+\newpage
+\null\thispagestyle{empty}
+\newpage
+
+%\pagenumbering{Roman} 	
+%Including roman pagenumbering just makes things complicated..	
+
+\fancyhf{}
+%\renewcommand{\headrulewidth}{0pt}
+\thispagestyle{empty}
+\fancyhead[R]{\footnotesize \nouppercase{\leftmark}}
+\fancyhead[L]{}
+
 \tableofcontents
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+%\pagenumbering{gobble}
 \newpage
 
-
-
-
-\newpage
 
 \pagenumbering{arabic} 
 \setcounter{page}{1} 
 
+
+% set headings and foot rules from now on
+\renewcommand{\headrulewidth}{1pt}
+\fancyhead[LO,RE]{\footnotesize \nouppercase{\leftmark}}
+\fancyhead[RO,LE]{\footnotesize \thepage}
+
+
+
+\thispagestyle{plain}
 \section{Introduction} \label{sec:introduction}
 \input{introduction}
+\subsection{adidas} \label{ssec:adidas}
+%\input{adidas}
 \subsection{Data Sources} \label{ssec:data_sources}
 \input{data_sources}
-\clearpage
+\subsection{Motivation} \label{ssec:motivation}
+%\input{motivation}
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
+\thispagestyle{plain}
 \section{Statistical Theory \& Methods} \label{sec:theory_and_methods}
 \input{theory_and_methods}
 \subsection{Generalized Linear Models} \label{ssec:glm}
 \input{glm}
-\subsection{Generalized Additive Models} \label{sec:gam}
-%input{gam}
 \subsection{Mixed Effects Models} \label{ssec:mixed_models}
-\input{lmm}
-%\input{random_intercept_model}
-\clearpage
+\input{mixed_models}
+\subsection{Generalized Additive Models} \label{ssec:gam}
+\input{gam}
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
-\section{Copulas \& Dependence Modelling} \label{sec:copulas_and_dependence_moelling}
-\input{copulas_and_dependence_modelling}
+\thispagestyle{plain}
+\section{Copulas \& Dependency Structures} \label{sec:copulas_and_dependency_structures}
+\input{copulas_and_dependency_structures}
 \subsection{Introduction to Copulas} \label{ssec:intro_to_copulas}
 \input{intro_to_copulas}
 \subsection{Copula Classes} \label{ssec:copula_classes}
@@ -224,48 +269,80 @@
 \input{rank_correlation}
 \subsubsection{Tail Dependence} \label{sssec:tail_dependence}
 \input{tail_dependence}
+\subsection{Conditional Copulas} \label{ssec:conditional_copulas}
+%\input{conditional_copulas}
+\subsection{Vine Copulas} \label{ssec:vine_copulas}
+%\input{vine_copulas}
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
-\clearpage
+
+\thispagestyle{plain}
+\section{Data Exploration} \label{sec:data_exploration}
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
 
+\thispagestyle{plain}
+\section{Modelling} \label{sec:modelling}
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
 
-
-%\section{Conclusion} 
+\thispagestyle{plain}
+\section{Conclusion} \label{sec:conclusion}
 %\input{conclusion}
 %\clearpage
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
-
-\fancyhead[L]{\scriptsize Appendix}
+%\fancyhead[L]{\scriptsize Appendix}
 \addcontentsline{toc}{section}{Appendix}
+\thispagestyle{plain}
 \section*{Appendix} \label{sec:appendix}
 \input{appendix}
-\clearpage
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
 
-\fancyhead[L]{\scriptsize List of Figures}
-\addcontentsline{toc}{section}{List of Figures}	
+%\fancyhead[L]{\scriptsize List of Figures}
+\addcontentsline{toc}{section}{List of Figures}
+\thispagestyle{plain}
 \listoffigures
-\clearpage
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
 
-\fancyhead[L]{\scriptsize List of Tables}
+%\fancyhead[L]{\scriptsize List of Tables}
 \addcontentsline{toc}{section}{List of Tables}
+\thispagestyle{plain}
 \listoftables
-\clearpage
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
 
-\fancyhead[L]{\scriptsize List of Abbreviations}
+%\fancyhead[L]{\scriptsize List of Abbreviations}
 \addcontentsline{toc}{section}{List of Abbreviations}
+\thispagestyle{plain}
 \section*{List of Abbreviations}
 \input{abbreviations}
-\clearpage
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
 
 
-\fancyhead[L]{\scriptsize References}
+%\fancyhead[L]{\scriptsize References}
 \addcontentsline{toc}{section}{References}
+\thispagestyle{plain}
 % Insert bibliography and the bibliographic style
-\bibliographystyle{apalike}
+\bibliographystyle{dinat-en}
 %Include references that are not explicitly cited in the documtent
 \nocite{*} 
 \bibliography{references}

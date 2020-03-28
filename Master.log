@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  23 MAR 2020 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  28 MAR 2020 19:25
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -392,6 +392,14 @@ Package: xparse 2018-10-17 L3 Experimental document command parser
 \l__xparse_mandatory_args_int=\count195
 \l__xparse_v_nesting_int=\count196
 ))
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.s
+ty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count197
+)
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperr
 ef.sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -460,14 +468,14 @@ ons.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen151
-\Hy@linkcounter=\count197
-\Hy@pagecounter=\count198
+\Hy@linkcounter=\count198
+\Hy@pagecounter=\count199
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc
 .def"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count199
+\Hy@SavedSpaceFactor=\count266
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperr
 ef.cfg"
@@ -480,7 +488,7 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count266
+\c@Hy@tempcnt=\count267
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip17
@@ -488,7 +496,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen152
-\Fld@menulength=\count267
+\Fld@menulength=\count268
 \Field@Width=\dimen153
 \Fld@charsize=\dimen154
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -500,17 +508,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count268
-\c@Item=\count269
-\c@Hfootnote=\count270
+\Hy@abspage=\count269
+\c@Item=\count270
+\c@Hfootnote=\count271
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdfte
 x.def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count271
-\c@bookmark@seq@number=\count272
+\Fld@listcount=\count272
+\c@bookmark@seq@number=\count273
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunf
 ilecheck.sty"
@@ -518,7 +526,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip58
+\Hy@SectionHShift=\skip60
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\makeidx.st
 y"
@@ -550,24 +558,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 y"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count273
-\c@Blindtext=\count274
-\c@blind@countparstart=\count275
-\blind@countxx=\count276
-\blindtext@numBlindtext=\count277
-\blind@countyy=\count278
-\c@blindlist=\count279
-\c@blindlistlevel=\count280
-\c@blindlist@level=\count281
-\blind@listitem=\count282
-\c@blind@listcount=\count283
-\c@blind@levelcount=\count284
-\blind@mathformula=\count285
-\blind@Mathformula=\count286
-\c@blind@randomcount=\count287
-\c@blind@randommax=\count288
-\c@blind@pangramcount=\count289
-\c@blind@pangrammax=\count290
+\c@blindtext=\count274
+\c@Blindtext=\count275
+\c@blind@countparstart=\count276
+\blind@countxx=\count277
+\blindtext@numBlindtext=\count278
+\blind@countyy=\count279
+\c@blindlist=\count280
+\c@blindlistlevel=\count281
+\c@blindlist@level=\count282
+\blind@listitem=\count283
+\c@blind@listcount=\count284
+\c@blind@levelcount=\count285
+\blind@mathformula=\count286
+\blind@Mathformula=\count287
+\c@blind@randomcount=\count288
+\c@blind@randommax=\count289
+\c@blind@pangramcount=\count290
+\c@blind@pangrammax=\count291
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.s
 ty"
@@ -661,15 +669,15 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@old@col=\dimen157
 \TX@target=\dimen158
 \TX@delta=\dimen159
-\TX@cols=\count291
+\TX@cols=\count292
 \TX@ftn=\toks38
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multir
 ow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip59
-\multirow@cntb=\count292
-\multirow@dima=\skip60
+\multirow@colwidth=\skip61
+\multirow@cntb=\count293
+\multirow@dima=\skip62
 \bigstrutjot=\dimen160
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
@@ -688,16 +696,16 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen166
 \caption@hangindent=\dimen167
 )
-\c@ContinuedFloat=\count293
+\c@ContinuedFloat=\count294
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
 ry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count294
-\Gm@cntv=\count295
-\c@Gm@tempcnt=\count296
+\Gm@cnth=\count295
+\Gm@cntv=\count296
+\c@Gm@tempcnt=\count297
 \Gm@bindingoffset=\dimen168
 \Gm@wd@mp=\dimen169
 \Gm@odd@mp=\dimen170
@@ -743,17 +751,17 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 "
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count297
-\rotFPtop=\skip61
-\rotFPbot=\skip62
+\c@r@tfl@t=\count298
+\rotFPtop=\skip63
+\rotFPbot=\skip64
 \rot@float@box=\box50
 \rot@mess@toks=\toks40
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcapt
 ion.sty"
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count298
-\c@subtable=\count299
+\c@subfigure=\count299
+\c@subtable=\count300
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjus
 tbox.sty"
@@ -770,7 +778,7 @@ ils.tex"
 \XKV@toks=\toks41
 \XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count300
+\XKV@depth=\count301
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjca
@@ -809,7 +817,7 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifodd
 page.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count301
+\c@checkoddpage=\count302
 ))
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.
 sty"
@@ -825,7 +833,7 @@ Package color Info: Driver file: pdftex.def on input line 147.
 bl.sty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 \everycr=\toks43
-\minrowclearance=\skip63
+\minrowclearance=\skip65
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\acronym\acronym
 .sty"
@@ -839,8 +847,8 @@ Package: suffix 2006/07/15 1.5a Variant command support
 .sty"
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstri
 ng.tex"
-\integerpart=\count302
-\decimalpart=\count303
+\integerpart=\count303
+\decimalpart=\count304
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
@@ -850,41 +858,41 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 dr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip64
-\f@nch@O@elh=\skip65
-\f@nch@O@erh=\skip66
-\f@nch@O@olh=\skip67
-\f@nch@O@orh=\skip68
-\f@nch@O@elf=\skip69
-\f@nch@O@erf=\skip70
-\f@nch@O@olf=\skip71
-\f@nch@O@orf=\skip72
+\f@nch@headwidth=\skip66
+\f@nch@O@elh=\skip67
+\f@nch@O@erh=\skip68
+\f@nch@O@olh=\skip69
+\f@nch@O@orh=\skip70
+\f@nch@O@elf=\skip71
+\f@nch@O@erf=\skip72
+\f@nch@O@olf=\skip73
+\f@nch@O@orf=\skip74
 ) (Master.aux)
 \openout1 = `Master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 142.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 163.
 
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 142.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 163.
  ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\t1ua1.fd
 "
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
@@ -894,7 +902,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 142.
+Package hyperref Info: Link coloring OFF on input line 163.
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namere
 f.sty"
@@ -904,11 +912,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count304
+\c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 142.
-LaTeX Info: Redefining \pageref on input line 142.
-LaTeX Info: Redefining \nameref on input line 142.
+LaTeX Info: Redefining \ref on input line 163.
+LaTeX Info: Redefining \pageref on input line 163.
+LaTeX Info: Redefining \nameref on input line 163.
  (Master.out) (Master.out)
 \@outlinefile=\write4
 \openout4 = `Master.out'.
@@ -924,7 +932,7 @@ Package caption Info: End \AtBeginDocument code.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
@@ -938,7 +946,7 @@ Package caption Info: End \AtBeginDocument code.
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=95.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -946,8 +954,8 @@ Package caption Info: End \AtBeginDocument code.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -955,16 +963,16 @@ Package caption Info: End \AtBeginDocument code.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
+\scratchcounter=\count306
 \scratchdimen=\dimen190
 \scratchbox=\box53
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\nofMPsegments=\count307
+\nofMParguments=\count308
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count308
+\MPscratchCnt=\count309
 \MPscratchDim=\dimen191
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
 \everyMPtoPDFconversion=\toks46
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
@@ -982,7 +990,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) (titlepage.tex
-<figures/uni_goettingen_logo.pdf, id=87, 457.71pt x 89.33376pt>
+<figures/uni_goettingen_logo.pdf, id=114, 457.71pt x 89.33376pt>
 File: figures/uni_goettingen_logo.pdf Graphic file (type pdf)
 <use figures/uni_goettingen_logo.pdf>
 Package pdftex.def Info: figures/uni_goettingen_logo.pdf  used on input line 11
@@ -1009,40 +1017,64 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <17.28> not available
  [1
 
 {C:/Users/Petro Ck/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figure
-s/uni_goettingen_logo.pdf>]) (Master.toc
+s/uni_goettingen_logo.pdf>]) [2
+
+] [3] [4
+
+] [5] [6
+
+] [7] [8] (Master.toc
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 2.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 3.
 )
 \tf@toc=\write5
 \openout5 = `Master.toc'.
 
- [2
 
-] (introduction.tex)
+[9] [10] (introduction.tex)
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 192.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 228.
+ (data_sources.texpdfTeX warning (ext4): destination with the same identifier (
+name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 A
+      nother peculiarity of this setup is to be considered, too. We will oft...
+[1])
+Underfull \vbox (badness 3118) has occurred while \output is active []
 
-(data_sources.texpdfTeX warning (ext4): destination with the same identifier (n
-ame{page.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 
-      [1])pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.2}) has been already used, duplicate ignored
+l.232 \subsection
+                 {Motivation} \label{ssec:motivation} [2]pdfTeX warning (ext4):
+ destination with the same identifier (name{page.3}) has been already used, dup
+licate ignored
 <to be read again> 
                    \relax 
-l.194 \clearpage
-                 [2] (theory_and_methods.tex) (glm.tex
+l.234 \newpage
+               [3]pdfTeX warning (ext4): destination with the same identifier (
+name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.236 \cleardoublepage
+                       [4
+
+] (theory_and_methods.tex) (glm.tex
 Package acronym Info: Label `acro:GLM' newly defined as it shall be overridden
 although it is yet undefined on input line 2.
 Package acronym Info: Label `acro:LM' newly defined as it shall be overridden
 although it is yet undefined on input line 2.
-) (lmm.tex
+) (mixed_models.tex
 Package acronym Info: Label `acro:LMM' newly defined as it shall be overridden
 although it is yet undefined on input line 2.
- [3
-
-]
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \begin{equation}
+                     [5]
 LaTeX Font Info:    Try loading font information for TS1+ua1 on input line 10.
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\ts1ua1.fd
@@ -1052,100 +1084,145 @@ File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
 Package acronym Info: Label `acro:GLMM' newly defined as it shall be overridden
 
 although it is yet undefined on input line 31.
-) [4] (copulas_and_dependence_modelling.tex) (intro_to_copulas.tex
+) (gam.texpdfTeX warning (ext4): destination with the same identifier (name{pag
+e.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \end{equation}
+                    [6])pdfTeX warning (ext4): destination with the same identi
+fier (name{page.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.247 \newpage
+               [7]pdfTeX warning (ext4): destination with the same identifier (
+name{page.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.249 \cleardoublepage
+                       [8
+
+] (copulas_and_dependency_structures.tex)
+(intro_to_copulas.tex
 Package acronym Info: Label `acro:CDF' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
 Package acronym Info: Label `acro:RV' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
- [5
-
-]
+pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 \textbf{Probability Transformation}
+                                        \\ [9]
 Package acronym Info: Label `acro:PDF' newly defined as it shall be overridden
 although it is yet undefined on input line 74.
-
-[6] [7]) (copula_classes.tex) (fundamental_copulas.tex [8])
-(elliptical_copulas.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \begin{equation}
+                      [10] [11]) (copula_classes.tex) (fundamental_copulas.tex
+[12]) (elliptical_copulas.tex
 Package acronym Info: Label `acro:wlog' newly defined as it shall be overridden
 
 although it is yet undefined on input line 6.
- [9]
+ [13]
 Package acronym Info: Label `acro:dof' newly defined as it shall be overridden
 although it is yet undefined on input line 28.
-) (archimedean_copulas.tex [10] [11])
-(dependence_measures.tex) (linear_correlation.tex [12]) (rank_correlation.tex
-[13]) (tail_dependence.tex [14]) [15] (appendix.tex) [16
+) (archimedean_copulas.tex [14] [15])
+(dependence_measures.tex) (linear_correlation.tex [16]) (rank_correlation.tex
+[17]) (tail_dependence.tex [18]) [19] [20
+
+] [21] [22
+
+] [23] [24
+
+] [25] [26
+
+]
+(appendix.tex) [27] [28
 
 ] (Master.lof)
 \tf@lof=\write6
 \openout6 = `Master.lof'.
 
- [17
+ [29] [30
 
-]
-(Master.lot)
+] (Master.lot)
 \tf@lot=\write7
 \openout7 = `Master.lot'.
 
- [18
-
-] (abbreviations.tex) [19
-
-] (Master.bbl)
-
-Package caption Warning: Unused \captionsetup[figure] on input line 58.
-See the caption package documentation for explanation.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
-[20
+ [31] [32
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+(abbreviations.tex) [33] [34
+
+] (Master.bbl
+
+LaTeX Font Warning: Font shape `T1/ua1/m/sc' undefined
+(Font)              using `T1/ua1/m/n' instead on input line 12.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 61.
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [35])
+
+Package caption Warning: Unused \captionsetup[figure] on input line 66.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
+[36]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 02FAFA7E1ED4FF073522253983371C52;1411.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+(rerunfilecheck)             Checksum: 2BDA0B6E631255586A96EDDB74F7C0CB;1805.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
  ) 
 Here is how much of TeX's memory you used:
- 21800 strings out of 493305
- 375503 string characters out of 3128495
- 473285 words of memory out of 3000000
- 24901 multiletter control sequences out of 15000+200000
- 629334 words of font info for 97 fonts, out of 3000000 for 9000
+ 22214 strings out of 493305
+ 381496 string characters out of 3128495
+ 479231 words of memory out of 3000000
+ 25270 multiletter control sequences out of 15000+200000
+ 629647 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,17n,75p,668b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
-enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cmextra/cmbsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Petro Ck/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Petro Ck/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
-ers/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Petro Ck/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Petro Ck/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><
-C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Petro Ck/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Petro Ck/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
-s/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy6.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Petro Ck/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1
-b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ar
-ial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (22 pages, 307528 bytes).
+ 47i,17n,75p,676b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Petro Ck\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ectt1200.pk>{C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+vips/base/8r.enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cmextra/cmbsy8.pfb><C:/Users/Petro Ck/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Petro Ck/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users
+/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Petro Ck/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Petro Ck/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users
+/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra
+/cmmib8.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Petro Ck/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Petro Ck/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
+/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Petro Ck/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Petro Ck/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Use
+rs/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on Master.pdf (46 pages, 337493 bytes).
 PDF statistics:
- 456 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 638 PDF objects out of 1000 (max. 8388607)
+ 146 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
