@@ -19,7 +19,6 @@
 \AC@reset@newl@bel
 \providecommand \oddpage@label [2]{}
 \babel@aux{english}{}
-\@writefile{toc}{\thispagestyle {empty}}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
 \newlabel{sec:introduction}{{1}{1}{Introduction}{section.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}adidas}{1}{subsection.1.1}}
@@ -57,19 +56,24 @@
 \AC@undonewlabel{acro:GLMM}
 \newlabel{acro:GLMM}{{2.2}{6}{Mixed Effects Models}{section*.8}{}}
 \acronymused{GLMM}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Generalized Additive Models}{6}{subsection.2.3}}
-\newlabel{ssec:gam}{{2.3}{6}{Generalized Additive Models}{subsection.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Additive Models}{6}{subsection.2.3}}
+\newlabel{ssec:gam}{{2.3}{6}{Additive Models}{subsection.2.3}{}}
 \citation{wood2017generalized}
+\citation{fahrmeir2003regression}
 \acronymused{LM}
+\newlabel{eq:additive_model}{{2.5}{7}{Additive Models}{equation.2.5}{}}
+\AC@undonewlabel{acro:GAM}
+\newlabel{acro:GAM}{{2.3}{7}{Additive Models}{section*.9}{}}
+\acronymused{GAM}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Copulas \& Dependency Structures}{9}{section.3}}
 \newlabel{sec:copulas_and_dependency_structures}{{3}{9}{Copulas \& Dependency Structures}{section.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Introduction to Copulas}{9}{subsection.3.1}}
 \newlabel{ssec:intro_to_copulas}{{3.1}{9}{Introduction to Copulas}{subsection.3.1}{}}
 \AC@undonewlabel{acro:CDF}
-\newlabel{acro:CDF}{{3.1}{9}{Introduction to Copulas}{section*.9}{}}
+\newlabel{acro:CDF}{{3.1}{9}{Introduction to Copulas}{section*.10}{}}
 \acronymused{CDF}
 \AC@undonewlabel{acro:RV}
-\newlabel{acro:RV}{{3.1}{9}{Introduction to Copulas}{section*.10}{}}
+\newlabel{acro:RV}{{3.1}{9}{Introduction to Copulas}{section*.11}{}}
 \acronymused{RV}
 \acronymused{CDF}
 \newlabel{eq:rectangle_inequality}{{3.1}{9}{Introduction to Copulas}{equation.3.1}{}}
@@ -86,7 +90,7 @@
 \acronymused{CDF}
 \acronymused{CDF}
 \AC@undonewlabel{acro:PDF}
-\newlabel{acro:PDF}{{3.1}{11}{Introduction to Copulas}{section*.11}{}}
+\newlabel{acro:PDF}{{3.1}{11}{Introduction to Copulas}{section*.12}{}}
 \acronymused{PDF}
 \newlabel{eq:copula_density_1}{{3.5}{11}{Introduction to Copulas}{equation.3.5}{}}
 \newlabel{eq:sklar_inverse}{{3.6}{11}{Introduction to Copulas}{equation.3.6}{}}
@@ -110,13 +114,13 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Elliptical Copulas}{13}{subsubsection.3.2.2}}
 \newlabel{sssec:elliptical_copulas}{{3.2.2}{13}{Elliptical Copulas}{subsubsection.3.2.2}{}}
 \AC@undonewlabel{acro:wlog}
-\newlabel{acro:wlog}{{3.2.2}{14}{Elliptical Copulas}{section*.12}{}}
+\newlabel{acro:wlog}{{3.2.2}{14}{Elliptical Copulas}{section*.13}{}}
 \acronymused{wlog}
 \acronymused{CDF}
 \acronymused{CDF}
 \acronymused{wlog}
 \AC@undonewlabel{acro:dof}
-\newlabel{acro:dof}{{3.2.2}{14}{Elliptical Copulas}{section*.13}{}}
+\newlabel{acro:dof}{{3.2.2}{14}{Elliptical Copulas}{section*.14}{}}
 \acronymused{dof}
 \acronymused{CDF}
 \acronymused{CDF}
@@ -156,10 +160,10 @@
 \@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{25}{section.6}}
 \newlabel{sec:conclusion}{{6}{25}{Conclusion}{section.6}{}}
 \@writefile{toc}{\contentsline {section}{Appendix}{27}{section.6}}
-\newlabel{sec:appendix}{{6}{27}{Appendix}{section*.14}{}}
-\@writefile{toc}{\contentsline {section}{List of Figures}{29}{section*.14}}
-\@writefile{toc}{\contentsline {section}{List of Tables}{31}{section*.15}}
-\@writefile{toc}{\contentsline {section}{List of Abbreviations}{33}{section*.16}}
+\newlabel{sec:appendix}{{6}{27}{Appendix}{section*.15}{}}
+\@writefile{toc}{\contentsline {section}{List of Figures}{29}{section*.15}}
+\@writefile{toc}{\contentsline {section}{List of Tables}{31}{section*.16}}
+\@writefile{toc}{\contentsline {section}{List of Abbreviations}{33}{section*.17}}
 \newacro{BIC}[\AC@hyperlink{BIC}{BIC}]{Bayesian Information Criterion}
 \newacro{GLM}[\AC@hyperlink{GLM}{GLM}]{Generalized Linear Model}
 \newacro{LM}[\AC@hyperlink{LM}{LM}]{Linear Regression Model}
@@ -170,20 +174,21 @@
 \newacro{RV}[\AC@hyperlink{RV}{RV}]{Random Variable}
 \newacro{wlog}[\AC@hyperlink{wlog}{w.l.o.g.}]{Without loss of generality}
 \newacro{dof}[\AC@hyperlink{dof}{d.o.f.}]{Degrees of Freedom}
-\bibstyle{dinat-en}
+\newacro{GAM}[\AC@hyperlink{GAM}{GAM}]{Generalized Additive Model}
+\bibstyle{apalike}
 \citation{*}
 \bibdata{references}
-\bibcite{embrechts2001modelling}{{1}{2001}{{Embrechts et~al.}}{{Embrechts, Lindskog and McNeil}}}
-\bibcite{fahrmeir2003regression}{{2}{2003}{{Fahrmeir et~al.}}{{Fahrmeir, Kneib, Lang and Marx}}}
-\bibcite{hofert2019elements}{{3}{2019}{{Hofert et~al.}}{{Hofert, Kojadinovic, M{\"a}chler and Yan}}}
-\bibcite{klein2016simultaneous}{{4}{2016}{{Klein and Kneib}}{{}}}
-\bibcite{lutkepohl2005new}{{5}{2005}{{L{\"u}tkepohl}}{{}}}
-\bibcite{mcneil2015quantitative}{{6}{2015}{{McNeil et~al.}}{{McNeil, Frey and Embrechts}}}
-\bibcite{Ruppert2015}{{7}{2015}{{Ruppert and Matteson}}{{}}}
-\bibcite{schmidt2007coping}{{8}{2007}{{Schmidt}}{{}}}
-\bibcite{sklar1959fonctions}{{9}{1959}{{Sklar}}{{}}}
-\bibcite{vatter2015generalized}{{10}{2015}{{Vatter and Chavez-Demoulin}}{{}}}
-\bibcite{vatter2018generalized}{{11}{2018}{{Vatter and Nagler}}{{}}}
-\@writefile{toc}{\contentsline {section}{References}{35}{section*.17}}
-\bibcite{vatter2019gamcopula}{{12}{2019}{{Vatter and Nagler}}{{}}}
-\bibcite{wood2017generalized}{{13}{2017}{{Wood}}{{}}}
+\bibcite{embrechts2001modelling}{Embrechts et~al., 2001}
+\bibcite{fahrmeir2003regression}{Fahrmeir et~al., 2003}
+\bibcite{hofert2019elements}{Hofert et~al., 2019}
+\bibcite{klein2016simultaneous}{Klein and Kneib, 2016}
+\bibcite{lutkepohl2005new}{L{\"u}tkepohl, 2005}
+\bibcite{mcneil2015quantitative}{McNeil et~al., 2015}
+\bibcite{Ruppert2015}{Ruppert and Matteson, 2015}
+\bibcite{schmidt2007coping}{Schmidt, 2007}
+\bibcite{sklar1959fonctions}{Sklar, 1959}
+\bibcite{vatter2015generalized}{Vatter and Chavez-Demoulin, 2015}
+\bibcite{vatter2018generalized}{Vatter and Nagler, 2018}
+\bibcite{vatter2019gamcopula}{Vatter and Nagler, 2019}
+\@writefile{toc}{\contentsline {section}{References}{35}{section*.18}}
+\bibcite{wood2017generalized}{Wood, 2017}

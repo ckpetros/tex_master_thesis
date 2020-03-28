@@ -1,103 +1,71 @@
-\begin{thebibliography}{13}
-% this bibliography was produced with the style dinat.bst v2.5
-\makeatletter
-\newcommand{\dinatlabel}[1]%
-{\ifNAT@numbers\else\NAT@biblabelnum{#1}\hspace{2\labelsep}\fi}
-\makeatother
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+\begin{thebibliography}{}
 
-\bibitem[Embrechts et~al.(2001)Embrechts, Lindskog and
-  McNeil]{embrechts2001modelling}
-\dinatlabel{Embrechts et~al. 2001} \textsc{Embrechts}, Paul~;
-  \textsc{Lindskog}, Filip~; \textsc{McNeil}, Alexander:
+\bibitem[Embrechts et~al., 2001]{embrechts2001modelling}
+Embrechts, P., Lindskog, F., and McNeil, A. (2001).
 \newblock Modelling dependence with copulas.
-\newblock In: \emph{Rapport technique, D{\'e}partement de math{\'e}matiques,
-  Institut F{\'e}d{\'e}ral de Technologie de Zurich, Zurich}
-\newblock 14 (2001)
+\newblock {\em Rapport technique, D{\'e}partement de math{\'e}matiques,
+  Institut F{\'e}d{\'e}ral de Technologie de Zurich, Zurich}, 14.
 
-\bibitem[Fahrmeir et~al.(2003)Fahrmeir, Kneib, Lang and
-  Marx]{fahrmeir2003regression}
-\dinatlabel{Fahrmeir et~al. 2003} \textsc{Fahrmeir}, L.~; \textsc{Kneib}, T.~;
-  \textsc{Lang}, S.~; \textsc{Marx}, B.:
-\newblock \emph{{Regression; Models, Methods and Applications. 2013}}.
-\newblock 2003
+\bibitem[Fahrmeir et~al., 2003]{fahrmeir2003regression}
+Fahrmeir, L., Kneib, T., Lang, S., and Marx, B. (2003).
+\newblock {Regression; Models, Methods and Applications. 2013}.
 
-\bibitem[Hofert et~al.(2019)Hofert, Kojadinovic, M{\"a}chler and
-  Yan]{hofert2019elements}
-\dinatlabel{Hofert et~al. 2019} \textsc{Hofert}, Marius~; \textsc{Kojadinovic},
-  Ivan~; \textsc{M{\"a}chler}, Martin~; \textsc{Yan}, Jun:
-\newblock \emph{Elements of copula modeling with {R}}.
-\newblock Springer, 2019
+\bibitem[Hofert et~al., 2019]{hofert2019elements}
+Hofert, M., Kojadinovic, I., M{\"a}chler, M., and Yan, J. (2019).
+\newblock {\em Elements of copula modeling with {R}}.
+\newblock Springer.
 
-\bibitem[Klein and Kneib(2016)]{klein2016simultaneous}
-\dinatlabel{Klein and Kneib 2016} \textsc{Klein}, Nadja~; \textsc{Kneib},
-  Thomas:
+\bibitem[Klein and Kneib, 2016]{klein2016simultaneous}
+Klein, N. and Kneib, T. (2016).
 \newblock {S}imultaneous inference in structured additive conditional copula
   regression models: a unifying {B}ayesian approach.
-\newblock In: \emph{Statistics and Computing}
-\newblock 26 (2016), Nr.~4, S.~841--860
+\newblock {\em Statistics and Computing}, 26(4):841--860.
 
-\bibitem[L{\"u}tkepohl(2005)]{lutkepohl2005new}
-\dinatlabel{L{\"u}tkepohl 2005} \textsc{L{\"u}tkepohl}, Helmut:
-\newblock \emph{New introduction to multiple time series analysis}.
-\newblock Springer Science \& Business Media, 2005
+\bibitem[L{\"u}tkepohl, 2005]{lutkepohl2005new}
+L{\"u}tkepohl, H. (2005).
+\newblock {\em New introduction to multiple time series analysis}.
+\newblock Springer Science \& Business Media.
 
-\bibitem[McNeil et~al.(2015)McNeil, Frey and Embrechts]{mcneil2015quantitative}
-\dinatlabel{McNeil et~al. 2015} \textsc{McNeil}, Alexander~J.~; \textsc{Frey},
-  R{\"u}diger~; \textsc{Embrechts}, Paul:
-\newblock \emph{Quantitative risk management: concepts, techniques and
+\bibitem[McNeil et~al., 2015]{mcneil2015quantitative}
+McNeil, A.~J., Frey, R., and Embrechts, P. (2015).
+\newblock {\em Quantitative risk management: concepts, techniques and
   tools-revised edition}.
-\newblock Princeton university press, 2015
+\newblock Princeton university press.
 
-\bibitem[Ruppert and Matteson(2015)]{Ruppert2015}
-\dinatlabel{Ruppert and Matteson 2015} \textsc{Ruppert}, David~;
-  \textsc{Matteson}, David~S.:
-\newblock \emph{Copulas}.
-\newblock S.~183--215.
-\newblock In: \emph{Statistics and Data Analysis for Financial Engineering:
-  with R examples}.
-\newblock New York, NY~: Springer New York, 2015. --
-\newblock URL \url{https://doi.org/10.1007/978-1-4939-2614-5_8}. --
-\newblock ISBN 978-1-4939-2614-5
+\bibitem[Ruppert and Matteson, 2015]{Ruppert2015}
+Ruppert, D. and Matteson, D.~S. (2015).
+\newblock {\em Copulas}, pages 183--215.
+\newblock Springer New York, New York, NY.
 
-\bibitem[Schmidt(2007)]{schmidt2007coping}
-\dinatlabel{Schmidt 2007} \textsc{Schmidt}, Thorsten:
+\bibitem[Schmidt, 2007]{schmidt2007coping}
+Schmidt, T. (2007).
 \newblock Coping with copulas.
-\newblock In: \emph{Copulas-From theory to application in finance}
-\newblock (2007), S.~3--34
+\newblock {\em Copulas-From theory to application in finance}, pages 3--34.
 
-\bibitem[Sklar(1959)]{sklar1959fonctions}
-\dinatlabel{Sklar 1959} \textsc{Sklar}, M.:
+\bibitem[Sklar, 1959]{sklar1959fonctions}
+Sklar, M. (1959).
 \newblock Fonctions de repartition an dimensions et leurs marges.
-\newblock In: \emph{Publ. inst. statist. univ. Paris}
-\newblock 8 (1959), S.~229--231
+\newblock {\em Publ. inst. statist. univ. Paris}, 8:229--231.
 
-\bibitem[Vatter and Chavez-Demoulin(2015)]{vatter2015generalized}
-\dinatlabel{Vatter and Chavez-Demoulin 2015} \textsc{Vatter}, Thibault~;
-  \textsc{Chavez-Demoulin}, Val{\'e}rie:
+\bibitem[Vatter and Chavez-Demoulin, 2015]{vatter2015generalized}
+Vatter, T. and Chavez-Demoulin, V. (2015).
 \newblock Generalized additive models for conditional dependence structures.
-\newblock In: \emph{Journal of Multivariate Analysis}
-\newblock 141 (2015), S.~147--167
+\newblock {\em Journal of Multivariate Analysis}, 141:147--167.
 
-\bibitem[Vatter and Nagler(2018)]{vatter2018generalized}
-\dinatlabel{Vatter and Nagler 2018} \textsc{Vatter}, Thibault~;
-  \textsc{Nagler}, Thomas:
+\bibitem[Vatter and Nagler, 2018]{vatter2018generalized}
+Vatter, T. and Nagler, T. (2018).
 \newblock Generalized additive models for pair-copula constructions.
-\newblock In: \emph{Journal of Computational and Graphical Statistics}
-\newblock 27 (2018), Nr.~4, S.~715--727
+\newblock {\em Journal of Computational and Graphical Statistics},
+  27(4):715--727.
 
-\bibitem[Vatter and Nagler(2019)]{vatter2019gamcopula}
-\dinatlabel{Vatter and Nagler 2019} \textsc{Vatter}, Thibault~;
-  \textsc{Nagler}, Thomas:
+\bibitem[Vatter and Nagler, 2019]{vatter2019gamcopula}
+Vatter, T. and Nagler, T. (2019).
 \newblock gam{C}opula-package: {G}eneralized {A}dditive {M}odels for
   {B}ivariate {C}onditional...
-\newblock
-\newblock (2019)
 
-\bibitem[Wood(2017)]{wood2017generalized}
-\dinatlabel{Wood 2017} \textsc{Wood}, Simon~N.:
-\newblock \emph{Generalized additive models: an introduction with {R}}.
-\newblock CRC press, 2017
+\bibitem[Wood, 2017]{wood2017generalized}
+Wood, S.~N. (2017).
+\newblock {\em Generalized additive models: an introduction with {R}}.
+\newblock CRC press.
 
 \end{thebibliography}

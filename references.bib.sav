@@ -71,4 +71,13 @@
   pages   = {3--34},
 }
 
+@Article{sklar1959fonctions,
+  author  = {Sklar, M.},
+  title   = {Fonctions de repartition an dimensions et leurs marges},
+  journal = {Publ. inst. statist. univ. Paris},
+  year    = {1959},
+  volume  = {8},
+  pages   = {229--231},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

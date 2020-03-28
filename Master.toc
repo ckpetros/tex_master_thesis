@@ -1,5 +1,4 @@
 \babel@toc {english}{}
-\thispagestyle {empty}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}adidas}{1}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Data Sources}{1}{subsection.1.2}
@@ -7,7 +6,7 @@
 \contentsline {section}{\numberline {2}Statistical Theory \& Methods}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Generalized Linear Models}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Mixed Effects Models}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Generalized Additive Models}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Additive Models}{6}{subsection.2.3}
 \contentsline {section}{\numberline {3}Copulas \& Dependency Structures}{9}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introduction to Copulas}{9}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Copula Classes}{12}{subsection.3.2}
@@ -24,7 +23,7 @@
 \contentsline {section}{\numberline {5}Modelling}{23}{section.5}
 \contentsline {section}{\numberline {6}Conclusion}{25}{section.6}
 \contentsline {section}{Appendix}{27}{section.6}
-\contentsline {section}{List of Figures}{29}{section*.14}
-\contentsline {section}{List of Tables}{31}{section*.15}
-\contentsline {section}{List of Abbreviations}{33}{section*.16}
-\contentsline {section}{References}{35}{section*.17}
+\contentsline {section}{List of Figures}{29}{section*.15}
+\contentsline {section}{List of Tables}{31}{section*.16}
+\contentsline {section}{List of Abbreviations}{33}{section*.17}
+\contentsline {section}{References}{35}{section*.18}
