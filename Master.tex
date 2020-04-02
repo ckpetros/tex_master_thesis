@@ -47,9 +47,19 @@
 \numberwithin{table}{section}
 \numberwithin{figure}{section}
 
+% Customize section and subsection font size. This changes the font entirely...
+%\usepackage{titlesec}
+%\titleformat*{\section}{\fontsize{16}{20}\selectfont}
+%\titleformat*{\subsection}{\fontsize{13}{17}\selectfont}
+
+
 %fonts
+%\usepackage{tgadventor}
+%\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
 \usepackage[T1]{fontenc}
 
+
+% The wanted font
 \usepackage{uarial}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{blindtext}
@@ -63,6 +73,7 @@
 \usepackage[center]{caption}
 \captionsetup[figure]{font = footnotesize}
 \captionsetup[table]{font = footnotesize}
+\captionsetup[subfigure]{font=footnotesize}
 
 
 %format
@@ -140,9 +151,13 @@
 %\fancyhead[LO,RE]{\footnotesize \nouppercase{\leftmark}}
 %\fancyhead[RO,LE]{\footnotesize \thepage}
 %\fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrulewidth}{1.5pt}
 % Hide section number in headnote
 %\renewcommand\sectionmark[1]{\markboth{#1}{}}
+%space between footnote line and footnote text
+\addtolength{\footnotesep}{3mm}
+% change footnotesize (forever). First pt value of the following line
+%\renewcommand{\footnotesize}{\fontsize{8pt}{9pt}\selectfont}
 
 
 % For individual page numbering, change the 
@@ -158,6 +173,68 @@
 % This line has to come AFTER package fancyhdr and pagestyle fancy
 \usepackage[square]{natbib}
 
+% The whole net part is to have one single hyperlink in citations...
+\usepackage{etoolbox}
+
+\makeatletter
+
+\pretocmd{\NAT@citex}{%
+  \let\NAT@hyper@\NAT@hyper@citex
+  \def\NAT@postnote{#2}%
+  \setcounter{NAT@total@cites}{0}%
+  \setcounter{NAT@count@cites}{0}%
+  \forcsvlist{\stepcounter{NAT@total@cites}\@gobble}{#3}}{}{}
+\newcounter{NAT@total@cites}
+\newcounter{NAT@count@cites}
+\def\NAT@postnote{}
+
+% include postnote and \citet closing bracket in hyperlink
+\def\NAT@hyper@citex#1{%
+  \stepcounter{NAT@count@cites}%
+  \hyper@natlinkstart{\@citeb\@extra@b@citeb}#1%
+  \ifnumequal{\value{NAT@count@cites}}{\value{NAT@total@cites}}
+    {\ifNAT@swa\else\if*\NAT@postnote*\else%
+     \NAT@cmt\NAT@postnote\global\def\NAT@postnote{}\fi\fi}{}%
+  \ifNAT@swa\else\if\relax\NAT@date\relax
+  \else\NAT@@close\global\let\NAT@nm\@empty\fi\fi% avoid compact citations
+  \hyper@natlinkend}
+\renewcommand\hyper@natlinkbreak[2]{#1}
+
+% avoid extraneous postnotes, closing brackets
+\patchcmd{\NAT@citex}
+  {\ifNAT@swa\else\if*#2*\else\NAT@cmt#2\fi
+   \if\relax\NAT@date\relax\else\NAT@@close\fi\fi}{}{}{}
+\patchcmd{\NAT@citex}
+  {\if\relax\NAT@date\relax\NAT@def@citea\else\NAT@def@citea@close\fi}
+  {\if\relax\NAT@date\relax\NAT@def@citea\else\NAT@def@citea@space\fi}{}{}
+
+\makeatother
+% Until here the huge part fot the cite hyperlinks...
+
+
+% Sizing and style of section and subsection titles
+% following command is for lines above and below title section
+% this will be masked if we apply the command after that
+\usepackage{sectsty}
+%\usepackage{shadowtext}
+\sectionfont{%
+%\shadowtext
+\sectionrule{2ex}{0pt}{-6ex}{0pt}%
+}
+
+
+
+%\definecolor{mycolor}{RGB}{205,9,9}
+%\sectionfont{ 
+%\sectionrule{2ex}{0pt}{-1ex}{2pt}
+%\usefont{T1}{lmr}{b}{n}
+%\color{PrussianBlue}
+%\LARGE
+%}
+
+
+
+
 
 %----------------------------
 
@@ -170,6 +247,7 @@
 \newpage
 \null\thispagestyle{empty}
 \newpage
+
 
 
 \thispagestyle{empty}
@@ -207,15 +285,9 @@
 %\fancyhead[RO,LE]{\footnotesize \thepage}
 \thispagestyle{empty}
 \tableofcontents
-%\addtocontents{toc}{\protect\thispagestyle{empty}}
-%\pagenumbering{gobble}
-\newpage
+\newpage %Note contents has 3 pages (or any odd number)
+% We should presumably use cleardoublepage here as well 
 
-
-% Now clear headnotes again and get settings
-\fancyhf{}
-\fancyhead[LO,RE]{\footnotesize \nouppercase{\leftmark}}
-\fancyhead[RO,LE]{\footnotesize \thepage}
 
 
 
@@ -224,15 +296,30 @@
 
 
 
+
+
+% Now clear headnotes again and get settings
+\fancyhf{}
+\fancyhead[LO]{\footnotesize \nouppercase{\rightmark}}
+\fancyhead[RE]{\footnotesize \nouppercase{\leftmark}}
+\fancyhead[RO,LE]{\footnotesize \thepage}
+
+% Thext command thispagestyle plain is for the page number to be
+% displayed. Above in the preamble we defined how. 
+% We can change position to head/foot, just change the "function"...
+% Or simply use thispagestyle empty to remove everything including
+% the lines of headnotes..
 \thispagestyle{plain}
 \section{Introduction} \label{sec:introduction}
 \input{introduction}
 \subsection{adidas} \label{ssec:adidas}
-%\input{adidas}
+\input{adidas}
 \subsection{Data Sources} \label{ssec:data_sources}
 \input{data_sources}
 \subsection{Motivation} \label{ssec:motivation}
-%\input{motivation}
+\input{motivation}
+%\subsection{Formalities} \label{ssec:formalities}
+%\input{formalities}
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
@@ -251,8 +338,8 @@
 \cleardoublepage
 
 \thispagestyle{plain}
-\section{Copulas \& Dependency Structures} \label{sec:copulas_and_dependency_structures}
-\input{copulas_and_dependency_structures}
+\section{Copulas \& Dependence Structures} \label{sec:copulas_and_dependence_structures}
+\input{copulas_and_dependence_structures}
 \subsection{Introduction to Copulas} \label{ssec:intro_to_copulas}
 \input{intro_to_copulas}
 \subsection{Copula Classes} \label{ssec:copula_classes}
@@ -271,7 +358,7 @@
 \input{rank_correlation}
 \subsubsection{Tail Dependence} \label{sssec:tail_dependence}
 \input{tail_dependence}
-\subsection{Conditional Copulas} \label{ssec:conditional_copulas}
+\subsection{Structured Additive Conditional Copulas} \label{ssec:conditional_copulas}
 %\input{conditional_copulas}
 \subsection{Vine Copulas} \label{ssec:vine_copulas}
 %\input{vine_copulas}
@@ -293,6 +380,12 @@
 \cleardoublepage
 
 
+% Now clear headnotes again and get settings
+\fancyhf{}
+\fancyhead[LO,RE]{\footnotesize \nouppercase{\leftmark}}
+\fancyhead[RO,LE]{\footnotesize \thepage}
+
+
 \thispagestyle{plain}
 \section{Conclusion} \label{sec:conclusion}
 %\input{conclusion}
@@ -300,6 +393,13 @@
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
+
+
+% Now clear headnotes again and get settings
+\fancyhf{}
+\fancyhead[LO]{\footnotesize \nouppercase{\rightmark}}
+\fancyhead[RE]{\footnotesize \nouppercase{\leftmark}}
+\fancyhead[RO,LE]{\footnotesize \thepage}
 
 
 
@@ -310,6 +410,12 @@
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
+
+
+% Now clear headnotes again and get settings
+\fancyhf{}
+\fancyhead[LO,RE]{\footnotesize \nouppercase{\leftmark}}
+\fancyhead[RO,LE]{\footnotesize \thepage}
 
 
 

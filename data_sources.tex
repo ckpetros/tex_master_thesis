@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
 
-Throughout each season, transactional data are collected from online purchases of the sports brand's eCommerce website. Specifically, we are provided with weekly sales data for western European countries. A short description is depicted in \autoref{tab:transactional_data}.
+Throughout each season, transactional data are collected from online purchases of the sports brand's e-Commerce website. Specifically, we are provided with weekly sales data for western European countries. A short description is depicted in \autoref{tab:transactional_data}.
 
 \begin{table}[H]
 \setlength\arrayrulewidth{1pt}  
@@ -36,7 +36,7 @@ week\_of\_year          & Week of the year                                      
 
 Due to legal regulations of the company, some columns had to undergo anonymization in order for the data to be released. To ensure data protection and confidentiality, numeric variables (with exception of time-indicating columns) were transformed. As a consequence for the analysis part, most integer values were converted to float numbers. This fact should be kept in mind by the reader, since the above table serves as a reminder and reference point for the data documentation.\\
 
-Another peculiarity of this setup is to be considered, too. We will often refer to the variable \textit{gross demand quantity} as \textit{sales}, even though it is obviously not exactly the same. In the eCommerce environment, there are several stages before the purchase is complete, e.g. addition to cart, removal from cart, proceeding to checkout \& even the return of bought articles. Targeting the articles added to cart, i.e. the (gross) demand quantity, provides the optimal data extraction for analytical purposes and is the closest to adequately model the dependency structure between net sales of articles.\\
+Another peculiarity of this setup is to be considered, too. We will often refer to the variable \textit{gross demand quantity} as \textit{sales}, even though it is obviously not exactly the same. In the e-Commerce environment, there are several stages before the purchase is complete, e.g. addition to cart, removal from cart, proceeding to checkout \& even the return of bought articles. Targeting the articles added to cart, i.e. the (gross) demand quantity, provides the optimal data extraction for analytical purposes and is the closest to adequately model the dependency structure between net sales of articles.\\
 
 Besides the transactional data, \textit{article master data}, i.e. attributes of the articles, are provided and described in \autoref{tab:article_master_data}.
 

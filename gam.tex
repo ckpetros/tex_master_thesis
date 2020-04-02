@@ -18,15 +18,15 @@ The functions $f_{1}(z_{1}), \ldots, f_{q}(z_{q})$ are non-linear univariate \te
 \begin{equation}
 f_{j}\left(z_{j}\right)=\sum_{l=1}^{d_{j}} \gamma_{j l} B_{l}\left(z_{j}\right)
 \end{equation}
-with $B_{l}\left(z_{j}\right)$ being \textit{basis functions} for $j = 1, \ldots, q$ and $d_j$ the number of basis functions for covariate $z_j$. The regression coefficients of the basis functions $B_l(z_j)$ are labeled as $\gamma_{jl}$. There is a wide variety of basis functions which can be used to flexibly model the data in a non- or semiparametric manner. For more content on basis functions we refer to \cite{wood2017generalized} and \cite{fahrmeir2003regression}. The basis functions evaluated at the observed covariate values are summarized in the design matrices $\bm{Z}_1, \ldots, \bm{Z}_q$ and the additive model \ref{eq:additive_model} can be written in matrix notation as
+with $B_{l}\left(z_{j}\right)$ being \textit{basis functions} for $j = 1, \ldots, q$ and $d_j$ the number of basis functions for covariate $z_j$. The regression coefficients of the basis functions $B_l(z_j)$ are labeled as $\gamma_{jl}$. There is a wide variety of basis functions which can be used to flexibly model the data in a non-parametric manner. For more content on basis functions we refer to \cite{wood2017generalized} and \cite{fahrmeir2003regression}. The basis functions evaluated at the observed covariate values are summarized in the design matrices $\bm{Z}_1, \ldots, \bm{Z}_q$ and the additive model \ref{eq:additive_model} can be written in matrix notation as
 $$
 \bm{y} = \bm{Z}_1 \bm{\gamma}_1 + \ldots + \bm{Z}_q \bm{\gamma}_q + \bm{X} \bm{\beta} + \bm{\varepsilon}.
 $$
-Accordingly, the vector of function values evaluated at the observed covariate values $z_{1j}, \ldots, z_{nj}$ is denoted by $\bm{f}_j = (f_j(z_{1j}), \ldots, f_j(z_{nj}))' $ and therefore $\bm{f}_j = \bm{Z}_j \bm{\gamma}_j$. To ensure identifiability of the additive model, the functions $f_j(z_j)$ are centered around zero, such that
+Accordingly, the vector of function values evaluated at the observed covariate values $z_{1j}, \ldots, z_{nj}$ is denoted by $\bm{f}_j = (f_j(z_{1j}), \ldots, f_j(z_{nj}))' $ and therefore $\bm{f}_j = \bm{Z}_j \bm{\gamma}_j$. To ensure identifiability of the additive model, the smooth functions $f_j(z_j)$ are centered around zero, such that
 $$
 \sum_{i=1}^{n} f_{1}\left(z_{i 1}\right)=\ldots=\sum_{i=1}^{n} f_{q}\left(z_{i q}\right)=0.
 $$
-Extensions of additive models to non-normal responses are consequently called \textit{\acp{GAM}}.  \\
+Extensions of additive models to non-normal responses are consequently called \textit{\acp{GAM}} \citep{hastie1990generalized}.  \\
 
 
 MAYBE INCLUDE MODELS WITH INTERACTIONS; MIXED EFFECTS

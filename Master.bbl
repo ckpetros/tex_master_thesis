@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{18}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -6,6 +6,28 @@
 \makeatother
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+
+\bibitem[{adidas 70 years}(2019)]{adidas70years}
+\dinatlabel{{adidas 70 years} 2019} \textsc{{adidas 70 years}}:
+\newblock \emph{adidas celebrates its 70th anniversary and the opening of the
+  ARENA building.}
+\newblock 2019. --
+\newblock
+  \url{https://www.adidas-group.com/en/media/news-archive/press-releases/2019/adidas-celebrates-70th-anniversary},
+  Last accessed on 2020-04-01
+
+\bibitem[{adidas-group}(2020)]{adidas-group}
+\dinatlabel{{adidas-group} 2020} \textsc{{adidas-group}}:
+\newblock \emph{adidas-group}.
+\newblock 2020. --
+\newblock \url{https://www.adidas-group.com/en/}, Last accessed on 2020-04-01
+
+\bibitem[{adidas media-center}(2020)]{adidasmediacenter}
+\dinatlabel{{adidas media-center} 2020} \textsc{{adidas media-center}}:
+\newblock \emph{adidas media-center. Pictures and Videos}.
+\newblock 2020. --
+\newblock \url{https://www.adidas-group.com/en/media/media-center/}, Last
+  accessed on 2020-04-01
 
 \bibitem[Embrechts et~al.(2001)Embrechts, Lindskog and
   McNeil]{embrechts2001modelling}
@@ -22,6 +44,13 @@
   \textsc{Lang}, S.~; \textsc{Marx}, B.:
 \newblock \emph{{Regression; Models, Methods and Applications. 2013}}.
 \newblock 2003
+
+\bibitem[Hastie and Tibshirani(1990)]{hastie1990generalized}
+\dinatlabel{Hastie and Tibshirani 1990} \textsc{Hastie}, Trevor~J.~;
+  \textsc{Tibshirani}, Robert~J.:
+\newblock Generalized additive models, volume 43 of.
+\newblock In: \emph{Monographs on statistics and applied probability}
+\newblock 15 (1990)
 
 \bibitem[Hofert et~al.(2019)Hofert, Kojadinovic, M{\"a}chler and
   Yan]{hofert2019elements}
@@ -42,6 +71,14 @@
 \dinatlabel{L{\"u}tkepohl 2005} \textsc{L{\"u}tkepohl}, Helmut:
 \newblock \emph{New introduction to multiple time series analysis}.
 \newblock Springer Science \& Business Media, 2005
+
+\bibitem[L{\"u}tkepohl and Herwartz(1996)]{lutkepohl1996specification}
+\dinatlabel{L{\"u}tkepohl and Herwartz 1996} \textsc{L{\"u}tkepohl}, Helmut~;
+  \textsc{Herwartz}, Helmut:
+\newblock Specification of varying coefficient time series models via
+  generalized flexible least squares.
+\newblock In: \emph{Journal of Econometrics}
+\newblock 70 (1996), Nr.~1, S.~261--290
 
 \bibitem[McNeil et~al.(2015)McNeil, Frey and Embrechts]{mcneil2015quantitative}
 \dinatlabel{McNeil et~al. 2015} \textsc{McNeil}, Alexander~J.~; \textsc{Frey},
