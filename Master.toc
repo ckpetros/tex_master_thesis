@@ -13,9 +13,9 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Fundamental Copulas}{12}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Elliptical Copulas}{13}{subsubsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.3}Archimedean Copulas}{15}{subsubsection.3.2.3}
-\contentsline {subsection}{\numberline {3.3}Dependence Measures}{16}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Dependence Measures}{17}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Linear Correlation}{17}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Rank Correlation}{17}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2}Rank Correlation}{18}{subsubsection.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3}Tail Dependence}{19}{subsubsection.3.3.3}
 \contentsline {subsection}{\numberline {3.4}Structured Additive Conditional Copulas}{20}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Vine Copulas}{20}{subsection.3.5}
@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {5}Modelling}{23}{section.5}
 \contentsline {section}{\numberline {6}Conclusion}{25}{section.6}
 \contentsline {section}{Appendix}{27}{section.6}
-\contentsline {section}{List of Figures}{29}{section*.17}
-\contentsline {section}{List of Tables}{31}{section*.18}
-\contentsline {section}{List of Abbreviations}{33}{section*.19}
-\contentsline {section}{References}{35}{section*.20}
+\contentsline {section}{List of Figures}{29}{section*.19}
+\contentsline {section}{List of Tables}{31}{section*.20}
+\contentsline {section}{List of Abbreviations}{33}{section*.21}
+\contentsline {section}{References}{35}{section*.22}

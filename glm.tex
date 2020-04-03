@@ -7,15 +7,22 @@ $$
 $$
 which in matrix notation can be written as
 $$ \bm{y} = \bm{X}\bm{\beta} + \bm{\epsilon} $$
-where the response variable $y_i$ can take values from several probability distributions (e.g. Poisson, Binomial, Gamma and others), which are members of the exponential family \citep{fahrmeir2003regression}. The linear predictor 
+where the response variable $y_i$ can take values from several probability distributions (e.g. Poisson, Binomial, Gamma, ...), which are members of the exponential family \citep{fahrmeir2003regression}. The linear predictor 
 \begin{equation} 
 \eta_i = \beta_{0}+\beta_{1} x_{i 1}+\ldots+\beta_{k} x_{i k}+\varepsilon_{i} = \bm{x'}_i \bm{\beta}
 \label{eq:linear_predictor_glm}
 \end{equation}
 is passed through a \textit{response function h} (a one-to-one, twice differentiable transformation), such that
-$$ E(y_i) = h(\eta_i)$$
-i.e. the expected value of the response variable belongs to the value range of \textit{h}. The inverse of the response function, 
-$$g = h^{-1}$$ is called the \textit{link function}.
+\begin{equation}
+ E(y_i) = h(\eta_i) 
+\label{eq:response_function}
+\end{equation}
+i.e. $h$ ensures that the expected value of the response variable belongs to the appropriate value range. The inverse of the response function
+\begin{equation}
+g = h^{-1}
+\label{eq:link_function}
+\end{equation} 
+is called the \textit{link function} and transforms the mean of the response's distribution to an unbounded continuous scale.
 
 % MAXIMUM LIKELIHOOD ESTIMATION HERE??...
 

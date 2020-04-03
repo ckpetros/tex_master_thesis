@@ -3,10 +3,13 @@
 Fundamental copulas are a basic class of copulas, which emerge directly from the copula framework and do not depend on any parametric components. \\
 
 \textbf{Independence Copula}\\
-It is well known that the joint probability of a finite set of events
-$E_i, i = 1, \ldots, k$, is equal to the product of the marginals if and only if the Events $E_i$ are independent.
-$$\mathrm{P}\left(\bigcap_{i=1}^{k} E_{i}\right)=\prod_{i=1}^{k} \mathrm{P}\left(E_{i}\right).$$
-Analogously, the same concept applies when we talk about the \textit{independence copula}
+It is well known that the joint \ac{CDF} of a finite set of \acp{RV}
+$X_i, i = 1, \ldots, n$, is equal to the product of the marginals if and only if the \acp{RV} $X_i$ are mutually independent, i.e.
+$$
+F_{X_{1}, \ldots, X_{n}}\left(x_{1}, \ldots, x_{n}\right)= \prod_{i=1}^{n} F_{X_{i}}\left(x_{i}\right)) 
+$$
+$\forall x_1, \ldots, x_n$.\\
+Equally, the exact same concept applies when we talk about the \textit{independence copula}
 \begin{equation}
 \Pi (\bm{u}) = \prod \limits _{i = 1}^d u_i.
 \end{equation}

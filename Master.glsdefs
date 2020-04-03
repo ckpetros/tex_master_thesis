@@ -1,0 +1,30 @@
+\ifglsentryexists{wlog}{}%
+{%
+\gls@defglossaryentry{wlog}%
+{%
+name={[},%
+sort={[},%
+type={acronym},%
+first={w\glsspace ([)},%
+firstplural={ws\glsspace ([s)},%
+text={[},%
+plural={[s},%
+description={w},%
+descriptionplural={w\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={w},%
+longplural={ws},%
+short={[},%
+shortplural={[s},%
+counter={page},%
+parent={},%
+%
+}%
+}%

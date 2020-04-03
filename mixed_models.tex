@@ -1,34 +1,37 @@
 % !TEX root = Master.tex
 \textit{\acp{LMM}} are powerful tools when dealing with clustered data or data with a longitudinal structure (repeated measurements of individuals).
-As in the classical \ac{LM}, there are population-specific effects, namely the parameter vector of \textit{fixed effects} $\boldsymbol{\beta}$, as well as the cluster- or individual-specific effects of such models called \textit{random effects} \citep{fahrmeir2003regression}. In the following, we will refer to our clusters or individuals as "groups" for briefness.\ Mathematically speaking, the linear predictor $\eta_{ij}= \mathbf{x}'_{ij} \mathbf{\beta} $ is extended to
+As in the classical \ac{LM}, there are population-specific effects, namely the parameter vector of \textit{fixed effects} $\boldsymbol{\beta}$, as well as the cluster- or individual-specific effects of such models called \textit{random effects} \citep{fahrmeir2003regression}. 
+%In the following, we will refer to our clusters or
+%individuals as \textit{"groups"} for briefness.
+Mathematically speaking, the linear predictor $\eta_{ij}= \mathbf{x}'_{ij} \mathbf{\beta} $ is extended to
 \begin{equation}
-\eta_{ij} = \bm{{x'}}_{ij} \bm{\beta} + \bm{u'}_{ij}\bm{\gamma}_i, \quad j=1, \ldots, m, \quad i=1, \ldots, n_i, 
+\eta_{ij} = \bm{{x'}}_{ij} \bm{\beta} + \bm{u'}_{ij}\bm{\gamma}_i  
 \label{eq:linear_mixed_predictor}
 \end{equation}
-where
+for individuals $i=1, \ldots, m$ measured in a longitudinal setting at observed times $t_{i1} < \ldots < t_{ij} < \ldots < t_{i_{n_i}}$
+or for subjects $j=1, \ldots, n_i$ in cluster $i=1, \ldots, m$. \\
+In any case,
 \begin{itemize}
-\item $i$ is the number of groups
-\item $j$ is the number of observations per group
-\item $\bm{\beta}$ is the vector of fixed effects
-\item $\bm{\gamma}_i$ is the vector of random effects
+\item $\bm{\beta}$ is the vector of fixed effects,
+\item $\bm{\gamma}_i$ is the vector of random effects,
 \item $\bm{x'}_{ij}$ is the vector of covariates and
 \item $\bm{u'}_{ij}$ is a subvector of $\bm{x'}_{ij}$.
 \end{itemize}
 
 
-$\bm{x'}_{ij} = (1, x_{ij1}, \ldots, x_{ijk}) $ and $ \bm{u'}_{ij} = (1, u_{ij1}, \ldots, u_{ijk}) $ are therefore the design vectors and $\varepsilon_{ij}$ are the error terms of the \textit{measurement model}
+$\bm{x'}_{ij} = (1, x_{ij1}, \ldots, x_{ijk}) $ and $ \bm{u'}_{ij} = (1, u_{ij1}, \ldots, u_{ijk}) $ are therefore the design vectors and $\varepsilon_{ij}$ are the error terms of the \textit{measurement model}\footnote{More details on the vector and matrix forms can be found in the appendix.} specified as
 
 \begin{equation}
-y_{ij} =  \bm{x'}_{ij} \bm{\beta} + \bm{u'}_{ij} \bm{\gamma}_i + \epsilon_{ij}, \quad \varepsilon_{i j} \overset{i.i.d.} \sim N\left(0, \sigma^{2}\right) 
+y_{ij} =  \bm{x'}_{ij} \bm{\beta} + \bm{u'}_{ij} \bm{\gamma}_i + \varepsilon_{ij}, \quad \varepsilon_{i j} \overset{i.i.d.} \sim N\left(0, \sigma^{2}\right) 
 \end{equation}
 or in matrix notation
 
 \begin{equation}
 \bm{y}_{i}=\bm{X}_{i} \bm{\beta} + \bm{U}_{i} \bm{\gamma}_{i} + \bm{\varepsilon}_{i}
 \end{equation}
-for group $ i=1, \ldots, m $ with $ E(\bm{\varepsilon}_{i}) = \bm{0}$. \\
+with $ \bm{\varepsilon}_{i} \sim N (\bm{0}, \sigma^2 {\bm{I}}_{n_{i}})$ and $ \bm{\gamma}_{i} \sim N (\bm{0}, \bm{\mathrm{Q}})$ for individuals or clusters $ i=1, \ldots, m $ and positive definite matrix $\bm{\mathrm{Q}}$. Note that $\bm{\gamma}_1, \ldots, \bm{\gamma}_m, \bm{\varepsilon}_1, \ldots, \bm{\varepsilon}_m$ are assumed to be mutually independent. \\
 
-Similar to \acp{GLM}, \textit{\acp{GLMM}} relate the linear mixed predictor \ref{eq:linear_mixed_predictor} to the conditional mean 
+Similar to \acp{GLM}, \textit{\acp{GLMM}} relate the linear mixed predictor (\autoref{eq:linear_mixed_predictor}) to the conditional mean 
 $ \mu_{ij} = E(y_{ij} | \bm{\gamma}_{i}) $
 via a suitable response function $h$, such that
 $ \mu_{ij} = h(\eta_{ij}) $ and thus the conditional density of $y_{ij}$ belongs to the exponential family.
