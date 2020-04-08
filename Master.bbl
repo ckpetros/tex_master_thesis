@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{22}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -16,16 +16,14 @@
   \url{https://www.adidas-group.com/en/media/news-archive/press-releases/2019/adidas-celebrates-70th-anniversary},
   Last accessed on 2020-04-01
 
-\bibitem[{adidas-group}(2020)]{adidas-group}
-\dinatlabel{{adidas-group} 2020} \textsc{{adidas-group}}:
-\newblock \emph{adidas-group}.
-\newblock 2020. --
+\bibitem[{adidas-group.com}()]{adidas-group}
+\dinatlabel{{adidas-group.com} } \textsc{{adidas-group.com}}:
+\newblock \emph{adidas-group}. --
 \newblock \url{https://www.adidas-group.com/en/}, Last accessed on 2020-04-01
 
-\bibitem[{adidas media-center}(2020)]{adidasmediacenter}
-\dinatlabel{{adidas media-center} 2020} \textsc{{adidas media-center}}:
-\newblock \emph{adidas media-center. Pictures and Videos}.
-\newblock 2020. --
+\bibitem[{adidas.com media-center}()]{adidasmediacenter}
+\dinatlabel{{adidas.com media-center} } \textsc{{adidas.com media-center}}:
+\newblock \emph{adidas media-center. Pictures and Videos}. --
 \newblock \url{https://www.adidas-group.com/en/media/media-center/}, Last
   accessed on 2020-04-01
 
@@ -44,6 +42,14 @@
   \textsc{Lang}, S.~; \textsc{Marx}, B.:
 \newblock \emph{{Regression; Models, Methods and Applications. 2013}}.
 \newblock 2003
+
+\bibitem[Hastie and Tibshirani(1986)]{hastie1986}
+\dinatlabel{Hastie and Tibshirani 1986} \textsc{Hastie}, Trevor~;
+  \textsc{Tibshirani}, Robert:
+\newblock {G}eneralized {A}dditive {M}odels.
+\newblock In: \emph{Statist. Sci.}
+\newblock 1 (1986), 08, Nr.~3, S.~297--310. --
+\newblock URL \url{https://doi.org/10.1214/ss/1177013604}
 
 \bibitem[Hastie and Tibshirani(1990)]{hastie1990generalized}
 \dinatlabel{Hastie and Tibshirani 1990} \textsc{Hastie}, Trevor~J.~;
@@ -87,6 +93,20 @@
   tools-revised edition}.
 \newblock Princeton university press, 2015
 
+\bibitem[Patton(2006)]{patton2006modelling}
+\dinatlabel{Patton 2006} \textsc{Patton}, Andrew~J.:
+\newblock Modelling asymmetric exchange rate dependence.
+\newblock In: \emph{International economic review}
+\newblock 47 (2006), Nr.~2, S.~527--556
+
+\bibitem[{R Core Team}(2018)]{Rcoreteam}
+\dinatlabel{{R Core Team} 2018} \textsc{{R Core Team}}:
+\newblock \emph{{R}: {A} {L}anguage and {E}nvironment for {S}tatistical
+  {C}omputing}.
+\newblock Vienna, Austria: R Foundation for Statistical Computing (Veranst.),
+  2018. --
+\newblock URL \url{https://www.R-project.org/}
+
 \bibitem[Ruppert and Matteson(2015)]{Ruppert2015}
 \dinatlabel{Ruppert and Matteson 2015} \textsc{Ruppert}, David~;
   \textsc{Matteson}, David~S.:
@@ -109,6 +129,14 @@
 \newblock Fonctions de repartition an dimensions et leurs marges.
 \newblock In: \emph{Publ. inst. statist. univ. Paris}
 \newblock 8 (1959), S.~229--231
+
+\bibitem[Trivedi and Zimmer(2017)]{trivedi2017note}
+\dinatlabel{Trivedi and Zimmer 2017} \textsc{Trivedi}, Pravin~;
+  \textsc{Zimmer}, David:
+\newblock A note on identification of bivariate copulas for discrete count
+  data.
+\newblock In: \emph{Econometrics}
+\newblock 5 (2017), Nr.~1, S.~10
 
 \bibitem[Vatter and Chavez-Demoulin(2015)]{vatter2015generalized}
 \dinatlabel{Vatter and Chavez-Demoulin 2015} \textsc{Vatter}, Thibault~;

@@ -18,12 +18,12 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Rank Correlation}{18}{subsubsection.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3}Tail Dependence}{19}{subsubsection.3.3.3}
 \contentsline {subsection}{\numberline {3.4}Structured Additive Conditional Copulas}{20}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Vine Copulas}{20}{subsection.3.5}
-\contentsline {section}{\numberline {4}Data Exploration}{21}{section.4}
-\contentsline {section}{\numberline {5}Modelling}{23}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{25}{section.6}
-\contentsline {section}{Appendix}{27}{section.6}
-\contentsline {section}{List of Figures}{29}{section*.19}
-\contentsline {section}{List of Tables}{31}{section*.20}
-\contentsline {section}{List of Abbreviations}{33}{section*.21}
-\contentsline {section}{References}{35}{section*.22}
+\contentsline {subsection}{\numberline {3.5}Vine Copulas}{21}{subsection.3.5}
+\contentsline {section}{\numberline {4}Data Exploration}{23}{section.4}
+\contentsline {section}{\numberline {5}Modelling}{25}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{27}{section.6}
+\contentsline {section}{Appendix}{29}{section.6}
+\contentsline {section}{List of Figures}{31}{section*.19}
+\contentsline {section}{List of Tables}{33}{section*.20}
+\contentsline {section}{List of Abbreviations}{35}{section*.21}
+\contentsline {section}{References}{37}{section*.22}
