@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  13 APR 2020 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  18 APR 2020 19:12
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1179,14 +1179,19 @@ although it is yet undefined on input line 28.
  [14])
 (archimedean_copulas.tex [15]) (dependence_measures.tex [16])
 (linear_correlation.tex) (rank_correlation.tex [17] [18]) (tail_dependence.tex
-[19]) (conditional_copulas.tex [20]) (vine_copulas.tex
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)) [21] [22
+[19]) (conditional_copulas.tex [20]) (vine_copulas.tex) [21] [22
 
-] [23] [24
+]
+(data_exploration.tex
+<figures/article_tree_white.png, id=494, 1440.38126pt x 458.71375pt>
+File: figures/article_tree_white.png Graphic file (type png)
+<use figures/article_tree_white.png>
+Package pdftex.def Info: figures/article_tree_white.png  used on input line 7.
+(pdftex.def)             Requested size: 405.45047pt x 129.1179pt.
+) [23 <./figures/article_tree_white.png>] [24
 
-] [25] [26
+] [25]
+[26
 
 ] [27] [28
 
@@ -1202,7 +1207,8 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 \tf@lot=\write7
 \openout7 = `Master.lot'.
 
- [33] [34
+
+[33] [34
 
 ] (abbreviations.tex) [35] [36
 
@@ -1215,25 +1221,25 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 16.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [37] [38])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 561.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 562.
  [39]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 562.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 561.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 561.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 562.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 562.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 4F483E7DB9AB9AA3B7334F76F2B5C961;1813.
+(rerunfilecheck)             Checksum: 14B7DDDAA063E1E3C2B4FE8D33544A1D;1813.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 561.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 562.
  ) 
 Here is how much of TeX's memory you used:
- 23624 strings out of 493305
- 399653 string characters out of 3128495
- 497703 words of memory out of 3000000
- 26617 multiletter control sequences out of 15000+200000
+ 23391 strings out of 493305
+ 397206 string characters out of 3128495
+ 497921 words of memory out of 3000000
+ 26381 multiletter control sequences out of 15000+200000
  629647 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,17n,77p,2758b,605s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1266,9 +1272,9 @@ ls/msbm10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 urw/arial/ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (49 pages, 706324 bytes).
+Output written on Master.pdf (49 pages, 742093 bytes).
 PDF statistics:
- 743 PDF objects out of 1000 (max. 8388607)
- 175 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 753 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
