@@ -2,7 +2,7 @@
 
 %----------------------------
 
-\documentclass[12pt, twoside]{article}
+\documentclass[11pt, twoside]{article}
 %benötigt man immer
 \usepackage{amsmath}
 %is used for numbering of equations
@@ -33,6 +33,9 @@
 
 % Create links to references etc.. Usually with function autoref{}...
 \usepackage{hyperref}
+
+% To (hopefully) eliminate warning: "Rerun to get /PageLabels entry.
+%\usepackage[dvipsone,pdfpagelabels=false]{hyperref}
 
 
 % For the type of citation and bibliographic style
@@ -97,11 +100,23 @@
 \hyphenpenalty=10000
 \hbadness=10000
 
+
+% Covert eps to pdf
+%\usepackage[outdir=./figures/]{epstopdf}
+
 %Graphics
-\usepackage[final]{graphicx} 	
+% Hopefully solves error problem for "Cannot determin size of graphics"
+%\usepackage[pdftex]{graphicx}
+\usepackage[final]{graphicx} 
+%\usepackage[dvips]{graphicx} 	
 \usepackage[twoside,figuresright]{rotating}
 \usepackage{subcaption} 
 %\usepackage{subfigure} 
+
+
+
+
+
 
 % Adjust tables (and figures) to textwidth...
 \usepackage{adjustbox}
@@ -338,6 +353,8 @@
 
 
 
+
+
 %----------------------------
 
 \begin{document}
@@ -523,6 +540,16 @@
 
 
 
+\addcontentsline{toc}{section}{List of Abbreviations}
+\thispagestyle{plain}
+\section*{List of Abbreviations}
+\input{abbreviations}
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
+
+
+
 \addcontentsline{toc}{section}{List of Figures}
 \thispagestyle{plain}
 \listoffigures
@@ -541,13 +568,7 @@
 
 
 
-\addcontentsline{toc}{section}{List of Abbreviations}
-\thispagestyle{plain}
-\section*{List of Abbreviations}
-\input{abbreviations}
-\newpage
-\thispagestyle{empty}
-\cleardoublepage
+
 
 
 

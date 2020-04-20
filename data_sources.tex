@@ -38,7 +38,7 @@ Due to legal regulations of the company, some columns had to undergo anonymizati
 
 Another peculiarity of this setup is to be considered, too. We will often refer to the variable \textit{gross demand quantity} as \textit{sales}, even though it is obviously not exactly the same. In the e-Commerce environment, there are several stages before the purchase is complete, e.g. addition to cart, removal from cart, proceeding to checkout \& even the return of bought articles. Targeting the articles added to cart, i.e. the (gross) demand quantity, provides the optimal data extraction for analytical purposes and is the closest to adequately model the dependence structure between net sales of articles.\\
 
-Besides the transactional data, attributes of the articles are provided and described in \autoref{tab:article_master_data}.
+Besides the transactional data, attributes of the articles are provided and described in \autoref{tab:article_master_data}. Some attributes of special importance will be explained in more detail later on in Chapter \ref{sec:data_exploration}. 
 
 \begin{table}[H]
 \setlength\arrayrulewidth{1pt}  
@@ -51,6 +51,8 @@ Besides the transactional data, attributes of the articles are provided and desc
 article\_number           & Unique article identification number (article ID)      & \textit{10669, 10, ...}                                \\ \hline
 gender                    & Gender type of the article (Men, Women, Unisex)        & \textit{M, W, U}                                       \\ \hline
 age\_group                & Age group of the article (Adult, Infant, Junior, Kids) & \textit{A, I, J, K}                                    \\ \hline
+key\_category\_descr      & Key category of the article & \textit{KC\_1, ..., KC\_15}   \\ \hline
+key\_category\_cluster\_descr      & Key category cluster of the article & \textit{KCC\_1, ..., KCC\_9}   \\ \hline
 product\_division\_descr  & Product division of the article                        & \textit{Apparel, Footwear, Hardware}                   \\ \hline
 product\_group\_descr     & Product group of the article                           & \textit{Bags, Balls, Footwear Accessories, Shoes, ...} \\ \hline
 color                     & Consolidated color group of the article                & \textit{Beige, Black, Brown, Orange, Pink, Red, ... }  \\ \hline
