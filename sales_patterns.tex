@@ -1,0 +1,114 @@
+% !TEX root = Master.tex
+
+
+
+As mentioned in Section \autoref{ssec:data_sources}, our data contains the information about sold articles over the years 2017 and 2018. \autoref{fig:total_sold_articles_ts} shows the weekly course for the quantities over those two years, highlighting active promotion weeks as vertical lines. We can undoubtedly recognize that \textit{"Black Friday"} weeks (black lines) have an exceptional impact on sales, as they stand internationally for the most busy shopping periods. During these days in mid- to late November each year, large amounts of different products are heavily discounted.\\
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=1\linewidth]{figures/total_sold_articles_ts.eps}
+  \caption{Course of sold articles}
+  \label{fig:total_sold_articles_ts}
+\end{figure}
+
+Another promotion type we are interested in is \textit{"Friends \& Family"}, occurring yearly around April-May and October, where on the eCom website plenty of articles are on offer. On these weeks, we have elevated numbers of sold articles as well(\autoref{fig:total_sold_articles_ts}, blue lines). Tables \ref{tab:black_friday} and \ref{tab:friends_and_family} show the weeks were Black Friday and Friends \& Family took place respectively. The dates indicate always the Monday of the respective week (we assume that a week starts on Monday). 
+
+
+\begin{table}[H]
+\setlength\arrayrulewidth{1pt}  
+\centering
+\begin{adjustbox}{max width=\textwidth}
+
+\
+\begin{tabular}{|
+>{\columncolor{lightgray}}c |c|c|c|c|c|c|}
+\hline
+\textbf{Black Friday weeks} & 2016-11-28 & 2017-11-20 & 2017-11-27 & 2018-11-12 & 2018-11-19 & 2018-11-26 \\ \hline
+\end{tabular}
+
+\end{adjustbox}
+\caption{Black Friday weeks}
+\label{tab:black_friday}
+\end{table}
+
+
+
+\begin{table}[H]
+\setlength\arrayrulewidth{1pt}  
+\centering
+\begin{adjustbox}{max width=\textwidth}
+
+\
+\begin{tabular}{|
+>{\columncolor{lightgray}}c |c|c|c|c|c|c|c}
+\hline
+\cellcolor{lightgray}                                              & 2017-04-10 & 2017-04-17 & 2017-04-24 & 2017-10-09 & 2017-10-16 & 2017-10-23 & \multicolumn{1}{l|}{2018-04-09} \\ \cline{2-8} 
+\multirow{-2}{*}{\cellcolor{lightgray}\textbf{Friends \& Family weeks}} & 2018-04-16 & 2018-04-23 & 2018-05-07 & 2018-05-14 & 2018-10-15 & 2018-10-22 &            \\ \cline{1-7}
+\end{tabular}
+
+\end{adjustbox}
+\caption{Friends \& Family weeks}
+\label{tab:friends_and_family}
+\end{table}
+
+
+Excluding the months of the two mentioned promotion types, they don't seem to have a very large impact on sales, with exception the month December, as seen in \autoref{fig:sales_without_promo_months} (black bar). Most probably this is due to Christmas and "end of the year" shopping habits, which are carried forward to the very next month January. Apart from that, we have slightly higher sales portions on June and July as they indicate summer periods and frequently occurrence of big sports events.\\
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.75\linewidth]{figures/sales_without_promo_months.eps}
+  \caption{Sales distribution grouped by months excluding November, April, May and October where the two main promotions are active}
+  \label{fig:sales_without_promo_months}
+\end{figure}
+
+Moving forward, reviewing some sales summary statistics along with the findings so far, we detect a very high overdispersion in our data. The first two rows in \autoref{tab:quantiles_sold_units_week} give as a first impression of the sales distribution. Considering the sold units of one article at a time within a week, there are lots of weeks where no single unit was sold. The median is at 2.71 units,\footnote{Reminder from Section \ref{ssec:data_sources}: the values are in reality discrete, but due to anonymization the were transformed into real numbers.} 75\% of the "article-week" combinations take on a value of at most 20 and the minority exceeds 100 pieces (99\%-quantile). The third row of the table shows how many distinct articles fall under the respective quantile of sales and there is a visible anti-proportional behaviour towards the number of sold units, which is of course intuitive. Remarkable though is the quantity of affected articles even for incredibly large quantiles.
+
+
+\begin{table}[H]
+\setlength\arrayrulewidth{1pt}  
+\centering
+\begin{adjustbox}{max width=\textwidth}\
+ \begin{tabular}{|
+>{\columncolor{lightgray}}c |c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Quantile}             & Min   & 25\%  & 50\%  & 75\%  & 90\%  & 95\%  & 99\%   & 99.9\% & Max \\ \hline
+\textbf{\# Sold units / week} & 0     & 0.45  & 2.71  & 8.14  & 19.45 & 34.39 & 102.71 & 360.12 & 6816.74 \\ \hline
+\textbf{\# Affected articles} & 26203 & 26195 & 23797 & 17014 & 10275 & 6458  & 1800   & 273  & 1  \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Number of sold units per week \& number of affected articles for various quantiles of sales}
+\label{tab:quantiles_sold_units_week}
+\end{table}
+
+
+Conscientiously, we want to inspect the number of weekly sold units above and below a certain (large) threshold to find out how promotions influence these vast sales numbers. In \autoref{fig:bar_above_200_units_week} we can see how the sales are distributed over Black Friday, Friends \& Family and regular weeks for above a threshold of 200 units. As always, Black Friday is the dominating promotion type, however most high sales occurrences don't enjoy any promotion, making the search of cause more difficult for these extreme cases. For observations below that threshold of 200, the empirical \acp{CDF} are depicted in \autoref{fig:ecdf_below_units_week}. Instances with no promotions reach their maximum steeply at about 75 units (red line) compared to articles tagged with a promotion in a certain week. The less concave curve of Friends \& Family promoted sales (blue line) implies that the maximum lies at slightly over 100 and that there are more instances with a larger amount of sold units overall. The same behaviour is even more pronounced for Black Friday (black line), arriving at its maximum after a value of 150 and having considerably more high quantity instances. Along these lines, if we are not faced with such outliers promotions can somewhat explain this pattern better.\footnote{In the appendix the empirical CDF for above 200 units threshold is attached.}\\
+
+ 
+ \begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/bar_above_200_units_week.eps}
+  \caption{Above 200 units}
+  \label{fig:bar_above_200_units_week}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/ecdf_below_units_week.eps}
+  \caption{Below 200 units}
+  \label{fig:ecdf_below_units_week}
+\end{subfigure}
+\caption{Distribution of sold units of articles per week split at 200 units}
+\label{fig:200_split_plots}
+\end{figure}
+
+
+Unfortunately, we cannot just remove such outliers from the dataset, as it would produce gaps in the time series of some specific articles. Removing entire articles from the analysis is also not an option, since we would be forced to remove a lot of articles. For example, 273 articles alone would have to be removed to get rid of the highest 0.01\% of quantities (see \autoref{tab:quantiles_sold_units_week}). Besides, these extreme values might be too informative for the underlying data generating process, so we decide to keep them all.
+
+
+
+
+
+
+
+

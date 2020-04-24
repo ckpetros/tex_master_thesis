@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  20 APR 2020 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  24 APR 2020 17:50
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -755,6 +755,86 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count298
 \c@subtable=\count299
 )
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.
+sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\co
+lor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colort
+bl.sty"
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+\everycr=\toks41
+\minrowclearance=\skip63
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.s
+ty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\co
+lor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\svgnam.d
+ef"
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listin
+gs.sty"
+\lst@mode=\count300
+\lst@gtempboxa=\box51
+\lst@token=\toks42
+\lst@length=\count301
+\lst@currlwidth=\dimen178
+\lst@column=\count302
+\lst@pos=\count303
+\lst@lostspace=\dimen179
+\lst@width=\dimen180
+\lst@newlines=\count304
+\lst@lineno=\count305
+\lst@maxwidth=\dimen181
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmis
+c.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count306
+\lst@skipnumbers=\count307
+\lst@framebox=\box52
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listin
+gs.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlan
+g1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlan
+g2.sty"
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlan
+g3.sty"
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjus
 tbox.sty"
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
@@ -767,10 +847,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 al.tex"
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvut
 ils.tex"
-\XKV@toks=\toks41
-\XKV@tempa@toks=\toks42
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
 )
-\XKV@depth=\count300
+\XKV@depth=\count308
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjca
@@ -785,48 +865,32 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\coll
 ectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box51
+\collectedbox=\box53
 )
-\tc@llx=\dimen178
-\tc@lly=\dimen179
-\tc@urx=\dimen180
-\tc@ury=\dimen181
+\tc@llx=\dimen182
+\tc@lly=\dimen183
+\tc@urx=\dimen184
+\tc@ury=\dimen185
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pd
 ftex.def"
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen182
-\adjbox@Height=\dimen183
-\adjbox@Depth=\dimen184
-\adjbox@Totalheight=\dimen185
-\adjbox@pwidth=\dimen186
-\adjbox@pheight=\dimen187
-\adjbox@pdepth=\dimen188
-\adjbox@ptotalheight=\dimen189
+\adjbox@Width=\dimen186
+\adjbox@Height=\dimen187
+\adjbox@Depth=\dimen188
+\adjbox@Totalheight=\dimen189
+\adjbox@pwidth=\dimen190
+\adjbox@pheight=\dimen191
+\adjbox@pdepth=\dimen192
+\adjbox@ptotalheight=\dimen193
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifodd
 page.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count301
+\c@checkoddpage=\count309
 ))
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.
-sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\co
-lor.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colort
-bl.sty"
-Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
-\everycr=\toks43
-\minrowclearance=\skip63
-)
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\acronym\acronym
 .sty"
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
@@ -839,23 +903,23 @@ Package: suffix 2006/07/15 1.5a Variant command support
 .sty"
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstri
 ng.tex"
-\integerpart=\count302
-\decimalpart=\count303
+\integerpart=\count310
+\decimalpart=\count311
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-\AC@clearlist=\toks44
+\AC@clearlist=\toks45
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolb
 ox.sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
+\etb@tempcnta=\count312
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirst
 uc.sty"
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
-\@glsmfirst=\toks45
-\@glsmrest=\toks46
+\@glsmfirst=\toks46
+\@glsmrest=\toks47
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyh
 dr.sty"
@@ -877,10 +941,10 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip73
 \bibsep=\skip74
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count305
+\c@NAT@ctr=\count313
 )
-\c@NAT@total@cites=\count306
-\c@NAT@count@cites=\count307
+\c@NAT@total@cites=\count314
+\c@NAT@count@cites=\count315
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sectsty\sectsty
 .sty"
@@ -889,29 +953,29 @@ les
 ) (Master.aux)
 \openout1 = `Master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 360.
-LaTeX Font Info:    ... okay on input line 360.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 360.
-LaTeX Font Info:    ... okay on input line 360.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 360.
-LaTeX Font Info:    ... okay on input line 360.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 360.
-LaTeX Font Info:    ... okay on input line 360.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 360.
-LaTeX Font Info:    ... okay on input line 360.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 360.
-LaTeX Font Info:    ... okay on input line 360.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 360.
-LaTeX Font Info:    ... okay on input line 360.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 360.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 360.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 386.
+LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 386.
+LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 386.
+LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 386.
+LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 386.
+LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 386.
+LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 386.
+LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 386.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 386.
 
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 360.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 360.
+LaTeX Font Info:    ... okay on input line 386.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 386.
  ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\t1ua1.fd
 "
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
@@ -920,8 +984,8 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 "
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 360.
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring OFF on input line 386.
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namere
 f.sty"
@@ -931,16 +995,17 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count308
+\c@section@level=\count316
 )
-LaTeX Info: Redefining \ref on input line 360.
-LaTeX Info: Redefining \pageref on input line 360.
-LaTeX Info: Redefining \nameref on input line 360.
+LaTeX Info: Redefining \ref on input line 386.
+LaTeX Info: Redefining \pageref on input line 386.
+LaTeX Info: Redefining \nameref on input line 386.
  (Master.out) (Master.out)
 \@outlinefile=\write4
 \openout4 = `Master.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
@@ -982,17 +1047,17 @@ Package caption Info: End \AtBeginDocument code.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count309
-\scratchdimen=\dimen190
-\scratchbox=\box53
-\nofMPsegments=\count310
-\nofMParguments=\count311
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count312
-\MPscratchDim=\dimen191
-\MPnumerator=\count313
-\makeMPintoPDFobject=\count314
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count317
+\scratchdimen=\dimen194
+\scratchbox=\box55
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen195
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks49
 )
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
 df-base.sty"
@@ -1008,7 +1073,9 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) (titlepage.tex
+)
+\c@lstlisting=\count323
+ (titlepage.tex
 Package epstopdf Info: Source file: <figures/uni_goettingen_logo.eps>
 (epstopdf)                    date: 2020-04-20 10:31:44
 (epstopdf)                    size: 25208 bytes
@@ -1020,7 +1087,7 @@ to.pdf>
 -eps-converted-to.pdf figures/uni_goettingen_logo.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
-<figures/uni_goettingen_logo-eps-converted-to.pdf, id=114, 457.71pt x 88.33pt>
+<figures/uni_goettingen_logo-eps-converted-to.pdf, id=118, 457.71pt x 88.33pt>
 File: figures/uni_goettingen_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/uni_goettingen_logo-eps-converted-to.pdf>
 Package pdftex.def Info: figures/uni_goettingen_logo-eps-converted-to.pdf  used
@@ -1057,13 +1124,13 @@ s/uni_goettingen_logo-eps-converted-to.pdf>]) [2
 [7] [8] (Master.toc
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 2.
-)
+ [9])
 \tf@toc=\write5
 \openout5 = `Master.toc'.
 
- [9] [10] (introduction.tex)
+ [10] (introduction.tex)
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 435.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 461.
  (adidas.tex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
@@ -1079,7 +1146,7 @@ ted-to.pdf>
 logo-eps-converted-to.pdf figures/adidas_performance_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<figures/adidas_performance_logo-eps-converted-to.pdf, id=197, 1204.5pt x 846.1
+<figures/adidas_performance_logo-eps-converted-to.pdf, id=202, 1204.5pt x 846.1
 6125pt>
 File: figures/adidas_performance_logo-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1098,7 +1165,7 @@ d-to.pdf>
 go-eps-converted-to.pdf figures/adidas_originals_logo.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
-<figures/adidas_originals_logo-eps-converted-to.pdf, id=198, 1204.5pt x 846.161
+<figures/adidas_originals_logo-eps-converted-to.pdf, id=203, 1204.5pt x 846.161
 25pt>
 File: figures/adidas_originals_logo-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1122,22 +1189,19 @@ df>
 -converted-to.pdf figures/adidas_70_years.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<figures/adidas_70_years-eps-converted-to.pdf, id=202, 784.9325pt x 280.04625pt
+<figures/adidas_70_years-eps-converted-to.pdf, id=207, 784.9325pt x 280.04625pt
 >
 File: figures/adidas_70_years-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/adidas_70_years-eps-converted-to.pdf>
 Package pdftex.def Info: figures/adidas_70_years-eps-converted-to.pdf  used on 
 input line 29.
 (pdftex.def)             Requested size: 405.45047pt x 144.65913pt.
-
-Underfull \vbox (badness 1436) has occurred while \output is active []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 
-      [1
+l.32 \end{figure}
+                  [1
 
  <./figures/adidas_performance_logo-eps-converted-to.pdf> <./figures/adidas_ori
 ginals_logo-eps-converted-to.pdf>]) (data_sources.texpdfTeX warning (ext4): des
@@ -1146,18 +1210,17 @@ te ignored
 <to be read again> 
                    \relax 
 l.38 
-      [2 <./figures/adidas_70_years-eps-converted-to.pdf>])pdfTeX warning (ext4
-): destination with the same identifier (name{page.3}) has been already used, d
-uplicate ignored
+      [2 <./figures/adidas_70_years-eps-converted-to.pdf>]pdfTeX warning (ext4)
+: destination with the same identifier (name{page.3}) has been already used, du
+plicate ignored
 <to be read again> 
                    \relax 
-l.439 \subsection
-                 {Motivation} \label{ssec:motivation} [3] (motivation.tex)pdfTe
-X warning (ext4): destination with the same identifier (name{page.4}) has been 
-already used, duplicate ignored
+l.78 
+      [3]) (motivation.tex)pdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.443 \newpage
+l.469 \newpage
                [4] (theory_and_methods.tex) (glm.tex
 Package acronym Info: Label `acro:GLM' newly defined as it shall be overridden
 although it is yet undefined on input line 2.
@@ -1204,7 +1267,7 @@ although it is yet undefined on input line 62.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.456 \newpage
+l.482 \newpage
                [8] (copulas_and_dependence_structures.tex)
 (intro_to_copulas.tex
 Package acronym Info: Label `acro:CDF' newly defined as it shall be overridden
@@ -1251,7 +1314,7 @@ to.pdf>
 -eps-converted-to.pdf figures/article_tree_KCC_BS.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
-<figures/article_tree_KCC_BS-eps-converted-to.pdf, id=506, 1470.49374pt x 457.7
+<figures/article_tree_KCC_BS-eps-converted-to.pdf, id=511, 1470.49374pt x 457.7
 1pt>
 File: figures/article_tree_KCC_BS-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/article_tree_KCC_BS-eps-converted-to.pdf>
@@ -1270,7 +1333,7 @@ converted-to.pdf>
 _childnode-eps-converted-to.pdf figures/article_tree_single_childnode.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
-<figures/article_tree_single_childnode-eps-converted-to.pdf, id=509, 1095.09125
+<figures/article_tree_single_childnode-eps-converted-to.pdf, id=514, 1095.09125
 pt x 337.26pt>
 File: figures/article_tree_single_childnode-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1278,12 +1341,9 @@ type pdf)
 Package pdftex.def Info: figures/article_tree_single_childnode-eps-converted-to
 .pdf  used on input line 17.
 (pdftex.def)             Requested size: 298.75264pt x 92.0083pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [21
 
- <./figures/article_tree_KCC_BS-eps-converted-to.pdf>]
+ <./figures/article_tree_KCC_BS-eps-converted-to.pdf>]) (sales_patterns.tex
 Package epstopdf Info: Source file: <figures/total_sold_articles_ts.eps>
 (epstopdf)                    date: 2020-04-20 21:31:38
 (epstopdf)                    size: 1121128 bytes
@@ -1293,42 +1353,107 @@ ed-to.pdf>
 (epstopdf)                    size: 24801 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/total_sold_articles
 _ts-eps-converted-to.pdf figures/total_sold_articles_ts.eps>
-(epstopdf)             \includegraphics on input line 26.
+(epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
-<figures/total_sold_articles_ts-eps-converted-to.pdf, id=529, 434.62375pt x 197
+<figures/total_sold_articles_ts-eps-converted-to.pdf, id=534, 434.62375pt x 197
 .73875pt>
 File: figures/total_sold_articles_ts-eps-converted-to.pdf Graphic file (type pd
 f)
 <use figures/total_sold_articles_ts-eps-converted-to.pdf>
 Package pdftex.def Info: figures/total_sold_articles_ts-eps-converted-to.pdf  u
-sed on input line 26.
+sed on input line 9.
 (pdftex.def)             Requested size: 426.79135pt x 194.18697pt.
 
-Underfull \vbox (badness 2644) has occurred while \output is active []
+Underfull \vbox (badness 1460) has occurred while \output is active []
 
  [22 <./figures/article_tree_single_childnode-eps-converted-to.pdf> <./figures/
-total_sold_articles_ts-eps-converted-to.pdf>]) [23] [24
+total_sold_articles_ts-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/sales_without_promo_months.eps>
+(epstopdf)                    date: 2020-04-21 18:53:43
+(epstopdf)                    size: 715878 bytes
+(epstopdf)             Output file: <figures/sales_without_promo_months-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2020-04-21 18:55:47
+(epstopdf)                    size: 15718 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/sales_without_promo
+_months-eps-converted-to.pdf figures/sales_without_promo_months.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
+<figures/sales_without_promo_months-eps-converted-to.pdf, id=552, 277.035pt x 1
+97.73875pt>
+File: figures/sales_without_promo_months-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use figures/sales_without_promo_months-eps-converted-to.pdf>
+Package pdftex.def Info: figures/sales_without_promo_months-eps-converted-to.pd
+f  used on input line 59.
+(pdftex.def)             Requested size: 320.0935pt x 228.47495pt.
+ [23 <./figures/sales_without_promo_months-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/bar_above_200_units_week.eps>
+(epstopdf)                    date: 2020-04-24 16:26:06
+(epstopdf)                    size: 9089 bytes
+(epstopdf)             Output file: <figures/bar_above_200_units_week-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-04-24 16:26:46
+(epstopdf)                    size: 10220 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/bar_above_200_units
+_week-eps-converted-to.pdf figures/bar_above_200_units_week.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+<figures/bar_above_200_units_week-eps-converted-to.pdf, id=570, 451.6875pt x 37
+6.40625pt>
+File: figures/bar_above_200_units_week-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use figures/bar_above_200_units_week-eps-converted-to.pdf>
+Package pdftex.def Info: figures/bar_above_200_units_week-eps-converted-to.pdf 
+ used on input line 91.
+(pdftex.def)             Requested size: 192.0548pt x 160.04807pt.
+Package epstopdf Info: Source file: <figures/ecdf_below_units_week.eps>
+(epstopdf)                    date: 2020-04-24 17:43:00
+(epstopdf)                    size: 49077 bytes
+(epstopdf)             Output file: <figures/ecdf_below_units_week-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-04-24 17:43:10
+(epstopdf)                    size: 20299 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/ecdf_below_units_we
+ek-eps-converted-to.pdf figures/ecdf_below_units_week.eps>
+(epstopdf)             \includegraphics on input line 97.
+Package epstopdf Info: Output file is already uptodate.
+<figures/ecdf_below_units_week-eps-converted-to.pdf, id=571, 451.6875pt x 376.4
+0625pt>
+File: figures/ecdf_below_units_week-eps-converted-to.pdf Graphic file (type pdf
+)
+<use figures/ecdf_below_units_week-eps-converted-to.pdf>
+Package pdftex.def Info: figures/ecdf_below_units_week-eps-converted-to.pdf  us
+ed on input line 97.
+(pdftex.def)             Requested size: 192.0548pt x 160.04807pt.
 
-] [25] [26
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24])
+[25 <./figures/bar_above_200_units_week-eps-converted-to.pdf> <./figures/ecdf_b
+elow_units_week-eps-converted-to.pdf>] [26
 
 ] [27] [28
 
-] (appendix.tex) [29] [30
+] [29] [30
 
-] (abbreviations.tex) [31] [32
+] (appendix.tex)
+[31] [32
+
+] (abbreviations.tex) [33] [34
 
 ] (Master.lof)
 \tf@lof=\write6
 \openout6 = `Master.lof'.
 
- [33] [34
+ [35] [36
 
 ] (Master.lot)
 \tf@lot=\write7
 \openout7 = `Master.lot'.
 
 
-[35] [36
+[37] [38
 
 ] (Master.bbl
 
@@ -1338,29 +1463,29 @@ LaTeX Font Warning: Font shape `T1/ua1/m/sc' undefined
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 16.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [37])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 583.
- [38]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 583.
+) [39])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 611.
+ [40]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 611.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 583.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 583.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 611.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 611.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 46ABF0C07F12ACAF69F449061CDC6DFC;1813.
+(rerunfilecheck)             Checksum: EE48CD8F45523F758E2E43BB3FFAF26D;1878.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 611.
  ) 
 Here is how much of TeX's memory you used:
- 23432 strings out of 493305
- 398635 string characters out of 3128495
- 494238 words of memory out of 3000000
- 26410 multiletter control sequences out of 15000+200000
+ 25464 strings out of 493305
+ 428485 string characters out of 3128495
+ 543077 words of memory out of 3000000
+ 28397 multiletter control sequences out of 15000+200000
  629228 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,17n,77p,2758b,605s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,17n,77p,2758b,610s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Petro Ck\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ectt1095.pk>{C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
 vips/base/8r.enc}<C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
@@ -1389,9 +1514,9 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C
 .pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial
 /ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
 w/arial/ua1ri8a.pfb>
-Output written on Master.pdf (48 pages, 569189 bytes).
+Output written on Master.pdf (50 pages, 620605 bytes).
 PDF statistics:
- 797 PDF objects out of 1000 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 852 PDF objects out of 1000 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 

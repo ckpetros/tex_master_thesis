@@ -20,10 +20,11 @@
 \contentsline {subsection}{\numberline {3.4}Structured Additive Conditional Copulas}{19}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Vine Copulas}{20}{subsection.3.5}
 \contentsline {section}{\numberline {4}Data Exploration}{21}{section.4}
-\contentsline {section}{\numberline {5}Modelling}{25}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{27}{section.6}
-\contentsline {section}{Appendix}{29}{section.6}
-\contentsline {section}{List of Abbreviations}{31}{section*.25}
-\contentsline {section}{List of Figures}{33}{section*.26}
-\contentsline {section}{List of Tables}{35}{section*.27}
-\contentsline {section}{References}{37}{section*.28}
+\contentsline {subsection}{\numberline {4.1}Sales Patterns}{22}{subsection.4.1}
+\contentsline {section}{\numberline {5}Modelling}{27}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{29}{section.6}
+\contentsline {section}{Appendix}{31}{section.6}
+\contentsline {section}{List of Abbreviations}{33}{section*.27}
+\contentsline {section}{List of Figures}{35}{section*.28}
+\contentsline {section}{List of Tables}{37}{section*.29}
+\contentsline {section}{References}{39}{section*.30}
