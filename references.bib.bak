@@ -186,4 +186,15 @@
   publisher = {Multidisciplinary Digital Publishing Institute},
 }
 
+@Article{patton2006modelling,
+  author    = {Patton, Andrew J.},
+  title     = {Modelling asymmetric exchange rate dependence},
+  journal   = {International economic review},
+  year      = {2006},
+  volume    = {47},
+  number    = {2},
+  pages     = {527--556},
+  publisher = {Wiley Online Library},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

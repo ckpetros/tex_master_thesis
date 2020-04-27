@@ -12,19 +12,19 @@
 \contentsline {subsection}{\numberline {3.2}Copula Classes}{12}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Fundamental Copulas}{12}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Elliptical Copulas}{13}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Archimedean Copulas}{14}{subsubsection.3.2.3}
-\contentsline {subsection}{\numberline {3.3}Dependence Measures}{16}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Linear Correlation}{16}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Rank Correlation}{17}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}Tail Dependence}{18}{subsubsection.3.3.3}
-\contentsline {subsection}{\numberline {3.4}Structured Additive Conditional Copulas}{19}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Vine Copulas}{20}{subsection.3.5}
-\contentsline {section}{\numberline {4}Data Exploration}{21}{section.4}
-\contentsline {subsection}{\numberline {4.1}Sales Patterns}{22}{subsection.4.1}
-\contentsline {section}{\numberline {5}Modelling}{27}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{29}{section.6}
-\contentsline {section}{Appendix}{31}{section.6}
-\contentsline {section}{List of Abbreviations}{33}{section*.27}
-\contentsline {section}{List of Figures}{35}{section*.28}
-\contentsline {section}{List of Tables}{37}{section*.29}
-\contentsline {section}{References}{39}{section*.30}
+\contentsline {subsubsection}{\numberline {3.2.3}Archimedean Copulas}{15}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}Dependence Measures}{18}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Linear Correlation}{18}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Rank Correlation}{19}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Tail Dependence}{20}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Structured Additive Conditional Copulas}{21}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Vine Copulas}{22}{subsection.3.5}
+\contentsline {section}{\numberline {4}Data Exploration}{23}{section.4}
+\contentsline {subsection}{\numberline {4.1}Sales Patterns}{24}{subsection.4.1}
+\contentsline {section}{\numberline {5}Modelling}{29}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{31}{section.6}
+\contentsline {section}{Appendix}{33}{section.6}
+\contentsline {section}{List of Abbreviations}{35}{section*.33}
+\contentsline {section}{List of Figures}{37}{section*.34}
+\contentsline {section}{List of Tables}{39}{section*.35}
+\contentsline {section}{References}{41}{section*.36}

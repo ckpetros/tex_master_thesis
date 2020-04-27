@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{20}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -73,25 +73,12 @@
 \newblock In: \emph{Statistics and Computing}
 \newblock 26 (2016), Nr.~4, S.~841--860
 
-\bibitem[L{\"u}tkepohl(2005)]{lutkepohl2005new}
-\dinatlabel{L{\"u}tkepohl 2005} \textsc{L{\"u}tkepohl}, Helmut:
-\newblock \emph{New introduction to multiple time series analysis}.
-\newblock Springer Science \& Business Media, 2005
-
-\bibitem[L{\"u}tkepohl and Herwartz(1996)]{lutkepohl1996specification}
-\dinatlabel{L{\"u}tkepohl and Herwartz 1996} \textsc{L{\"u}tkepohl}, Helmut~;
-  \textsc{Herwartz}, Helmut:
-\newblock Specification of varying coefficient time series models via
-  generalized flexible least squares.
-\newblock In: \emph{Journal of Econometrics}
-\newblock 70 (1996), Nr.~1, S.~261--290
-
 \bibitem[McNeil et~al.(2015)McNeil, Frey and Embrechts]{mcneil2015quantitative}
 \dinatlabel{McNeil et~al. 2015} \textsc{McNeil}, Alexander~J.~; \textsc{Frey},
   R{\"u}diger~; \textsc{Embrechts}, Paul:
 \newblock \emph{Quantitative risk management: concepts, techniques and
   tools-revised edition}.
-\newblock Princeton university press, 2015
+\newblock Chap. Copulas and Dependence, Princeton university press, 2015
 
 \bibitem[Patton(2006)]{patton2006modelling}
 \dinatlabel{Patton 2006} \textsc{Patton}, Andrew~J.:

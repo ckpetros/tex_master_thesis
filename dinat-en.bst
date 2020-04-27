@@ -114,7 +114,7 @@ FUNCTION {push.hrsg}      { "Hrsg." }
 FUNCTION {push.in}        { "In:" }
 FUNCTION {push.isbn}      { "ISBN" }
 FUNCTION {push.issn}      { "ISSN" }
-FUNCTION {push.kap}       { "Kap." }
+FUNCTION {push.kap}       { "Chap." }
 FUNCTION {push.nr}        { "Nr." }
 FUNCTION {push.sn}        { "S" }
 FUNCTION {push.s}         { "S." }

@@ -1,8 +1,14 @@
 \babel@toc {english}{}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Two of the adidas-group logos: Performance (left) \& Originals (right) \citep {adidasmediacenter}\relax }}{1}{figure.caption.5}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces adidas celebrates its 70th anniversary and the opening of the ARENA building \citep {adidas70years}\relax }}{2}{figure.caption.6}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of a hierarchical article structure\relax }}{21}{figure.caption.22}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of a single child node\relax }}{22}{figure.caption.23}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Course of sold articles\relax }}{22}{figure.caption.24}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Sales distribution grouped by months excluding November, April, May and October where the two main promotions are active\relax }}{23}{figure.caption.25}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Distribution of sold units of articles per week split at 200 units\relax }}{25}{figure.caption.26}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Bivariate Gaussian distribution and Gaussian copula for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Bivariate t-distribution and t-copula with 3 degrees of freedom for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{15}{figure.caption.20}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Shape of a generator function\relax }}{16}{figure.caption.21}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Bivariate Clayton distribution and Clayton copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{16}{figure.caption.22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Bivariate Gumbel distribution and Gumbel copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{17}{figure.caption.23}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Bivariate Frank distribution and Frank copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{18}{figure.caption.24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of a hierarchical article structure\relax }}{23}{figure.caption.28}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of a single child node\relax }}{24}{figure.caption.29}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Course of sold articles\relax }}{24}{figure.caption.30}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Sales distribution grouped by months excluding November, April, May and October where the two main promotions are active\relax }}{25}{figure.caption.31}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Distribution of sold units of articles per week split at 200 units\relax }}{27}{figure.caption.32}

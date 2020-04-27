@@ -24,6 +24,32 @@ where $\bm{x} = \left(\Phi^{-1}\left(u_{1}\right), \ldots, \Phi^{-1}\left(u_{d}\
 
 \hfill $\square$ \\
 
+
+
+
+ \begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/bivariate_normal.eps}
+  \caption{Gaussian distribution with contour lines}
+  \label{fig:mvd_normal_copula}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/normal_copula.eps}
+  \caption{Gaussian copula}
+  \label{fig:normal_copula}
+\end{subfigure}
+\caption{Bivariate Gaussian distribution and Gaussian copula for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals}
+\label{fig:normal_plots}
+\end{figure}
+
+
+
+
+
+
 \textbf{t-Copula}\\
 Consider \ac{wlog} $\bm{X} \sim {t_{d}(\nu, \bm{0}, \mathbf{P})}$ (multivariate Student's t-distribution) with $\nu$ \ac{dof} and $\bm{P}$ a correlation matrix, then the \textit{t-copula (family)} is given by
 \begin{equation}
@@ -44,6 +70,23 @@ where $\bm{x} = \left(t_{\nu}^{-1}\left(u_{1}\right), \ldots, t_{\nu}^{-1}\left(
 
 
 
+ \begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/bivariate_t.eps}
+  \caption{t-distribution with contour lines}
+  \label{fig:bivariate_t}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/t_copula.eps}
+  \caption{t-copula}
+  \label{fig:t_copula}
+\end{subfigure}
+\caption{Bivariate t-distribution and t-copula with 3 degrees of freedom for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals}
+\label{fig:t_plots}
+\end{figure}
 
 
 

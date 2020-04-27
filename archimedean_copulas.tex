@@ -10,7 +10,18 @@ where the function $\phi:[0,1] \rightarrow [0, \infty)$ is the \textit{(archimed
 \item We set $\phi (1) = 0$
 \item If  $\phi(0)=\lim \limits _{u \rightarrow 0^{-}} \phi(u)= \infty$, then $\phi$ is called \textit{strict}.
 \end{itemize}
+
+
+
+
 Based on \autoref{eq:archimedean_copula_1} and according to the form of the generator, we can construct several copula families. Three of the most popular ones are the \textit{Gumbel}, the \textit{Clayton} and the \textit{Frank} \textit{copula}, which will be discussed.\footnote{We will look into these copulas for the bivariate case ($d=2$) only.} The advantage of such copulas lies in the fact that they interpolate between certain fundamental dependency structures.\\
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.5\linewidth]{figures/archimedean_generator.eps}
+  \caption{Shape of a generator function}
+  \label{fig:archimedean_generator}
+\end{figure}
 
 \textbf{Clayton Copula}\\
 If the generator takes on the form
@@ -31,6 +42,30 @@ Note that for $\theta=-1$, we obtain the lower Fr\'echet-Hoeffding bound, wherea
 
 \hfill $\square$ \\
 
+
+
+
+ \begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/bivariate_clayton.eps}
+  \caption{Clayton distribution with contour lines}
+  \label{fig:bivariate_clayton}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/clayton_copula.eps}
+  \caption{Clayton copula}
+  \label{fig:clayton_copula}
+\end{subfigure}
+\caption{Bivariate Clayton distribution and Clayton copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals}
+\label{fig:clayton_plots}
+\end{figure}
+
+
+
+
 \textbf{Gumbel Copula}\\
 If the generator takes on the form
 \begin{equation}
@@ -45,10 +80,33 @@ Note that for $\theta= 1$, we obtain the independence copula, while for $\theta 
 \hfill $\square$ \\
 
 
+
+
+
+ \begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/bivariate_gumbel.eps}
+  \caption{Gumbel distribution with contour lines}
+  \label{fig:bivariate_gumbel}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/gumbel_copula.eps}
+  \caption{Gumbel copula}
+  \label{fig:gumbel_copula}
+\end{subfigure}
+\caption{Bivariate Gumbel distribution and Gumbel copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals}
+\label{fig:gumbel_plots}
+\end{figure}
+
+
+
 \textbf{Frank Copula}\\
 If the generator takes on the form
 \begin{equation}
-\phi_{Fr}(u) = \ln \left(e^{-\theta}-1\right)-\ln \left(e^{-\theta u}-1\right), \quad \theta \in \mathbb{R} \backslash\{0\},
+-\ln \left(\frac{\mathrm{e}^{-\theta u}-1}{\mathrm{e}^{-\theta}-1}\right), \quad \theta \in \mathbb{R} \backslash\{0\},
 \end{equation}
 we obtain the \textit{Frank copula} given by
 \begin{equation}
@@ -58,7 +116,24 @@ C_{\theta}^{F r}\left(u_{1}, u_{2}\right)=-\frac{1}{\theta} \ln \left(1+\frac{\l
 \hfill $\square$ \\
 
 
-MAYBE MORE ON THESE WITH SOME PRETTY PLOTS
+
+ \begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/bivariate_frank.eps}
+  \caption{Frank distribution with contour lines}
+  \label{fig:bivariate_frank}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/frank_copula.eps}
+  \caption{Frank copula}
+  \label{fig:frank_copula}
+\end{subfigure}
+\caption{Bivariate Frank distribution and Frank copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals}
+\label{fig:frank_plots}
+\end{figure}
 
 
 
