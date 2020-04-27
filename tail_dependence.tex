@@ -29,7 +29,28 @@ Some examples are:
 \item Gumbel: $\lambda_l = 0$, $\lambda_u = 2 - 2^{1/ \theta}$ (only upper tail dependence, see \autoref{fig:gumbel_plots})
 \item Frank: $\lambda_l = 0$, $\lambda_u = 0$ (no tail dependence, see \autoref{fig:frank_plots})
 \end{itemize}
-Following such guidelines, the choice of a practicable copula can be facilitated.
+Following such guidelines, the choice of a practicable copula can be facilitated. \autoref{tab:copula_relationships} displays the relationships between dependence measures of various copulas.\\
+
+
+
+\begin{table}[H]
+\setlength\arrayrulewidth{1pt}  
+\centering
+\begin{adjustbox}{max width=\textwidth}\
+\begin{tabular}{|
+>{\columncolor[HTML]{C0C0C0}}c |c|c|c|c|}
+\hline
+\backslashbox{\textbf{Copula}}{\textbf{Measure}} & \cellcolor{lightgray}\textbf{$\bm{\tau}$}          & \cellcolor{lightgray}\textbf{$\bm{\rho_s}$}                     & \cellcolor{lightgray}\textbf{$\bm{\lambda_l}$}                              & \cellcolor{lightgray}\textbf{$\bm{\lambda_u}$}                              \\ \hline
+\textbf{Gaussian}       & $\frac{2}{\pi}arcsin(\rho)$                      & $\frac{6}{\pi}arcsin(\rho)$                                   & 0                                                                         & 0                                                                         \\ \hline
+\textbf{Student's t}    & $\frac{2}{\pi}arcsin(\rho)$                      & -                                                             & \multicolumn{1}{l|}{$2 T_{\nu+1}(\sqrt{\frac{(\nu+1)(1-\rho)}{1+\rho}})$} & \multicolumn{1}{l|}{$2 T_{\nu+1}(\sqrt{\frac{(\nu+1)(1-\rho)}{1+\rho}})$} \\ \hline
+\textbf{Clayton}        & $\frac{\theta}{\theta + 2}$                      & -                                                             & $2^{-1 / \theta}$                                                         & 0                                                                         \\ \hline
+\textbf{Gumbel}         & $\frac{\theta - 1}{\theta}$                      & -                                                             & 0                                                                         & $2-2^{1 / \theta}$                                                        \\ \hline
+\textbf{Frank}          & $1-\frac{4}{\theta}\left(4-D_{1}(\theta)\right)$ & $1-\frac{12}{\theta}\left(D_{1}(\theta)-D_{2}(\theta)\right)$ & 0                                                                         & 0                                                                         \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Bivariate relationships in copula families, with $T_{\nu}$ being the Student's t-distribution function with $\nu$ degrees of freedom and $D_{k}(x)=\frac{k}{x^{k}} \int_{0}^{x} \frac{t^{k}}{e^{t}-1} d t$ being the Debye function \citep{stanfordphd}}
+\label{tab:copula_relationships}
+\end{table}
 
 
 

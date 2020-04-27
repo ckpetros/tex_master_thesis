@@ -11,7 +11,7 @@ As mentioned in Section \autoref{ssec:data_sources}, our data contains the infor
   \label{fig:total_sold_articles_ts}
 \end{figure}
 
-Another promotion type we are interested in is \textit{"Friends \& Family"}, occurring yearly around April-May and October, where on the eCom website plenty of articles are on offer. On these weeks, we have elevated numbers of sold articles as well(\autoref{fig:total_sold_articles_ts}, blue lines). Tables \ref{tab:black_friday} and \ref{tab:friends_and_family} show the weeks were Black Friday and Friends \& Family took place respectively. The dates indicate always the Monday of the respective week (we assume that a week starts on Monday). 
+Another promotion type we are interested in is \textit{"Friends \& Family"}, occurring yearly around April-May and October, where on the eCom website plenty of articles are on offer. On these weeks, we have elevated numbers of sold articles as well(\autoref{fig:total_sold_articles_ts}, blue lines). Tables \ref{tab:black_friday} and \ref{tab:friends_and_family} show the weeks were Black Friday and Friends \& Family took place respectively. The dates indicate always the Monday of the respective week (we assume that a week starts on Monday). \\
 
 
 \begin{table}[H]
@@ -30,6 +30,7 @@ Another promotion type we are interested in is \textit{"Friends \& Family"}, occ
 \caption{Black Friday weeks}
 \label{tab:black_friday}
 \end{table}
+
 
 
 
@@ -61,7 +62,7 @@ Excluding the months of the two mentioned promotion types, they don't seem to ha
   \label{fig:sales_without_promo_months}
 \end{figure}
 
-Moving forward, reviewing some sales summary statistics along with the findings so far, we detect a very high overdispersion in our data. The first two rows in \autoref{tab:quantiles_sold_units_week} give as a first impression of the sales distribution. Considering the sold units of one article at a time within a week, there are lots of weeks where no single unit was sold. The median is at 2.71 units,\footnote{Reminder from Section \ref{ssec:data_sources}: the values are in reality discrete, but due to anonymization the were transformed into real numbers.} 75\% of the "article-week" combinations take on a value of at most 20 and the minority exceeds 100 pieces (99\%-quantile). The third row of the table shows how many distinct articles fall under the respective quantile of sales and there is a visible anti-proportional behaviour towards the number of sold units, which is of course intuitive. Remarkable though is the quantity of affected articles even for incredibly large quantiles.
+Moving forward, reviewing some sales summary statistics along with the findings so far, we detect a very high overdispersion in our data. The first two rows in \autoref{tab:quantiles_sold_units_week} give as a first impression of the sales distribution. Considering the sold units of one article at a time within a week, there are lots of weeks where no single unit was sold. The median is at 2.71 units,\footnote{Reminder from Section \ref{ssec:data_sources}: the values are in reality discrete, but due to anonymization the were transformed into real numbers.} 75\% of the "article-week" combinations take on a value of at most 20 and the minority exceeds 100 pieces (99\%-quantile). The third row of the table shows how many distinct articles fall under the respective quantile of sales and there is a visible anti-proportional behaviour towards the number of sold units, which is of course intuitive. Remarkable though is the quantity of affected articles even for incredibly large quantiles.\\
 
 
 \begin{table}[H]

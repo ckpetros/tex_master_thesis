@@ -14,7 +14,7 @@ where the function $\phi:[0,1] \rightarrow [0, \infty)$ is the \textit{(archimed
 
 
 
-Based on \autoref{eq:archimedean_copula_1} and according to the form of the generator, we can construct several copula families. Three of the most popular ones are the \textit{Gumbel}, the \textit{Clayton} and the \textit{Frank} \textit{copula}, which will be discussed.\footnote{We will look into these copulas for the bivariate case ($d=2$) only.} The advantage of such copulas lies in the fact that they interpolate between certain fundamental dependency structures.\\
+Based on \autoref{eq:archimedean_copula_1} and according to the form of the generator, we can construct several copula families. Three of the most popular ones are the \textit{Gumbel}, the \textit{Clayton} and the \textit{Frank} \textit{copula}, which will be discussed.\footnote{We will look into these copulas for the bivariate case ($d=2$) only.} The advantage of such copulas lies in the fact that they interpolate between certain fundamental dependence structures.\\
 
 \begin{figure}[H]
 \centering
@@ -75,7 +75,7 @@ then we arrive at the \textit{Gumbel copula} given by
 \begin{equation}
 C_{\theta}^{G u}\left(u_{1}, u_{2}\right)=\exp \left[-\left(\left(-\ln u_{1}\right)^{\theta}+\left(-\ln u_{2}\right)^{\theta}\right)^{\frac{1}{\theta}}\right].
 \end{equation}
-Note that for $\theta= 1$, we obtain the independence copula, while for $\theta \rightarrow \infty$ the Gumbel copula converges to the comonotonicity copula.
+Note that for $\theta= 1$, we obtain the independence copula, while for $\theta \rightarrow \infty$ the Gumbel copula converges to the comonotonicity copula. Strictness holds for the entire domain.
 
 \hfill $\square$ \\
 
@@ -110,8 +110,11 @@ If the generator takes on the form
 \end{equation}
 we obtain the \textit{Frank copula} given by
 \begin{equation}
-C_{\theta}^{F r}\left(u_{1}, u_{2}\right)=-\frac{1}{\theta} \ln \left(1+\frac{\left(e^{-\theta u_{1}}-1\right) \cdot\left(e^{-\theta u_{2}}-1\right)}{e^{-\theta}-1}\right)
+C_{\theta}^{F r}\left(u_{1}, u_{2}\right)=-\frac{1}{\theta} \ln \left(1+\frac{\left(e^{-\theta u_{1}}-1\right) \cdot\left(e^{-\theta u_{2}}-1\right)}{e^{-\theta}-1}\right).
 \end{equation}
+
+The Frank copula is strict in the entire domain and of $\theta$.
+
 
 \hfill $\square$ \\
 

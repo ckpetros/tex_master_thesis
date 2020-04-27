@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{21}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -116,6 +116,12 @@
 \newblock Fonctions de repartition an dimensions et leurs marges.
 \newblock In: \emph{Publ. inst. statist. univ. Paris}
 \newblock 8 (1959), S.~229--231
+
+\bibitem[{stanfordphd}()]{stanfordphd}
+\dinatlabel{{stanfordphd} } \textsc{{stanfordphd}}:
+\newblock \emph{Copula}. --
+\newblock \url{https://stanfordphd.com/Copula.html}, Last accessed on
+  2020-04-27
 
 \bibitem[Trivedi and Zimmer(2017)]{trivedi2017note}
 \dinatlabel{Trivedi and Zimmer 2017} \textsc{Trivedi}, Pravin~;
