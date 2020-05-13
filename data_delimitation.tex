@@ -1,0 +1,46 @@
+% !TEX root = Master.tex
+
+On the lowest product hierarchy level, the number of unique articles is quite large for models to handle. In \autoref{tab:articles_per_kcc}, we can see that our key category clusters of interest, 2, 6 and 8, have 1587, 9746 and 2012 articles respectively. Although we only work on those \acp{KCC}, even advanced techniques like vine copulas are struggling to handle such dimensions. \\
+
+\begin{table}[H]
+\setlength\arrayrulewidth{1pt}  
+\centering
+\begin{adjustbox}{max width=\textwidth}\
+\begin{tabular}{|
+>{\columncolor{lightgray}}c |c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Key Category Cluster} & 1  & 2    & 3    & 4   & 5    & 6    & 7   & 8    & 9    \\ \hline
+\textbf{Unique Articles}      & 14 & 1587 & 4151 & 278 & 1713 & 9746 & 374 & 2012 & 6328 \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Articles per Key Category Cluster}
+\label{tab:articles_per_kcc}
+\end{table}
+
+We have to take into consideration different models for each group. On top, further data delimitation shall reduce the dimensionality even further. Referring back to \autoref{tab:transactional_data}, we know that our last week of observation is "2018-12-24". We will restrict ourselves to articles that were not taken off the assortment before that date because they will most probably not be put back for sale.\footnote{We neglect the possibility of an item to return in the future.} After setting these boundaries, we arrive at a considerably smaller magnitude shown in \autoref{tab:articles_per_kcc_after_max_week}. \\
+
+
+
+\begin{table}[H]
+\setlength\arrayrulewidth{1pt}  
+\centering
+\begin{adjustbox}{max width=\textwidth}\
+\begin{tabular}{|
+>{\columncolor{lightgray}}c |c|c|c|}
+\hline
+\textbf{Key Category Cluster} & 2  & 6    & 8     \\ \hline
+\textbf{Unique Articles}      & 39 & 256 & 58  \\ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Articles per Key Category Cluster after data delimitation}
+\label{tab:articles_per_kcc_after_max_week}
+\end{table}
+
+
+CARRY OVER IF WE GO AWAY FROM IN-SAMPLE
+
+
+
+
+
+
