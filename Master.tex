@@ -98,10 +98,10 @@
 \setlength\parindent{0pt}
 
 % turn off hyphenation and justification (Silbentrennung ausschalten)
-\tolerance=1
-\emergencystretch=\maxdimen
-\hyphenpenalty=10000
-\hbadness=10000
+%\tolerance=1
+%\emergencystretch=\maxdimen
+%\hyphenpenalty=10000
+%\hbadness=10000
 
 
 % Covert eps to pdf
@@ -517,7 +517,7 @@
 \thispagestyle{plain}
 \section{Data Exploration} \label{sec:data_exploration}
 \input{data_exploration}
-\subsection{Sales Patterns} \label{ssec:sales_patterns}
+\subsection{Universal Sales Patterns} \label{ssec:sales_patterns}
 \input{sales_patterns}
 \subsection{Grouped Patterns} \label{ssec:grouped_patterns}
 \input{grouped_patterns}
@@ -529,6 +529,14 @@
 
 \thispagestyle{plain}
 \section{Modelling} \label{sec:modelling}
+\subsection{KCC Correlations} \label{ssec:kcc_correlations}
+\input{kcc_correlations}
+\subsubsection{KCC 2 \& KCC 6} \label{sssec:kcc_26}
+\input{kcc_26}
+\subsubsection{KCC 2 \& KCC 8} \label{sssec:kcc_28}
+\input{kcc_28}
+\subsubsection{KCC 6 \& KCC 8} \label{sssec:kcc_68}
+\input{kcc_68}
 \subsection{Data Delimitation} \label{ssec:data_delimitation}
 \input{data_delimitation}
 \newpage

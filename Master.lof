@@ -9,7 +9,14 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Bivariate Frank distribution and Frank copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{18}{figure.caption.24}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of a hierarchical article structure\relax }}{23}{figure.caption.28}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Example of a single child node\relax }}{24}{figure.caption.29}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Course of sold articles\relax }}{24}{figure.caption.30}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Sales distribution grouped by months excluding November, April, May and October where the two main promotions are active\relax }}{25}{figure.caption.31}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Distribution of sold units of articles per week split at 200 units\relax }}{27}{figure.caption.32}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Time series and boxplot showing logarithmized sales of the three key category cluster of interest\relax }}{27}{figure.caption.33}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Course of article unit sales\relax }}{24}{figure.caption.30}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Monthly patterns of article unit sales\relax }}{25}{figure.caption.31}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Distribution of sold units of articles per week split at 200 units\relax }}{26}{figure.caption.32}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Empirical \ac {CDF} of all sold units per week; x-axis cut at 500\relax }}{27}{figure.caption.33}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Time series and boxplot showing logarithmized sales of the key category clusters\relax }}{28}{figure.caption.34}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Pairwise scatterplots of sales on \ac {KCC} level. First row: Logarithmic sales with marginal densities, Second row: Pseudo sales observation with marginal histograms\relax }}{28}{figure.caption.35}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }}{29}{figure.caption.36}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pairwise total markdown percentages of the key category clusters (scatterplots, densities \& linear correlations)\relax }}{32}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Smooth effects on Kendall's Tau: KCC 2 \& KCC 6\relax }}{33}{figure.caption.39}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Check KCC 2 6\relax }}{33}{figure.caption.40}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Kendall's Tau estimates their change over time for KCC 2 \& KCC 6\relax }}{34}{figure.caption.41}

@@ -18,14 +18,18 @@
 \BOOKMARK [2][-]{subsection.3.4}{Structured Additive Conditional Copulas}{section.3}% 18
 \BOOKMARK [2][-]{subsection.3.5}{Vine Copulas}{section.3}% 19
 \BOOKMARK [1][-]{section.4}{Data Exploration}{}% 20
-\BOOKMARK [2][-]{subsection.4.1}{Sales Patterns}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.1}{Universal Sales Patterns}{section.4}% 21
 \BOOKMARK [2][-]{subsection.4.2}{Grouped Patterns}{section.4}% 22
 \BOOKMARK [3][-]{subsubsection.4.2.1}{Exploring Key Category Cluster}{subsection.4.2}% 23
 \BOOKMARK [1][-]{section.5}{Modelling}{}% 24
-\BOOKMARK [2][-]{subsection.5.1}{Data Delimitation}{section.5}% 25
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 26
-\BOOKMARK [1][-]{section.6}{Appendix}{}% 27
-\BOOKMARK [1][-]{section*.34}{List of Abbreviations}{}% 28
-\BOOKMARK [1][-]{section*.35}{List of Figures}{}% 29
-\BOOKMARK [1][-]{section*.36}{List of Tables}{}% 30
-\BOOKMARK [1][-]{section*.37}{References}{}% 31
+\BOOKMARK [2][-]{subsection.5.1}{KCC Correlations}{section.5}% 25
+\BOOKMARK [3][-]{subsubsection.5.1.1}{KCC 2 \046 KCC 6}{subsection.5.1}% 26
+\BOOKMARK [3][-]{subsubsection.5.1.2}{KCC 2 \046 KCC 8}{subsection.5.1}% 27
+\BOOKMARK [3][-]{subsubsection.5.1.3}{KCC 6 \046 KCC 8}{subsection.5.1}% 28
+\BOOKMARK [2][-]{subsection.5.2}{Data Delimitation}{section.5}% 29
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 30
+\BOOKMARK [1][-]{section.6}{Appendix}{}% 31
+\BOOKMARK [1][-]{section*.42}{List of Abbreviations}{}% 32
+\BOOKMARK [1][-]{section*.43}{List of Figures}{}% 33
+\BOOKMARK [1][-]{section*.44}{List of Tables}{}% 34
+\BOOKMARK [1][-]{section*.45}{References}{}% 35
