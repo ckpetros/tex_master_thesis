@@ -180,4 +180,34 @@
   publisher = {Wiley Online Library},
 }
 
+@Misc{stanfordphd,
+  author = {{stanfordphd}},
+  title  = {Copula},
+  note   = {\url{https://stanfordphd.com/Copula.html}, Last accessed on 2020-04-27},
+}
+
+@Article{marragjrm,
+  author = {Marra, Giampiero and Radice, Rosalba},
+  title  = {{GJRM}-package: {G}eneralised {J}oint {R}egression {M}odelling},
+  year   = {2020},
+}
+
+@Article{marra1605bivariate,
+  author  = {Marra, G. and Radice, R.},
+  title   = {{A} {B}ivariate {C}opula {A}dditive {M}odel for {L}ocation, {S}cale and {S}hape. {C}ornell {U}niversity {L}ibrary (2017)},
+  journal = {arXiv preprint arxiv:1605.07521},
+  year    = {2016},
+}
+
+@Article{rigby2005generalized,
+  author    = {Rigby, Robert A. and Stasinopoulos, D. Mikis},
+  title     = {Generalized additive models for location, scale and shape},
+  journal   = {Journal of the Royal Statistical Society: Series C (Applied Statistics)},
+  year      = {2005},
+  volume    = {54},
+  number    = {3},
+  pages     = {507--554},
+  publisher = {Wiley Online Library},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

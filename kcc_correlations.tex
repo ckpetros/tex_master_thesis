@@ -1,14 +1,20 @@
 % !TEX root = Master.tex
 
-Starting the dependence modelling on the key category cluster level, we will be aiming for obtaining separate estimations of pairwise correlations over time, as we only have 3 nodes on this level and manual approximation is feasible on this low number of dimensions. Since large outliers are involved and we assume to be dealing with tail dependence, we use Kendall's $\tau$ rank correlation coefficients (see Section \ref{sssec:rank_correlation}). For the next three Subsections (\ref{sssec:kcc_26}, \ref{sssec:kcc_28} \& \ref{sssec:kcc_68}) we will be taking advantage of the framework of generalized additive models for conditional dependence structures introduced in \cite{vatter2015generalized} to account for predictor effects on the dependence measure.\footnote{In the scope of this thesis, by dependence we mean concordance and do not distinguish between those terms as opposed to the reference.} The R implementation for this framework and its extension to Pair-Copula Constructions \citep{vatter2018generalized} can be utilized by the \textit{gamCopula} package \citep{vatter2019gamcopula}. \\
+Starting the dependence modelling on the key category cluster level, we will be aiming for obtaining separate estimations of pairwise correlations over time, as we only have 3 nodes on this level and manual approximation is feasible on this low number of dimensions. Since large outliers are involved and we assume to be dealing with tail dependence, we use Kendall's $\tau$ rank correlation coefficients for comparison (see Section \ref{sssec:rank_correlation}). For the next three Subsections (\ref{sssec:kcc_26}, \ref{sssec:kcc_28} \& \ref{sssec:kcc_68}), we will compare resulting dependence structures inheriting from different approaches introduced in this Section.\\
 
-Before we fit the models, some clarifications regarding the predictors should be pointed out. As we aggregate the dataset from article level to \ac{KCC} level:
-\begin{itemize}
-\item promotion intensities \textit{bf\_w} and \textit{ff\_w} become binary, with 1 indicating presence of the respective promo week (see Tables \ref{tab:black_friday} and \ref{tab:friends_and_family}) and 0 otherwise
-\item the individual total markdown percentages for each \ac{KCC} are all averaged together as they are pairwise highly correlated with slopes close to one (see \autoref{fig:total_markdown_pct_kcc})
-\end{itemize}
+There is an inevitable challenge when it comes to estimating and projecting summary metrics like correlation coefficients onto every observation point; they cannot be tested and thus 100\% reliable assessments are not guaranteed. Therefore, we will be interpreting the results by comparing several frameworks \textit{under feasibly similar conditions}.\\
 
-With the help of the function \textit{gamBiCopSelect} of the \textit{gamCopula} package, we can estimate the parameters of bivariate copulas for a given set of copula families. The corresponding estimates are obtained by maximum likelihood estimation, where each Newton-Raphson iteration is reformulated as a generalized ridge regression solved using the \textit{mgcv} package \citep{wood2017generalized}. We choose \ac{AIC} for the bivariate copula selection and set the maximal number of Newton-Raphson iterations to 100 so that the algorithm converges for all three cases.\\
+
+\textbf{Generalized Additive Models for Conditional Dependence structures}\\
+We will be taking advantage of the framework of \textit{Generalized Additive Models for Conditional Dependence Structures} introduced in \cite{vatter2015generalized} to account for predictor effects on the dependence measure.\footnote{In the scope of this thesis, by dependence we mean concordance and do not distinguish between those terms as opposed to the reference.} The R implementation for this framework and its extension to Pair-Copula Constructions \citep{vatter2018generalized} can be utilized by the \textit{gamCopula} package \citep{vatter2019gamcopula}. \\
+
+%Before we fit the models, some clarifications regarding the predictors should be pointed out. As we aggregate the dataset from article level to \ac{KCC} level:
+%\begin{itemize}
+%\item promotion intensities \textit{bf\_w} and \textit{ff\_w} become binary, with 1 indicating presence of the respective promo week (see Tables \ref{tab:black_friday} and \ref{tab:friends_and_family}) and 0 otherwise
+%\item the individual total markdown percentages for each \ac{KCC} are %all averaged together as they are pairwise highly correlated with slopes close to one (see \autoref{fig:total_markdown_pct_kcc}). This holds of course for the "gamCopula" approach only.
+%\end{itemize}
+
+With the help of the function \textit{gamBiCopSelect} of the \textit{gamCopula} package, we can estimate the parameters of bivariate copulas for a given set of copula families. The corresponding estimates are obtained by maximum likelihood estimation, where each Newton-Raphson iteration is reformulated as a generalized Ridge regression solved using the \textit{mgcv} package \citep{wood2017generalized}. We choose \ac{AIC} for the bivariate copula selection and set the maximal number of Newton-Raphson iterations to 100.  \\
 
 The model setup is as follows: 
 
@@ -21,15 +27,39 @@ where
 z = \beta_0 + \beta_1 \textit{bf} + \beta_2 \textit{ff} + f(\textit{time}) + f(\textit{total\_markdown\_pct})
 \label{eq:gam_kcc}
 \end{equation}
-when using the pseudo observations of the marginals as model responses. This allows for flexible estimation of Kendall's $\tau$ which is dependent on time. For all three pairs, the selected copula is the Student's t-copula (see Section \ref{sssec:elliptical_copulas}) and stated in \autoref{eq:kendall_to_copula}, the copula is sufficient for directly deriving the correlation coefficient. The smooth functions for time and total markdown percentage in \autoref{eq:gam_kcc} are constructed using cubic regression splines and by setting 52 and 10 knots respectively, whereas the promotion indicators are set as linear covariates. \\
+when using the pseudo observations $z$ of the marginals as model responses. This allows for flexible estimation of Kendall's tau which is dependent on time. For all three pairs, the selected copula is the Student's t-copula. The t-copula is indeed found to be the most appropriate one after testing other copulas as well (like Normal and Gumbel copula) and is capturing tail dependencies adequately well (see Section \ref{sssec:elliptical_copulas}), not only in the scope of this approach. As stated in \autoref{eq:kendall_to_copula}, the copula is sufficient for directly deriving the correlation coefficient. The smooth functions for time and total markdown percentage in \autoref{eq:gam_kcc} are constructed using thin plate regression splines and by setting 26 and 10 knots respectively, whereas the promotion indicators are set as linear covariates. Results should however be treated with caution, as the algorithm does not converge for all cases. The only case where we achieve convergence is the pair KCC 6 - KCC 8.
+
+
+\hfill $\square$ \\
+
 
 % NOTE THAT ONLY FOR THIS PICTURE WE USE THE PNG FORMAT. THE "alpha" TRANSPARENCY WILL NOT SHOW WITH EPS FORMAT...
-\begin{figure}[H]
-\centering
-  \includegraphics[width=0.9\linewidth]{figures/total_markdown_pct_kcc.png}
-  \caption{Pairwise total markdown percentages of the key category clusters (scatterplots, densities \& linear correlations)}
-  \label{fig:total_markdown_pct_kcc}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%  \includegraphics[width=0.9\linewidth]{figures/%total_markdown_pct_kcc.png}
+%  \caption{Pairwise total markdown percentages of the key category %clusters (scatterplots, densities \& linear correlations)}
+%  \label{fig:total_markdown_pct_kcc}
+%\end{figure}
+
+
+\textbf{Generalized Joint Regression Models}\\
+This approach is based on the framwork of \textit{\ac{GJRM}} and its implementations in R \citep{marra1605bivariate, marragjrm}, where the scope of \ac{GAMLSS}, which was first introduced by \cite{rigby2005generalized}, is extended by a bivariate copula model. The framework represents the frequentist counterpart of \cite{klein2016simultaneous} and parameter estimation is achieved within a penalized likelihood framework by using a trust region algorithm (see \cite{marragjrm} for more details). \\
+
+To set similar conditions on the fitting part, we use again a Student's t copula. The marginals are of course assumed to be Dagum distributed (see \autoref{ssec:kcc_marginals}). As we are primarily interested in the dependence structure, we will not be using covariate effects for any model parameters except for the copula parameter (and consequently the dependence measure). As a matter of fact, the results are barely affected. So essentially, besides the constant model parameters, we have 
+\begin{equation}
+\theta = \beta_0 + \beta_1 \textit{bf} + \beta_2 \textit{ff} + f(\textit{time}) + f(\textit{total\_markdown\_pct})
+\label{eq:gjrm_kcc}
+\end{equation}
+and Kendall's tau is hence obtained by 
+$$
+\tau = \frac{2}{\pi}arcsin(\theta)
+$$
+(see \autoref{tab:copula_relationships}). The copula parameter $\theta$ in this case actually coincides with the linear correlation coefficient $\rho$ due to the t-copula. This additive model structure matches \autoref{eq:gam_kcc} regarding smooth functions and their respective number of knots. Again, we should treat the outcome with caution as the algorithm fails to converge for all cases. Convergence failure may have various reasons, e.g. low sample size compared to complexity of the model or model misspecification. Unfortunately, not a single model configuration accomplished convergence so we carefully interpret the outcomes in the below Subsections.
+
+
+\hfill $\square$ \\
+
+
 
 
 

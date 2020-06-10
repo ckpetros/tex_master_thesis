@@ -71,10 +71,10 @@
 \acronymused{GLMM}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Additive Models}{6}{subsection.2.3}}
 \newlabel{ssec:gam}{{2.3}{6}{Additive Models}{subsection.2.3}{}}
+\acronymused{LM}
+\newlabel{eq:additive_model}{{2.7}{6}{Additive Models}{equation.2.7}{}}
 \citation{wood2017generalized}
 \citation{fahrmeir2003regression}
-\acronymused{LM}
-\newlabel{eq:additive_model}{{2.7}{7}{Additive Models}{equation.2.7}{}}
 \newlabel{eq:gam_matrix_notation}{{2.10}{7}{Additive Models}{equation.2.10}{}}
 \AC@undonewlabel{acro:wlog}
 \newlabel{acro:wlog}{{2.3}{7}{Additive Models}{section*.11}{}}
@@ -212,6 +212,7 @@
 \citation{stanfordphd}
 \citation{klein2016simultaneous}
 \citation{vatter2019gamcopula}
+\citation{marra1605bivariate}
 \citation{patton2006modelling}
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Bivariate relationships in copula families, with $T_{\nu }$ being the Student's t-distribution function with $\nu $ degrees of freedom and $D_{k}(x)=\frac  {k}{x^{k}} \DOTSI \intop \ilimits@ _{0}^{x} \frac  {t^{k}}{e^{t}-1} d t$ being the Debye function \citep  {stanfordphd}\relax }}{21}{table.3.1}}
 \newlabel{tab:copula_relationships}{{3.1}{21}{Bivariate relationships in copula families, with $T_{\nu }$ being the Student's t-distribution function with $\nu $ degrees of freedom and $D_{k}(x)=\frac {k}{x^{k}} \int _{0}^{x} \frac {t^{k}}{e^{t}-1} d t$ being the Debye function \citep {stanfordphd}\relax }{table.3.1}{}}
@@ -289,65 +290,86 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }}{29}{figure.caption.36}}
 \acronymused{KCC}
 \newlabel{fig:corplot_kcc}{{4.9}{29}{Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }{figure.caption.36}{}}
+\citation{trivedi2017note}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Modelling}{31}{section.5}}
+\newlabel{sec:modelling}{{5}{31}{Modelling}{section.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Pairwise total markdown percentages of key category clusters\relax }}{31}{figure.caption.37}}
+\newlabel{fig:total_markdown_pct_kcc}{{5.1}{31}{Pairwise total markdown percentages of key category clusters\relax }{figure.caption.37}{}}
+\citation{dagum1975model}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}KCC Marginals}{32}{subsection.5.1}}
+\newlabel{ssec:kcc_marginals}{{5.1}{32}{KCC Marginals}{subsection.5.1}{}}
+\newlabel{fig:kcc_2_density}{{5.2a}{32}{Histogram \& theoretical density\relax }{figure.caption.38}{}}
+\newlabel{sub@fig:kcc_2_density}{{a}{32}{Histogram \& theoretical density\relax }{figure.caption.38}{}}
+\newlabel{fig:kcc_2_qqplot}{{5.2b}{32}{QQ-Plot\relax }{figure.caption.38}{}}
+\newlabel{sub@fig:kcc_2_qqplot}{{b}{32}{QQ-Plot\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 2; Estimated parameters: scale = 7.83, shape1.a = 29.15, shape2.p = 2.42\relax }}{32}{figure.caption.38}}
+\acronymused{KCC}
+\newlabel{fig:kcc_2_marginal}{{5.2}{32}{Dagum distribution fitted to log-sales of \ac {KCC} 2; Estimated parameters: scale = 7.83, shape1.a = 29.15, shape2.p = 2.42\relax }{figure.caption.38}{}}
+\newlabel{fig:kcc_6_density}{{5.3a}{32}{Histogram \& theoretical density\relax }{figure.caption.39}{}}
+\newlabel{sub@fig:kcc_6_density}{{a}{32}{Histogram \& theoretical density\relax }{figure.caption.39}{}}
+\newlabel{fig:kcc_6_qqplot}{{5.3b}{32}{QQ-Plot\relax }{figure.caption.39}{}}
+\newlabel{sub@fig:kcc_6_qqplot}{{b}{32}{QQ-Plot\relax }{figure.caption.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 6; Estimated parameters: scale = 8.32, shape1.a = 29, shape2.p = 122.95\relax }}{32}{figure.caption.39}}
+\acronymused{KCC}
+\newlabel{fig:kcc_6_marginal}{{5.3}{32}{Dagum distribution fitted to log-sales of \ac {KCC} 6; Estimated parameters: scale = 8.32, shape1.a = 29, shape2.p = 122.95\relax }{figure.caption.39}{}}
 \citation{vatter2015generalized}
 \citation{vatter2018generalized}
 \citation{vatter2019gamcopula}
+\newlabel{fig:kcc_8_density}{{5.4a}{33}{Histogram \& theoretical density\relax }{figure.caption.40}{}}
+\newlabel{sub@fig:kcc_8_density}{{a}{33}{Histogram \& theoretical density\relax }{figure.caption.40}{}}
+\newlabel{fig:kcc_8_qqplot}{{5.4b}{33}{QQ-Plot\relax }{figure.caption.40}{}}
+\newlabel{sub@fig:kcc_8_qqplot}{{b}{33}{QQ-Plot\relax }{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 8; Estimated parameters: scale = 7, shape1.a = 21.03, shape2.p = 4.13\relax }}{33}{figure.caption.40}}
+\acronymused{KCC}
+\newlabel{fig:kcc_8_marginal}{{5.4}{33}{Dagum distribution fitted to log-sales of \ac {KCC} 8; Estimated parameters: scale = 7, shape1.a = 21.03, shape2.p = 4.13\relax }{figure.caption.40}{}}
+\AC@undonewlabel{acro:GAMLSS}
+\newlabel{acro:GAMLSS}{{5.1}{33}{KCC Marginals}{section*.41}{}}
+\acronymused{GAMLSS}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}KCC Correlations}{33}{subsection.5.2}}
+\newlabel{ssec:kcc_correlations}{{5.2}{33}{KCC Correlations}{subsection.5.2}{}}
 \citation{wood2017generalized}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Modelling}{31}{section.5}}
-\newlabel{sec:modelling}{{5}{31}{Modelling}{section.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}KCC Correlations}{31}{subsection.5.1}}
-\newlabel{ssec:kcc_correlations}{{5.1}{31}{KCC Correlations}{subsection.5.1}{}}
-\acronymused{KCC}
-\acronymused{KCC}
+\citation{marra1605bivariate,marragjrm}
+\citation{rigby2005generalized}
+\citation{klein2016simultaneous}
+\citation{marragjrm}
 \AC@undonewlabel{acro:AIC}
-\newlabel{acro:AIC}{{5.1}{31}{KCC Correlations}{section*.37}{}}
+\newlabel{acro:AIC}{{5.2}{34}{KCC Correlations}{section*.42}{}}
 \acronymused{AIC}
-\newlabel{eq:tau_link}{{5.1}{32}{KCC Correlations}{equation.5.1}{}}
-\newlabel{eq:gam_kcc}{{5.2}{32}{KCC Correlations}{equation.5.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Pairwise total markdown percentages of the key category clusters (scatterplots, densities \& linear correlations)\relax }}{32}{figure.caption.38}}
-\newlabel{fig:total_markdown_pct_kcc}{{5.1}{32}{Pairwise total markdown percentages of the key category clusters (scatterplots, densities \& linear correlations)\relax }{figure.caption.38}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}KCC 2 \& KCC 6}{33}{subsubsection.5.1.1}}
-\newlabel{sssec:kcc_26}{{5.1.1}{33}{KCC 2 \& KCC 6}{subsubsection.5.1.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces  \relax }}{33}{table.5.1}}
-\newlabel{tab.gam}{{5.1}{33}{\relax }{table.5.1}{}}
-\newlabel{fig:time_effect_kcc_26}{{5.2a}{33}{Effect of time\relax }{figure.caption.39}{}}
-\newlabel{sub@fig:time_effect_kcc_26}{{a}{33}{Effect of time\relax }{figure.caption.39}{}}
-\newlabel{fig:markdown_effect_kcc_26}{{5.2b}{33}{Effect of total markdown percentage\relax }{figure.caption.39}{}}
-\newlabel{sub@fig:markdown_effect_kcc_26}{{b}{33}{Effect of total markdown percentage\relax }{figure.caption.39}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Smooth effects on Kendall's Tau: KCC 2 \& KCC 6\relax }}{33}{figure.caption.39}}
-\newlabel{fig:effects_kcc_26}{{5.2}{33}{Smooth effects on Kendall's Tau: KCC 2 \& KCC 6\relax }{figure.caption.39}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Check KCC 2 6\relax }}{33}{figure.caption.40}}
-\newlabel{fig:gam_check_kcc_26}{{5.3}{33}{Check KCC 2 6\relax }{figure.caption.40}{}}
-\newlabel{fig:tau_over_time_kcc_26}{{5.4a}{34}{Estimates over time for KCC 2 \& KCC 6\relax }{figure.caption.41}{}}
-\newlabel{sub@fig:tau_over_time_kcc_26}{{a}{34}{Estimates over time for KCC 2 \& KCC 6\relax }{figure.caption.41}{}}
-\newlabel{fig:diff_tau_over_time_kcc_26}{{5.4b}{34}{Change over time for KCC 2 \& KCC 6\relax }{figure.caption.41}{}}
-\newlabel{sub@fig:diff_tau_over_time_kcc_26}{{b}{34}{Change over time for KCC 2 \& KCC 6\relax }{figure.caption.41}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Kendall's Tau estimates their change over time for KCC 2 \& KCC 6\relax }}{34}{figure.caption.41}}
-\newlabel{fig:tau_estimates_kcc_26}{{5.4}{34}{Kendall's Tau estimates their change over time for KCC 2 \& KCC 6\relax }{figure.caption.41}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}KCC 2 \& KCC 8}{34}{subsubsection.5.1.2}}
-\newlabel{sssec:kcc_28}{{5.1.2}{34}{KCC 2 \& KCC 8}{subsubsection.5.1.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}KCC 6 \& KCC 8}{34}{subsubsection.5.1.3}}
-\newlabel{sssec:kcc_68}{{5.1.3}{34}{KCC 6 \& KCC 8}{subsubsection.5.1.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Data Delimitation}{34}{subsection.5.2}}
-\newlabel{ssec:data_delimitation}{{5.2}{34}{Data Delimitation}{subsection.5.2}{}}
+\newlabel{eq:tau_link}{{5.1}{34}{KCC Correlations}{equation.5.1}{}}
+\newlabel{eq:gam_kcc}{{5.2}{34}{KCC Correlations}{equation.5.2}{}}
+\AC@undonewlabel{acro:GJRM}
+\newlabel{acro:GJRM}{{5.2}{34}{KCC Correlations}{section*.43}{}}
+\acronymused{GJRM}
+\acronymused{GAMLSS}
+\newlabel{eq:gjrm_kcc}{{5.3}{35}{KCC Correlations}{equation.5.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}KCC 2 \& KCC 6}{35}{subsubsection.5.2.1}}
+\newlabel{sssec:kcc_26}{{5.2.1}{35}{KCC 2 \& KCC 6}{subsubsection.5.2.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}KCC 2 \& KCC 8}{35}{subsubsection.5.2.2}}
+\newlabel{sssec:kcc_28}{{5.2.2}{35}{KCC 2 \& KCC 8}{subsubsection.5.2.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}KCC 6 \& KCC 8}{35}{subsubsection.5.2.3}}
+\newlabel{sssec:kcc_68}{{5.2.3}{35}{KCC 6 \& KCC 8}{subsubsection.5.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Article Correlations}{35}{subsection.5.3}}
+\newlabel{ssec:article_correlations}{{5.3}{35}{Article Correlations}{subsection.5.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Data Delimitation}{36}{subsubsection.5.3.1}}
+\newlabel{sssec:data_delimitation}{{5.3.1}{36}{Data Delimitation}{subsubsection.5.3.1}{}}
 \acronymused{KCC}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Articles per Key Category Cluster\relax }}{34}{table.5.2}}
-\newlabel{tab:articles_per_kcc}{{5.2}{34}{Articles per Key Category Cluster\relax }{table.5.2}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Articles per Key Category Cluster after data delimitation\relax }}{35}{table.5.3}}
-\newlabel{tab:articles_per_kcc_after_max_week}{{5.3}{35}{Articles per Key Category Cluster after data delimitation\relax }{table.5.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Articles per Key Category Cluster\relax }}{36}{table.5.1}}
+\newlabel{tab:articles_per_kcc}{{5.1}{36}{Articles per Key Category Cluster\relax }{table.5.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Articles per Key Category Cluster after data delimitation\relax }}{36}{table.5.2}}
+\newlabel{tab:articles_per_kcc_after_max_week}{{5.2}{36}{Articles per Key Category Cluster after data delimitation\relax }{table.5.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{37}{section.6}}
 \newlabel{sec:conclusion}{{6}{37}{Conclusion}{section.6}{}}
-\@writefile{toc}{\contentsline {section}{Appendix}{39}{section.6}}
-\newlabel{sec:appendix}{{6}{39}{Appendix}{section*.42}{}}
-\@writefile{toc}{\contentsline {section}{List of Abbreviations}{41}{section*.42}}
-\newacro{AIC}[\AC@hyperlink{AIC}{AIC}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Akaike information criterion}
+\@writefile{toc}{\contentsline {section}{List of Abbreviations}{39}{section.6}}
+\newacro{AIC}[\AC@hyperlink{AIC}{AIC}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Akaike Information Criterion}
 \newacro{BS}[\AC@hyperlink{BS}{BS}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Business Segment}
 \newacro{CDF}[\AC@hyperlink{CDF}{CDF}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Cumulative Distribution Function}
 \newacro{dof}[\AC@hyperlink{dof}{d.o.f.}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Degrees of Freedom}
 \newacro{GAM}[\AC@hyperlink{GAM}{GAM}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Generalized Additive Model}
+\newacro{GAMLSS}[\AC@hyperlink{GAMLSS}{GAMLSS}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Generalized Additive Models for Loacation, Scale \& Shape}
 \newacro{GAMM}[\AC@hyperlink{GAMM}{GAMM}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Generalized Additive Mixed Model}
 \newacro{GLM}[\AC@hyperlink{GLM}{GLM}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Generalized Linear Model}
 \newacro{GLMM}[\AC@hyperlink{GLMM}{GLMM}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Generalized Linear Mixed Model}
+\newacro{GJRM}[\AC@hyperlink{GJRM}{GJRM}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Generalized Joint Regression Models}
 \newacro{KC}[\AC@hyperlink{KC}{KC}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Key Category}
 \newacro{KCC}[\AC@hyperlink{KCC}{KCC}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Key Category Cluster}
 \newacro{LM}[\AC@hyperlink{LM}{LM}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Linear Regression Model}
@@ -358,34 +380,41 @@
 \newacro{wlog}[\AC@hyperlink{wlog}{w.l.o.g.}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi without loss of generality}
 \citation{adidasmediacenter}
 \citation{adidas70years}
-\@writefile{toc}{\contentsline {section}{List of Figures}{43}{section*.43}}
+\@writefile{toc}{\contentsline {section}{List of Figures}{41}{section*.44}}
 \acronymused{CDF}
 \acronymused{KCC}
 \acronymused{KCC}
+\acronymused{KCC}
+\acronymused{KCC}
+\acronymused{KCC}
 \citation{stanfordphd}
-\@writefile{toc}{\contentsline {section}{List of Tables}{45}{section*.44}}
+\@writefile{toc}{\contentsline {section}{List of Tables}{43}{section*.45}}
 \bibstyle{dinat-en}
 \citation{*}
 \bibdata{references}
 \bibcite{adidas70years}{{1}{2019}{{adidas 70 years}}{{}}}
 \bibcite{adidas-group}{{2}{}{{adidas-group.com}}{{}}}
 \bibcite{adidasmediacenter}{{3}{}{{adidas.com media-center}}{{}}}
-\bibcite{embrechts2001modelling}{{4}{2001}{{Embrechts et~al.}}{{Embrechts, Lindskog and McNeil}}}
-\bibcite{fahrmeir2003regression}{{5}{2003}{{Fahrmeir et~al.}}{{Fahrmeir, Kneib, Lang and Marx}}}
-\bibcite{hastie1986}{{6}{1986}{{Hastie and Tibshirani}}{{}}}
-\bibcite{hastie1990generalized}{{7}{1990}{{Hastie and Tibshirani}}{{}}}
-\bibcite{hofert2019elements}{{8}{2019}{{Hofert et~al.}}{{Hofert, Kojadinovic, M{\"a}chler and Yan}}}
-\bibcite{klein2016simultaneous}{{9}{2016}{{Klein and Kneib}}{{}}}
-\bibcite{mcneil2015quantitative}{{10}{2015}{{McNeil et~al.}}{{McNeil, Frey and Embrechts}}}
-\bibcite{patton2006modelling}{{11}{2006}{{Patton}}{{}}}
-\@writefile{toc}{\contentsline {section}{References}{47}{section*.45}}
-\bibcite{Rcoreteam}{{12}{2018}{{R Core Team}}{{}}}
-\bibcite{Ruppert2015}{{13}{2015}{{Ruppert and Matteson}}{{}}}
-\bibcite{schmidt2007coping}{{14}{2007}{{Schmidt}}{{}}}
-\bibcite{sklar1959fonctions}{{15}{1959}{{Sklar}}{{}}}
-\bibcite{stanfordphd}{{16}{}{{stanfordphd}}{{}}}
-\bibcite{trivedi2017note}{{17}{2017}{{Trivedi and Zimmer}}{{}}}
-\bibcite{vatter2015generalized}{{18}{2015}{{Vatter and Chavez-Demoulin}}{{}}}
-\bibcite{vatter2018generalized}{{19}{2018}{{Vatter and Nagler}}{{}}}
-\bibcite{vatter2019gamcopula}{{20}{2019}{{Vatter and Nagler}}{{}}}
-\bibcite{wood2017generalized}{{21}{2017}{{Wood}}{{}}}
+\bibcite{dagum1975model}{{4}{1975}{{Dagum}}{{}}}
+\bibcite{embrechts2001modelling}{{5}{2001}{{Embrechts et~al.}}{{Embrechts, Lindskog and McNeil}}}
+\bibcite{fahrmeir2003regression}{{6}{2003}{{Fahrmeir et~al.}}{{Fahrmeir, Kneib, Lang and Marx}}}
+\bibcite{hastie1986}{{7}{1986}{{Hastie and Tibshirani}}{{}}}
+\bibcite{hastie1990generalized}{{8}{1990}{{Hastie and Tibshirani}}{{}}}
+\bibcite{hofert2019elements}{{9}{2019}{{Hofert et~al.}}{{Hofert, Kojadinovic, M{\"a}chler and Yan}}}
+\bibcite{klein2016simultaneous}{{10}{2016}{{Klein and Kneib}}{{}}}
+\bibcite{marra1605bivariate}{{11}{2016}{{Marra and Radice}}{{}}}
+\@writefile{toc}{\contentsline {section}{References}{45}{section*.46}}
+\bibcite{marragjrm}{{12}{2020}{{Marra and Radice}}{{}}}
+\bibcite{mcneil2015quantitative}{{13}{2015}{{McNeil et~al.}}{{McNeil, Frey and Embrechts}}}
+\bibcite{patton2006modelling}{{14}{2006}{{Patton}}{{}}}
+\bibcite{Rcoreteam}{{15}{2018}{{R Core Team}}{{}}}
+\bibcite{rigby2005generalized}{{16}{2005}{{Rigby and Stasinopoulos}}{{}}}
+\bibcite{Ruppert2015}{{17}{2015}{{Ruppert and Matteson}}{{}}}
+\bibcite{schmidt2007coping}{{18}{2007}{{Schmidt}}{{}}}
+\bibcite{sklar1959fonctions}{{19}{1959}{{Sklar}}{{}}}
+\bibcite{stanfordphd}{{20}{}{{stanfordphd}}{{}}}
+\bibcite{trivedi2017note}{{21}{2017}{{Trivedi and Zimmer}}{{}}}
+\bibcite{vatter2015generalized}{{22}{2015}{{Vatter and Chavez-Demoulin}}{{}}}
+\bibcite{vatter2018generalized}{{23}{2018}{{Vatter and Nagler}}{{}}}
+\bibcite{vatter2019gamcopula}{{24}{2019}{{Vatter and Nagler}}{{}}}
+\bibcite{wood2017generalized}{{25}{2017}{{Wood}}{{}}}

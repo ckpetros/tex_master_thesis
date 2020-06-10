@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Time series and boxplot showing logarithmized sales of the key category clusters\relax }}{28}{figure.caption.34}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Pairwise scatterplots of sales on \ac {KCC} level. First row: Logarithmic sales with marginal densities, Second row: Pseudo sales observation with marginal histograms\relax }}{28}{figure.caption.35}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }}{29}{figure.caption.36}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Pairwise total markdown percentages of the key category clusters (scatterplots, densities \& linear correlations)\relax }}{32}{figure.caption.38}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Smooth effects on Kendall's Tau: KCC 2 \& KCC 6\relax }}{33}{figure.caption.39}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Check KCC 2 6\relax }}{33}{figure.caption.40}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Kendall's Tau estimates their change over time for KCC 2 \& KCC 6\relax }}{34}{figure.caption.41}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pairwise total markdown percentages of key category clusters\relax }}{31}{figure.caption.37}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 2; Estimated parameters: scale = 7.83, shape1.a = 29.15, shape2.p = 2.42\relax }}{32}{figure.caption.38}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 6; Estimated parameters: scale = 8.32, shape1.a = 29, shape2.p = 122.95\relax }}{32}{figure.caption.39}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 8; Estimated parameters: scale = 7, shape1.a = 21.03, shape2.p = 4.13\relax }}{33}{figure.caption.40}
