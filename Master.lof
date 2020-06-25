@@ -20,3 +20,9 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 2; Estimated parameters: scale = 7.83, shape1.a = 29.15, shape2.p = 2.42\relax }}{32}{figure.caption.38}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 6; Estimated parameters: scale = 8.32, shape1.a = 29, shape2.p = 122.95\relax }}{32}{figure.caption.39}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 8; Estimated parameters: scale = 7, shape1.a = 21.03, shape2.p = 4.13\relax }}{33}{figure.caption.40}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Estimation diagnostics for the response marginals KCC 2 \& KCC 6; \ac {GJRM} approach\relax }}{36}{figure.caption.44}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 2 \& KCC 6\relax }}{36}{figure.caption.45}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Estimation diagnostics for the response marginals KCC 2 \& KCC 8; \ac {GJRM} approach\relax }}{37}{figure.caption.46}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 2 \& KCC 8\relax }}{38}{figure.caption.47}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Estimation diagnostics for the response marginals KCC 6 \& KCC 8; \ac {GJRM} approach\relax }}{39}{figure.caption.48}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 6 \& KCC 8\relax }}{39}{figure.caption.49}

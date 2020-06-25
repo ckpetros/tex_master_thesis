@@ -18,7 +18,7 @@ The functions $f_{1}(z_{1}), \ldots, f_{q}(z_{q})$ are non-linear univariate \te
 \begin{equation}
 f_{j}\left(z_{j}\right)=\sum_{l=1}^{d_{j}} \gamma_{j l} B_{l}\left(z_{j}\right)
 \end{equation}
-with $B_{l}\left(z_{j}\right)$ being \textit{basis functions} for $j = 1, \ldots, q$ and $d_j$ the number of basis functions for covariate $z_j$. The regression coefficients of the basis functions $B_l(z_j)$ are labeled as $\gamma_{jl}$. There is a wide variety of basis functions which can be used to flexibly model the data in a non-parametric manner. For more content on basis functions we refer to \cite{wood2017generalized} and \cite{fahrmeir2003regression}. The basis functions evaluated at the observed covariate values are summarized in the design matrices $\bm{Z}_1, \ldots, \bm{Z}_q$ and the additive model \ref{eq:additive_model} can be written in matrix notation as
+with $B_{l}\left(z_{j}\right)$ being \textit{basis functions} for $j = 1, \ldots, q$ and $d_j$ the number of basis functions for covariate $z_j$. The regression coefficients of the basis functions $B_l(z_j)$ are labeled as $\gamma_{jl}$. There is a wide variety of basis functions which can be used to flexibly model the data in a non-parametric manner. For more content on basis functions the reader can refer to \cite{wood2017generalized} and \cite{fahrmeir2003regression}. The basis functions evaluated at the observed covariate values are summarized in the design matrices $\bm{Z}_1, \ldots, \bm{Z}_q$ and the additive model \ref{eq:additive_model} can be written in matrix notation as
 \begin{equation}
 \bm{y} = \bm{Z}_1 \bm{\gamma}_1 + \ldots + \bm{Z}_q \bm{\gamma}_q + \bm{X} \bm{\beta} + \bm{\varepsilon}.
 \label{eq:gam_matrix_notation}
@@ -30,7 +30,7 @@ $$
 \\
 
 A convenient trait of additive models is that they also support the incorporation of random effects. Random coefficient terms can straightforwardly be added to the model.
-Analogously to Section \ref{ssec:mixed_models}, we consider data measured in a longitudinal setting with individuals  $i=1, \ldots, m$ observed at times $t_{i1} < \ldots < t_{ij} < \ldots < t_{i_{n_i}}$ or clustered data with subjects $j=1, \ldots, n_i$ in clusters $i=1, \ldots, m$. \Ac{wlog},\footnote{for the indexes} we can simply add to \autoref{eq:gam_matrix_notation} the terms $\bm{Z}_0 \bm{\gamma}_0$ and $\bm{Z}_1 \bm{\gamma}_1$ representing the design matrices and coefficients of the random intercepts and random slopes respectively. Explicitly, the coefficients are formulated as $\gamma_{0}=\left(\bm{\gamma}_{01}, \ldots, \bm{\gamma}_{0 i}, \ldots, \bm{\gamma}_{0 m}\right)'$ and $\gamma_{1}=\left(\bm{\gamma}_{11}, \ldots, \bm{\gamma}_{1 i}, \ldots, \bm{\gamma}_{1 m}\right)'$, whereas the design matrices are expressed as
+Analogously to Section \ref{ssec:mixed_models}, data are considered to be measured in a longitudinal setting with individuals  $i=1, \ldots, m$ observed at times $t_{i1} < \ldots < t_{ij} < \ldots < t_{i_{n_i}}$ or clustered data with subjects $j=1, \ldots, n_i$ in clusters $i=1, \ldots, m$. \Ac{wlog},\footnote{for the indexes} we can simply add to \autoref{eq:gam_matrix_notation} the terms $\bm{Z}_0 \bm{\gamma}_0$ and $\bm{Z}_1 \bm{\gamma}_1$ representing the design matrices and coefficients of the random intercepts and random slopes respectively. Explicitly, the coefficients are formulated as $\gamma_{0}=\left(\bm{\gamma}_{01}, \ldots, \bm{\gamma}_{0 i}, \ldots, \bm{\gamma}_{0 m}\right)'$ and $\gamma_{1}=\left(\bm{\gamma}_{11}, \ldots, \bm{\gamma}_{1 i}, \ldots, \bm{\gamma}_{1 m}\right)'$, whereas the design matrices are expressed as
 $$
 \bm{Z}_0 =
 \left(
@@ -57,9 +57,9 @@ $$
 More details and technicalities regarding mixed effects in additive models can be found in the respective literature.\\
 
 
-Extensions of additive models to non-normal responses are consequently called \textit{\acp{GAM}}, which were first introducd by \cite{hastie1986}. If additionally random effects are included, we call them \textit{\acp{GAMM}}.\\
+Extensions of additive models to non-normal responses are consequently called \textit{\acp{GAM}}, which were first introducd by \cite{hastie1986}. If additionally random effects are included, they are called \textit{\acp{GAMM}}.\\
 
-Thus far, we have examined models with main effects and conceivably random effects. Accordingly, these types of effects can likewise be combined with covariate interactions and/or spatial effects. Such models can be described in a unified framework and are titled as (possibly \textit{Generalized}) \textit{\acp{STAR}},
+Thus far, models with main effects and conceivably random effects have been introduced. Accordingly, these types of effects can likewise be combined with covariate interactions and/or spatial effects. Such models can be described in a unified framework and are titled as (possibly \textit{Generalized}) \textit{\acp{STAR}},
 $$
 y=f_{1}\left(\nu_{1}\right)+\ldots+f_{q}\left(\nu_{q}\right)+\beta_{0}+\beta_{1} x_{1}+\ldots+\beta_{k} x_{k}+\varepsilon.
 $$

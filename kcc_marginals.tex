@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
 
-\autoref{fig:kcc_pair_scatterplots} is hinting that the marginal distributions come with a noticeable skewness, which are best to take into account. Among a pool of possible parametric distributions, we pick an appropriate one for each marginal. Several distributions would theoretically be justifying the shape of our data, e.g. Weibull, Gamma, Fisk (or Log-logistic), Singh-Maddala or Dagum distribution. After screening those parametric distributions, we find that the Dagum distribution fits all three marginals fairly well \citep{dagum1975model}. The large outlier values, though expected, deviate more. This is quite visible in Figures \ref{fig:kcc_2_marginal} - \ref{fig:kcc_8_marginal}, especially when looking at the Quantile-Quantile Plots (right figures).
+\autoref{fig:kcc_pair_scatterplots} is hinting that the marginal distributions come with a noticeable skewness, which are best to take into account. Among a pool of possible parametric distributions, we pick an appropriate one for each marginal. Several distributions would theoretically be justifying the shape of our data, e.g. Weibull, Gamma, Fisk (or Log-logistic), Singh-Maddala or Dagum distribution. After screening those parametric distributions, we find that the Dagum distribution fits all three marginals fairly well \citep{dagum1975model}. Although the distribution assumptions are aligned with the empirical distributions of the data, there are still some expected outliers. This is quite visible in Figures \ref{fig:kcc_2_marginal} - \ref{fig:kcc_8_marginal}, which depict the marginal empirical distributions along with the theoretical assumptions, especially when looking at the Quantile-Quantile Plots (right figures).
 
 
 
@@ -66,7 +66,7 @@
 \end{figure} 
 
 
-For the approaches in the below Section \ref{ssec:kcc_correlations} requiring parametric distribution assumptions for the marginals, we will consider the Dagum distribution with parameters specified as in the captions of the above three figures, which represent estimated maximum likelihood values (that is, if they do not have to be estimated over within a model like e.g. \ac{GAMLSS}).
+For the approaches in the below Section \ref{ssec:kcc_correlations} requiring parametric distribution assumptions for the marginals, we will consider the Dagum distribution with parameters specified as in the captions of the above three figures, which represent estimated maximum likelihood values (that is, if they do not have to be estimated over again within a model like e.g. \ac{GAMLSS}).
 
 
 

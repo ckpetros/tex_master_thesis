@@ -1,14 +1,14 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}adidas}{1}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Data Sources}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.2}Data Sources}{3}{subsection.1.2}
 \contentsline {section}{\numberline {2}Statistical Theory \& Methods}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Generalized Linear Models}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Mixed Effects Models}{5}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Additive Models}{6}{subsection.2.3}
 \contentsline {section}{\numberline {3}Copulas \& Dependence Structures}{9}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introduction to Copulas}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Copula Classes}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Copula Classes}{12}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Fundamental Copulas}{12}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Elliptical Copulas}{13}{subsubsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.3}Archimedean Copulas}{15}{subsubsection.3.2.3}
@@ -26,12 +26,12 @@
 \contentsline {subsection}{\numberline {5.1}KCC Marginals}{32}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}KCC Correlations}{33}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}KCC 2 \& KCC 6}{35}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}KCC 2 \& KCC 8}{35}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}KCC 6 \& KCC 8}{35}{subsubsection.5.2.3}
-\contentsline {subsection}{\numberline {5.3}Article Correlations}{35}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Data Delimitation}{36}{subsubsection.5.3.1}
-\contentsline {section}{\numberline {6}Conclusion}{37}{section.6}
-\contentsline {section}{List of Abbreviations}{39}{section.6}
-\contentsline {section}{List of Figures}{41}{section*.44}
-\contentsline {section}{List of Tables}{43}{section*.45}
-\contentsline {section}{References}{45}{section*.46}
+\contentsline {subsubsection}{\numberline {5.2.2}KCC 2 \& KCC 8}{37}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}KCC 6 \& KCC 8}{38}{subsubsection.5.2.3}
+\contentsline {subsection}{\numberline {5.3}Article Correlations}{39}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Data Delimitation}{40}{subsubsection.5.3.1}
+\contentsline {section}{\numberline {6}Conclusion}{41}{section.6}
+\contentsline {section}{List of Abbreviations}{43}{section.6}
+\contentsline {section}{List of Figures}{45}{section*.50}
+\contentsline {section}{List of Tables}{47}{section*.51}
+\contentsline {section}{References}{49}{section*.52}

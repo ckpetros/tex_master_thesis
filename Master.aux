@@ -37,8 +37,8 @@
 \newlabel{fig:adidas_logos}{{1.1}{2}{Two of the adidas-group logos: Performance (left) \& Originals (right) \\ \citep {adidasmediacenter}\relax }{figure.caption.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces adidas celebrates its 70th anniversary and the opening of the ARENA building \citep  {adidas70years}\relax }}{2}{figure.caption.6}}
 \newlabel{fig:adidas_70_years}{{1.2}{2}{adidas celebrates its 70th anniversary and the opening of the ARENA building \citep {adidas70years}\relax }{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Data Sources}{2}{subsection.1.2}}
-\newlabel{ssec:data_sources}{{1.2}{2}{Data Sources}{subsection.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Data Sources}{3}{subsection.1.2}}
+\newlabel{ssec:data_sources}{{1.2}{3}{Data Sources}{subsection.1.2}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {1.1}{\ignorespaces Transactional raw data description from online purchases of western European countries\relax }}{3}{table.1.1}}
 \newlabel{tab:transactional_data}{{1.1}{3}{Transactional raw data description from online purchases of western European countries\relax }{table.1.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {1.2}{\ignorespaces Article attribute data\relax }}{4}{table.1.2}}
@@ -71,10 +71,10 @@
 \acronymused{GLMM}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Additive Models}{6}{subsection.2.3}}
 \newlabel{ssec:gam}{{2.3}{6}{Additive Models}{subsection.2.3}{}}
-\acronymused{LM}
-\newlabel{eq:additive_model}{{2.7}{6}{Additive Models}{equation.2.7}{}}
 \citation{wood2017generalized}
 \citation{fahrmeir2003regression}
+\acronymused{LM}
+\newlabel{eq:additive_model}{{2.7}{7}{Additive Models}{equation.2.7}{}}
 \newlabel{eq:gam_matrix_notation}{{2.10}{7}{Additive Models}{equation.2.10}{}}
 \AC@undonewlabel{acro:wlog}
 \newlabel{acro:wlog}{{2.3}{7}{Additive Models}{section*.11}{}}
@@ -127,8 +127,8 @@
 \newlabel{eq:frechet_hoeffding_lower}{{3.8}{11}{Introduction to Copulas}{equation.3.8}{}}
 \newlabel{eq:frechet_hoeffding_upper}{{3.9}{11}{Introduction to Copulas}{equation.3.9}{}}
 \newlabel{eq:frechet_hoeffding}{{3.10}{11}{Introduction to Copulas}{equation.3.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Copula Classes}{11}{subsection.3.2}}
-\newlabel{ssec:copula_classes}{{3.2}{11}{Copula Classes}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Copula Classes}{12}{subsection.3.2}}
+\newlabel{ssec:copula_classes}{{3.2}{12}{Copula Classes}{subsection.3.2}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Fundamental Copulas}{12}{subsubsection.3.2.1}}
 \newlabel{sssec:fundamental_copulas}{{3.2.1}{12}{Fundamental Copulas}{subsubsection.3.2.1}{}}
 \acronymused{CDF}
@@ -328,6 +328,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2}KCC Correlations}{33}{subsection.5.2}}
 \newlabel{ssec:kcc_correlations}{{5.2}{33}{KCC Correlations}{subsection.5.2}{}}
 \citation{wood2017generalized}
+\citation{vatter2018generalized}
 \citation{marra1605bivariate,marragjrm}
 \citation{rigby2005generalized}
 \citation{klein2016simultaneous}
@@ -342,24 +343,52 @@
 \acronymused{GJRM}
 \acronymused{GAMLSS}
 \newlabel{eq:gjrm_kcc}{{5.3}{35}{KCC Correlations}{equation.5.3}{}}
+\newlabel{eq:theta_link}{{5.4}{35}{KCC Correlations}{equation.5.4}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}KCC 2 \& KCC 6}{35}{subsubsection.5.2.1}}
 \newlabel{sssec:kcc_26}{{5.2.1}{35}{KCC 2 \& KCC 6}{subsubsection.5.2.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}KCC 2 \& KCC 8}{35}{subsubsection.5.2.2}}
-\newlabel{sssec:kcc_28}{{5.2.2}{35}{KCC 2 \& KCC 8}{subsubsection.5.2.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}KCC 6 \& KCC 8}{35}{subsubsection.5.2.3}}
-\newlabel{sssec:kcc_68}{{5.2.3}{35}{KCC 6 \& KCC 8}{subsubsection.5.2.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Article Correlations}{35}{subsection.5.3}}
-\newlabel{ssec:article_correlations}{{5.3}{35}{Article Correlations}{subsection.5.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Data Delimitation}{36}{subsubsection.5.3.1}}
-\newlabel{sssec:data_delimitation}{{5.3.1}{36}{Data Delimitation}{subsubsection.5.3.1}{}}
+\acronymused{GJRM}
+\acronymused{RV}
+\acronymused{GAMLSS}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Estimation diagnostics for the response marginals KCC 2 \& KCC 6; \ac {GJRM} approach\relax }}{36}{figure.caption.44}}
+\acronymused{GJRM}
+\newlabel{fig:margin_estimates_kcc_26}{{5.5}{36}{Estimation diagnostics for the response marginals KCC 2 \& KCC 6; \ac {GJRM} approach\relax }{figure.caption.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 2 \& KCC 6\relax }}{36}{figure.caption.45}}
+\newlabel{fig:copula_parameters_26}{{5.6}{36}{Estimated time-varying Pearson's correlation coefficients for the pair KCC 2 \& KCC 6\relax }{figure.caption.45}{}}
+\acronymused{GJRM}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}KCC 2 \& KCC 8}{37}{subsubsection.5.2.2}}
+\newlabel{sssec:kcc_28}{{5.2.2}{37}{KCC 2 \& KCC 8}{subsubsection.5.2.2}{}}
 \acronymused{KCC}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Articles per Key Category Cluster\relax }}{36}{table.5.1}}
-\newlabel{tab:articles_per_kcc}{{5.1}{36}{Articles per Key Category Cluster\relax }{table.5.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Articles per Key Category Cluster after data delimitation\relax }}{36}{table.5.2}}
-\newlabel{tab:articles_per_kcc_after_max_week}{{5.2}{36}{Articles per Key Category Cluster after data delimitation\relax }{table.5.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{37}{section.6}}
-\newlabel{sec:conclusion}{{6}{37}{Conclusion}{section.6}{}}
-\@writefile{toc}{\contentsline {section}{List of Abbreviations}{39}{section.6}}
+\acronymused{GJRM}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Estimation diagnostics for the response marginals KCC 2 \& KCC 8; \ac {GJRM} approach\relax }}{37}{figure.caption.46}}
+\acronymused{GJRM}
+\newlabel{fig:margin_estimates_kcc_28}{{5.7}{37}{Estimation diagnostics for the response marginals KCC 2 \& KCC 8; \ac {GJRM} approach\relax }{figure.caption.46}{}}
+\acronymused{GJRM}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 2 \& KCC 8\relax }}{38}{figure.caption.47}}
+\newlabel{fig:copula_parameters_28}{{5.8}{38}{Estimated time-varying Pearson's correlation coefficients for the pair KCC 2 \& KCC 8\relax }{figure.caption.47}{}}
+\acronymused{GJRM}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}KCC 6 \& KCC 8}{38}{subsubsection.5.2.3}}
+\newlabel{sssec:kcc_68}{{5.2.3}{38}{KCC 6 \& KCC 8}{subsubsection.5.2.3}{}}
+\acronymused{GJRM}
+\acronymused{KCC}
+\acronymused{KCC}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Estimation diagnostics for the response marginals KCC 6 \& KCC 8; \ac {GJRM} approach\relax }}{39}{figure.caption.48}}
+\acronymused{GJRM}
+\newlabel{fig:margin_estimates_kcc_68}{{5.9}{39}{Estimation diagnostics for the response marginals KCC 6 \& KCC 8; \ac {GJRM} approach\relax }{figure.caption.48}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 6 \& KCC 8\relax }}{39}{figure.caption.49}}
+\newlabel{fig:copula_parameters_68}{{5.10}{39}{Estimated time-varying Pearson's correlation coefficients for the pair KCC 6 \& KCC 8\relax }{figure.caption.49}{}}
+\acronymused{GJRM}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Article Correlations}{39}{subsection.5.3}}
+\newlabel{ssec:article_correlations}{{5.3}{39}{Article Correlations}{subsection.5.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Data Delimitation}{40}{subsubsection.5.3.1}}
+\newlabel{sssec:data_delimitation}{{5.3.1}{40}{Data Delimitation}{subsubsection.5.3.1}{}}
+\acronymused{KCC}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Articles per Key Category Cluster\relax }}{40}{table.5.1}}
+\newlabel{tab:articles_per_kcc}{{5.1}{40}{Articles per Key Category Cluster\relax }{table.5.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Articles per Key Category Cluster after data delimitation\relax }}{40}{table.5.2}}
+\newlabel{tab:articles_per_kcc_after_max_week}{{5.2}{40}{Articles per Key Category Cluster after data delimitation\relax }{table.5.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{41}{section.6}}
+\newlabel{sec:conclusion}{{6}{41}{Conclusion}{section.6}{}}
+\@writefile{toc}{\contentsline {section}{List of Abbreviations}{43}{section.6}}
 \newacro{AIC}[\AC@hyperlink{AIC}{AIC}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Akaike Information Criterion}
 \newacro{BS}[\AC@hyperlink{BS}{BS}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Business Segment}
 \newacro{CDF}[\AC@hyperlink{CDF}{CDF}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi Cumulative Distribution Function}
@@ -380,15 +409,18 @@
 \newacro{wlog}[\AC@hyperlink{wlog}{w.l.o.g.}]{\ifAC@uppercase@first\expandafter\MakeUppercase\fi without loss of generality}
 \citation{adidasmediacenter}
 \citation{adidas70years}
-\@writefile{toc}{\contentsline {section}{List of Figures}{41}{section*.44}}
+\@writefile{toc}{\contentsline {section}{List of Figures}{45}{section*.50}}
 \acronymused{CDF}
 \acronymused{KCC}
 \acronymused{KCC}
 \acronymused{KCC}
 \acronymused{KCC}
 \acronymused{KCC}
+\acronymused{GJRM}
+\acronymused{GJRM}
+\acronymused{GJRM}
 \citation{stanfordphd}
-\@writefile{toc}{\contentsline {section}{List of Tables}{43}{section*.45}}
+\@writefile{toc}{\contentsline {section}{List of Tables}{47}{section*.51}}
 \bibstyle{dinat-en}
 \citation{*}
 \bibdata{references}
@@ -403,7 +435,7 @@
 \bibcite{hofert2019elements}{{9}{2019}{{Hofert et~al.}}{{Hofert, Kojadinovic, M{\"a}chler and Yan}}}
 \bibcite{klein2016simultaneous}{{10}{2016}{{Klein and Kneib}}{{}}}
 \bibcite{marra1605bivariate}{{11}{2016}{{Marra and Radice}}{{}}}
-\@writefile{toc}{\contentsline {section}{References}{45}{section*.46}}
+\@writefile{toc}{\contentsline {section}{References}{49}{section*.52}}
 \bibcite{marragjrm}{{12}{2020}{{Marra and Radice}}{{}}}
 \bibcite{mcneil2015quantitative}{{13}{2015}{{McNeil et~al.}}{{McNeil, Frey and Embrechts}}}
 \bibcite{patton2006modelling}{{14}{2006}{{Patton}}{{}}}

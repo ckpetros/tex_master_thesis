@@ -11,7 +11,7 @@ As mentioned in Section \autoref{ssec:data_sources}, our data contains the infor
   \label{fig:total_sold_articles_ts}
 \end{figure}
 
-Another promotion type we are interested in is \textit{"Friends \& Family"}, occurring yearly around April-May and October, where on the eCom website plenty of articles are on offer. On these weeks, we have elevated numbers of sold articles as well(\autoref{fig:total_sold_articles_ts}, blue lines). Tables \ref{tab:black_friday} and \ref{tab:friends_and_family} show the weeks were Black Friday and Friends \& Family took place respectively. The dates indicate always the Monday of the respective week (we assume that a week starts on Monday). \\
+Another promotion type we are interested in is \textit{"Friends \& Family"}, occurring yearly around April-May and October, where on the eCom website plenty of articles are on offer. On these weeks, we have elevated numbers of sold articles as well (\autoref{fig:total_sold_articles_ts}, blue lines). Tables \ref{tab:black_friday} and \ref{tab:friends_and_family} show the weeks were Black Friday and Friends \& Family took place respectively. The dates indicate always the Monday of the respective week (according to European standards, a week starts on Monday). \\
 
 
 \begin{table}[H]
@@ -53,7 +53,10 @@ Another promotion type we are interested in is \textit{"Friends \& Family"}, occ
 \end{table}
 
 
-Excluding the months of the two mentioned promotion types, they don't seem to have a very large impact on sales. The monthly sales portions for those months can be observed in \autoref{fig:sales_without_promo_months}. We have slightly higher sales portions on January, June and July. Most probably this is due to Christmas and "end of the year" shopping habits, which are carried forward from December to the very next month January. Regarding June and July, they indicate summer periods and frequent occurrence of big sports events, which may drive sales as well. 
+
+The months in general don't seem to differ in their sale quantities, that is of course excluding the months of the two mentioned promotion types. The monthly sales portions for those months can be observed in \autoref{fig:sales_without_promo_months}. We have slightly higher sales portions on January, June and July. 
+Most probably this is due to Christmas and "end of the year" shopping habits, which are carried forward from December to the very next month January. 
+Regarding June and July, they indicate summer periods and frequent occurrence of big sports events, which may drive sales. 
 Notice that, despite the fact that December is not explicitly present in \autoref{tab:black_friday}, it is nonetheless a Black Friday month as the promotion is still activated moving from November to December (see \autoref{fig:monthly_ts}). \\
 
 
@@ -97,7 +100,7 @@ Moving forward, reviewing some sales summary statistics along with the findings 
 \end{table}
 
 
-Conscientiously, we want to inspect the number of weekly sold units above and below a certain (large) threshold to find out how promotions influence these vast sales numbers. In \autoref{fig:bar_below_200_units_week} we can see how the sales are distributed over Black Friday, Friends \& Family and regular weeks for below a threshold of 200 units. Most high sales occurrences don't enjoy any promotion, making the search of cause more difficult for these extreme cases. Observations above that threshold of 200 can be seen in \autoref{fig:bar_above_200_units_week} and we can clearly see a change from the previous figure. As expected, Black Friday is the dominating promotion type, although this the majority remains in not promoted sales, making search of causation for extreme observations not trivial.\\
+Conscientiously, we want to inspect the number of weekly sold units above and below a certain (large) threshold to find out how promotions influence these vast sales numbers. In \autoref{fig:bar_below_200_units_week} we can see how the sales are distributed over Black Friday, Friends \& Family and regular weeks for below a threshold of 200 units. Most high sales occurrences are not attached to any of the two big promotions. They might be due to other events or unrelated to any campaigns altogether. Observations above that threshold of 200 can be seen in \autoref{fig:bar_above_200_units_week} and we can clearly see a change from \autoref{fig:bar_below_200_units_week}. As expected, Black Friday is the dominating promotion type, although the majority remains in not promoted sales.\\
 
 
  
@@ -133,7 +136,7 @@ Instances with no promotions have a steeper curve (red line) and reach their max
 
 
 
-Unfortunately, we cannot just remove such outliers with extreme sale numbers from the dataset, as it would produce gaps in the time series of some specific articles. Removing entire articles from the analysis is also not an option, since we would be forced to remove a lot of articles. For example, 273 articles alone would have to be removed to get rid of the highest 0.01\% of quantities (see \autoref{tab:quantiles_sold_units_week}). Besides, these extreme values might be too informative for the underlying data generating process, so we decide to keep them all.
+Unfortunately, we cannot just remove such outliers with extreme sale numbers from the dataset, as it would produce gaps in the time series of some specific articles. Removing entire articles from the analysis is also not an option at this point, since we would be forced to remove a lot of articles. There will be a data delimitation process down the line to deal with this issue (see Subsection \ref{sssec:data_delimitation}). For example, 273 articles alone would have to be removed to get rid of the highest 0.01\% of quantities (see \autoref{tab:quantiles_sold_units_week}). Besides, these extreme values might be too informative for the underlying data generating process, so we decide to keep them all.
 
 
 
