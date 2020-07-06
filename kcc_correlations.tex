@@ -3,7 +3,9 @@
 Starting the dependence modelling on the key category cluster level, we will be aiming for obtaining separate estimations of pairwise correlations over time, as we only have 3 nodes on this level and manual approximation is feasible on this low number of dimensions. %Since large outliers are involved and we assume to be dealing with tail dependence, we use Kendall's tau rank correlation coefficients for comparison (see Section \ref{sssec:rank_correlation}). 
 For the next three Subsections (\ref{sssec:kcc_26}, \ref{sssec:kcc_28} \& \ref{sssec:kcc_68}), we will compare resulting dependence structures inheriting from different approaches introduced in this Section.\\
 
-There is an inevitable challenge when it comes to estimating and projecting summary metrics like correlation coefficients onto every observation point; they cannot be tested and thus fully reliable assessments are not guaranteed. Therefore, we will be interpreting the results by comparing several frameworks \textit{under feasibly similar conditions}.\\
+There is an inevitable challenge when it comes to estimating and projecting summary metrics like correlation coefficients onto every observation point; they cannot be tested and thus fully reliable assessments are not guaranteed. Therefore, we will be interpreting the results by comparing several frameworks. \\
+% \textit{under feasibly similar conditions}.
+
 
 
 \textbf{Generalized Additive Models for Conditional Dependence structures (gamCopula)}\\
@@ -48,27 +50,27 @@ As stated in \autoref{eq:kendall_to_copula}, the copula is sufficient for direct
 \textbf{Generalized Joint Regression Models (GJRM)}\\
 This approach is based on the framwork of \textit{\ac{GJRM}} and its implementations in R \citep{marra1605bivariate, marragjrm}, where the scope of \ac{GAMLSS}, which was first introduced by \cite{rigby2005generalized}, is extended by a bivariate copula model. The framework represents the frequentist counterpart of \cite{klein2016simultaneous} and parameter estimation is achieved within a penalized likelihood framework by using a trust region algorithm (see \cite{marragjrm} for more details). \\
 
-To set similar conditions on the fitting part, we use again a Student's t copula which again provides the most stable results. The marginals are of course assumed to be Dagum distributed (see Section \ref{ssec:kcc_marginals}). As we are primarily interested in the dependence structure, we will not be using covariate effects for any model parameters except for the copula parameter (and consequently the dependence measure). 
+To set similar conditions on the fitting part, we use again a Student's t copula which again provides the most stable results. The marginals are of course assumed to be Dagum distributed (see Section \ref{ssec:kcc_marginals}). %As we are primarily interested in the dependence structure, we will not be using covariate effects for any model parameters except for the copula parameter (and consequently the dependence measure). 
 %As a matter of fact, the results are barely affected. 
-So essentially, besides the constant model parameters, we have 
-\begin{equation}
-\theta = \beta_0 + \beta_1 \textit{bf} + \beta_2 \textit{ff} + f(\textit{time}) + f(\textit{total\_markdown\_pct})
-\label{eq:gjrm_kcc}
-\end{equation}
-with link function for $\theta$ 
-\begin{equation}
-\theta = arctanh(\rho) = \frac{1}{2} ln (\frac{1 + \rho}{1 - \rho}).
-\label{eq:theta_link}
-\end{equation}\\
+%So essentially, besides the constant model parameters, we have 
+%\begin{equation}
+%\theta = \beta_0 + \beta_1 \textit{bf} + \beta_2 \textit{ff} + f(\textit{time}) + f(\textit{total\_markdown\_pct})
+%\label{eq:gjrm_kcc}
+%\end{equation}
+%with link function for $\theta$ 
+%\begin{equation}
+%\theta = arctanh(\rho) = \frac{1}{2} ln (\frac{1 + \rho}{1 - \rho}).
+%\label{eq:theta_link}
+%\end{equation}\\
 
-Optionally, we can convert $\rho$ to Kendall's tau via
+%Optionally, we can convert $\rho$ to Kendall's tau via
 
-$$
-\tau = \frac{2}{\pi}arcsin(\rho)
-$$
-(see \autoref{tab:copula_relationships}). \\
+%$$
+%\tau = \frac{2}{\pi}arcsin(\rho)
+%$$
+%(see \autoref{tab:copula_relationships}). \\
 
-The parameter $\theta$ from \autoref{eq:gjrm_kcc} is in this case being mapped to Pearson's correlation coefficient $\rho$ via \autoref{eq:theta_link} due to the t-copula. The additive model structure of \autoref{eq:gjrm_kcc} with the copula parameter as response matches \autoref{eq:gam_kcc} regarding the linear predictor, i.e. linear effects as well as smooth functions and their respective number of knots. Again, we should treat the outcome with caution as the algorithm fails to converge for all cases. Convergence failure may have various reasons, e.g. low sample size compared to complexity of the model or model misspecification. Unfortunately, not a single model configuration accomplished convergence so we carefully interpret the outcomes in the below Subsections.
+%The parameter $\theta$ from \autoref{eq:gjrm_kcc} is in this case being mapped to Pearson's correlation coefficient $\rho$ via \autoref{eq:theta_link} due to the t-copula. The additive model structure of \autoref{eq:gjrm_kcc} with the copula parameter as response matches \autoref{eq:gam_kcc} regarding the linear predictor, i.e. linear effects as well as smooth functions and their respective number of knots. Again, we should treat the outcome with caution as the algorithm fails to converge for all cases. Convergence failure may have various reasons, e.g. low sample size compared to complexity of the model or model misspecification. Unfortunately, not a single model configuration accomplished convergence so we carefully interpret the outcomes in the below Subsections.
 
 
 \hfill $\square$ \\

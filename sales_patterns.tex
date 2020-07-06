@@ -52,9 +52,50 @@ Another promotion type we are interested in is \textit{"Friends \& Family"}, occ
 \label{tab:friends_and_family}
 \end{table}
 
+\autoref{fig:promos_against_sales} depicts scatterplots of 10,000 randomly chosen observations in the dataset, where the two main promotion intensities are plotted against article unit sales. A positive relationship is visible as we would expect. Due to the high noise persisting in these relationships however, Pearson's correlation coefficient for Black Friday against sales and Friends \& Family against sales take on values of 0.32 and 0.11 respectively. Similar behavioural conclusions can made about the total markdown percentage, with a correlation coefficient of 0.27 (see \autoref{fig:markdown_against_logsales}). The type of season (Fall-Winter (FW) or Spring-Summer (SS)) doesn't seem to make an overall difference in the sale quantities, as can be seen in \autoref{fig:season_type_against_logsales}.
+\\
+
+ \begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/bf_against_sales.png}
+  \caption{Black Friday against unit sales}
+  \label{fig:bf_against_sales}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/ff_against_sales.png}
+  \caption{Friends \& Family against unit sales}
+  \label{fig:ff_against_sales}
+\end{subfigure}
+\caption{Scatterplots of promotion intensities against article unit sales; The y-axes are cut at 100}
+\label{fig:promos_against_sales}
+\end{figure}
 
 
-The months in general don't seem to differ in their sale quantities, that is of course excluding the months of the two mentioned promotion types. The monthly sales portions for those months can be observed in \autoref{fig:sales_without_promo_months}. We have slightly higher sales portions on January, June and July. 
+
+ \begin{figure}[H]
+\centering
+  \includegraphics[width=0.65\linewidth]{figures/markdown_against_logsales.png}
+  \caption{Unit sales in log-scale against total markdown percentage}
+  \label{fig:markdown_against_logsales}
+\end{figure}
+
+
+
+ \begin{figure}[H]
+\centering
+  \includegraphics[width=0.65\linewidth]{figures/season_type_against_logsales.png}
+  \caption{Unit sales in log-scale against season type}
+  \label{fig:season_type_against_logsales}
+\end{figure}
+
+
+
+
+
+Regarding the months, they don't seem to differ generally in their sale quantities, that is of course excluding the months of the two mentioned promotion types. The monthly sales portions for those months can be observed in \autoref{fig:sales_without_promo_months}. We have slightly higher sales portions on January, June and July. 
 Most probably this is due to Christmas and "end of the year" shopping habits, which are carried forward from December to the very next month January. 
 Regarding June and July, they indicate summer periods and frequent occurrence of big sports events, which may drive sales. 
 Notice that, despite the fact that December is not explicitly present in \autoref{tab:black_friday}, it is nonetheless a Black Friday month as the promotion is still activated moving from November to December (see \autoref{fig:monthly_ts}). \\
@@ -123,7 +164,7 @@ Conscientiously, we want to inspect the number of weekly sold units above and be
 \end{figure}
 
 
-To validate our exploration on this, we may look at the empirical \ac{CDF} in \autoref{fig:ecdf_all} using all observations now.
+To validate the exploration on this, we may look at the empirical \ac{CDF} in \autoref{fig:ecdf_all} using all observations now.
 Instances with no promotions have a steeper curve (red line) and reach their maximum faster compared to articles tagged with a promotion in a certain week. The less concave curve of Friends \& Family promoted sales (blue line) implies that there are more instances with a larger amount of sold units overall. The same behaviour is even more pronounced for Black Friday (black line), having considerably more high quantity instances. Along these lines, promotions might somewhat explain this pattern better.\\
  
  
