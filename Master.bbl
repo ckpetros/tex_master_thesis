@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -49,6 +49,13 @@
   \textsc{Lang}, S.~; \textsc{Marx}, B.:
 \newblock \emph{{Regression; Models, Methods and Applications. 2013}}.
 \newblock 2003
+
+\bibitem[Grushka(1972)]{grushka1972characterization}
+\dinatlabel{Grushka 1972} \textsc{Grushka}, Eli:
+\newblock {C}haracterization of exponentially modified {G}aussian peaks in
+  chromatography.
+\newblock In: \emph{Analytical Chemistry}
+\newblock 44 (1972), Nr.~11, S.~1733--1738
 
 \bibitem[Hastie and Tibshirani(1986)]{hastie1986}
 \dinatlabel{Hastie and Tibshirani 1986} \textsc{Hastie}, Trevor~;

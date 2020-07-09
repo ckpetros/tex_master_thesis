@@ -5,5 +5,6 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces Black Friday weeks\relax }}{25}{table.4.1}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Friends \& Family weeks\relax }}{25}{table.4.2}
 \contentsline {table}{\numberline {4.3}{\ignorespaces Number of sold units per week \& number of affected articles for various quantiles of sales\relax }}{27}{table.4.3}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Articles per Key Category Cluster\relax }}{41}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Articles per Key Category Cluster after data delimitation\relax }}{41}{table.5.2}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Estimated parameters for log-sales of KCC 2 fitted to exGaussian distribution with no covariate effects\relax }}{34}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Articles per Key Category Cluster\relax }}{35}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Articles per Key Category Cluster after data delimitation\relax }}{35}{table.5.3}

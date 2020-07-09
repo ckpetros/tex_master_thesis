@@ -19,13 +19,9 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Time series and boxplot showing logarithmized sales of the key category clusters\relax }}{29}{figure.caption.35}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Pairwise scatterplots of sales on \ac {KCC} level. First row: Logarithmic sales with marginal densities, Second row: Pseudo sales observation with marginal histograms\relax }}{30}{figure.caption.36}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }}{31}{figure.caption.37}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Pairwise total markdown percentages of key category clusters\relax }}{33}{figure.caption.38}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 2; Estimated parameters: scale = 7.83, shape1.a = 29.15, shape2.p = 2.42\relax }}{34}{figure.caption.39}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 6; Estimated parameters: scale = 8.32, shape1.a = 29, shape2.p = 122.95\relax }}{34}{figure.caption.40}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Dagum distribution fitted to log-sales of \ac {KCC} 8; Estimated parameters: scale = 7, shape1.a = 21.03, shape2.p = 4.13\relax }}{35}{figure.caption.41}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Estimation diagnostics for the response marginals KCC 2 \& KCC 6; \ac {GJRM} approach\relax }}{37}{figure.caption.45}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 2 \& KCC 6\relax }}{38}{figure.caption.46}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Estimation diagnostics for the response marginals KCC 2 \& KCC 8; \ac {GJRM} approach\relax }}{38}{figure.caption.47}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 2 \& KCC 8\relax }}{39}{figure.caption.48}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Estimation diagnostics for the response marginals KCC 6 \& KCC 8; \ac {GJRM} approach\relax }}{40}{figure.caption.49}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Estimated time-varying Pearson's correlation coefficients for the pair KCC 6 \& KCC 8\relax }}{40}{figure.caption.50}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Black Friday\relax }}{31}{figure.caption.38}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Friends \& Family\relax }}{32}{figure.caption.39}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Scatterplot of \ac {KCC} log-sales against total markdown percentage\relax }}{32}{figure.caption.40}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Boxplots of \ac {KCC} log-sales against the two season types\relax }}{32}{figure.caption.41}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces exGaussian distribution fitted to log-sales of \ac {KCC} 2\relax }}{34}{figure.caption.42}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Residuals of KCC 2 log-sales fitted to an exGaussian distribution with no covariate effects together with a theoretical density curve of a normal distribution based on arithmetic mean and standard deviation\relax }}{34}{figure.caption.43}
