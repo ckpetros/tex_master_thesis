@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{29}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -122,6 +122,14 @@
   2018. --
 \newblock URL \url{https://www.R-project.org/}
 
+\bibitem[Rigby and Stasinopoulos(2001)]{rigby2001gamlss}
+\dinatlabel{Rigby and Stasinopoulos 2001} \textsc{Rigby}, R.~A.~;
+  \textsc{Stasinopoulos}, D.~M.:
+\newblock {T}he {GAMLSS} project: a flexible approach to statistical modelling.
+\newblock In: \emph{New trends in statistical modelling: Proceedings of the
+  16th international workshop on statistical modelling} Bd.~337
+\newblock University of Southern Denmark (Veranst.), 2001, S.~345
+
 \bibitem[Rigby and Stasinopoulos(2005)]{rigby2005generalized}
 \dinatlabel{Rigby and Stasinopoulos 2005} \textsc{Rigby}, Robert~A.~;
   \textsc{Stasinopoulos}, D.~M.:
@@ -147,6 +155,13 @@
 \newblock In: \emph{Copulas-From theory to application in finance}
 \newblock (2007), S.~3--34
 
+\bibitem[Shapiro and Wilk(1965)]{shapiro1965analysis}
+\dinatlabel{Shapiro and Wilk 1965} \textsc{Shapiro}, Samuel~S.~; \textsc{Wilk},
+  Martin~B.:
+\newblock An analysis of variance test for normality (complete samples).
+\newblock In: \emph{{B}iometrika}
+\newblock 52 (1965), Nr.~3/4, S.~591--611
+
 \bibitem[Sklar(1959)]{sklar1959fonctions}
 \dinatlabel{Sklar 1959} \textsc{Sklar}, M.:
 \newblock Fonctions de repartition an dimensions et leurs marges.
@@ -158,6 +173,15 @@
 \newblock \emph{Copula}. --
 \newblock \url{https://stanfordphd.com/Copula.html}, Last accessed on
   2020-04-27
+
+\bibitem[Stasinopoulos et~al.(2007)Stasinopoulos, Rigby
+  et~al.]{stasinopoulos2007generalized}
+\dinatlabel{Stasinopoulos et~al. 2007} \textsc{Stasinopoulos}, D.~M.~;
+  \textsc{Rigby}, Robert~A. et~al.:
+\newblock {G}eneralized additive models for location scale and shape ({GAMLSS})
+  in {R}.
+\newblock In: \emph{Journal of Statistical Software}
+\newblock 23 (2007), Nr.~7, S.~1--46
 
 \bibitem[Trivedi and Zimmer(2017)]{trivedi2017note}
 \dinatlabel{Trivedi and Zimmer 2017} \textsc{Trivedi}, Pravin~;

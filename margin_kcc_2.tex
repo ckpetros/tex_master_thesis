@@ -44,19 +44,21 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
 \end{figure} 
 
 
-As can be seen in \autoref{fig:res_kcc_2_no_covariates}, the residuals of the fitted distribution are not too far from a normal distribution. 
-\\
 
 
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.45\linewidth]{figures/res_kcc_2_no_covariates.png}
-  \caption{Residuals of KCC 2 log-sales fitted to an exGaussian distribution with no covariate effects together with a theoretical density curve of a normal distribution based on arithmetic mean and standard deviation}
+  \caption{Residuals of KCC 2 log-sales fitted to an exGaussian distribution with no covariate effects together with their density curve}
   \label{fig:res_kcc_2_no_covariates}
 \end{figure}
 
-The findings so far indicate that the overall fit for this cluster are quite satisfiable and also support interpretability of the estimated parameters. \\
+As can be seen in \autoref{fig:res_kcc_2_no_covariates}, the residuals of the fitted distribution are not too far from a normal distribution. 
+In fact, a Shapiro-Wilk normality test (see \ref{ssec:shapiro_wilk}) will fail to reject the null hypothesis, returning a p-value of 0.6645.
+There still exist skewness in the distribution of the residuals and correction will be attempted in the following. \\
 
-To make the estimation more precise and to get a better understanding of what is driving sales, flexible estimation of the distribution parameters is required and thus covariate effects shall be included. The temporal effects in particular are of special interest. 
+The findings so far indicate that the overall fit for this cluster are quite satisfiable and also support interpretability of the estimated parameters. \\
+To make the estimation more precise and to get a better understanding of what is driving sales, flexible estimation of the distribution parameters is required and thus covariate effects shall be included. 
+%The temporal effects in particular are of special interest. 
 
 

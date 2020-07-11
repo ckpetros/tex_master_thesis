@@ -1,27 +1,27 @@
 \babel@toc {english}{}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Two of the adidas-group logos: Performance (left) \& Originals (right) \citep {adidasmediacenter}\relax }}{2}{figure.caption.5}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces adidas celebrates its 70th anniversary and the opening of the ARENA building \citep {adidas70years}\relax }}{2}{figure.caption.6}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Bivariate Gaussian distribution and Gaussian copula for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{14}{figure.caption.16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Bivariate t-distribution and t-copula with 3 degrees of freedom for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{15}{figure.caption.18}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Shape of a generator function\relax }}{16}{figure.caption.19}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Bivariate Clayton distribution and Clayton copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{16}{figure.caption.20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Bivariate Gumbel distribution and Gumbel copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{17}{figure.caption.21}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Bivariate Frank distribution and Frank copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{18}{figure.caption.22}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of a hierarchical article structure\relax }}{23}{figure.caption.26}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of a single child node\relax }}{24}{figure.caption.27}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Course of article unit sales\relax }}{24}{figure.caption.28}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Scatterplots of promotion intensities against article unit sales; The y-axes are cut at 100\relax }}{25}{figure.caption.29}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Unit sales in log-scale against total markdown percentage\relax }}{26}{figure.caption.30}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Unit sales in log-scale against season type\relax }}{26}{figure.caption.31}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Monthly patterns of article unit sales\relax }}{27}{figure.caption.32}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Distribution of sold units of articles per week split at 200 units\relax }}{28}{figure.caption.33}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Empirical \ac {CDF} of all sold units per week; x-axis cut at 500\relax }}{28}{figure.caption.34}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Time series and boxplot showing logarithmized sales of the key category clusters\relax }}{29}{figure.caption.35}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Pairwise scatterplots of sales on \ac {KCC} level. First row: Logarithmic sales with marginal densities, Second row: Pseudo sales observation with marginal histograms\relax }}{30}{figure.caption.36}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }}{31}{figure.caption.37}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Black Friday\relax }}{31}{figure.caption.38}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Friends \& Family\relax }}{32}{figure.caption.39}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Scatterplot of \ac {KCC} log-sales against total markdown percentage\relax }}{32}{figure.caption.40}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Boxplots of \ac {KCC} log-sales against the two season types\relax }}{32}{figure.caption.41}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces exGaussian distribution fitted to log-sales of \ac {KCC} 2\relax }}{34}{figure.caption.42}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Residuals of KCC 2 log-sales fitted to an exGaussian distribution with no covariate effects together with a theoretical density curve of a normal distribution based on arithmetic mean and standard deviation\relax }}{34}{figure.caption.43}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Bivariate Gaussian distribution and Gaussian copula for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Bivariate t-distribution and t-copula with 3 degrees of freedom for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{17}{figure.caption.19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Shape of a generator function\relax }}{18}{figure.caption.20}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Bivariate Clayton distribution and Clayton copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{18}{figure.caption.21}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Bivariate Gumbel distribution and Gumbel copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{19}{figure.caption.22}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Bivariate Frank distribution and Frank copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal marginals\relax }}{20}{figure.caption.23}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of a hierarchical article structure\relax }}{25}{figure.caption.27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of a single child node\relax }}{26}{figure.caption.28}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Course of article unit sales\relax }}{26}{figure.caption.29}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Scatterplots of promotion intensities against article unit sales; The y-axes are cut at 100\relax }}{27}{figure.caption.30}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Unit sales in log-scale against total markdown percentage\relax }}{28}{figure.caption.31}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Unit sales in log-scale against season type\relax }}{28}{figure.caption.32}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Monthly patterns of article unit sales\relax }}{29}{figure.caption.33}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Distribution of sold units of articles per week split at 200 units\relax }}{30}{figure.caption.34}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Empirical \ac {CDF} of all sold units per week; x-axis cut at 500\relax }}{30}{figure.caption.35}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Time series and boxplot showing logarithmized sales of the key category clusters\relax }}{31}{figure.caption.36}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Pairwise scatterplots of sales on \ac {KCC} level. First row: Logarithmic sales with marginal densities, Second row: Pseudo sales observation with marginal histograms\relax }}{32}{figure.caption.37}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }}{33}{figure.caption.38}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Black Friday\relax }}{33}{figure.caption.39}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Friends \& Family\relax }}{34}{figure.caption.40}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Scatterplots of \ac {KCC} log-sales against total markdown percentage\relax }}{34}{figure.caption.41}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Boxplots of \ac {KCC} log-sales against the two season types\relax }}{34}{figure.caption.42}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces exGaussian distribution fitted to log-sales of \ac {KCC} 2\relax }}{36}{figure.caption.43}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Residuals of KCC 2 log-sales fitted to an exGaussian distribution with no covariate effects together with their density curve\relax }}{36}{figure.caption.44}

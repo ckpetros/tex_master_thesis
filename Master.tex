@@ -5,6 +5,7 @@
 \documentclass[11pt, twoside]{article}
 %benötigt man immer
 \usepackage{amsmath}
+\usepackage{amssymb}
 %is used for numbering of equations
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -474,12 +475,16 @@
 \thispagestyle{plain}
 \section{Statistical Theory \& Methods} \label{sec:theory_and_methods}
 \input{theory_and_methods}
+\subsection{Shapiro-Wilk Test of Normality} \label{ssec:shapiro_wilk}
+\input{shapiro_wilk}
 \subsection{Generalized Linear Models} \label{ssec:glm}
 \input{glm}
 %\subsection{Mixed Effects Models} \label{ssec:mixed_models}
 %\input{mixed_models}
 \subsection{Additive Models} \label{ssec:gam}
 \input{gam}
+\subsection{Generalized Additive Models for Location, Scale and Shape} \label{ssec:gamlss}
+\input{gamlss}
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
@@ -519,9 +524,9 @@
 \input{data_exploration}
 \subsection{Universal Sales Patterns} \label{ssec:sales_patterns}
 \input{sales_patterns}
-\subsection{Grouped Patterns} \label{ssec:grouped_patterns}
+\subsection{Grouped Patterns - Key Category Cluster} \label{ssec:grouped_patterns}
 \input{grouped_patterns}
-\subsubsection{Exploring Key Category Cluster} \label{sssec:kcc_exploration}
+%\subsubsection{Exploring Key Category Cluster} \label{sssec:kcc_exploration}
 \input{kcc_exploration}
 \newpage
 \thispagestyle{empty}

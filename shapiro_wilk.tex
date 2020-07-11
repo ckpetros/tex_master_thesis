@@ -1,0 +1,33 @@
+% !TEX root = Master.tex
+
+The \textit{Shapiro-Wilk test} is a method used to test the hypothesis whether a sample of observations $ \bm{x} = x_1, \ldots, x_n$ was drawn from a normal distribution, i.e.
+$$
+H_0: \bm{x} \sim \mathcal{N}(\mu, \sigma) \quad \text{vs} \quad H_1: \bm{x} \nsim \mathcal{N}(\mu, \sigma)
+$$
+and the test statistic is
+$$
+W=\frac{\left(\sum_{i=1}^{n} a_{i} x_{(i)}\right)^{2}}{\sum_{i=1}^{n}\left(x_{i}-\bar{x}\right)^{2}},
+$$
+where the coefficients $a_i$ are given by 
+$$
+\left(a_{1}, \ldots, a_{n}\right)=\frac{m^{\top} V^{-1}}{\left(m^{\top} V^{-1} V^{-1} m\right)^{1 / 2}}.
+$$
+The expected values of the order statistics of independent and identically distributed (iid) random variables (RV), which are sampled from a standard normal distribution $\mathcal{N}(0,1)$, are represented by the vector $m=\left(m_{1}, \dots, m_{n}\right)^{\top}$ and $V$ is the covariance matrix of those order statistics.\\
+The Shapiro-Wilk test of normality was first introduced in \cite{shapiro1965analysis} and more details can be found in this paper.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
