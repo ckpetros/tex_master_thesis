@@ -58,7 +58,34 @@ In fact, a Shapiro-Wilk normality test (see \ref{ssec:shapiro_wilk}) will fail t
 There still exist skewness in the distribution of the residuals and correction will be attempted in the following. \\
 
 The findings so far indicate that the overall fit for this cluster are quite satisfiable and also support interpretability of the estimated parameters. \\
-To make the estimation more precise and to get a better understanding of what is driving sales, flexible estimation of the distribution parameters is required and thus covariate effects shall be included. 
+To make the estimation more precise and to get a better understanding of what is driving sales, flexible estimation of the distribution parameters is required and thus covariate effects shall be included. \\
 %The temporal effects in particular are of special interest. 
+
+After multiple equation setups for the marginal distribution of \ac{KCC} 2, the chosen \ac{GAMLSS} model specification (see Section \ref{ssec:gamlss}) is as follows:
+
+\begin{equation}
+\begin{aligned}
+\mu &= \beta_{01} + f_{11}(\textit{time}) + f_{12}(\textit{total\_markdown\_pct}) \\ \noalign{\vskip5pt}
+log(\sigma) &= \beta_{02} + f_{21}(\textit{time}) \\ \noalign{\vskip5pt}
+log(\nu) &=  \beta_{03}, 
+\end{aligned}
+\label{eq:gamlss_kcc_2}
+\end{equation} \\
+where the smooth functions $f_{11}$, $f_{21}$ are P-Splines with 20 knots each and $f_{12}$ is again a smooth function build by P-Splines with 10 knots. For the scale and shape parameters ($\sigma$ and $\nu$ respectively) the logarithmic link function is used to ensure that they are mapped to the real positive line as the exGaussian distribution family can only express positive skewness ($\nu$). \\
+
+The absence of the Black Friday and Friends \& Family components in model \ref{eq:gamlss_kcc_2} is due to the fact that the effects of activated promotions to the expected sales are negative, which is contradictory to the analysis made earlier in Chapter \ref{ssec:grouped_patterns}. The output after excluding those indicator variables seem to be more stable as and intuitive.\footnote{This might be traced back to the fact that promos obviously yield higher markdowns and thus we reach redundancy of variables in the model.}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -30,6 +30,6 @@
 \contentsline {subsubsection}{\numberline {5.3.1}Data Delimitation}{37}{subsubsection.5.3.1}
 \contentsline {section}{\numberline {6}Conclusion}{39}{section.6}
 \contentsline {section}{List of Abbreviations}{41}{section.6}
-\contentsline {section}{List of Figures}{43}{section*.45}
-\contentsline {section}{List of Tables}{45}{section*.46}
-\contentsline {section}{References}{47}{section*.47}
+\contentsline {section}{List of Figures}{43}{section*.44}
+\contentsline {section}{List of Tables}{45}{section*.45}
+\contentsline {section}{References}{47}{section*.46}
