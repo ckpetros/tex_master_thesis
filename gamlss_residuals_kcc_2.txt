@@ -1,0 +1,8 @@
+******************************************************************
+	      Summary of the Quantile Residuals
+                           mean   =  0.007148488 
+                       variance   =  1.010987 
+               coef. of skewness  =  -0.216058 
+               coef. of kurtosis  =  2.323837 
+Filliben correlation coefficient  =  0.9938627 
+******************************************************************

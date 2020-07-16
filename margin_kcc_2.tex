@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
 
-Simple maximum likelihood estimation based on the log-sales of the marginals allow us to estimate the exGaussian distribution parameters. \autoref{fig:kcc_2_marginal} describes how the histogram of the data match to the theoretical density of an exGaussian distribution considering the estimated parameter values represented in \autoref{tab:estimated_parameters_kcc_2_no_covariates}.
+Simple maximum likelihood estimation based on the log-sales of the marginals allow us to estimate the exGaussian distribution parameters. \autoref{fig:kcc_2_density} describes how the histogram of the data match to the theoretical density of an exGaussian distribution considering the estimated parameter values represented in \autoref{tab:estimated_parameters_kcc_2_no_covariates}.
 \\
 
 
@@ -54,10 +54,10 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
 \end{figure}
 
 As can be seen in \autoref{fig:res_kcc_2_no_covariates}, the residuals of the fitted distribution are not too far from a normal distribution. 
-In fact, a Shapiro-Wilk normality test (see \ref{ssec:shapiro_wilk}) will fail to reject the null hypothesis, returning a p-value of 0.6645.
+In fact, a Shapiro-Wilk normality test (see Section \ref{ssec:shapiro_wilk}) will fail to reject the null hypothesis, returning a p-value of 0.6645.
 There still exist skewness in the distribution of the residuals and correction will be attempted in the following. \\
 
-The findings so far indicate that the overall fit for this cluster are quite satisfiable and also support interpretability of the estimated parameters. \\
+The findings so far indicate that the overall fit for this cluster is quite satisfiable and also supports interpretability of the estimated parameters. \\
 To make the estimation more precise and to get a better understanding of what is driving sales, flexible estimation of the distribution parameters is required and thus covariate effects shall be included. \\
 %The temporal effects in particular are of special interest. 
 
@@ -71,21 +71,55 @@ log(\nu) &=  \beta_{03},
 \end{aligned}
 \label{eq:gamlss_kcc_2}
 \end{equation} \\
-where the smooth functions $f_{11}$, $f_{21}$ are P-Splines with 20 knots each and $f_{12}$ is again a smooth function build by P-Splines with 10 knots. For the scale and shape parameters ($\sigma$ and $\nu$ respectively) the logarithmic link function is used to ensure that they are mapped to the real positive line as the exGaussian distribution family can only express positive skewness ($\nu$). \\
+where the smooth functions $f_{11}$, $f_{21}$ and $f_{12}$ are build upon P-Splines with 20 knots each. For the scale and shape parameters ($\sigma$ and $\nu$ respectively) the logarithmic link function is used to ensure that they are mapped to the real positive line as the exGaussian distribution family can only capture positive skewness ($\nu$). For $\sigma$ we just use time as the only regressor and we set the skewness $\nu$ as a constant. \\
 
-The absence of the Black Friday and Friends \& Family components in model \ref{eq:gamlss_kcc_2} is due to the fact that the effects of activated promotions to the expected sales are negative, which is contradictory to the analysis made earlier in Chapter \ref{ssec:grouped_patterns}. The output after excluding those indicator variables seem to be more stable as and intuitive.\footnote{This might be traced back to the fact that promos obviously yield higher markdowns and thus we reach redundancy of variables in the model.}
-
-
-
+The absence of the Black Friday and Friends \& Family components in model \ref{eq:gamlss_kcc_2} is due to the fact that the effects of activated promotions to the expected sales are negative, which is contradictory to the analysis made earlier in Chapter \ref{ssec:grouped_patterns}. The output after excluding those indicator variables seem to be more stable and is also more intuitive.\footnote{This might be traced back to the fact that promos obviously yield higher markdowns and thus we reach redundancy of variables in the model.} Below we can observe the summary output from the R console as well as the visual covariate effects on the expected value (\autoref{fig:gamlss_effects_kcc_2}).
+\\
 
 
 
+\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 2" ]{gamlss_fit_kcc_2_try20.txt}
+
+
+
+From the visual representation of the covariate effects in (\autoref{fig:gamlss_effects_kcc_2}, we can see that until about August of 2017 (just below the 40th time observation) the log-sales are increasing and then from November on (roughly 50th observation) the log-sales remain at a constant level with somewhat higher values end of May (just below 80th observation). The overall course of the temporal effect on the response resembles a flat wavy line, which is quite aligned with the coefficient in the R-output. Higher total markdown percentages enhance higher response values, which can also be observed when looking at the R-output. The estimated coefficient for the markdown obtains a value of 3.17. The seasonal effect of Spring-Summer is slightly lower than the effect of Fall-Winter. The estimated standard error $\hat{\sigma}$ is generally increasing over time in this data spectrum (\autoref{fig:sigma_effect_kcc_2}). \\
+
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.95\linewidth]{figures/gamlss_effects_kcc_2.png}
+  \caption{Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 2}
+  \label{fig:gamlss_effects_kcc_2}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.95\linewidth]{figures/sigma_effect_kcc_2.png}
+  \caption{Temporal effect on the scale parameter $\hat{\sigma}$ - KCC 2}
+  \label{fig:sigma_effect_kcc_2}
+\end{figure}
+
+
+
+Fitting the data to a \ac{GAMLSS} model like this can be considered favourable. The emerged residuals are closer to a standard normal distribution than the maximum likelihood estimation without any covariate effects. Diagnostic plots of quantile residuals in \autoref{fig:gamlss_residuals_kcc_2} confirm this. The R-output below \autoref{fig:gamlss_residuals_kcc_2} returns a detailed summary of the estimated location, scale and shape parameters of the residuals.
+\\
 
 
 
 
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.95\linewidth]{figures/gamlss_residuals_kcc_2.png}
+  \caption{Residuals of GAMLSS fit - KCC 2}
+  \label{fig:gamlss_residuals_kcc_2}
+\end{figure}
 
 
 
+
+\VerbatimInput[frame = single, label = "Residuals of GAMLSS Fit on KCC 2" ]{gamlss_residuals_kcc_2.txt}
 
 

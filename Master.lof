@@ -25,3 +25,6 @@
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Boxplots of \ac {KCC} log-sales against the two season types\relax }}{34}{figure.caption.41}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces exGaussian distribution fitted to log-sales of \ac {KCC} 2\relax }}{36}{figure.caption.42}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Residuals of KCC 2 log-sales fitted to an exGaussian distribution with no covariate effects together with their density curve\relax }}{36}{figure.caption.43}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 2\relax }}{39}{figure.caption.44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Temporal effect on the scale parameter $\mathaccentV {hat}05E{\sigma }$ - KCC 2\relax }}{40}{figure.caption.45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Residuals of GAMLSS fit - KCC 2\relax }}{40}{figure.caption.46}

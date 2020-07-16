@@ -118,6 +118,8 @@
 %\usepackage{subfigure} 
 
 
+
+
 % Highlighting rows, columns and headers of tables
 \usepackage{color, colortbl}
 \definecolor{Gray}{gray}{0.9}
@@ -135,19 +137,27 @@
 % For including R code; use begin{lstset} ... \end{}lstset
 % or \lstinputlisting{filename.R} without the lines above ;)
 \usepackage[svgnames]{xcolor}
-\usepackage{listings}
-\usepackage{color}
-\lstset{language=R,
-    basicstyle=\small\ttfamily,
+%\usepackage{listings}
+%\usepackage{color}
+%\lstset{
+%language=R,
+ %   basicstyle=\small\ttfamily,
     %stringstyle=\color{DarkGreen},
     %otherkeywords={0,1,2,3,4,5,6,7,8,9},
     %morekeywords={TRUE,FALSE},
     %deletekeywords={data,frame,length,as,character},
-    keywordstyle=\color{black},
-    commentstyle=\color{core_red},
-    backgroundcolor=\color{chunkgray},
-}
+  %  keywordstyle=\color{black},
+   % commentstyle=\color{core_red},
+    %backgroundcolor=\color{chunkgray},
+%}
 
+
+
+% Include txt files
+\usepackage{listings, color}    
+\usepackage{textcomp}
+\usepackage{fancyvrb}
+\usepackage{verbatim}
 
 
 
