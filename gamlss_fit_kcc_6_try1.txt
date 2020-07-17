@@ -1,0 +1,55 @@
+******************************************************************
+Family:  c("exGAUS", "ex-Gaussian") 
+
+Call:  gamlss(formula = logsales_kcc_6 ~ pb(time_obs) + 
+					pb(total_markdown_pct) + 
+					season_type, 
+sigma.formula = ~pb(time_obs), 
+nu.formula = ~1,     
+
+family = "exGAUS", data = data_agg_KCC) 
+
+Fitting method: RS() 
+
+------------------------------------------------------------------
+Mu link function:  identity
+Mu Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             8.6918240  0.1010279  86.034  < 2e-16 ***
+pb(time_obs)            0.0022095  0.0006587   3.355  0.00112 ** 
+pb(total_markdown_pct)  2.9945916  0.2097409  14.278  < 2e-16 ***
+season_typeSS          -0.0093005  0.0411427  -0.226  0.82161    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+------------------------------------------------------------------
+Sigma link function:  log
+Sigma Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -1.695695   0.167446  -10.13   <2e-16 ***
+pb(time_obs) -0.000188   0.002354   -0.08    0.937    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+------------------------------------------------------------------
+Nu link function:  log 
+Nu Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   -3.214      1.656   -1.94   0.0551 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+------------------------------------------------------------------
+NOTE: Additive smoothing terms exist in the formulas: 
+ i) Std. Error for smoothers are for the linear effect only. 
+ii) Std. Error for the linear terms maybe are not accurate. 
+------------------------------------------------------------------
+No. of observations in the fit:  109 
+Degrees of Freedom for the fit:  7.010025
+      Residual Deg. of Freedom:  101.99 
+                      at cycle:  20 
+ 
+Global Deviance:     -41.81131 
+            AIC:     -27.79126 
+            SBC:     -8.92484 
+******************************************************************

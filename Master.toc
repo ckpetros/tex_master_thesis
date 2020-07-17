@@ -25,11 +25,13 @@
 \contentsline {section}{\numberline {5}Modelling}{35}{section.5}
 \contentsline {subsection}{\numberline {5.1}Key Category Cluster Marginals}{35}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Key Category Cluster 2}{35}{subsubsection.5.1.1}
-\contentsline {subsection}{\numberline {5.2}KCC Correlations}{41}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Article Correlations}{41}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Data Delimitation}{41}{subsubsection.5.3.1}
-\contentsline {section}{\numberline {6}Conclusion}{43}{section.6}
-\contentsline {section}{List of Abbreviations}{45}{section.6}
-\contentsline {section}{List of Figures}{47}{section*.47}
-\contentsline {section}{List of Tables}{49}{section*.48}
-\contentsline {section}{References}{51}{section*.49}
+\contentsline {subsubsection}{\numberline {5.1.2}Key Category Cluster 6}{41}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Key Category Cluster 8}{47}{subsubsection.5.1.3}
+\contentsline {subsection}{\numberline {5.2}KCC Correlations}{52}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Article Correlations}{52}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Data Delimitation}{53}{subsubsection.5.3.1}
+\contentsline {section}{\numberline {6}Conclusion}{55}{section.6}
+\contentsline {section}{List of Abbreviations}{57}{section.6}
+\contentsline {section}{List of Figures}{59}{section*.57}
+\contentsline {section}{List of Tables}{61}{section*.58}
+\contentsline {section}{References}{63}{section*.59}

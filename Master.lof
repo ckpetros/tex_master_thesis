@@ -25,6 +25,16 @@
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Boxplots of \ac {KCC} log-sales against the two season types\relax }}{34}{figure.caption.41}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces exGaussian distribution fitted to log-sales of \ac {KCC} 2\relax }}{36}{figure.caption.42}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Residuals of KCC 2 log-sales fitted to an exGaussian distribution with no covariate effects together with their density curve\relax }}{36}{figure.caption.43}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 2\relax }}{39}{figure.caption.44}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Temporal effect on the scale parameter $\mathaccentV {hat}05E{\sigma }$ - KCC 2\relax }}{40}{figure.caption.45}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Residuals of GAMLSS fit - KCC 2\relax }}{40}{figure.caption.46}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 2\relax }}{37}{figure.caption.44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 2\relax }}{40}{figure.caption.45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Residuals of GAMLSS fit - KCC 2\relax }}{41}{figure.caption.46}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces exGaussian distribution fitted to log-sales of \ac {KCC} 6\relax }}{42}{figure.caption.47}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Residuals of KCC 6 log-sales fitted to an exGaussian distribution with no covariate effects together with their density curve\relax }}{42}{figure.caption.48}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 6\relax }}{45}{figure.caption.49}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 6\relax }}{46}{figure.caption.50}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Residuals of GAMLSS fit - KCC 6\relax }}{47}{figure.caption.51}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces exGaussian distribution fitted to log-sales of \ac {KCC} 8\relax }}{48}{figure.caption.52}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Residuals of KCC 8 log-sales fitted to an exGaussian distribution with no covariate effects together with their density curve\relax }}{48}{figure.caption.53}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 8\relax }}{50}{figure.caption.54}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 8\relax }}{51}{figure.caption.55}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Residuals of GAMLSS fit - KCC 8\relax }}{52}{figure.caption.56}
