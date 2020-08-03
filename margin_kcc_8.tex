@@ -3,7 +3,7 @@
 The procedure is continued also for key category cluster 8 with the same conditions, since we have similar issues as in the previous two clusters.
 \\
 
-\autoref{tab:estimated_parameters_kcc_8_no_covariates}, \autoref{fig:kcc_8_marginal} and \autoref{fig:res_kcc_8_no_covariates} summarize the findings when the log-sales of \ac{KCC} 8 are fitted to an exGaussian distribution with no regressors. Normality of the residuals can be assumed, as the Shapiro-Wilk test returns a p-value of 0.99 and thus fails to reject the null hypothesis of non-normality.
+\autoref{tab:estimated_parameters_kcc_8_no_covariates}, \autoref{fig:kcc_8_marginal} and \autoref{fig:res_kcc_8_no_covariates} summarize the findings when the log-sales of \ac{KCC} 8 are fitted to an ex-Gaussian distribution with no regressors. Normality of the residuals can be assumed, as the Shapiro-Wilk test returns a p-value of 0.99 and thus fails to reject the null hypothesis of non-normality.
 \\
 
 
@@ -19,7 +19,7 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
 7.21        & 0.27           & 0.46        \\ \hline
 \end{tabular}
 \end{adjustbox}
-\caption{Estimated parameters for log-sales of KCC 8 fitted to exGaussian distribution with no covariate effects}
+\caption{Estimated parameters for log-sales of KCC 8 fitted to ex-Gaussian distribution with no covariate effects}
 \label{tab:estimated_parameters_kcc_8_no_covariates}
 \end{table}
 
@@ -39,7 +39,7 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
   \caption{QQ-Plot}
   \label{fig:kcc_8_qqplot}
 \end{subfigure}
-\caption{exGaussian distribution fitted to log-sales of \ac{KCC} 8}
+\caption{ex-Gaussian distribution fitted to log-sales of \ac{KCC} 8}
 \label{fig:kcc_8_marginal}
 \end{figure} 
 
@@ -47,29 +47,29 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.45\linewidth]{figures/res_kcc_8_no_covariates.png}
-  \caption{Residuals of KCC 8 log-sales fitted to an exGaussian distribution with no covariate effects together with their density curve}
+  \caption{Residuals of KCC 8 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve}
   \label{fig:res_kcc_8_no_covariates}
 \end{figure}
 
 
 
 
-Again, Model \ref{eq:gamlss_kcc_2} is applied to the log-sales. The summary output and estimated parameters with confidence intervals can be seen in \autoref{fig:gamlss_kcc_8_estimated_parameters} and in \autoref{tab:nu_ci_kcc_8}. We notice that the variance is decreasing until November (roughly 50th observation point) and the increases again and that a low skewness remains in the data.
+Again, Model \ref{eq:gamlss_kcc_2} is applied to the log-sales. The summary output and estimated parameters with confidence intervals can be seen in \autoref{fig:gamlss_kcc_8_estimated_parameters} and in \autoref{tab:nu_ci_kcc_8}. We notice that models fit is acceptable matching the elevated sales during promo weeks and that the variability is strictly decreasing with the overall range having a range between 0.1 and 0.3. Skewness remains low in the data.
 \\
 
 
 
 
-\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 8" ]{gamlss_fit_kcc_8_try1.txt}
+%\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 8" ]{gamlss_fit_kcc_8_try1.txt}
 
-
+\inputRoutput[caption={GAMLSS Fit on KCC 8}, numbers=left,numberstyle=\tiny, label=output:gamlss_fit_kcc_8_try1]{gamlss_fit_kcc_8_try1.txt}
 
 
 
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.95\linewidth]{figures/gamlss_kcc_8_estimated_parameters.png}
-  \caption{Estimated location parameter $\hat{\mu}$ and scale parameter $\hat{\sigma}$ with confidence bands of GAMLSS fit - KCC 8}
+  \caption{Estimated location parameter $\hat{\mu}$ compared to the observed values and scale parameter $\hat{\sigma}$ with confidence bands of GAMLSS fit - KCC 8}
   \label{fig:gamlss_kcc_8_estimated_parameters}
 \end{figure}
 
@@ -83,7 +83,7 @@ Again, Model \ref{eq:gamlss_kcc_2} is applied to the log-sales. The summary outp
 \hline
 \rowcolor{lightgray} 
 Lower & $\hat{\nu}$ & Upper \\ \hline
-0.122        & 0.143           & 0.165        \\ \hline
+0.181        & 0.158           & 0.203        \\ \hline
 \end{tabular}
 \end{adjustbox}
 \caption{Estimated skewness parameter $\hat{\nu}$ of GAMLSS fit with 95\% confidence interval bounds - KCC 8}
@@ -92,7 +92,7 @@ Lower & $\hat{\nu}$ & Upper \\ \hline
 
 
 
-The temporal effect exhibits the same shape as in \ac{KCC} 6, collapsing into a straight line. Markdown effects are increasing as expected. Spring-Summer seems to have a slightly higher effect compared to Fall-Winter season in this cluster.
+Time as well as the total markdown percentage exhibit similar positive effects on the response as in \ac{KCC} 6, collapsing into a straight line. The promo effects seem to be more balanced, with different interquartile ranges for all cases.
 \\
 
 
@@ -105,7 +105,7 @@ The temporal effect exhibits the same shape as in \ac{KCC} 6, collapsing into a 
 
 
 
-Looking at \autoref{fig:gamlss_residuals_kcc_8} and the summary output for the distribution of the quantile residuals, the fitting method for this cluster is also justified.
+Looking at \autoref{fig:gamlss_residuals_kcc_8} and the summary output for the distribution of the quantile residuals, the fitting method for this cluster is also justified. The Shapiro-Wilk test is "weaker" in comparison to the fit without covariate effects with a p-value of 0.86, which is still a solid reason to retail the null hypothesis of normality.
 
 
 \begin{figure}[H]
@@ -116,7 +116,8 @@ Looking at \autoref{fig:gamlss_residuals_kcc_8} and the summary output for the d
 \end{figure}
 
 
-\VerbatimInput[frame = single, label = "Residuals of GAMLSS Fit on KCC 8" ]{gamlss_residuals_kcc_8.txt}
+%\VerbatimInput[frame = single, label = "Residuals of GAMLSS Fit on KCC 8" ]{gamlss_residuals_kcc_8.txt}
 
+\inputRoutput[caption={Residuals of GAMLSS Fit on KCC 8},numbers=left,numberstyle=\tiny, label=output:gamlss_residuals_kcc_8]{gamlss_residuals_kcc_8.txt}
 
 

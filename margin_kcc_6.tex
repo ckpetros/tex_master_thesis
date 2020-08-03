@@ -18,7 +18,7 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
 9.62        & 0.20           & 0.41        \\ \hline
 \end{tabular}
 \end{adjustbox}
-\caption{Estimated parameters for log-sales of KCC 6 fitted to exGaussian distribution with no covariate effects}
+\caption{Estimated parameters for log-sales of KCC 6 fitted to ex-Gaussian distribution with no covariate effects}
 \label{tab:estimated_parameters_kcc_6_no_covariates}
 \end{table}
 
@@ -38,7 +38,7 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
   \caption{QQ-Plot}
   \label{fig:kcc_6_qqplot}
 \end{subfigure}
-\caption{exGaussian distribution fitted to log-sales of \ac{KCC} 6}
+\caption{ex-Gaussian distribution fitted to log-sales of \ac{KCC} 6}
 \label{fig:kcc_6_marginal}
 \end{figure} 
 
@@ -46,25 +46,26 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.45\linewidth]{figures/res_kcc_6_no_covariates.png}
-  \caption{Residuals of KCC 6 log-sales fitted to an exGaussian distribution with no covariate effects together with their density curve}
+  \caption{Residuals of KCC 6 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve}
   \label{fig:res_kcc_6_no_covariates}
 \end{figure}
 
 
-Reviewing different model specifications, the same issues as for \ac{KCC} 2 arise when including Black Friday and Friends \& Family promo activations. Therefore, the same models as in the previous Subsection is chosen (Model \ref{eq:gamlss_kcc_2}, exGaussian distribution family for the response variable). 
-%A summary output is printed below.
-The estimated time-varying location and scale parameters can be seen in \autoref{fig:gamlss_kcc_6_estimated_parameters} and the skewness parameter $\hat{\nu}$ with 95\% CI in \autoref{tab:nu_ci_kcc_6}. The standard deviation remains almost constant at 0.2, uncertainty taken into consideration.
+Reviewing different model specifications, the same model as in the previous Subsection is chosen (Model \ref{eq:gamlss_kcc_2}) with an ex-Gaussian distribution family for the response variable. A summary is printed below in R output \ref{output:gamlss_fit_kcc_6_try1}.
+The estimated time-varying location and scale parameters can be seen in \autoref{fig:gamlss_kcc_6_estimated_parameters} and the skewness parameter $\hat{\nu}$ with 95\% CI in \autoref{tab:nu_ci_kcc_6}. Fitted values are close to real values, capturing the promotion peaks fairly well. The standard deviation fluctuates throughout time within a range between 0.1 and 0.3.
 \\
 
 
-\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 6" ]{gamlss_fit_kcc_6_try1.txt}
+%\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 6" ]{gamlss_fit_kcc_6_try1.txt}
+
+\inputRoutput[caption={GAMLSS Fit on KCC 6}, numbers=left,numberstyle=\tiny, label=output:gamlss_fit_kcc_6_try1]{gamlss_fit_kcc_6_try1.txt}
 
 
 
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.95\linewidth]{figures/gamlss_kcc_6_estimated_parameters.png}
-  \caption{Estimated location parameter $\hat{\mu}$ and scale parameter $\hat{\sigma}$ with confidence bands of GAMLSS fit - KCC 6}
+  \caption{Estimated location parameter $\hat{\mu}$ compared to the observed values and scale parameter $\hat{\sigma}$ with confidence bands of GAMLSS fit - KCC 6}
   \label{fig:gamlss_kcc_6_estimated_parameters}
 \end{figure}
 
@@ -78,17 +79,13 @@ The estimated time-varying location and scale parameters can be seen in \autoref
 \hline
 \rowcolor{lightgray} 
 Lower & $\hat{\nu}$ & Upper \\ \hline
-0.040        & 0.021           & 0.060        \\ \hline
+0.044        & 0.031           & 0.057        \\ \hline
 \end{tabular}
 \end{adjustbox}
 \caption{Estimated skewness parameter $\hat{\nu}$ of GAMLSS fit with 95\% confidence interval bounds - KCC 6}
 \label{tab:nu_ci_kcc_6}
 \end{table}
 
-
-
-\autoref{fig:gamlss_effects_kcc_6} reveals some interesting points regarding covariate effects. The temporal effect, just like the total markdown percentage, collapses to an increasing straight line. The temporal effect also exhibits symmetrical behaviour around zero, including uncertainty. Just like in \ac{KCC} 2, the effect of Spring-Summer is slightly smaller than that of Fall-Winter.
-\\
 
 
 
@@ -104,9 +101,12 @@ Lower & $\hat{\nu}$ & Upper \\ \hline
 
 
 
-
-Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residuals_kcc_6} along with the associated summary output, we can again confirm an appropriate fit.
+\autoref{fig:gamlss_effects_kcc_6} reveals some interesting points regarding covariate effects. The temporal effect, just like the total markdown percentage, collapses to an increasing straight line. 
+%The temporal effect also exhibits symmetrical behaviour around zero, including uncertainty. 
+%Just like in \ac{KCC} 2, the effect of Spring-Summer is slightly smaller than that of Fall-Winter.
+As opposed to the \ac{GAMLSS} fit for \ac{KCC} 2, Friends \& Family seems to have the highest effect of all promos for this \ac{KCC}. Controversial results are again the case here, as can be seen in R output \ref{output:gamlss_fit_kcc_6_try1}. The two promotions seem to negatively interact with the total markdown percentage. Those kinds of behaviour might need further investigation.
 \\
+
 
 
 
@@ -118,10 +118,12 @@ Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residua
 \end{figure}
 
 
-\VerbatimInput[frame = single, label = "Residuals of GAMLSS Fit on KCC 6" ]{gamlss_residuals_kcc_6.txt}
+%\VerbatimInput[frame = single, label = "Residuals of GAMLSS Fit on KCC 6" ]{gamlss_residuals_kcc_6.txt}
+
+\inputRoutput[caption={Residuals of GAMLSS Fit on KCC 6},numbers=left,numberstyle=\tiny, label=output:gamlss_residuals_kcc_6]{gamlss_residuals_kcc_6.txt}
 
 
-
+Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residuals_kcc_6} along with the associated summary output, we can again confirm an appropriate fit. A Shapiro-Wilk test returns a p-value of 0.7, which is below the p-value of the fit without covariate effects. Nevertheless, normality is a steady assumption for the quantile residuals.
 
 
 

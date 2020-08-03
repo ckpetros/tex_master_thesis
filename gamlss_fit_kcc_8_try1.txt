@@ -1,43 +1,41 @@
 ******************************************************************
 Family:  c("exGAUS", "ex-Gaussian") 
 
-Call:  gamlss(formula = logsales_kcc_8 ~ pb(time_obs) + 
-					pb(total_markdown_pct) + 
-					season_type, 
-sigma.formula = ~pb(time_obs), 
-nu.formula = ~1,      
-
-family = "exGAUS", data = data_agg_KCC) 
+Call:  gamlss(formula = logsales_kcc_8 ~ pb(time_obs) + pb(total_markdown_pct) +  
+    promo_type * total_markdown_pct, sigma.formula = ~pb(time_obs),      nu.formula = ~1, family = "exGAUS", data = data_agg_KCC) 
 
 Fitting method: RS() 
 
 ------------------------------------------------------------------
 Mu link function:  identity
 Mu Coefficients:
-                        Estimate Std. Error t value Pr(>|t|)    
-(Intercept)            6.0688342  0.1080385  56.173  < 2e-16 ***
-pb(time_obs)           0.0052143  0.0008299   6.283 9.42e-09 ***
-pb(total_markdown_pct) 2.7996474  0.2102418  13.316  < 2e-16 ***
-season_typeSS          0.0307267  0.0438628   0.701    0.485    
+                                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                                    5.5055060  0.1744217  31.564  < 2e-16 ***
+pb(time_obs)                                   0.0042645  0.0008424   5.063 1.91e-06 ***
+pb(total_markdown_pct)                         4.5349719  0.4527266  10.017  < 2e-16 ***
+promo_typeBlack Friday                        -0.6541342  0.3738172  -1.750   0.0832 .  
+promo_typeFriends & Family                    -0.0367560  0.6637042  -0.055   0.9559    
+promo_typeBlack Friday:total_markdown_pct      0.8760110  0.7295349   1.201   0.2327    
+promo_typeFriends & Family:total_markdown_pct -0.7643296  1.2393106  -0.617   0.5388    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 ------------------------------------------------------------------
 Sigma link function:  log
 Sigma Coefficients:
               Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  -1.266396   0.277706   -4.56 1.49e-05 ***
-pb(time_obs) -0.005311   0.003427   -1.55    0.124    
+(Intercept)  -1.347871   0.271081  -4.972 2.78e-06 ***
+pb(time_obs) -0.008544   0.005004  -1.708   0.0908 .  
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 ------------------------------------------------------------------
 Nu link function:  log 
 Nu Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  -1.9415     0.3787  -5.127  1.5e-06 ***
+(Intercept)  -1.7105     0.2198  -7.783    7e-12 ***
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 ------------------------------------------------------------------
 NOTE: Additive smoothing terms exist in the formulas: 
@@ -45,11 +43,11 @@ NOTE: Additive smoothing terms exist in the formulas:
 ii) Std. Error for the linear terms maybe are not accurate. 
 ------------------------------------------------------------------
 No. of observations in the fit:  109 
-Degrees of Freedom for the fit:  11.91903
-      Residual Deg. of Freedom:  97.08097 
-                      at cycle:  20 
+Degrees of Freedom for the fit:  10.0084
+      Residual Deg. of Freedom:  98.9916 
+                      at cycle:  7 
  
-Global Deviance:     -5.489673 
-            AIC:     18.3484 
-            SBC:     50.42666 
+Global Deviance:     -11.3607 
+            AIC:     8.656098 
+            SBC:     35.59218 
 ******************************************************************

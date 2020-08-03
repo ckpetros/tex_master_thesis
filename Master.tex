@@ -159,8 +159,21 @@
 \usepackage{fancyvrb}
 \usepackage{verbatim}
 
+\usepackage[english,noautotitles-r]{SASnRdisplay} 
+% front-end to the list­ings package
+% http://www.ctan.org/tex-archive/macros/latex/contrib/sasnrdisplay
+\lstdefinestyle{r-output}{
+style = r-style,
+style = r-output-user,
+}
 
+\lstdefinestyle{r-fonts}{
+basicstyle = \tiny\ttfamily,
+}
 
+\captionsetup[lstlisting]{
+font=footnotesize
+}
 
 % Adjust tables (and figures) to textwidth...
 \usepackage{adjustbox}
@@ -421,7 +434,7 @@
 \newpage
 \thispagestyle{empty}
 \section*{Statutory Declaration}
-%\input{statutory_declaration}
+\input{statutory_declaration}
 \clearpage
 
 \newpage
@@ -537,7 +550,7 @@
 \subsection{Grouped Patterns - Key Category Cluster} \label{ssec:grouped_patterns}
 \input{grouped_patterns}
 %\subsubsection{Exploring Key Category Cluster} \label{sssec:kcc_exploration}
-\input{kcc_exploration}
+%\input{kcc_exploration}
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
@@ -545,7 +558,7 @@
 \thispagestyle{plain}
 \section{Modelling} \label{sec:modelling}
 \input{modelling}
-\subsection{Key Category Cluster Marginals} \label{ssec:kcc_marginals}
+\subsection{Key Category Cluster - Marginals} \label{ssec:kcc_marginals}
 \input{kcc_marginals}
 \subsubsection{Key Category Cluster 2} \label{sssec:margin_kcc_2}
 \input{margin_kcc_2}
@@ -554,18 +567,22 @@
 \subsubsection{Key Category Cluster 8} \label{sssec:margin_kcc_8}
 \input{margin_kcc_8}
 
-\subsection{KCC Correlations} \label{ssec:kcc_correlations}
+\subsection{Key Category Cluster - Pairwise Copulas}
+\label{ssec:kcc_copulas}
+\input{kcc_copulas}
+
+%\subsection{KCC Correlations} \label{ssec:kcc_correlations}
 %\input{kcc_correlations}
-%\subsubsection{KCC 2 \& KCC 6} \label{sssec:kcc_26}
+\subsubsection{Key Category Clusters 2 \& 6} \label{sssec:kcc_26}
 %\input{kcc_26}
-%\subsubsection{KCC 2 \& KCC 8} \label{sssec:kcc_28}
+\subsubsection{Key Category Clusters 2 \& 8} \label{sssec:kcc_28}
 %\input{kcc_28}
-%\subsubsection{KCC 6 \& KCC 8} \label{sssec:kcc_68}
+\subsubsection{Key Category Clusters 6 \& 8} \label{sssec:kcc_68}
 %\input{kcc_68}
-\subsection{Article Correlations} \label{ssec:article_correlations}
-\input{article_correlations}
-\subsubsection{Data Delimitation} \label{sssec:data_delimitation}
-\input{data_delimitation}
+%\subsection{Article Correlations} \label{ssec:article_correlations}
+%\input{article_correlations}
+%\subsubsection{Data Delimitation} \label{sssec:data_delimitation}
+%\input{data_delimitation}
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
