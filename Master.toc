@@ -18,21 +18,20 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Rank Correlation}{23}{subsubsection.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3}Tail Dependence}{24}{subsubsection.3.3.3}
 \contentsline {subsection}{\numberline {3.4}Structured Additive Conditional Copulas}{25}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Vine Copulas}{26}{subsection.3.5}
 \contentsline {section}{\numberline {4}Data Exploration}{27}{section.4}
 \contentsline {subsection}{\numberline {4.1}Universal Sales Patterns}{28}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Grouped Patterns - Key Category Cluster}{33}{subsection.4.2}
 \contentsline {section}{\numberline {5}Modelling}{37}{section.5}
 \contentsline {subsection}{\numberline {5.1}Key Category Cluster - Marginals}{37}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Key Category Cluster 2}{37}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Key Category Cluster 6}{43}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Key Category Cluster 8}{48}{subsubsection.5.1.3}
-\contentsline {subsection}{\numberline {5.2}Key Category Cluster - Pairwise Copulas}{51}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.1.2}Key Category Cluster 6}{42}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Key Category Cluster 8}{47}{subsubsection.5.1.3}
+\contentsline {subsection}{\numberline {5.2}Key Category Cluster - Pairwise Copulas}{50}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{52}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{52}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{52}{subsubsection.5.2.3}
-\contentsline {section}{\numberline {6}Conclusion}{53}{section.6}
-\contentsline {section}{List of Abbreviations}{55}{section.6}
-\contentsline {section}{List of Figures}{57}{section*.57}
-\contentsline {section}{List of Tables}{59}{section*.58}
-\contentsline {section}{References}{61}{section*.59}
+\contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{56}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{56}{subsubsection.5.2.3}
+\contentsline {section}{\numberline {6}Conclusion}{57}{section.6}
+\contentsline {section}{List of Abbreviations}{59}{section.6}
+\contentsline {section}{List of Figures}{61}{section*.64}
+\contentsline {section}{List of Tables}{65}{section*.65}
+\contentsline {section}{References}{67}{section*.66}

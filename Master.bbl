@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -107,6 +107,16 @@
 \newblock \emph{Quantitative risk management: concepts, techniques and
   tools-revised edition}.
 \newblock Chap. Copulas and Dependence, Princeton university press, 2015
+
+\bibitem[Nagler et~al.(2019)Nagler, Schepsmeier, Stoeber, Brechmann, Graeler,
+  Erhardt, Almeida, Min, Czado, Hofmann et~al.]{nagler2019vinecopula}
+\dinatlabel{Nagler et~al. 2019} \textsc{Nagler}, T.~; \textsc{Schepsmeier},
+  U.~; \textsc{Stoeber}, J.~; \textsc{Brechmann}, E.~C.~; \textsc{Graeler},
+  B.~; \textsc{Erhardt}, T.~; \textsc{Almeida}, C.~; \textsc{Min}, A.~;
+  \textsc{Czado}, C.~; \textsc{Hofmann}, M. et~al.:
+\newblock {V}ine{C}opula: {S}tatistical {I}nference of {V}ine {C}opulas.
+\newblock In: \emph{R package version}
+\newblock 2 (2019), Nr.~0
 
 \bibitem[Patton(2006)]{patton2006modelling}
 \dinatlabel{Patton 2006} \textsc{Patton}, Andrew~J.:
