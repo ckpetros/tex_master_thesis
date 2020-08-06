@@ -33,13 +33,13 @@ tanh^{-1}(\theta)=\beta_{\theta}+f\left(t_{time}\right),
 \label{eq:gjrm_formula_26}
 \end{equation} \\
 
-where $\nu$ denotes the degrees of freedom of the t-copula, $tanh^{-1}$ is the inverse hyperbolic tangent function relating the expected value of the copula parameter $\hat{\theta}$ to the linear predictor $\beta_{\theta}+f\left(t_{time}\right)$ and $f$ being a smooth function build upon truncated power splines and 30 equidistant knots. Note that as the chosen copula is a Student's t-copula, $\theta$ is basically Pearson's correlation coefficient $\rho$. The rest of the model parameters are all set as constant values as the model seems to be robust to any changes including covariates. Incorporating covariates within smooth functions with high numbers of knots on the contrary lead to less reliable estimations (especially due to increasing number of parameters compared to this sample size). \\
+where $\nu$ denotes the degrees of freedom of the t-copula, $tanh^{-1} = $ is the inverse hyperbolic tangent function\footnote{Defined as $\tanh ^{-1} (x)=\frac{1}{2} \ln \left(\frac{1+x}{1-x}\right)$ on the domain $ \{ x \in \mathbb{R}:-1<x<1\}$.} relating the expected value of the copula parameter $\hat{\theta}$ to the linear predictor $\beta_{\theta}+f\left(t_{time}\right)$ and $f$ being a smooth function build upon truncated power splines and 30 equidistant knots. Note that as the chosen copula is a Student's t-copula, $\theta$ is basically Pearson's correlation coefficient $\rho$. The rest of the model parameters are all set as constant values as the model seems to be robust to any changes including covariates. Incorporating covariates within smooth functions with high numbers of knots on the contrary lead to less reliable estimations (especially due to increasing number of parameters compared to this sample size). \\
 
 Model \ref{eq:gjrm_formula_26} along with the mentioned prespecified settings in the \textit{gjrm()} function generates a good overall fit, which is confirmed when checking the histogram and the QQ-Plots of the quantile residuals for the two marginals (see \autoref{fig:res_hist_qqplot_26}). A summary can be found in R output \ref{output:summary_kcc_26}.
 \\
 
 
-\inputRoutput[caption={Residuals of GAMLSS Fit on KCC 8},numbers=left,numberstyle=\tiny, label=output:summary_kcc_26]{summary_kcc_26.txt}
+\inputRoutput[caption={Summary of GJRM fit on key category clusters 2 \& 6},numbers=left,numberstyle=\tiny, label=output:summary_kcc_26]{summary_kcc_26.txt}
 
 
 
@@ -58,9 +58,9 @@ Model \ref{eq:gjrm_formula_26} along with the mentioned prespecified settings in
   \label{fig:estimated_theta_kcc_26}
 \end{figure}
 
-\autoref{fig:estimated_theta_kcc_26} displays the correlation between the two margins highly fluctuates between (almost) perfect negative and positive dependence, suggesting that only copulas which can account for both of those dependence (concordance) types should be considered. The Student's t-copulas provides the most appropriate fit among those types of copulas so we stick to it. The width of the confidence intervals also does vary a lot across different parts of the observation period.\\
+\autoref{fig:estimated_theta_kcc_26} displays the correlation between the two margins highly fluctuates between (almost) perfect negative and positive dependence, suggesting that only copulas which can account for both of those dependence (concordance) types should be considered. Candidate copulas were the Frank copula, the Ali-Mikhali-Haq copula and Fari-Gumbel-Morgenstern copula, where the last two can only account for weak dependencies \citep{marra1605bivariate}. The Student's t-copulas provides the most appropriate fit among those types of copulas so we stick to it. The width of the confidence intervals also does vary a lot across different parts of the observation period.\\
 
-The effect of time on the copula parameter turns out to be significant (R output \ref{output:summary_kcc_26} and can be viewed in \autoref{fig:time_effect_on_theta_26}, where the number 26.64 in brackets on the y-axis denotes the effective degrees of freedom of the curve.
+The effect of time on the copula parameter turns out to be significant (R output \ref{output:summary_kcc_26} and can be viewed in \autoref{fig:time_effect_on_theta_26}, where the number 26.64 in brackets on the y-axis denotes the effective degrees of freedom of the smooth curve, which is centered around zero due to identifiability constraints.
 
 \begin{figure}[H]
 \centering

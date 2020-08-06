@@ -15,6 +15,7 @@ In this chapter, we will explore various ways on how to model, evaluate and inte
 %  \label{fig:total_markdown_pct_kcc}
 %\end{figure}
 
-An important aspect of the modelling part is that usually, continuous responses are implied in the literature. Nevertheless, discrete responses (like in our "real" case) are also justified when explanatory variables are involved. A detailed explanation can be found in \cite{trivedi2017note}.
+An important aspect of the modelling part is that usually, continuous responses are implied in the literature. Nevertheless, discrete responses (like in our "real" case) are also justified when explanatory variables are involved. A detailed explanation can be found in \cite{trivedi2017note}.\\ 
+As the observation period is only 109 weeks and the highest peaks occur during Black Friday twice, the second time being very late (104th week, see e.g. \autoref{fig:total_sold_articles_ts}), all of the modelling will be performed in-sample. Thus, evaluation and diagnostics will be based on the entire observation period so that both extreme peaks can be included in model trainings.
 
 

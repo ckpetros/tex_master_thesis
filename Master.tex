@@ -300,12 +300,13 @@ font=footnotesize
 \usepackage{mfirstuc}
 
 %Create Statutory Declaration page for signatures
-\newcommand{\namesigdate}[2][3cm]{%
-  \begin{tabular}{@{}p{#1}@{}}
-    #2 \\[2\normalbaselineskip] \hrule \\[0pt]
-    {\small \textit{Signature}}
-  \end{tabular}
-}
+% NOT NEEDED AS STATUTORY DECLARATION IS ITS "OWN" FILE
+%\newcommand{\namesigdate}[2][3cm]{%
+%  \begin{tabular}{@{}p{#1}@{}}
+%    #2 \\[2\normalbaselineskip] \hrule \\[0pt]
+%    {\small \textit{Signature}}
+%  \end{tabular}
+%}
 
 % Headers for the pages
 %\usepackage{fancyhdr}
@@ -431,14 +432,7 @@ font=footnotesize
 \newpage
 \null\thispagestyle{empty}
 
-\newpage
-\thispagestyle{empty}
-\section*{Statutory Declaration}
-\input{statutory_declaration}
-\clearpage
 
-\newpage
-\null\thispagestyle{empty}
 
 
 \newpage
@@ -576,7 +570,7 @@ font=footnotesize
 \subsubsection{Key Category Clusters 2 \& 6} \label{sssec:kcc_26}
 \input{kcc_26}
 \subsubsection{Key Category Clusters 2 \& 8} \label{sssec:kcc_28}
-%\input{kcc_28}
+\input{kcc_28}
 \subsubsection{Key Category Clusters 6 \& 8} \label{sssec:kcc_68}
 %\input{kcc_68}
 %\subsection{Article Correlations} \label{ssec:article_correlations}
@@ -589,15 +583,14 @@ font=footnotesize
 
 
 % Now clear headnotes again and get settings
-\fancyhf{}
-\fancyhead[LO,RE]{\footnotesize \nouppercase{\leftmark}}
-\fancyhead[RO,LE]{\footnotesize \thepage}
+%\fancyhf{}
+%\fancyhead[LO,RE]{\footnotesize \nouppercase{\leftmark}}
+%\fancyhead[RO,LE]{\footnotesize \thepage}
 
 
 \thispagestyle{plain}
 \section{Conclusion} \label{sec:conclusion}
 %\input{conclusion}
-%\clearpage
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
@@ -666,6 +659,20 @@ font=footnotesize
 %Include references that are not explicitly cited in the documtent
 \nocite{*} 
 \bibliography{references}
+
+\newpage
+\thispagestyle{empty}
+\cleardoublepage
+
+
+\newpage
+\thispagestyle{empty}
+\section*{Statutory Declaration}
+\input{statutory_declaration}
+
+
+
+
 
 \end{document}
 

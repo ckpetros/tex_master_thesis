@@ -1,0 +1,73 @@
+
+COPULA:   Student-t (dof = 249)
+MARGIN 1: Gaussian
+MARGIN 2: Gaussian
+
+EQUATION 1
+Link function for mu.1: identity 
+Formula: res_gamlss_kcc_2 ~ 1
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept) 0.008837   0.098263    0.09    0.928
+
+
+EQUATION 2
+Link function for mu.2: identity 
+Formula: res_gamlss_kcc_8 ~ 1
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept)  0.08536    0.09780   0.873    0.383
+
+
+EQUATION 3
+Link function for sigma.1: log 
+Formula: ~1
+
+Parametric coefficients:
+             Estimate Std. Error z value Pr(>|z|)
+(Intercept) -0.005018   0.066775  -0.075     0.94
+
+
+EQUATION 4
+Link function for sigma.2: log 
+Formula: ~1
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept) -0.05304    0.06315   -0.84    0.401
+
+
+EQUATION 5
+Link function for dof: log(. - 2) 
+Formula: ~1
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   16.952      3.879    4.37 1.24e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+EQUATION 6
+Link function for theta: atanh 
+Formula: ~s(time_obs, k = 30)
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)   0.6381     0.1096   5.825 5.72e-09 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Smooth components' approximate significance:
+             edf Ref.df Chi.sq p-value   
+s(time_obs) 18.5  21.75  41.45 0.00681 **
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+sigma.1 = 0.995(0.896,1.13)  sigma.2 = 0.948(0.837,1.06)
+dof = 249(249,249)
+theta = 0.466(-0.151,0.847)  tau = 0.34(-0.112,0.684)
+n = 109  total edf = 24.5
+

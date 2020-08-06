@@ -23,15 +23,15 @@
 \contentsline {subsection}{\numberline {4.2}Grouped Patterns - Key Category Cluster}{33}{subsection.4.2}
 \contentsline {section}{\numberline {5}Modelling}{37}{section.5}
 \contentsline {subsection}{\numberline {5.1}Key Category Cluster - Marginals}{37}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Key Category Cluster 2}{37}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Key Category Cluster 6}{42}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1}Key Category Cluster 2}{38}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Key Category Cluster 6}{43}{subsubsection.5.1.2}
 \contentsline {subsubsection}{\numberline {5.1.3}Key Category Cluster 8}{47}{subsubsection.5.1.3}
-\contentsline {subsection}{\numberline {5.2}Key Category Cluster - Pairwise Copulas}{50}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{52}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{56}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{56}{subsubsection.5.2.3}
-\contentsline {section}{\numberline {6}Conclusion}{57}{section.6}
-\contentsline {section}{List of Abbreviations}{59}{section.6}
-\contentsline {section}{List of Figures}{61}{section*.64}
-\contentsline {section}{List of Tables}{65}{section*.65}
-\contentsline {section}{References}{67}{section*.66}
+\contentsline {subsection}{\numberline {5.2}Key Category Cluster - Pairwise Copulas}{51}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{53}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{57}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{60}{subsubsection.5.2.3}
+\contentsline {section}{\numberline {6}Conclusion}{61}{section.6}
+\contentsline {section}{List of Abbreviations}{63}{section.6}
+\contentsline {section}{List of Figures}{65}{section*.67}
+\contentsline {section}{List of Tables}{69}{section*.68}
+\contentsline {section}{References}{71}{section*.69}
