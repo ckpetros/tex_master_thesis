@@ -1,0 +1,61 @@
+
+COPULA:   Clayton
+MARGIN 1: Gaussian
+MARGIN 2: Gaussian
+
+EQUATION 1
+Link function for mu.1: identity 
+Formula: res_gamlss_kcc_6 ~ 1
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept) -0.07752    0.08888  -0.872    0.383
+
+
+EQUATION 2
+Link function for mu.2: identity 
+Formula: res_gamlss_kcc_8 ~ 1
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept)  0.03416    0.12033   0.284    0.776
+
+
+EQUATION 3
+Link function for sigma.1: log 
+Formula: ~1
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept) -0.03599    0.06464  -0.557    0.578
+
+
+EQUATION 4
+Link function for sigma.2: log 
+Formula: ~1
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept)  0.02258    0.06529   0.346    0.729
+
+
+EQUATION 5
+Link function for theta: log 
+Formula: ~s(time_obs, k = 30)
+
+Parametric coefficients:
+            Estimate Std. Error z value Pr(>|z|)  
+(Intercept)   -8.238      3.765  -2.188   0.0287 *
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Smooth components' approximate significance:
+              edf Ref.df Chi.sq p-value    
+s(time_obs) 21.88  23.85   1560  <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+sigma.1 = 0.965(0.842,1.11)  sigma.2 = 1.02(0.892,1.18)
+theta = 3.4(1.47,44.2)  tau = 0.342(0.145,0.771)
+n = 109  total edf = 26.9
+

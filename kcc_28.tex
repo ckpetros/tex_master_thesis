@@ -1,5 +1,8 @@
 % !TEX root = Master.tex
 
+The same strategy as in the previous Subsection \ref{sssec:kcc_26} shall be followed. In \autoref{fig:scatter_res_kcc_28} a lower tail dependence can be suspected. Whether both positive and negative dependence are hiding in the the data will be tested beforehand, so that we can narrow down the number of plausible copula families.
+\\
+
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.45\linewidth]{figures/scatter_res_kcc_28.png}
@@ -8,8 +11,14 @@
 \end{figure}
 
 
+A \ac{GJRM} approach equivalent to Model \ref{eq:gjrm_formula_26} will be applied here and we can see the summary in R output \ref{output:summary_kcc_28}. All model parameters but the copula parameter are set as constants. We first examine copulas which account for positive as well as negative dependencies with the help of the \textit{BiCopSelect()} function. The t-copula is again the most appropriate within a set of copula families including the independence copula, the Gaussian copula, the Student's t-copula and the Frank copula. Looking at equation 6 of the output, we can see that time has a significant effect on $\hat{\theta}$ and its partial smooth effect can be checked visually in \autoref{fig:time_effect_on_theta_28}.
+\\
+
+
 
 \inputRoutput[caption={Summary of GJRM fit on key category clusters 2 \& 8},numbers=left,numberstyle=\tiny, label=output:summary_kcc_28]{summary_kcc_28.txt}
+
+
 
 
 
@@ -23,6 +32,19 @@
 
 \begin{figure}[H]
 \centering
+  \includegraphics[width=0.95\linewidth]{figures/time_effect_on_theta_28.png}
+  \caption{Estimated Smooth effect of time on the copula parameter $\theta$ with 95\% confidence bands for key category clusters 2 \& 8}
+  \label{fig:time_effect_on_theta_28}
+\end{figure}
+
+
+The parsimonious model setup produces a nice fit (see \autoref{fig:res_hist_qqplot_28}) so we proceed to analyzing the correlation parameter. Once again, $\hat{\theta}$ takes on positive as well as negative values interchangeably over time periods. Therefore considering further copula families like the Clayton copula would be arguably inappropriate.
+\\
+
+
+
+\begin{figure}[H]
+\centering
   \includegraphics[width=0.95\linewidth]{figures/estimated_theta_kcc_28.png}
   \caption{Estimated copula parameter over time from a \ac{GJRM} t-copula model with normal margins for key category clusters 2 \& 8 with 95\% confidence bands}
   \label{fig:estimated_theta_kcc_28}
@@ -31,12 +53,6 @@
 
 
 
-\begin{figure}[H]
-\centering
-  \includegraphics[width=0.95\linewidth]{figures/time_effect_on_theta_28.png}
-  \caption{Estimated Smooth effect of time on the copula parameter $\theta$ with 95\% confidence bands for key category clusters 2 \& 8}
-  \label{fig:time_effect_on_theta_28}
-\end{figure}
 
 
 

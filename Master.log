@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  7 AUG 2020 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  8 AUG 2020 12:01
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -995,29 +995,29 @@ les
 ) (Master.aux)
 \openout1 = `Master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 414.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 414.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 419.
+LaTeX Font Info:    ... okay on input line 419.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 419.
+LaTeX Font Info:    ... okay on input line 419.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 419.
+LaTeX Font Info:    ... okay on input line 419.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 419.
+LaTeX Font Info:    ... okay on input line 419.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 419.
+LaTeX Font Info:    ... okay on input line 419.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 419.
+LaTeX Font Info:    ... okay on input line 419.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 419.
+LaTeX Font Info:    ... okay on input line 419.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 419.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 419.
 
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 414.
+LaTeX Font Info:    ... okay on input line 419.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 419.
  ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arial\t1ua1.fd
 "
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
@@ -1027,7 +1027,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 414.
+Package hyperref Info: Link coloring OFF on input line 419.
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namere
 f.sty"
@@ -1039,9 +1039,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 414.
-LaTeX Info: Redefining \pageref on input line 414.
-LaTeX Info: Redefining \nameref on input line 414.
+LaTeX Info: Redefining \ref on input line 419.
+LaTeX Info: Redefining \pageref on input line 419.
+LaTeX Info: Redefining \nameref on input line 419.
  (Master.out) (Master.out)
 \@outlinefile=\write5
 \openout5 = `Master.out'.
@@ -1189,7 +1189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 )
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 482.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 487.
  (adidas.tex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
@@ -1315,17 +1315,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.488 \newpage
+l.493 \newpage
                [4]pdfTeX warning (ext4): destination with the same identifier (
 name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.488 \newpage
+l.493 \newpage
                [5]pdfTeX warning (ext4): destination with the same identifier (
 name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.490 \cleardoublepage
+l.495 \cleardoublepage
                        [6
 
 ] (theory_and_methods.tex) (shapiro_wilk.tex) (glm.tex
@@ -1985,10 +1985,6 @@ File: figures/ecdf_all-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/ecdf_all-eps-converted-to.pdf  used on input l
 ine 173.
 (pdftex.def)             Requested size: 277.41176pt x 198.16187pt.
-
-LaTeX Warning: Reference `sssec:data_delimitation' on page 32 undefined on inpu
-t line 180.
-
 [32 <./figures/bar_below_200_units_week-eps-converted-to.pdf> <./figures/bar_ab
 ove_200_units_week-eps-converted-to.pdf> <./figures/ecdf_all-eps-converted-to.p
 df>]) (grouped_patterns.tex
@@ -2265,11 +2261,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--109
 
  []
 
-<figures/gamlss_residuals_kcc_6.png, id=1146, 526.96875pt x 451.6875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+<figures/gamlss_residuals_kcc_6.png, id=1148, 526.96875pt x 451.6875pt>
 File: figures/gamlss_residuals_kcc_6.png Graphic file (type png)
 <use figures/gamlss_residuals_kcc_6.png>
 Package pdftex.def Info: figures/gamlss_residuals_kcc_6.png  used on input line
- 115.
+ 119.
 (pdftex.def)             Requested size: 405.45047pt x 347.54543pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2286,17 +2287,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
  []
 
 [47 <./figures/gamlss_residuals_kcc_6.png>]
-<figures/kcc_8_density.png, id=1174, 526.96875pt x 376.40625pt>
+<figures/kcc_8_density.png, id=1178, 526.96875pt x 376.40625pt>
 File: figures/kcc_8_density.png Graphic file (type png)
 <use figures/kcc_8_density.png>
 Package pdftex.def Info: figures/kcc_8_density.png  used on input line 32.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/kcc_8_qqplot.png, id=1175, 526.96875pt x 376.40625pt>
+<figures/kcc_8_qqplot.png, id=1179, 526.96875pt x 376.40625pt>
 File: figures/kcc_8_qqplot.png Graphic file (type png)
 <use figures/kcc_8_qqplot.png>
 Package pdftex.def Info: figures/kcc_8_qqplot.png  used on input line 38.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/res_kcc_8_no_covariates.png, id=1178, 526.96875pt x 376.40625pt>
+<figures/res_kcc_8_no_covariates.png, id=1182, 526.96875pt x 376.40625pt>
 File: figures/res_kcc_8_no_covariates.png Graphic file (type png)
 <use figures/res_kcc_8_no_covariates.png>
 Package pdftex.def Info: figures/res_kcc_8_no_covariates.png  used on input lin
@@ -2307,9 +2308,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-[48 <./figures/kcc_8_density.png> <./figures/kcc_8_qqplot.png> <./figures/res_k
-cc_8_no_covariates.png>] (gamlss_fit_kcc_8_try1.txt)
-<figures/gamlss_kcc_8_estimated_parameters.png, id=1194, 828.09375pt x 376.4062
+(gamlss_fit_kcc_8_try1.txt [48 <./figures/kcc_8_density.png> <./figures/kcc_8_q
+qplot.png> <./figures/res_kcc_8_no_covariates.png>])
+<figures/gamlss_kcc_8_estimated_parameters.png, id=1200, 828.09375pt x 376.4062
 5pt>
 File: figures/gamlss_kcc_8_estimated_parameters.png Graphic file (type png)
 <use figures/gamlss_kcc_8_estimated_parameters.png>
@@ -2317,14 +2318,14 @@ Package pdftex.def Info: figures/gamlss_kcc_8_estimated_parameters.png  used on
  input line 71.
 (pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
 
-Underfull \vbox (badness 3758) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
 Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-<figures/gamlss_effects_kcc_8.png, id=1254, 828.09375pt x 526.96875pt>
+<figures/gamlss_effects_kcc_8.png, id=1255, 828.09375pt x 526.96875pt>
 File: figures/gamlss_effects_kcc_8.png Graphic file (type png)
 <use figures/gamlss_effects_kcc_8.png>
 Package pdftex.def Info: figures/gamlss_effects_kcc_8.png  used on input line 1
@@ -2332,7 +2333,7 @@ Package pdftex.def Info: figures/gamlss_effects_kcc_8.png  used on input line 1
 (pdftex.def)             Requested size: 405.45047pt x 258.01591pt.
 [50 <./figures/gamlss_kcc_8_estimated_parameters.png> <./figures/gamlss_effects
 _kcc_8.png>]
-<figures/gamlss_residuals_kcc_8.png, id=1263, 526.96875pt x 451.6875pt>
+<figures/gamlss_residuals_kcc_8.png, id=1265, 526.96875pt x 451.6875pt>
 File: figures/gamlss_residuals_kcc_8.png Graphic file (type png)
 <use figures/gamlss_residuals_kcc_8.png>
 Package pdftex.def Info: figures/gamlss_residuals_kcc_8.png  used on input line
@@ -2344,7 +2345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
  []
 
 [51 <./figures/gamlss_residuals_kcc_8.png>]
-<figures/res_gamlss_over_time.png, id=1285, 828.09375pt x 526.96875pt>
+<figures/res_gamlss_over_time.png, id=1287, 828.09375pt x 526.96875pt>
 File: figures/res_gamlss_over_time.png Graphic file (type png)
 <use figures/res_gamlss_over_time.png>
 Package pdftex.def Info: figures/res_gamlss_over_time.png  used on input line 1
@@ -2359,7 +2360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-<figures/scatter_res_kcc_26.png, id=1314, 526.96875pt x 376.40625pt>
+<figures/scatter_res_kcc_26.png, id=1316, 526.96875pt x 376.40625pt>
 File: figures/scatter_res_kcc_26.png Graphic file (type png)
 <use figures/scatter_res_kcc_26.png>
 Package pdftex.def Info: figures/scatter_res_kcc_26.png  used on input line 9.
@@ -2398,76 +2399,160 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
  []
 
 (summary_kcc_26.txt [54])
-<figures/res_hist_qqplot_26.png, id=1358, 526.96875pt x 451.6875pt>
+<figures/res_hist_qqplot_26.png, id=1360, 526.96875pt x 451.6875pt>
 File: figures/res_hist_qqplot_26.png Graphic file (type png)
 <use figures/res_hist_qqplot_26.png>
 Package pdftex.def Info: figures/res_hist_qqplot_26.png  used on input line 48.
 
 (pdftex.def)             Requested size: 405.45047pt x 347.54543pt.
  [55]
-<figures/estimated_theta_kcc_26.png, id=1434, 828.09375pt x 376.40625pt>
-File: figures/estimated_theta_kcc_26.png Graphic file (type png)
-<use figures/estimated_theta_kcc_26.png>
-Package pdftex.def Info: figures/estimated_theta_kcc_26.png  used on input line
- 56.
-(pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
-[56 <./figures/res_hist_qqplot_26.png> <./figures/estimated_theta_kcc_26.png>]
-<figures/time_effect_on_theta_26.png, id=1448, 828.09375pt x 376.40625pt>
+<figures/time_effect_on_theta_26.png, id=1438, 828.09375pt x 376.40625pt>
 File: figures/time_effect_on_theta_26.png Graphic file (type png)
 <use figures/time_effect_on_theta_26.png>
 Package pdftex.def Info: figures/time_effect_on_theta_26.png  used on input lin
-e 67.
+e 60.
 (pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
+<figures/estimated_theta_kcc_26.png, id=1439, 828.09375pt x 301.125pt>
+File: figures/estimated_theta_kcc_26.png Graphic file (type png)
+<use figures/estimated_theta_kcc_26.png>
+Package pdftex.def Info: figures/estimated_theta_kcc_26.png  used on input line
+ 69.
+(pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
+[56 <./figures/res_hist_qqplot_26.png> <./figures/time_effect_on_theta_26.png>]
 ) (kcc_28.tex
-<figures/scatter_res_kcc_28.png, id=1449, 526.96875pt x 376.40625pt>
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+<figures/scatter_res_kcc_28.png, id=1453, 526.96875pt x 376.40625pt>
 File: figures/scatter_res_kcc_28.png Graphic file (type png)
 <use figures/scatter_res_kcc_28.png>
-Package pdftex.def Info: figures/scatter_res_kcc_28.png  used on input line 5.
+Package pdftex.def Info: figures/scatter_res_kcc_28.png  used on input line 8.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
- (summary_kcc_28.txt [57 <./figures/time_effect_on_theta_26.png> <./figures/sca
-tter_res_kcc_28.png>])
-<figures/res_hist_qqplot_28.png, id=1463, 526.96875pt x 451.6875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \vbox (badness 2401) has occurred while \output is active []
+
+ [57 <./figures/estimated_theta_kcc_26.png> <./figures/scatter_res_kcc_28.png>]
+
+(summary_kcc_28.txt [58])
+<figures/res_hist_qqplot_28.png, id=1522, 526.96875pt x 451.6875pt>
 File: figures/res_hist_qqplot_28.png Graphic file (type png)
 <use figures/res_hist_qqplot_28.png>
-Package pdftex.def Info: figures/res_hist_qqplot_28.png  used on input line 18.
+Package pdftex.def Info: figures/res_hist_qqplot_28.png  used on input line 27.
 
 (pdftex.def)             Requested size: 405.45047pt x 347.54543pt.
- [58]
-<figures/estimated_theta_kcc_28.png, id=1539, 828.09375pt x 376.40625pt>
-File: figures/estimated_theta_kcc_28.png Graphic file (type png)
-<use figures/estimated_theta_kcc_28.png>
-Package pdftex.def Info: figures/estimated_theta_kcc_28.png  used on input line
- 26.
-(pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
-<figures/time_effect_on_theta_28.png, id=1542, 828.09375pt x 376.40625pt>
+<figures/time_effect_on_theta_28.png, id=1525, 828.09375pt x 376.40625pt>
 File: figures/time_effect_on_theta_28.png Graphic file (type png)
 <use figures/time_effect_on_theta_28.png>
 Package pdftex.def Info: figures/time_effect_on_theta_28.png  used on input lin
-e 36.
+e 35.
 (pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
+
+Underfull \vbox (badness 8189) has occurred while \output is active []
+
+ [59 <./figures/res_hist_qqplot_28.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+<figures/estimated_theta_kcc_28.png, id=1557, 828.09375pt x 301.125pt>
+File: figures/estimated_theta_kcc_28.png Graphic file (type png)
+<use figures/estimated_theta_kcc_28.png>
+Package pdftex.def Info: figures/estimated_theta_kcc_28.png  used on input line
+ 48.
+(pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
+) (kcc_68.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+<figures/scatter_res_kcc_68.png, id=1561, 526.96875pt x 376.40625pt>
+File: figures/scatter_res_kcc_68.png Graphic file (type png)
+<use figures/scatter_res_kcc_68.png>
+Package pdftex.def Info: figures/scatter_res_kcc_68.png  used on input line 8.
+(pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59 <./figures/res_hist_qqplot_28.png> <./figures/estimated_theta_kcc_28.png>]
-) [60 <./figures/time_effect_on_theta_28.png>] [61
+ [60 <./figures/time_effect_on_theta_28.png> <./figures/estimated_theta_kcc_28.
+png>]
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
-] [62
+ []
 
-] (abbreviations.tex) [63] [64
+<figures/estimated_theta_t_copula_kcc_68.png, id=1574, 828.09375pt x 376.40625p
+t>
+File: figures/estimated_theta_t_copula_kcc_68.png Graphic file (type png)
+<use figures/estimated_theta_t_copula_kcc_68.png>
+Package pdftex.def Info: figures/estimated_theta_t_copula_kcc_68.png  used on i
+nput line 20.
+(pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
 
-]
-(Master.lof
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [61 <./figures/scatter_res_kcc_68.png> <./figures/estimated_theta_t_copula_kcc
+_68.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+(summary_kcc_68.txt [62])
+<figures/time_effect_on_theta_68.png, id=1638, 828.09375pt x 376.40625pt>
+File: figures/time_effect_on_theta_68.png Graphic file (type png)
+<use figures/time_effect_on_theta_68.png>
+Package pdftex.def Info: figures/time_effect_on_theta_68.png  used on input lin
+e 50.
+(pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
+<figures/res_hist_qqplot_68.png, id=1639, 526.96875pt x 451.6875pt>
+File: figures/res_hist_qqplot_68.png Graphic file (type png)
+<use figures/res_hist_qqplot_68.png>
+Package pdftex.def Info: figures/res_hist_qqplot_68.png  used on input line 60.
+
+(pdftex.def)             Requested size: 405.45047pt x 347.54543pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./figures/time_effect_on_theta_68.png>]
+<figures/estimated_tau_clayton_kcc_68.png, id=1668, 828.09375pt x 301.125pt>
+File: figures/estimated_tau_clayton_kcc_68.png Graphic file (type png)
+<use figures/estimated_tau_clayton_kcc_68.png>
+Package pdftex.def Info: figures/estimated_tau_clayton_kcc_68.png  used on inpu
+t line 69.
+(pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
+) [64 <./figures/res_hist_qqplot_68.png> <./figures/estimated_tau_clayton_kcc_6
+8.png>] [65
+
+] [66
+
+] (abbreviations.tex)
+[67] [68
+
+] (Master.lof
 Overfull \hbox (10.68088pt too wide) in paragraph at lines 20--20
  \T1/ua1/m/n/10.95 with marginal den-si-ties, Sec-ond row: Pseudo sales ob-ser-
 va-tion with marginal 
  []
 
-[65]
+[69]
 Overfull \hbox (2.07532pt too wide) in paragraph at lines 29--29
  [][] [][]\T1/ua1/m/n/10.95 Covariate ef-fects on the ex-pected re-sponse vari-
 able (log-sales) of GAMLSS 
@@ -2485,17 +2570,17 @@ Overfull \hbox (2.07532pt too wide) in paragraph at lines 39--39
 able (log-sales) of GAMLSS 
  []
 
-[66])
+[70])
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
- [67] [68
+ [71] [72
 
 ] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [69] [70
+ [73] [74
 
 ] (Master.bbl
 
@@ -2508,31 +2593,28 @@ Underfull \hbox (badness 3557) in paragraph at lines 11--18
 es-[]70th-[]anniversary$[]\T1/ua1/m/n/10.95 , Last
  []
 
-[71] [72]) [73] [74
+[75] [76]) [77] [78
 
 ] (statutory_declaration.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 677.
- [75]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 677.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 682.
+ [79]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 682.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 677.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 677.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 682.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 682.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 1169F5844463C87C49692726E8F5371B;2620.
+(rerunfilecheck)             Checksum: 59742E6D4BB1325EE622212C7D79F871;2620.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 677.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 682.
  ) 
 Here is how much of TeX's memory you used:
- 27481 strings out of 493305
- 469895 string characters out of 3128495
- 664591 words of memory out of 3000000
- 29845 multiletter control sequences out of 15000+200000
+ 27597 strings out of 493305
+ 473098 string characters out of 3128495
+ 658505 words of memory out of 3000000
+ 29878 multiletter control sequences out of 15000+200000
  644118 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,17n,134p,2758b,2067s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2570,9 +2652,9 @@ pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/
 ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
 /arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (83 pages, 2609672 bytes).
+Output written on Master.pdf (87 pages, 2681840 bytes).
 PDF statistics:
- 2092 PDF objects out of 2487 (max. 8388607)
- 645 named destinations out of 1000 (max. 500000)
- 599 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2244 PDF objects out of 2487 (max. 8388607)
+ 717 named destinations out of 1000 (max. 500000)
+ 624 words of extra memory for PDF output out of 10000 (max. 10000000)
 

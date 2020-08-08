@@ -177,7 +177,9 @@ Instances with no promotions have a steeper curve (red line) and reach their max
 
 
 
-Unfortunately, we cannot just remove such outliers with extreme sale numbers from the dataset, as it would produce gaps in the time series of some specific articles. Removing entire articles from the analysis is also not an option at this point, since we would be forced to remove a lot of articles. There will be a data delimitation process down the line to deal with this issue (see Subsection \ref{sssec:data_delimitation}). For example, 273 articles alone would have to be removed to get rid of the highest 0.01\% of quantities (see \autoref{tab:quantiles_sold_units_week}). Besides, these extreme values might be too informative for the underlying data generating process, so we decide to keep them all.
+Unfortunately, we cannot just remove such outliers with extreme sale numbers from the dataset, as it would produce gaps in the time series of some specific articles. Removing entire articles from the analysis is also not an option at this point, since we would be forced to remove a lot of articles.
+%There will be a data delimitation process down the line to deal with this issue (see Subsection \ref{sssec:data_delimitation}). 
+For example, 273 articles alone would have to be removed to get rid of the highest 0.01\% of quantities (see \autoref{tab:quantiles_sold_units_week}). Besides, these extreme values might be too informative for the underlying data generating process, so we decide to keep them all.
 
 
 

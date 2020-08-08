@@ -51,7 +51,7 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
 \end{figure}
 
 
-Reviewing different model specifications, the same model as in the previous Subsection is chosen (Model \ref{eq:gamlss_kcc_2}) with an ex-Gaussian distribution family for the response variable. A summary is printed below in R output \ref{output:gamlss_fit_kcc_6_try1}.
+Reviewing different model specifications, an equivalent model as in the previous Subsection is chosen (Model \ref{eq:gamlss_kcc_2}) with an ex-Gaussian distribution family for the response variable. A summary is printed below in R output \ref{output:gamlss_fit_kcc_6_try1}.
 The estimated time-varying location and scale parameters can be seen in \autoref{fig:gamlss_kcc_6_estimated_parameters} and the skewness parameter $\hat{\nu}$ with 95\% CI in \autoref{tab:nu_ci_kcc_6}. Fitted values are close to real values, capturing the promotion peaks fairly well. The standard deviation fluctuates throughout time within a range between 0.1 and 0.3.
 \\
 
@@ -108,6 +108,10 @@ As opposed to the \ac{GAMLSS} fit for \ac{KCC} 2, Friends \& Family seems to hav
 \\
 
 
+Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residuals_kcc_6} along with the associated R output \ref{output:gamlss_residuals_kcc_6}, we can again confirm an appropriate fit. A Shapiro-Wilk test returns a p-value of 0.7, which is below the p-value of the fit without covariate effects. Nevertheless, normality is a steady assumption for the quantile residuals.
+\\
+
+
 
 
 \begin{figure}[H]
@@ -123,7 +127,7 @@ As opposed to the \ac{GAMLSS} fit for \ac{KCC} 2, Friends \& Family seems to hav
 \inputRoutput[caption={Residuals of GAMLSS Fit on KCC 6},numbers=left,numberstyle=\tiny, label=output:gamlss_residuals_kcc_6]{gamlss_residuals_kcc_6.txt}
 
 
-Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residuals_kcc_6} along with the associated summary output, we can again confirm an appropriate fit. A Shapiro-Wilk test returns a p-value of 0.7, which is below the p-value of the fit without covariate effects. Nevertheless, normality is a steady assumption for the quantile residuals.
+
 
 
 

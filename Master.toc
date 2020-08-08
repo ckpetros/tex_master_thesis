@@ -30,8 +30,8 @@
 \contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{53}{subsubsection.5.2.1}
 \contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{57}{subsubsection.5.2.2}
 \contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{60}{subsubsection.5.2.3}
-\contentsline {section}{\numberline {6}Conclusion}{61}{section.6}
-\contentsline {section}{List of Abbreviations}{63}{section.6}
-\contentsline {section}{List of Figures}{65}{section*.67}
-\contentsline {section}{List of Tables}{69}{section*.68}
-\contentsline {section}{References}{71}{section*.69}
+\contentsline {section}{\numberline {6}Conclusion}{65}{section.6}
+\contentsline {section}{List of Abbreviations}{67}{section.6}
+\contentsline {section}{List of Figures}{69}{section*.72}
+\contentsline {section}{List of Tables}{73}{section*.73}
+\contentsline {section}{References}{75}{section*.74}
