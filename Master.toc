@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {3.4}Structured Additive Conditional Copulas}{25}{subsection.3.4}
 \contentsline {section}{\numberline {4}Data Exploration}{27}{section.4}
 \contentsline {subsection}{\numberline {4.1}Universal Sale Patterns}{28}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Grouped Patterns - Key Category Cluster}{33}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Grouped Sale Patterns - Key Category Cluster}{33}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Individual Sale Patterns}{37}{subsection.4.3}
 \contentsline {section}{\numberline {5}Modelling}{39}{section.5}
 \contentsline {subsection}{\numberline {5.1}Key Category Cluster - Marginals}{39}{subsection.5.1}
@@ -31,8 +31,9 @@
 \contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{55}{subsubsection.5.2.1}
 \contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{59}{subsubsection.5.2.2}
 \contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{62}{subsubsection.5.2.3}
-\contentsline {section}{\numberline {6}Conclusion}{67}{section.6}
-\contentsline {section}{List of Abbreviations}{69}{section.6}
-\contentsline {section}{List of Figures}{71}{section*.73}
-\contentsline {section}{List of Tables}{75}{section*.74}
-\contentsline {section}{References}{77}{section*.75}
+\contentsline {subsection}{\numberline {5.3}Relationships between Articles}{67}{subsection.5.3}
+\contentsline {section}{\numberline {6}Conclusion}{69}{section.6}
+\contentsline {section}{List of Abbreviations}{71}{section.6}
+\contentsline {section}{List of Figures}{73}{section*.74}
+\contentsline {section}{List of Tables}{77}{section*.75}
+\contentsline {section}{References}{79}{section*.76}
