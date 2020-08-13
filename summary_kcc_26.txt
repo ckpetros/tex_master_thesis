@@ -9,7 +9,7 @@ Formula: res_gamlss_kcc_2 ~ 1
 
 Parametric coefficients:
             Estimate Std. Error z value Pr(>|z|)
-(Intercept) -0.04986    0.14980  -0.333    0.739
+(Intercept) -0.15455    0.09825  -1.573    0.116
 
 
 EQUATION 2
@@ -18,7 +18,7 @@ Formula: res_gamlss_kcc_6 ~ 1
 
 Parametric coefficients:
             Estimate Std. Error z value Pr(>|z|)
-(Intercept)   0.1524     0.1552   0.982    0.326
+(Intercept)  0.01163    0.08804   0.132    0.895
 
 
 EQUATION 3
@@ -26,8 +26,8 @@ Link function for sigma.1: log
 Formula: ~1
 
 Parametric coefficients:
-             Estimate Std. Error z value Pr(>|z|)
-(Intercept) 6.276e-05  6.970e-02   0.001    0.999
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept)  0.05296    0.07928   0.668    0.504
 
 
 EQUATION 4
@@ -36,7 +36,7 @@ Formula: ~1
 
 Parametric coefficients:
             Estimate Std. Error z value Pr(>|z|)
-(Intercept) 0.002922   0.069706   0.042    0.967
+(Intercept) -0.02427    0.06745   -0.36    0.719
 
 
 EQUATION 5
@@ -45,29 +45,31 @@ Formula: ~1
 
 Parametric coefficients:
             Estimate Std. Error z value Pr(>|z|)    
-(Intercept)  211.888      3.112   68.08   <2e-16 ***
+(Intercept)   86.207      3.044   28.32   <2e-16 ***
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 
 EQUATION 6
 Link function for theta: atanh 
-Formula: ~s(time_obs, k = 30)
+Formula: ~promo_type + s(time_obs, k = 30)
 
 Parametric coefficients:
-            Estimate Std. Error z value Pr(>|z|)    
-(Intercept)   0.6100     0.1192    5.12 3.06e-07 ***
+                           Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                  0.8820     0.1198   7.360 1.83e-13 ***
+promo_typeBlack Friday      -0.8718     0.7352  -1.186   0.2357    
+promo_typeFriends & Family  -0.6513     0.3807  -1.711   0.0871 .  
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Smooth components' approximate significance:
               edf Ref.df Chi.sq  p-value    
-s(time_obs) 26.64  28.39  108.4 2.84e-11 ***
+s(time_obs) 20.44  23.79  63.55 1.81e-05 ***
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-sigma.1 = 1(0.867,1.17)  sigma.2 = 1(0.851,1.17)
+sigma.1 = 1.05(0.917,1.24)  sigma.2 = 0.976(0.844,1.09)
 dof = 249(249,249)
-theta = 0.37(-0.201,0.819)  tau = 0.286(-0.166,0.672)
-n = 109  total edf = 32.6
+theta = 0.486(-0.0467,0.82)  tau = 0.371(-0.0434,0.679)
+n = 109  total edf = 28.4
 

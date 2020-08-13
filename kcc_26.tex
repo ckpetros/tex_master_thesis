@@ -28,12 +28,12 @@ log(\sigma_{KCC 2})=\beta_{\sigma,KCC2} \qquad log(\sigma_{KCC 6})=\beta_{\sigma
 
 log(\nu) = \beta_{\nu} \\  \noalign{\vskip5pt}
 
-tanh^{-1}(\theta)=\beta_{\theta}+f\left(t_{time}\right),
+tanh^{-1}(\theta)=\beta_{\theta} + \textit{promo\_type} +f(\textit{time}),
 \end{array}
 \label{eq:gjrm_formula_26}
 \end{equation} \\
 
-where $\nu$ denotes the degrees of freedom of the t-copula, $tanh^{-1} = $ is the inverse hyperbolic tangent function\footnote{Defined as $\tanh ^{-1} (x)=\frac{1}{2} \ln \left(\frac{1+x}{1-x}\right)$ on the domain $ \{ x \in \mathbb{R}:-1<x<1\}$.} relating the expected value of the copula parameter $\hat{\theta}$ to the linear predictor $\beta_{\theta}+f\left(t_{time}\right)$ and $f$ being a smooth function build upon truncated power splines and 30 equidistant knots. Note that as the chosen copula is a Student's t-copula, $\theta$ is basically Pearson's correlation coefficient $\rho$. The rest of the model parameters are all set as constant values as the model seems to be robust to any changes including covariates. Incorporating covariates within smooth functions with high numbers of knots on the contrary lead to less reliable estimations (especially due to increasing number of parameters compared to this sample size). \\
+where $\nu$ denotes the degrees of freedom of the t-copula, $tanh^{-1} = $ is the inverse hyperbolic tangent function\footnote{Defined as $\tanh ^{-1} (x)=\frac{1}{2} \ln \left(\frac{1+x}{1-x}\right)$ on the domain $ \{ x \in \mathbb{R}:-1<x<1\}$.} relating the expected value of the copula parameter $\hat{\theta}$ to the linear predictor $\beta_{\theta}+f\left(t_{time}\right)$ and $f$ being a smooth function build upon thin plate regression splines and 30 equidistant knots. Note that as the chosen copula is a Student's t-copula, $\theta$ is basically Pearson's correlation coefficient $\rho$. The rest of the model parameters are all set as constant values as the model seems to be robust to any changes including covariates. Incorporating covariates within smooth functions with high numbers of knots on the contrary lead to less reliable estimations (especially due to increasing number of parameters compared to this sample size). The promo types don't seem to be significant for the correlation structure. \\
 
 Model \ref{eq:gjrm_formula_26} along with the mentioned prespecified settings in the \textit{gjrm()} function generates a good overall fit, which is confirmed when checking the histogram and the QQ-Plots of the quantile residuals for the two marginals (see \autoref{fig:res_hist_qqplot_26}). A summary can be found in R output \ref{output:summary_kcc_26}.
 \\
@@ -67,11 +67,14 @@ The effect of time on the copula parameter turns out to be significant (R output
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.95\linewidth]{figures/estimated_theta_kcc_26.png}
-  \caption{Estimated copula parameter over time from a \ac{GJRM} t-copula model with normal margins for key category clusters 2 \& 6 with 95\% confidence bands}
+  \caption{Estimated copula parameter over time from a \ac{GJRM} t-copula model with normal margins for key category clusters 2 \& 6 - Season type in the background - Dashed horizontal line at $\hat{\theta} = 0$ - Confidence bands are neglected for clarity of the graph}
   \label{fig:estimated_theta_kcc_26}
 \end{figure}
 
-\autoref{fig:estimated_theta_kcc_26} displays the correlation between the two margins highly fluctuates between (almost) perfect negative and positive dependence, suggesting that only copulas which can account for both of those dependence (concordance) types should be considered. Candidate copulas were the Frank copula, the Ali-Mikhali-Haq copula and Fari-Gumbel-Morgenstern copula, where the last two can only account for weak dependencies \citep{marra1605bivariate}. The Student's t-copulas provides the most appropriate fit among those types of copulas so we stick to it. The width of the confidence intervals also does vary a lot across different parts of the observation period.
+\autoref{fig:estimated_theta_kcc_26} displays the correlation between the two margins highly fluctuates between (almost) perfect negative and positive dependence, suggesting that only copulas which can account for both of those dependence (concordance) types should be considered. Candidate copulas were the Frank copula, the Ali-Mikhali-Haq copula and Fari-Gumbel-Morgenstern copula, where the last two can only account for weak dependencies \citep{marra1605bivariate}. The Student's t-copulas provides the most appropriate fit among those types of copulas so we stick to it. \\
+%The width of the confidence intervals also does vary a lot across different parts of the observation period.
+
+Positive correlation in a business context would mean that for both clusters sales are increasing conjointly. Negative correlations (below dashed line of \autoref{fig:estimated_theta_kcc_26}) indicate that as one's cluster's sales increase the other one's drop and further questioning should be carried out. We see such negative correlations during the Spring-Summer seasons and somewhat during Black Friday towards the end of Fall-Winter 2017.
 
 
 %We will start the pairwise analysis with inspecting the \ac{GJRM} approach. As mentioned above, the marginals are specified as Dagum distributed \acp{RV} and we choose the Student's t copula (the degrees of freedom do not affect the outcome, as they just serve as starting values for \ac{GAMLSS} estimation). All model parameters are set to constant, except the copula parameter (which is defined as in \autoref{eq:gjrm_kcc}). These settings also hold for Subsections \ref{sssec:kcc_28} and \ref{sssec:kcc_68}. We can see in the diagnostic plots of \autoref{fig:margin_estimates_kcc_26} that this type of model fitting returns quite successful results. \\

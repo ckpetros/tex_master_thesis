@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  10 AUG 2020 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  13 AUG 2020 12:42
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -2439,115 +2439,125 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
-(summary_kcc_26.txt [56])
-<figures/res_hist_qqplot_26.png, id=1391, 526.96875pt x 451.6875pt>
+(summary_kcc_26.txt [56] [57])
+<figures/res_hist_qqplot_26.png, id=1459, 526.96875pt x 451.6875pt>
 File: figures/res_hist_qqplot_26.png Graphic file (type png)
 <use figures/res_hist_qqplot_26.png>
 Package pdftex.def Info: figures/res_hist_qqplot_26.png  used on input line 48.
 
 (pdftex.def)             Requested size: 405.45047pt x 347.54543pt.
- [57]
+
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
-<figures/time_effect_on_theta_26.png, id=1469, 828.09375pt x 376.40625pt>
+<figures/time_effect_on_theta_26.png, id=1464, 828.09375pt x 376.40625pt>
 File: figures/time_effect_on_theta_26.png Graphic file (type png)
 <use figures/time_effect_on_theta_26.png>
 Package pdftex.def Info: figures/time_effect_on_theta_26.png  used on input lin
 e 60.
 (pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
-<figures/estimated_theta_kcc_26.png, id=1470, 828.09375pt x 301.125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58 <./figures/res_hist_qqplot_26.png>]
+<figures/estimated_theta_kcc_26.png, id=1478, 828.09375pt x 301.125pt>
 File: figures/estimated_theta_kcc_26.png Graphic file (type png)
 <use figures/estimated_theta_kcc_26.png>
 Package pdftex.def Info: figures/estimated_theta_kcc_26.png  used on input line
  69.
 (pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
-[58 <./figures/res_hist_qqplot_26.png> <./figures/time_effect_on_theta_26.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
 ) (kcc_28.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-<figures/scatter_res_kcc_28.png, id=1484, 526.96875pt x 376.40625pt>
+[59 <./figures/time_effect_on_theta_26.png> <./figures/estimated_theta_kcc_26.p
+ng>]
+<figures/scatter_res_kcc_28.png, id=1495, 526.96875pt x 376.40625pt>
 File: figures/scatter_res_kcc_28.png Graphic file (type png)
 <use figures/scatter_res_kcc_28.png>
 Package pdftex.def Info: figures/scatter_res_kcc_28.png  used on input line 8.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \vbox (badness 2401) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
- [59 <./figures/estimated_theta_kcc_26.png> <./figures/scatter_res_kcc_28.png>]
+ []
 
-(summary_kcc_28.txt [60])
-<figures/res_hist_qqplot_28.png, id=1554, 526.96875pt x 451.6875pt>
+(summary_kcc_28.txt [60 <./figures/scatter_res_kcc_28.png>])
+<figures/res_hist_qqplot_28.png, id=1513, 526.96875pt x 451.6875pt>
 File: figures/res_hist_qqplot_28.png Graphic file (type png)
 <use figures/res_hist_qqplot_28.png>
-Package pdftex.def Info: figures/res_hist_qqplot_28.png  used on input line 27.
+Package pdftex.def Info: figures/res_hist_qqplot_28.png  used on input line 40.
 
 (pdftex.def)             Requested size: 405.45047pt x 347.54543pt.
-<figures/time_effect_on_theta_28.png, id=1557, 828.09375pt x 376.40625pt>
+ [61]
+<figures/time_effect_on_theta_28.png, id=1589, 828.09375pt x 376.40625pt>
 File: figures/time_effect_on_theta_28.png Graphic file (type png)
 <use figures/time_effect_on_theta_28.png>
 Package pdftex.def Info: figures/time_effect_on_theta_28.png  used on input lin
-e 35.
+e 48.
 (pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
 
-Underfull \vbox (badness 8189) has occurred while \output is active []
-
- [61 <./figures/res_hist_qqplot_28.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
-<figures/estimated_theta_kcc_28.png, id=1588, 828.09375pt x 301.125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62 <./figures/res_hist_qqplot_28.png> <./figures/time_effect_on_theta_28.png>
+]
+<figures/estimated_theta_kcc_28.png, id=1599, 828.09375pt x 301.125pt>
 File: figures/estimated_theta_kcc_28.png Graphic file (type png)
 <use figures/estimated_theta_kcc_28.png>
 Package pdftex.def Info: figures/estimated_theta_kcc_28.png  used on input line
- 48.
+ 62.
 (pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
-) (kcc_68.tex
+)
+(kcc_68.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-<figures/scatter_res_kcc_68.png, id=1592, 526.96875pt x 376.40625pt>
+<figures/scatter_res_kcc_68.png, id=1603, 526.96875pt x 376.40625pt>
 File: figures/scatter_res_kcc_68.png Graphic file (type png)
 <use figures/scatter_res_kcc_68.png>
 Package pdftex.def Info: figures/scatter_res_kcc_68.png  used on input line 11.
 
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62 <./figures/time_effect_on_theta_28.png> <./figures/estimated_theta_kcc_28.
-png>]
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
-<figures/estimated_theta_t_copula_kcc_68.png, id=1605, 828.09375pt x 376.40625p
-t>
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [63 <./figures/estimated_theta_kcc_28.png> <./figures/scatter_res_kcc_68.png>]
+<figures/estimated_theta_t_copula_kcc_68.png, id=1617, 828.09375pt x 301.125pt>
+
 File: figures/estimated_theta_t_copula_kcc_68.png Graphic file (type png)
 <use figures/estimated_theta_t_copula_kcc_68.png>
 Package pdftex.def Info: figures/estimated_theta_t_copula_kcc_68.png  used on i
 nput line 23.
-(pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
+(pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 
-Underfull \vbox (badness 1552) has occurred while \output is active []
-
- [63 <./figures/scatter_res_kcc_68.png> <./figures/estimated_theta_t_copula_kcc
-_68.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
@@ -2557,31 +2567,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
-(summary_kcc_68.txt [64])
-<figures/time_effect_on_theta_68.png, id=1669, 828.09375pt x 376.40625pt>
-File: figures/time_effect_on_theta_68.png Graphic file (type png)
-<use figures/time_effect_on_theta_68.png>
-Package pdftex.def Info: figures/time_effect_on_theta_68.png  used on input lin
-e 53.
-(pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
-<figures/res_hist_qqplot_68.png, id=1670, 526.96875pt x 451.6875pt>
+[64 <./figures/estimated_theta_t_copula_kcc_68.png>] (summary_kcc_68.txt)
+<figures/res_hist_qqplot_68.png, id=1637, 526.96875pt x 451.6875pt>
 File: figures/res_hist_qqplot_68.png Graphic file (type png)
 <use figures/res_hist_qqplot_68.png>
-Package pdftex.def Info: figures/res_hist_qqplot_68.png  used on input line 63.
+Package pdftex.def Info: figures/res_hist_qqplot_68.png  used on input line 53.
 
 (pdftex.def)             Requested size: 405.45047pt x 347.54543pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[65]
+<figures/time_effect_on_theta_68.png, id=1705, 828.09375pt x 376.40625pt>
+File: figures/time_effect_on_theta_68.png Graphic file (type png)
+<use figures/time_effect_on_theta_68.png>
+Package pdftex.def Info: figures/time_effect_on_theta_68.png  used on input lin
+e 63.
+(pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
 
- [65 <./figures/time_effect_on_theta_68.png>]
-<figures/estimated_tau_clayton_kcc_68.png, id=1700, 828.09375pt x 301.125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+
+ []
+
+[66 <./figures/res_hist_qqplot_68.png> <./figures/time_effect_on_theta_68.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+<figures/estimated_tau_clayton_kcc_68.png, id=1716, 828.09375pt x 301.125pt>
 File: figures/estimated_tau_clayton_kcc_68.png Graphic file (type png)
 <use figures/estimated_tau_clayton_kcc_68.png>
 Package pdftex.def Info: figures/estimated_tau_clayton_kcc_68.png  used on inpu
-t line 72.
+t line 81.
 (pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
-) [66 <./figures/res_hist_qqplot_68.png> <./figures/estimated_tau_clayton_kcc_6
-8.png>] [67] [68
+) [67 <./figures/estimated_tau_clayton_kcc_68.png>] [68
 
 ] [69] [70
 
@@ -2653,10 +2671,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 682.
  ) 
 Here is how much of TeX's memory you used:
- 27630 strings out of 493305
- 473898 string characters out of 3128495
- 658822 words of memory out of 3000000
- 29896 multiletter control sequences out of 15000+200000
+ 27635 strings out of 493305
+ 473998 string characters out of 3128495
+ 659184 words of memory out of 3000000
+ 29898 multiletter control sequences out of 15000+200000
  644118 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,17n,134p,2758b,2067s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2694,9 +2712,9 @@ pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/
 ua1b8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
 /arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (91 pages, 2708338 bytes).
+Output written on Master.pdf (91 pages, 2708061 bytes).
 PDF statistics:
- 2289 PDF objects out of 2487 (max. 8388607)
- 727 named destinations out of 1000 (max. 500000)
+ 2302 PDF objects out of 2487 (max. 8388607)
+ 730 named destinations out of 1000 (max. 500000)
  650 words of extra memory for PDF output out of 10000 (max. 10000000)
 

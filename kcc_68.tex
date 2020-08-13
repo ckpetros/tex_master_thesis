@@ -14,7 +14,7 @@ This pair of clusters also let's us speculate whether tail dependence exists (se
 \end{figure}
 
 
-This time we fast forward to the outcome when a t-copula is applied (which is the proposed family of copulas allowing both concordance directions) under similar conditions as in Model \ref{eq:gjrm_formula_26}. Interestingly, the correlation parameter seems to be purely non-negative\footnote{Without considering the lower confidence bounds in the first part of the time window.} (see \autoref{fig:estimated_theta_t_copula_kcc_68}).
+This time we fast forward to the outcome when a t-copula is applied (which is the proposed family of copulas allowing both concordance directions) under similar conditions as in Model \ref{eq:gjrm_formula_28} (the reasons for leaving out promo type being the same as in Subsection \ref{sssec:kcc_28}). Interestingly, the correlation parameter seems to be purely non-negative\footnote{Without considering the lower confidence bounds in the first part of the time window.} (see \autoref{fig:estimated_theta_t_copula_kcc_68}).
 \\
 
 
@@ -50,16 +50,6 @@ where now there are no degrees of freedom to determine and the copula parameter 
 
 \begin{figure}[H]
 \centering
-  \includegraphics[width=0.95\linewidth]{figures/time_effect_on_theta_68.png}
-  \caption{Estimated Smooth effect of time on the copula parameter $\theta$ with 95\% confidence bands for key category clusters 6 \& 8}
-  \label{fig:time_effect_on_theta_68}
-\end{figure}
-
-
-
-
-\begin{figure}[H]
-\centering
   \includegraphics[width=0.95\linewidth]{figures/res_hist_qqplot_68.png}
   \caption{Diagnostic plots of quantile residuals based on \ac{GJRM} models for key category clusters 6 \& 8}
   \label{fig:res_hist_qqplot_68}
@@ -67,17 +57,39 @@ where now there are no degrees of freedom to determine and the copula parameter 
 
 
 
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.95\linewidth]{figures/time_effect_on_theta_68.png}
+  \caption{Estimated Smooth effect of time on the copula parameter $\theta$ with 95\% confidence bands for key category clusters 6 \& 8}
+  \label{fig:time_effect_on_theta_68}
+\end{figure}
+
+
+
+Since Kendall's tau is more intuitive as a dependence measure of two random variables than the copula parameter $\theta$ (see Subsection \ref{sssec:rank_correlation}), this is what we will inspect. The relationship between Kendall's tau and the parameter of the Clayton copula is $\tau = \frac{\theta}{\theta + 2}$ (see \autoref{tab:copula_relationships}). The estimated time-varying $\hat{\tau}$ is displayed in \autoref{fig:estimated_tau_clayton_kcc_68}, where we can observe that 
+%the confidence bands vary a lot and 
+there are some individual time windows of zero correlation.\\
+
+Any model configuration of this pair regarding covariates and copulas produce such kind of strictly non-negative dependence. These results should be interpreted with extraordinary caution if at all.
+\\
+
+
+
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.95\linewidth]{figures/estimated_tau_clayton_kcc_68.png}
-  \caption{Estimated Kendall's tau over time from a \ac{GJRM} Clayton copula model with normal margins for key category clusters 6 \& 8 with 95\% confidence bands}
+  \caption{Estimated copula parameter over time from a \ac{GJRM} t-copula model with normal margins for key category clusters 6 \& 8 - Season type in the background - Dashed horizontal line at $\hat{\theta} = 0$ - Confidence bands are neglected for clarity of the graph}
   \label{fig:estimated_tau_clayton_kcc_68}
 \end{figure}
 
 
 
 
-Since Kendall's tau is more intuitive as a dependence measure of two random variables than the copula parameter $\theta$ (see Subsection \ref{sssec:rank_correlation}), this is what we will inspect. The relationship between Kendall's tau and the parameter of the Clayton copula is $\tau = \frac{\theta}{\theta + 2}$ (see \autoref{tab:copula_relationships}). The estimated time-varying $\hat{\tau}$ is displayed in \autoref{fig:estimated_tau_clayton_kcc_68}, where we can observe that the confidence bands vary a lot and there are some  individual time windows of zero correlation. The results shall be interpreted with caution.
+
+
+
+
 
 
 

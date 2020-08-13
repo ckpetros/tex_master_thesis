@@ -29,8 +29,8 @@
 \contentsline {subsubsection}{\numberline {5.1.3}Key Category Cluster 8}{49}{subsubsection.5.1.3}
 \contentsline {subsection}{\numberline {5.2}Key Category Cluster - Pairwise Copulas}{53}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{55}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{59}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{62}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{60}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{63}{subsubsection.5.2.3}
 \contentsline {subsection}{\numberline {5.3}Relationships between Articles}{67}{subsection.5.3}
 \contentsline {section}{\numberline {6}Conclusion}{69}{section.6}
 \contentsline {section}{List of Abbreviations}{71}{section.6}
