@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{32}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -172,6 +172,12 @@
 \newblock Coping with copulas.
 \newblock In: \emph{Copulas-From theory to application in finance}
 \newblock (2007), S.~3--34
+
+\bibitem[Scutari(2010)]{bnlearn_package}
+\dinatlabel{Scutari 2010} \textsc{Scutari}, Marco:
+\newblock {L}earning {B}ayesian {N}etworks with the {bnlearn} {R} {P}ackage.
+\newblock In: \emph{Journal of Statistical Software}
+\newblock 35 (2010), Nr.~3, S.~1--22
 
 \bibitem[Shapiro and Wilk(1965)]{shapiro1965analysis}
 \dinatlabel{Shapiro and Wilk 1965} \textsc{Shapiro}, Samuel~S.~; \textsc{Wilk},

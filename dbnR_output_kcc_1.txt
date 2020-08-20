@@ -1,0 +1,40 @@
+
+  Bayesian network learned via Hybrid methods
+
+  model:
+   	[10327_t_0][10327_t_1][10327_t_2][13450_t_2][19137_t_2][26194_t_2]
+	[13450_t_1|13450_t_2][19137_t_1|19137_t_2][26194_t_1|26194_t_2]
+   	[10328_t_2|10327_t_2][13451_t_2|13450_t_2][19138_t_2|19137_t_2]
+	[615_t_2|26194_t_2][19137_t_0|19137_t_1][26194_t_0|26194_t_1]
+   	[10328_t_1|10327_t_1:10328_t_2][13451_t_1|13450_t_1:13450_t_2:13451_t_2]
+	[19138_t_1|19137_t_1][615_t_1|26194_t_1:615_t_2][26193_t_2|19138_t_2]
+   	[10328_t_0|10327_t_0:10328_t_1:10328_t_2][19138_t_0|19137_t_0:19138_t_2]
+	[615_t_0|26194_t_0:615_t_1:615_t_2][26193_t_1|19138_t_1:19138_t_2]
+  	[19_t_2|26193_t_2][26193_t_0|19138_t_0:19138_t_1][19_t_1|26193_t_1]
+	[21_t_2|19_t_2][19_t_0|26193_t_0:19_t_1][21_t_1|19_t_1]
+   	[24558_t_2|10328_t_2:21_t_2][26191_t_2|19_t_2:21_t_2][21_t_0|19_t_0]
+	[24558_t_1|10328_t_1:21_t_1][26191_t_1|19_t_1:21_t_1:26191_t_2]
+   	[26192_t_2|10328_t_2:13450_t_2:24558_t_2][13450_t_0|13451_t_2:26192_t_2]
+	[24558_t_0|10328_t_0:21_t_0][26191_t_0|19_t_0:21_t_0:26191_t_1]
+   	[26192_t_1|10328_t_1:13450_t_1:24558_t_1:26191_t_2:26192_t_2]
+	[13451_t_0|13450_t_0:13450_t_1:13451_t_1]
+   	[26192_t_0|10328_t_0:13450_t_0:24558_t_0:26192_t_1]
+
+  nodes:                                 42 
+  arcs:                                  68 
+    undirected arcs:                     0 
+    directed arcs:                       68 
+  average markov blanket size:           5.00 
+  average neighbourhood size:            3.24 
+  average branching factor:              1.62 
+
+  learning algorithm:                    Two-Phase Restricted Maximization 
+  constraint-based method:               Semi-Interleaved HITON-PC 
+  conditional independence test:         Pearson's Correlation 
+  score-based method:                    Hill-Climbing 
+  score:                                 BIC (Gauss.) 
+  alpha threshold:                       0.05 
+  penalization coefficient:              2.336414 
+  tests used in the learning procedure:  1720 
+  optimized:                             TRUE 
+

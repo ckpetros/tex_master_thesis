@@ -280,4 +280,15 @@
   publisher = {Springer},
 }
 
+@Article{b,
+  author  = {Marco Scutari},
+  title   = {{L}earning {B}ayesian {N}etworks with the {bnlearn} {R} {P}ackage},
+  journal = {Journal of Statistical Software},
+  year    = {2010},
+  volume  = {35},
+  number  = {3},
+  pages   = {1--22},
+  doi     = {10.18637/jss.v035.i03},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

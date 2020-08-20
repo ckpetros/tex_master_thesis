@@ -270,4 +270,25 @@
   number  = {0},
 }
 
+@Article{nagarajan2013bayesian,
+  author    = {Nagarajan, Radhakrishnan and Scutari, Marco and L{\`e}bre, Sophie},
+  title     = {Bayesian networks in r},
+  journal   = {Springer},
+  year      = {2013},
+  volume    = {122},
+  pages     = {125--127},
+  publisher = {Springer},
+}
+
+@Article{,
+  author  = {Marco Scutari},
+  title   = {{L}earning {B}ayesian {N}etworks with the {bnlearn} {R} {P}ackage},
+  journal = {Journal of Statistical Software},
+  year    = {2010},
+  volume  = {35},
+  number  = {3},
+  pages   = {1--22},
+  doi     = {10.18637/jss.v035.i03},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
