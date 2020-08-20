@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{31}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -107,6 +107,14 @@
 \newblock \emph{Quantitative risk management: concepts, techniques and
   tools-revised edition}.
 \newblock Chap. Copulas and Dependence, Princeton university press, 2015
+
+\bibitem[Nagarajan et~al.(2013)Nagarajan, Scutari and
+  L{\`e}bre]{nagarajan2013bayesian}
+\dinatlabel{Nagarajan et~al. 2013} \textsc{Nagarajan}, Radhakrishnan~;
+  \textsc{Scutari}, Marco~; \textsc{L{\`e}bre}, Sophie:
+\newblock Bayesian networks in r.
+\newblock In: \emph{Springer}
+\newblock 122 (2013), S.~125--127
 
 \bibitem[Nagler et~al.(2019)Nagler, Schepsmeier, Stoeber, Brechmann, Graeler,
   Erhardt, Almeida, Min, Czado, Hofmann et~al.]{nagler2019vinecopula}

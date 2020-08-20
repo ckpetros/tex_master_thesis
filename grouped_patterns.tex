@@ -40,11 +40,11 @@ By viewing the sale trends separately for each key category cluster, we can obse
 \end{figure}
 
 
-All the more interesting are the joint distributions of our \acp{KCC}. \autoref{fig:kcc_pair_scatterplots} shows scatterplots of \ac{KCC} pairs. In the first row we can see some isolated points on the upper tails representing outliers. We took the logarithmized sales to spot differences that would be otherwise hard to see. The outliers produced by the promotions still remain outliers in the log-scale. Also, by checking the densities for the marginals, pertinent marginal distributions are hardly determined but not to be ruled out.\\
+All the more interesting are the joint distributions of our \acp{KCC}. \autoref{fig:kcc_pair_scatterplots} shows scatterplots of \ac{KCC} pairs. In the first row we can see some isolated points on the upper tails representing outliers. We took the logarithmized sales to spot differences that would be otherwise hard to see. The outliers produced by the promotions still remain outliers in the log-scale. Also, by checking the densities for the margins, pertinent marginal distributions are hardly determined but not to be ruled out.\\
 The second row displays the pairs of the according \textit{pseudo observations}. Pseudo observations are calculated by taking the data ranks and dividing them by "1 + number of observations", which makes them robust against outliers and restricts the value range to $(0, 1)$. Here we are faced with a strange behaviour of the histograms. They practically look uniformly distributed, however there are seemingly regular step patterns in the pseudo data. This might be traced back to the fact that we are dealing in reality with discrete data of not necessarily unique occurrence.\\
 
-For the above reasons, on \ac{KCC} level we will attempt modelling parametric distributions to the marginals (see Chapter \ref{sec:modelling}). 
-%The reason being for the latter is that our primary objective is to capture a dependence structure, whereas the marginals per se are of secondary interest. 
+For the above reasons, on \ac{KCC} level we will attempt modelling parametric distributions to the margins (see Chapter \ref{sec:modelling}). 
+%The reason being for the latter is that our primary objective is to capture a dependence structure, whereas the margins per se are of secondary interest. 
 In addition, looking at both rows of \autoref{fig:kcc_pair_scatterplots}, we suspect tail dependence and there is an obvious strong positive correlation among all three pairs, which is confirmed by viewing \autoref{fig:corplot_kcc} displaying various correlation metrics.
  \\
 

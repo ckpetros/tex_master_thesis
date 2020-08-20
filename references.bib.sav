@@ -270,4 +270,14 @@
   number  = {0},
 }
 
+@Article{nagarajan2013bayesian,
+  author    = {Nagarajan, Radhakrishnan and Scutari, Marco and L{\`e}bre, Sophie},
+  title     = {Bayesian networks in r},
+  journal   = {Springer},
+  year      = {2013},
+  volume    = {122},
+  pages     = {125--127},
+  publisher = {Springer},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
