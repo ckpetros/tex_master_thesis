@@ -2,56 +2,57 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Two of the adidas-group logos: Performance (left) \& Originals (right) \citep {adidasmediacenter}\relax }}{2}{figure.caption.4}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces adidas celebrates its 70th anniversary and the opening of the ARENA building \citep {adidas70years}\relax }}{2}{figure.caption.5}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Example of a directed acyclic graph\relax }}{13}{figure.caption.18}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Bivariate Gaussian distribution and Gaussian copula for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{20}{figure.caption.21}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Bivariate t-distribution and t-copula with 3 degrees of freedom for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{21}{figure.caption.23}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Shape of a generator function\relax }}{22}{figure.caption.24}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Bivariate Clayton distribution and Clayton copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{22}{figure.caption.25}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Bivariate Gumbel distribution and Gumbel copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{23}{figure.caption.26}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Bivariate Frank distribution and Frank copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{24}{figure.caption.27}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of a hierarchical article structure\relax }}{29}{figure.caption.31}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of a single child node\relax }}{30}{figure.caption.32}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Course of article unit sales\relax }}{30}{figure.caption.33}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Scatterplots of promotion intensities against article unit sales; The y-axes are cut at 100\relax }}{31}{figure.caption.34}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Unit sales in log-scale against total markdown percentage\relax }}{32}{figure.caption.35}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Unit sales in log-scale against season type\relax }}{32}{figure.caption.36}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Monthly patterns of article unit sales\relax }}{33}{figure.caption.37}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Distribution of sold units of articles per week split at 200 units\relax }}{34}{figure.caption.38}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Empirical \ac {CDF} of all sold units per week; x-axis cut at 500\relax }}{34}{figure.caption.39}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Time series and boxplot showing logarithmized sales of the key category clusters\relax }}{35}{figure.caption.40}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Pairwise scatterplots of sales on \ac {KCC} level. First row: Logarithmic sales with marginal densities, Second row: Pseudo sales observation with marginal histograms\relax }}{36}{figure.caption.41}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }}{37}{figure.caption.42}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Black Friday\relax }}{38}{figure.caption.43}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Friends \& Family\relax }}{38}{figure.caption.44}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Scatterplots of \ac {KCC} log-sales against total markdown percentage\relax }}{38}{figure.caption.45}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Boxplots of \ac {KCC} log-sales against the two season types\relax }}{39}{figure.caption.46}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Sample of seven articles and their demand quantity life cycles\relax }}{40}{figure.caption.47}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Number of articles for each possible lifespan of 1 to 109 weeks\relax }}{40}{figure.caption.48}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces ex-Gaussian distribution fitted to log-sales of \ac {KCC} 2\relax }}{42}{figure.caption.49}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Residuals of KCC 2 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve\relax }}{42}{figure.caption.50}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ compared to the observed values and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 2\relax }}{44}{figure.caption.51}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 2\relax }}{46}{figure.caption.52}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Residuals of GAMLSS fit - KCC 2\relax }}{46}{figure.caption.53}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces ex-Gaussian distribution fitted to log-sales of \ac {KCC} 6\relax }}{48}{figure.caption.54}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Residuals of KCC 6 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve\relax }}{48}{figure.caption.55}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ compared to the observed values and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 6\relax }}{49}{figure.caption.56}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 6\relax }}{50}{figure.caption.57}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Residuals of GAMLSS fit - KCC 6\relax }}{51}{figure.caption.58}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces ex-Gaussian distribution fitted to log-sales of \ac {KCC} 8\relax }}{52}{figure.caption.59}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Residuals of KCC 8 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve\relax }}{52}{figure.caption.60}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ compared to the observed values and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 8\relax }}{54}{figure.caption.61}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 8\relax }}{54}{figure.caption.62}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Residuals of GAMLSS fit - KCC 8\relax }}{55}{figure.caption.63}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Estimated residuals of GAMLSS fits for the three key category clusters\relax }}{56}{figure.caption.64}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Scatterplot of estimated residuals of GAMLSS fits for key category clusters 2 \& 6\relax }}{57}{figure.caption.66}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Diagnostic plots of quantile residuals based on \ac {GJRM} models for key category clusters 2 \& 6\relax }}{60}{figure.caption.68}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Estimated Smooth effect of time on the copula parameter $\theta $ with 95\% confidence bands for key category clusters 2 \& 6\relax }}{61}{figure.caption.69}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Estimated copula parameter over time and 95\% confidence bands from a \ac {GJRM} t-copula model with normal margins for key category clusters 2 \& 6 - Season type in the background - Dashed horizontal line at $\mathaccentV {hat}05E{\theta } = 0$\relax }}{61}{figure.caption.70}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Scatterplot of estimated residuals of GAMLSS fits for key category clusters 2 \& 8\relax }}{62}{figure.caption.71}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Diagnostic plots of quantile residuals based on \ac {GJRM} models for key category clusters 2 \& 8\relax }}{64}{figure.caption.72}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Estimated Smooth effect of time on the copula parameter $\theta $ with 95\% confidence bands for key category clusters 2 \& 8\relax }}{64}{figure.caption.73}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Estimated copula parameter over time and 95\% confidence bands from a \ac {GJRM} t-copula model with normal margins for key category clusters 2 \& 8 - Season type in the background - Dashed horizontal line at $\mathaccentV {hat}05E{\theta } = 0$\relax }}{65}{figure.caption.74}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Scatterplot of estimated residuals of GAMLSS fits for key category clusters 6 \& 8\relax }}{65}{figure.caption.75}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Estimated copula parameter over time from a \ac {GJRM} t-copula model with normal margins for key category clusters 6 \& 8 with 95\% confidence bands\relax }}{66}{figure.caption.76}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Diagnostic plots of quantile residuals based on \ac {GJRM} models for key category clusters 6 \& 8\relax }}{68}{figure.caption.77}
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Estimated Smooth effect of time on the copula parameter $\theta $ with 95\% confidence bands for key category clusters 6 \& 8\relax }}{68}{figure.caption.78}
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Estimated Kendall's tau over time and 95\% confidence bands from a \ac {GJRM} Clayton copula model with normal margins for key category clusters 6 \& 8 - Season type in the background - Dashed horizontal line at $\mathaccentV {hat}05E{\theta } = 0$\relax }}{69}{figure.caption.79}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Graphical representation of a time-varying dynamic Bayesian network of three random variables with four time periods\relax }}{14}{figure.caption.20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Bivariate Gaussian distribution and Gaussian copula for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{22}{figure.caption.23}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Bivariate t-distribution and t-copula with 3 degrees of freedom for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{23}{figure.caption.25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Shape of a generator function\relax }}{24}{figure.caption.26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Bivariate Clayton distribution and Clayton copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{24}{figure.caption.27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Bivariate Gumbel distribution and Gumbel copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{25}{figure.caption.28}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Bivariate Frank distribution and Frank copula for Kendall's $\tau = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{26}{figure.caption.29}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of a hierarchical article structure\relax }}{31}{figure.caption.33}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of a single child node\relax }}{32}{figure.caption.34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Course of article unit sales\relax }}{32}{figure.caption.35}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Scatterplots of promotion intensities against article unit sales; The y-axes are cut at 100\relax }}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Unit sales in log-scale against total markdown percentage\relax }}{34}{figure.caption.37}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Unit sales in log-scale against season type\relax }}{34}{figure.caption.38}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Monthly patterns of article unit sales\relax }}{35}{figure.caption.39}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Distribution of sold units of articles per week split at 200 units\relax }}{36}{figure.caption.40}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Empirical \ac {CDF} of all sold units per week; x-axis cut at 500\relax }}{36}{figure.caption.41}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Time series and boxplot showing logarithmized sales of the key category clusters\relax }}{37}{figure.caption.42}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Pairwise scatterplots of sales on \ac {KCC} level. First row: Logarithmic sales with marginal densities, Second row: Pseudo sales observation with marginal histograms\relax }}{38}{figure.caption.43}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Correlation plots of the three \ac {KCC} log-sales with different correlation coefficients. Left: Pearson's rho, Middle: Kendall's tau, Right: Spearman's rho\relax }}{39}{figure.caption.44}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Black Friday\relax }}{40}{figure.caption.45}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Boxplots showing log-sales of KCCs against presence of Friends \& Family\relax }}{40}{figure.caption.46}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Scatterplots of \ac {KCC} log-sales against total markdown percentage\relax }}{40}{figure.caption.47}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Boxplots of \ac {KCC} log-sales against the two season types\relax }}{41}{figure.caption.48}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Sample of seven articles and their demand quantity life cycles\relax }}{42}{figure.caption.49}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Number of articles for each possible lifespan of 1 to 109 weeks\relax }}{42}{figure.caption.50}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces ex-Gaussian distribution fitted to log-sales of \ac {KCC} 2\relax }}{44}{figure.caption.51}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Residuals of KCC 2 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve\relax }}{44}{figure.caption.52}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ compared to the observed values and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 2\relax }}{46}{figure.caption.53}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 2\relax }}{48}{figure.caption.54}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Residuals of GAMLSS fit - KCC 2\relax }}{48}{figure.caption.55}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces ex-Gaussian distribution fitted to log-sales of \ac {KCC} 6\relax }}{50}{figure.caption.56}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Residuals of KCC 6 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve\relax }}{50}{figure.caption.57}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ compared to the observed values and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 6\relax }}{51}{figure.caption.58}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 6\relax }}{52}{figure.caption.59}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Residuals of GAMLSS fit - KCC 6\relax }}{53}{figure.caption.60}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces ex-Gaussian distribution fitted to log-sales of \ac {KCC} 8\relax }}{54}{figure.caption.61}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Residuals of KCC 8 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve\relax }}{54}{figure.caption.62}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ compared to the observed values and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 8\relax }}{56}{figure.caption.63}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 8\relax }}{56}{figure.caption.64}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Residuals of GAMLSS fit - KCC 8\relax }}{57}{figure.caption.65}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Estimated residuals of GAMLSS fits for the three key category clusters\relax }}{58}{figure.caption.66}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Scatterplot of estimated residuals of GAMLSS fits for key category clusters 2 \& 6\relax }}{59}{figure.caption.68}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Diagnostic plots of quantile residuals based on \ac {GJRM} models for key category clusters 2 \& 6\relax }}{62}{figure.caption.70}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Estimated Smooth effect of time on the copula parameter $\theta $ with 95\% confidence bands for key category clusters 2 \& 6\relax }}{63}{figure.caption.71}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Estimated copula parameter over time and 95\% confidence bands from a \ac {GJRM} t-copula model with normal margins for key category clusters 2 \& 6 - Season type in the background - Dashed horizontal line at $\mathaccentV {hat}05E{\theta } = 0$\relax }}{63}{figure.caption.72}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Scatterplot of estimated residuals of GAMLSS fits for key category clusters 2 \& 8\relax }}{64}{figure.caption.73}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Diagnostic plots of quantile residuals based on \ac {GJRM} models for key category clusters 2 \& 8\relax }}{66}{figure.caption.74}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Estimated Smooth effect of time on the copula parameter $\theta $ with 95\% confidence bands for key category clusters 2 \& 8\relax }}{66}{figure.caption.75}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Estimated copula parameter over time and 95\% confidence bands from a \ac {GJRM} t-copula model with normal margins for key category clusters 2 \& 8 - Season type in the background - Dashed horizontal line at $\mathaccentV {hat}05E{\theta } = 0$\relax }}{67}{figure.caption.76}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Scatterplot of estimated residuals of GAMLSS fits for key category clusters 6 \& 8\relax }}{67}{figure.caption.77}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Estimated copula parameter over time from a \ac {GJRM} t-copula model with normal margins for key category clusters 6 \& 8 with 95\% confidence bands\relax }}{68}{figure.caption.78}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Diagnostic plots of quantile residuals based on \ac {GJRM} models for key category clusters 6 \& 8\relax }}{70}{figure.caption.79}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Estimated Smooth effect of time on the copula parameter $\theta $ with 95\% confidence bands for key category clusters 6 \& 8\relax }}{70}{figure.caption.80}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Estimated Kendall's tau over time and 95\% confidence bands from a \ac {GJRM} Clayton copula model with normal margins for key category clusters 6 \& 8 - Season type in the background - Dashed horizontal line at $\mathaccentV {hat}05E{\theta } = 0$\relax }}{71}{figure.caption.81}

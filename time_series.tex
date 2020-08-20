@@ -17,6 +17,7 @@ measured at consecutive time-points with uniform time intervals is called a \tex
 A stationary \ac{UTS} $X(t)$ can be modelled as an \textit{\ac{AR}} process, where the value at time t can be written as a linear combination of its lagged values from previous time-points $X(t-i)$ for $i=1,\ldots,p$:
 \begin{equation}
  X(t)=a_{1} X(t-1)+\cdots+a_{i} X(t-i)+\cdots+a_{p} X(t-p)+b+\varepsilon(t), \quad \forall t \geqslant p,
+ \label{eq:univariate_ts}
 \end{equation}
 where
 \begin{itemize}
@@ -31,6 +32,7 @@ where
 A sequence of multivariate \acp{RV} measured at consecutive time-points is called a \textit{\ac{MTS}}. \ac{MTS} are commonly used to assess the associations between multiple individuals over time and can be modelled as \ac{VAR} processes. In a \ac{VAR}($p$) of order $p$, the variables observed at any time-point $t \geqslant p$ should satisfy
 \begin{equation}
 X(t)=A_{1} X(t-1)+\cdots+A_{i} X(t-i)+\cdots+A_{p} X(t-p)+B+\varepsilon(t),
+\label{eq:multivariate_ts}
 \end{equation}
 where
 \begin{itemize}
