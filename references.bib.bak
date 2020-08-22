@@ -291,4 +291,15 @@
   doi     = {10.18637/jss.v035.i03},
 }
 
+@Article{bn_advantages,
+  author  = {Uusitalo, Laura},
+  title   = {{A}dvantages and challenges of {B}ayesian networks in environmental modeling},
+  journal = {Ecological Modelling},
+  year    = {2007},
+  volume  = {203},
+  pages   = {312-318},
+  month   = {05},
+  doi     = {10.1016/j.ecolmodel.2006.11.033},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

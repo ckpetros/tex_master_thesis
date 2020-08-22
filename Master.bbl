@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{30}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -221,28 +221,6 @@
   modeling.
 \newblock In: \emph{Ecological Modelling}
 \newblock 203 (2007), 05, S.~312--318
-
-\bibitem[Vatter and Chavez-Demoulin(2015)]{vatter2015generalized}
-\dinatlabel{Vatter and Chavez-Demoulin 2015} \textsc{Vatter}, Thibault~;
-  \textsc{Chavez-Demoulin}, Val{\'e}rie:
-\newblock Generalized additive models for conditional dependence structures.
-\newblock In: \emph{Journal of Multivariate Analysis}
-\newblock 141 (2015), S.~147--167
-
-\bibitem[Vatter and Nagler(2018)]{vatter2018generalized}
-\dinatlabel{Vatter and Nagler 2018} \textsc{Vatter}, Thibault~;
-  \textsc{Nagler}, Thomas:
-\newblock Generalized additive models for pair-copula constructions.
-\newblock In: \emph{Journal of Computational and Graphical Statistics}
-\newblock 27 (2018), Nr.~4, S.~715--727
-
-\bibitem[Vatter and Nagler(2019)]{vatter2019gamcopula}
-\dinatlabel{Vatter and Nagler 2019} \textsc{Vatter}, Thibault~;
-  \textsc{Nagler}, Thomas:
-\newblock gam{C}opula-package: {G}eneralized {A}dditive {M}odels for
-  {B}ivariate {C}onditional...
-\newblock
-\newblock (2019)
 
 \bibitem[Wood(2017)]{wood2017generalized}
 \dinatlabel{Wood 2017} \textsc{Wood}, Simon~N.:
