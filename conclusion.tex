@@ -1,30 +1,37 @@
 % !TEX root = Master.tex
 
-The objective of this study is to contribute to the development of LiDAR assisted forest inventories by developing
-a statistical sound approach to derive unbiased diameter distribution models from LiDAR data for homogeneous
-compartments of the forest. Prediction is successfully performed by a generalized linear
-regression model using the gamma distribution with log as a link function. Clustering the compartments into three groups led to enough samples per cluster to
-perform distribution engineering. Clustering is not meant to find groups upon a decision for more or less correction is made, but
-to find an appropriate correction for similar compartments. Clustering further uncovered the issue of not detecting
-equally height trees, which introduced additional bias in the tree diameter prediction. Bias correction is
-achieved by fitting a gamma distribution on the diameter distribution of each cluster from the inventory dataset
-and subsequently the predicted diameter distribution. A correction factor is calculated based on the ratio of the
-shape and scale parameter of both fitted distributions for each cluster. High confidence is thus given to the
-inventory dataset. Subsequently, the correction factor is applied for each section. \\
+The objective of this thesis was to identify interdependent relationships between product sales based on adidas eCom transactions. In order to spot such dependencies, we followed versatile strategies on different data formats  and concluded that different techniques resulted in different concepts of dependence, like correlation structures or causal connections.
+\\
 
-This approach could solve all present challenges, without relying on any heuristic methods apart from choosing
-an appropriate amount of clusters and variables. Hence the objective of finding a statistical sound approach is achieved.\\
+After getting acquainted with the weekly summarized data, which have been extracted from online transaction and grouped by the article ID's, we thoroughly deep dived into the patterns appearing in the data mainly by visual and analytical exploration. Despite thousands of articles being involved, we managed to divide the data exploration into three main parts; the global demand of the brand's products, the key category clusters of interest as well as the individual articles, where a sample was drawn to emphasize some obstacles linked to restrictions in the data. The key findings of this data exploration were related to promotion activities and markdowns. Especially Black Friday periods and elevated markdowns turned out to be driving sales in spite of the excessively persisting noise.
+\\
 
-We could not find studies with similar approaches to the objective. 
-The achieved residual standard error of the mean diameter of the corrected compartment distribution of 5.49cm (see Section \ref{Results}) is satisfying.
-To compare and assess the modelling of the distribution, a inventory dataset of fully sampled compartments is necessary. 
-The RSE could be further reduced by improving the tree species detection rate and likely crown area estimation. Comparing different amount of k cluster could be an interesting extension. 
-The residual standard error of the regression model with 3.81cm is compared to another study. G. Liu, J. Wang, P. Dong, Y. Chen, Z. Liu (2018) [17] achieved a significantly better diameter residual standard error of 1.28 cm using solely LiDAR data. \textit{"Octree segmentation, connected component labelling and random Hough transform are comprehensively used to identify trunks and extract DBH of trees in sample plots."} \\
+Beginning with the key category clusters, we engaged in the modelling part by taking a two-step approach. The reason being that a thorough analysis on the marginal distributions , i.e. the (log-scaled) unit sales for each of the three targeted clusters, was desired before moving forward with the dependence structures. However, a distribution family with readily interpretable parameters (including a necessary skewness parameter) is not yet available in the \textit{GJRM} package. \\
+Thus, the first step of this task was to implement \ac{GAMLSS} models to the clusters' log-sales using ex-Gaussian families for the responses. We additionally included covariates that stood out during earlier analyses and would likely induce significant effects on the parameters. Some interesting but peculiar contrasts between markdowns and promotion activities arised, leaving data quality topics open for discussion.\\
+The residuals from the models in the first step were resorted to act as normally distributed responses in a second step, were the temporal correlation structures between pairs of clusters were determined via the \ac{GJRM} framework. By and large, adequateness of the model fits were backed by the diagnostics based on quantile residuals. Nonetheless, due to the data quality points addressed throughout the paper, the results shall not be taken for granted but rather serve as reference indicators for business users to monitor and tackle opposite directions in sales.
+\\
 
-Nevertheless, this sophisticated approach can only be applied on plot level (small sampling location in a forest) and likely not scaled up on a whole forest. Ultimately, a residual standard error of below 5cm is satisfying. \\
+As for the individual articles, other kind of questions regarding dependence structures are of more interest. They are predominantly related to cannibalization effects between product sales. Cannibalization effects are counterproductive, because a prerequisite for a healthy business is to not hurt itself by hindering their own products' sales. Thus, such effects ought to be prevented as much as possible.\\
+ While exact quantification of inflow and outflow of sales between multiple articles needs more sophisticated approaches and is typically hard to figure out, determining causal effects, for instance within the context of (dynamic) Bayesian networks, is quite possible. \\
+The paper is finalized with a superficial example of dynamic Bayesian networks applied to key category cluster 1, showcasing the advantages that \ac{DBN} algorithms are able to exploit. This thesis shall set the foundations for aiming towards such potential research directions in the future.
 
-The advantage of the presented approach is that an extension of the estimation of the unbiased tree diameter distribution based on just the LiDAR scanning system can be achieved, even though the majority of the area did not undergo any manual sampling activities.\\
-Additionally, by making use of this bias correction attempt by fitting and adjusting parametric distributions instead of just relying on the predicted diameter distribution, outlier occurrences at the outer quantiles are no longer an issue (due to overestimated crown areas), meaning that overestimation of the tree diameter is also prevented. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

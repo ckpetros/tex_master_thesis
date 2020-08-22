@@ -2,7 +2,7 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Two of the adidas-group logos: Performance (left) \& Originals (right) \citep {adidasmediacenter}\relax }}{2}{figure.caption.4}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces adidas celebrates its 70th anniversary and the opening of the ARENA building \citep {adidas70years}\relax }}{2}{figure.caption.5}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Example of a directed acyclic graph\relax }}{13}{figure.caption.18}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Graphical representation of a time-varying dynamic Bayesian network of three random variables with four time periods\relax }}{14}{figure.caption.20}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Graphical representation of a time-varying dynamic Bayesian network of three random variables ($X$, $Y$ and $Z$) with four time periods\relax }}{14}{figure.caption.20}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Bivariate Gaussian distribution and Gaussian copula for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{22}{figure.caption.23}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Bivariate t-distribution and t-copula with 3 degrees of freedom for Pearson's $\rho = 0.6$ and simulated sample of size $n = 1800$, both with standard normal margins\relax }}{23}{figure.caption.25}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Shape of a generator function\relax }}{24}{figure.caption.26}

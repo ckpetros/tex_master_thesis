@@ -280,7 +280,7 @@
   publisher = {Springer},
 }
 
-@Article{,
+@Article{bnlearn_package,
   author  = {Marco Scutari},
   title   = {{L}earning {B}ayesian {N}etworks with the {bnlearn} {R} {P}ackage},
   journal = {Journal of Statistical Software},

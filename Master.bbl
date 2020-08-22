@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -214,6 +214,13 @@
   data.
 \newblock In: \emph{Econometrics}
 \newblock 5 (2017), Nr.~1, S.~10
+
+\bibitem[Uusitalo(2007)]{bn_advantages}
+\dinatlabel{Uusitalo 2007} \textsc{Uusitalo}, Laura:
+\newblock {A}dvantages and challenges of {B}ayesian networks in environmental
+  modeling.
+\newblock In: \emph{Ecological Modelling}
+\newblock 203 (2007), 05, S.~312--318
 
 \bibitem[Vatter and Chavez-Demoulin(2015)]{vatter2015generalized}
 \dinatlabel{Vatter and Chavez-Demoulin 2015} \textsc{Vatter}, Thibault~;
