@@ -37,6 +37,6 @@
 \contentsline {subsection}{\numberline {5.3}Article Dependencies}{71}{subsection.5.3}
 \contentsline {section}{\numberline {6}Conclusion}{75}{section.6}
 \contentsline {section}{List of Abbreviations}{77}{section.6}
-\contentsline {section}{List of Figures}{79}{section*.84}
-\contentsline {section}{List of Tables}{83}{section*.85}
-\contentsline {section}{References}{85}{section*.86}
+\contentsline {section}{List of Figures}{79}{section*.85}
+\contentsline {section}{List of Tables}{83}{section*.86}
+\contentsline {section}{References}{85}{section*.87}
