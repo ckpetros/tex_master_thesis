@@ -1,23 +1,25 @@
 % !TEX root = Master.tex
 \textit{\acp{GLM}} are an extension of the classical \textit{\ac{LM}}
-$$
+\begin{equation}
 \begin{aligned}
 &y_{i}=\beta_{0}+\beta_{1} x_{i 1}+\ldots+\beta_{k} x_{i k}+\varepsilon_{i}, &i=1, \ldots, n
 \end{aligned}
-$$
+\end{equation}
 which in matrix notation can be written as
-$$ \bm{y} = \bm{X}\bm{\beta} + \bm{\epsilon} $$
+\begin{equation}
+ \bm{y} = \bm{X}\bm{\beta} + \bm{\epsilon} 
+\end{equation}
 where the response variable $y_i$ can take values from several probability distributions (e.g. Poisson, Binomial, Gamma, ...), which are members of the exponential family \citep{fahrmeir2003regression}. The linear predictor 
 \begin{equation} 
-\eta_i = \beta_{0}+\beta_{1} x_{i 1}+\ldots+\beta_{k} x_{i k}+\varepsilon_{i} = \bm{x'}_i \bm{\beta}
+\eta_i = \beta_{0}+\beta_{1} x_{i 1}+\ldots+\beta_{k} x_{i k}+\varepsilon_{i} = \bm{x'}_i \bm{\beta} + \bm{\varepsilon}
 \label{eq:linear_predictor_glm}
 \end{equation}
 is passed through a \textit{response function h} (a one-to-one, twice differentiable transformation), such that
 \begin{equation}
- E(y_i) = h(\eta_i) 
+ E(y_i) = h(\eta_i),
 \label{eq:response_function}
 \end{equation}
-i.e. $h$ ensures that the expected value of the response variable belongs to the appropriate value range. The inverse of the response function, i.e.
+where $h$ ensures that the expected value of the response variable belongs to the appropriate value range. The inverse of the response function, i.e.
 \begin{equation}
 g = h^{-1},
 \label{eq:link_function}

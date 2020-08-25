@@ -7,40 +7,27 @@ A sequence of \acp{RV}
 \begin{equation}
 \{X(t)\}=\{\ldots, X(t-1), X(t), X(t+1), \ldots\}
 \end{equation}
-measured at consecutive time-points with uniform time intervals is called a \textit{\ac{UTS}}. A \ac{UTS} $\{X(t)\}$ is called \textit{covariance stationary}\footnote{For brevity we will use the term "stationary".}} if its first two moments are invariant over time, i.e.
+measured at consecutive time-points with uniform time intervals is called a \textit{\ac{UTS}}. The time series is considered \textit{covariance stationary}\footnote{For brevity, we will use the term "stationary".}} if its first two moments are invariant over time, i.e.
 \begin{equation}
 \mathrm{E}(X(t))=\mu, \quad \forall t \qquad \text{and}
 \end{equation}
 \begin{equation} \operatorname{COV}(X(t), X(t-i))=\mathrm{E}((X(t)-\mu)(X(t-i)-\mu))=\gamma_{i}, \quad \forall t, i.
 \end{equation}
 
-A stationary \ac{UTS} $X(t)$ can be modelled as an \textit{\ac{AR}} process, where the value at time t can be written as a linear combination of its lagged values from previous time-points $X(t-i)$ for $i=1,\ldots,p$:
+A stationary \ac{UTS} can be modelled as an \textit{\ac{AR}} process, where the value at time t can be written as a linear combination of its lagged values from previous time-points $X(t-i)$ for $i=1,\ldots,p$:
 \begin{equation}
  X(t)=a_{1} X(t-1)+\cdots+a_{i} X(t-i)+\cdots+a_{p} X(t-p)+b+\varepsilon(t), \quad \forall t \geqslant p,
  \label{eq:univariate_ts}
 \end{equation}
-where
-\begin{itemize}
-\item $X(t)$ is the \ac{RV} observed at time $t$,
-\item $p$ is the \textit{lag} or \textit{order} of the time series,
-\item $a_{i} \in \mathbb{R}$, $i=1, \ldots, p$ are the coefficients of the \acp{RV} observed at the previous $p$ time-points $t-1, t-2, \ldots, t-p$,
-\item $b \in \mathbb{R}$ is the intercept and
-\item $\varepsilon(t)$ is a Gaussian white noise, i.e. $\boldsymbol{\varepsilon}(t) \sim N\left(0, \sigma^{2}\right)$. 
-\end{itemize}
-
+where $X(t)$ is the \ac{RV} observed at time $t$, $p$ is the \textit{lag} or \textit{order} of the time series, $a_{i} \in \mathbb{R}$ with $i=1, \ldots, p$ are the coefficients of the \acp{RV} observed at the previous $p$ time-points $t-1, t-2, \ldots, t-p$, $b \in \mathbb{R}$ is the intercept and $\varepsilon(t)$ is a Gaussian white noise, i.e. $\boldsymbol{\varepsilon}(t) \sim N\left(0, \sigma^{2}\right)$. 
+\\
 
 A sequence of multivariate \acp{RV} measured at consecutive time-points is called a \textit{\ac{MTS}}. \ac{MTS} are commonly used to assess the associations between multiple individuals over time and can be modelled as \ac{VAR} processes. In a \ac{VAR}($p$) of order $p$, the variables observed at any time-point $t \geqslant p$ should satisfy
 \begin{equation}
 X(t)=A_{1} X(t-1)+\cdots+A_{i} X(t-i)+\cdots+A_{p} X(t-p)+B+\varepsilon(t),
 \label{eq:multivariate_ts}
 \end{equation}
-where
-\begin{itemize}
-\item $X(t)=\left(X_{i}(t)\right)$, $i=1,\ldots,k$ is the vector of $k$ variables observed at time $t$,
-\item $A_{i}$, $i=1,\ldots,p$ are coefficient matrices of dimensions $k \times k$,
-\item $B$ is an intercept vector of dimension $k$ and
-\item $\varepsilon(t)$ is a white noise vector of dimension $k$ with $\mathrm{E}(\boldsymbol{\varepsilon}(t))=0$ and time-invariant positive definite covariance matrix $\Sigma = \operatorname{COV}(\varepsilon(t))$.
-\end{itemize}
+where $X(t)=\left(X_{i}(t)\right)$ with $i=1,\ldots,k$ is the vector of $k$ variables observed at time $t$, $A_{i}$ with $i=1,\ldots,p$ are coefficient matrices of dimensions $k \times k$, $B$ is an intercept vector of dimension $k$ and $\varepsilon(t)$ is a white noise vector of dimension $k$ with $\mathrm{E}(\boldsymbol{\varepsilon}(t))=0$ and time-invariant positive definite covariance matrix $\Sigma = \operatorname{COV}(\varepsilon(t))$.
 Similar to an \ac{AR} process, a \ac{VAR}($p$) process assumes a linear correlation structure between the $k$ variables observed at the $t$ time-points and the $k$ variables observed at the $p$ previous time-points.
 
 

@@ -14,7 +14,7 @@ f_{\mathbf{X}}(\mathbf{X})=
 \end{equation}
 \\
 
-In real-world settings, entities often represent variables which vary over time. \textit{\acp{DBN}} extend the framework of static Bayesian networks to model associations arising from temporal dynamics between such entities \citep{nagarajan2013bayesian}. Each \ac{RV} in a \ac{DBN} is represented by several nodes across time-points. In the \ac{DAG} resulting from a \ac{DBN}, arcs can be drawn between variables across successive time-points (or at the same time-point,\footnote{In \cite{nagarajan2013bayesian}) conditional dependencies can occur only between successive time-points. However, this assumption is relaxed here due to practical alignments coming up in Section \ref{ssec:article_dependencies}}, as long as no arc is enters an ancestor node). The arcs in the \ac{DAG} describe exactly the conditional dependencies between any pair of variables given the past variables (or variables at the same time stage). \autoref{fig:dynamic_bn} represents a graphical example of such a \ac{DBN}.
+In real-world settings, entities often represent variables which vary over time. \textit{\acp{DBN}} extend the framework of static Bayesian networks to model associations arising from temporal dynamics between such entities \citep{nagarajan2013bayesian}. Each \ac{RV} in a \ac{DBN} is represented by several nodes across time-points. In the \ac{DAG} resulting from a \ac{DBN}, arcs can be drawn between variables across successive time-points (or at the same time-point,\footnote{In \cite{nagarajan2013bayesian}) conditional dependencies can occur only between successive time-points. However, this assumption is relaxed here due to practical alignments coming up in Section \ref{ssec:article_dependencies}.} as long as no arc is enters an ancestor node). The arcs in the \ac{DAG} describe exactly the conditional dependencies between any pair of variables given the past variables (or variables at the same time stage). \autoref{fig:dynamic_bn} represents a graphical example of such a \ac{DBN}.
 \\
 
 
@@ -30,7 +30,7 @@ Dependence relationships in \acp{DBN} are often represented by a \ac{VAR} proces
 \begin{equation}
 X_{i}(t)=\sum_{j=1}^{k} a_{i j} X_{j}(t-1)+b_{i}+\varepsilon_{i}(t) \quad \text { where } \quad \varepsilon_{i}(t) \sim N\left(0, \sigma_{i}(t)\right),
 \end{equation}
-where all arcs are defined between two time-points.\footnote{Here consecutive time-points are meant, but this assumption will be relaxed later for practical purposes.} The set of non-zero coefficients $a_{ij}$ in an auto-regressive matrix $A$ define the arc set, meaning that if element $a_{ij}$ is non-zero, the network includes an arc from $X_i$ to $X_j$. Repeated measurements can be used to perform linear regression, however the ordinary least square estimates of the regression coefficients $a_{ij}$ and $b_i$ can be computed only when the number of time-points $n \gg k$.
+where all arcs are defined between two consecutive time-points. The set of non-zero coefficients $a_{ij}$ in an auto-regressive matrix $A$ define the arc set, meaning that if element $a_{ij}$ is non-zero, the network includes an arc from $X_i$ to $X_j$. Repeated measurements can be used to perform linear regression, however the ordinary least square estimates of the regression coefficients $a_{ij}$ and $b_i$ can be computed only when the number of time-points $n \gg k$.
 
 
 
