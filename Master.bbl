@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{31}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -20,6 +20,12 @@
 \dinatlabel{{adidas-group.com} } \textsc{{adidas-group.com}}:
 \newblock \emph{adidas-group}. --
 \newblock \url{https://www.adidas-group.com/en/}, Last accessed on 2020-04-01
+
+\bibitem[{adidas-group.com profile}()]{adidas-group-profile}
+\dinatlabel{{adidas-group.com profile} } \textsc{{adidas-group.com profile}}:
+\newblock \emph{adidas-group}. --
+\newblock \url{https://www.adidas-group.com/en/group/profile/}, Last accessed
+  on 2020-08-24
 
 \bibitem[{adidas.com media-center}()]{adidasmediacenter}
 \dinatlabel{{adidas.com media-center} } \textsc{{adidas.com media-center}}:
