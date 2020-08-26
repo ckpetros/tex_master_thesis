@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
 
-Modelling of the marginal response distributions along with their dependence structure has been studied so far in a strictly parametric context, not considering any potentially available covariate information. In this section, the copula framework will be broadened by adding conditions given possible covariates for all model parameters, i.e. both for the parameters of the margins as well as the copula parameter. All involved model parameters will receive \textit{structured additive predictors} (see Section \ref{ssec:gam}) to account for possible non-linear or random effects. We will summarily explore \textit{Structured Additive Conditional Copulas}\footnote{In \cite{klein2016simultaneous} they are referred to as "structured additive conditional copula regression models".} and for extensive literature, good references to view are \cite{klein2016simultaneous} \& \cite{marra1605bivariate}.
+Modelling of the marginal response distributions along with their dependence structure has been studied so far in a strictly parametric context, not considering any potentially available covariate information. In this section, the copula framework is broadened by adding conditions given possible covariates for all model parameters, i.e. both for the parameters of the margins as well as the copula parameter. All involved model parameters receive \textit{structured additive predictors} (see Section \ref{ssec:gam}) to account for possible non-linear or random effects. We briefly explore \textit{Structured Additive Conditional Copulas}\footnote{In \cite{klein2016simultaneous} they are referred to as "structured additive conditional copula regression models".} and for extensive literature, good references to view are \cite{klein2016simultaneous} \& \cite{marra1605bivariate}.
 % and \cite{vatter2019gamcopula}. 
 Note that notations (such as symbols or letters) may differ from some of the reference literatures in order to align them with this paper. \\
 
@@ -23,10 +23,10 @@ To relate all parameters of the margins to structured additive predictors $\eta_
 \\
 
 Assuming that the parameters of the copula can also depend on covariates $\bm{\nu}_i$ while Sklar's theorem applies as usual, the left-hand side of \autoref{eq:sklar_conditional} can equivalently be stated as  
-$$
+\begin{equation}
 F_{1,2}(y_{i 1}, y_{i 2} | v_{i})= F_{1,2}(y_{i 1}, y_{i 2} | \vartheta_{i 1}^{(1)}, \ldots, \vartheta_{i K_{1}}^{(1)}, \vartheta_{i 1}^{(2)}, \ldots,
 \vartheta_{i K_{2}}^{(2)}, \vartheta_{i 1}^{(c)}, \ldots, \vartheta_{i K_{c}}^{(c)}),
-$$
+\end{equation}
 where the last share of parameters $\vartheta_{i 1}^{(c)}, \ldots, \vartheta_{i K_{c}}^{(c)}$ belong to the copula. Similar to \autoref{eq:parameter_mapping}, the copula parameters are modelled as $\vartheta_{i k}^{(c)}=h_{k}^{(c)}(\eta_{i}^{\vartheta_{k}^{(c)}})$ with $K_c$ being the number of parameters.
 
 

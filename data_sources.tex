@@ -36,9 +36,9 @@ week\_of\_year          & Week of the year                                      
 
 Due to legal regulations of the company, some columns had to undergo anonymization in order for the data to be released. To ensure data protection and confidentiality, numeric variables (with exception of time-indicating columns) were transformed. As a consequence for the analysis part, most integer values were converted to float numbers. This fact should be kept in mind by the reader, since the above table serves as a reminder and reference point for the data documentation.\\
 
-Another peculiarity of this setup is to be considered too. We will often refer to the variable \textit{gross demand quantity} as \textit{sales}, even though it is obviously not exactly the same. In the e-Commerce environment, there are several stages before the purchase is complete, e.g. addition to cart, removal from cart, proceeding to checkout \& even the return of bought articles. Targeting the articles added to cart, i.e. the (gross) demand quantity, provides the optimal data extraction for analytical purposes and is the closest to adequately model the dependence structure between net sales of articles.\footnote{Gross demand quantity will be our target as we follow the adidas norm}  \\
+Another peculiarity of this setup is to be considered too. We often refer to the variable \textit{gross demand quantity} as \textit{sales}, even though it is obviously not exactly the same. In the e-Commerce environment, there are several stages before the purchase is complete, e.g. addition to cart, removal from cart, proceeding to checkout \& even the return of bought articles. Targeting the articles added to cart, i.e. the (gross) demand quantity, provides the optimal data extraction for analytical purposes and is the closest to adequately model the dependence structure between net sales of articles.\footnote{Gross demand quantity is our target as we follow the adidas norm.}  \\
 
-Besides the transactional data, attributes of the articles are provided and described in \autoref{tab:article_master_data}. Some attributes of special importance will be explained in more detail later on in Chapter \ref{sec:data_exploration}. \\
+Besides the transactional data, attributes of the articles are provided and described in \autoref{tab:article_master_data}. Some attributes of special importance are explained in more detail later on in Chapter \ref{sec:data_exploration}. \\
 
 \begin{table}[H]
 \setlength\arrayrulewidth{1pt}  
@@ -74,5 +74,5 @@ category                  & Category of the article                             
 \end{table}
 
 %Plenty of additional information is stored in the database, but we are %neglecting columns omitted in these tables, as they are redundant, %already summarized, transformed or simply do not provide any value.\\
-Overall, these are the primary data sources and we will be working with data collected over two years, namely the years 2017 and 2018, while some transactions of late 2016 are attached marginally. In summary, after joining the transactional observations to the article attributes by the article ID, this translates to a dataset of 587,127 instances including 26,203 distinct articles and over 30 variables. 
+Overall, these are the primary data sources and we are working with data collected over two years, namely the years 2017 and 2018, while some transactions of late 2016 are attached marginally. In summary, after joining the transactional observations to the article attributes by the article ID, this translates to a dataset of 587,127 instances including 26,203 distinct articles and over 30 variables. 
 

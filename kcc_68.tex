@@ -26,7 +26,7 @@ This time we fast forward to the outcome when a t-copula is applied (which is th
 \end{figure}
 
 
-Keeping the complexity of the model to a minimum, the model setup will remain as is, with the only minor differences. Other copula families will be considered in addition, particularly those that account for positive (and not negative) dependencies. Out of all implemented copula families in the \textit{VineCopula} package (rotated versions included), the Clayton copula yields the most fitting family for the given target variables. This result is sensible, as the Clayton copula is able to capture lower tail dependencies (\autoref{fig:scatter_res_kcc_68}) and accounts for positive dependence structures only (see Subsections \ref{sssec:archimedean_copulas} and \ref{sssec:tail_dependence}). Note that the new model specification is \\
+Keeping the complexity of the model to a minimum, the model setup remains as is, with the only minor differences. Other copula families are considered in addition, particularly those that account for positive (and not negative) dependencies. Out of all implemented copula families in the \textit{VineCopula} package (rotated versions included), the Clayton copula yields the most fitting family for the given target variables. This result is sensible, as the Clayton copula is able to capture lower tail dependencies (\autoref{fig:scatter_res_kcc_68}) and accounts for positive dependence structures only (see Subsections \ref{sssec:archimedean_copulas} and \ref{sssec:tail_dependence}). Note that the new model specification is \\
 
 \begin{equation}
 \begin{array}{c}
@@ -67,7 +67,7 @@ where now there are no degrees of freedom to determine and the copula parameter 
 
 
 
-Since Kendall's tau is more intuitive as a dependence measure of two random variables than the copula parameter $\theta$ (see Subsection \ref{sssec:rank_correlation}), this is what we will inspect. The relationship between Kendall's tau and the parameter of the Clayton copula is $\tau = \frac{\theta}{\theta + 2}$ (see \autoref{tab:copula_relationships}). The estimated time-varying $\hat{\tau}$ is displayed in \autoref{fig:estimated_tau_clayton_kcc_68}, where we can observe that 
+Since Kendall's tau is more intuitive as a dependence measure of two random variables than the copula parameter $\theta$ (see Subsection \ref{sssec:rank_correlation}), this is what we inspect. The relationship between Kendall's tau and the parameter of the Clayton copula is $\tau = \frac{\theta}{\theta + 2}$ (see \autoref{tab:copula_relationships}). The estimated time-varying $\hat{\tau}$ is displayed in \autoref{fig:estimated_tau_clayton_kcc_68}, where we can observe that 
 %the confidence bands vary a lot and 
 there are some individual time windows of zero correlation.\\
 

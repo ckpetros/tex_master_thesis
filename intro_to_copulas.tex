@@ -1,16 +1,19 @@
 % !TEX root = Master.tex
 
 A $d$-dimensional function $C: [0,1]^d \rightarrow [0,1]$ is called a \textit{copula}, if it is a \ac{CDF} with uniform margins, i.e.
-\begin{equation*}
+\begin{equation}
 P\left(U_{1} \leq u_{1}, \ldots, U_{d} \leq u_{d}\right)=C\left(u_{1}, \ldots, u_{d}\right)
-\end{equation*}
+\end{equation}
 where 
 $ U_{i}, \hspace{0.25em} i = 1, \ldots, d $ 
 are uniformly distributed \acp{RV} in $[0,1]$.\\
 Since $C$ is a \ac{CDF}, following properties emerge:
 \begin{itemize}
 \item $C(\mathbf{u})=C\left(u_{1}, \ldots, u_{d}\right)$ is increasing in each component $u_i, i = 1, \ldots, d$.
-\item The $i^{th}$ marginal distribution is obtained by setting $u_j = 1$ for $j \neq i$ and it has to be uniformly distributed $$C\left(1, \ldots, 1, u_{i}, 1, \ldots, 1\right)=u_{i}$$
+\item The $i^{th}$ marginal distribution is obtained by setting $u_j = 1$ for $j \neq i$ and it has to be uniformly distributed 
+\begin{equation}
+C\left(1, \ldots, 1, u_{i}, 1, \ldots, 1\right)=u_{i}
+\end{equation}
 \item For $a_i \leq b_i$, the probability $P\left(U_{1} \in\left[a_{1}, b_{1}\right], \ldots, U_{d} \in\left[a_{d}, b_{d}\right]\right)$ mus be non-negative, so we obtain the \textit{rectangle inequality} 
 \begin{equation}
 \sum_{i_{1}=1}^{2} \cdots \sum_{i_{d}=1}^{2}(-1)^{i_{1}+\cdots+i_{d}} C\left(u_{1, i_{1}}, \ldots, u_{d, i_{d}}\right) \geq 0,
@@ -22,13 +25,11 @@ The reverse is also true, i.e. any function $C$ that satisfies the above propert
 
 \textbf{Generalized Inverse}\\
 For a \ac{CDF}, the \textit{generalized inverse} is defined by
-$$
-F^{\leftarrow}(y):=\inf \{x: F(x) \geq y\}
+\begin{equation}
+F^{\leftarrow}(y):=\inf \{x: F(x) \geq y\}.
 \label{eq:generalized_inverse}
-$$
-(similar to the definition of a \textit{quantile function}).
+\end{equation}
 
-\hfill $\square$ \\
 
 \textbf{Probability Transformation}\\
 If a \ac{RV} $Y$ has a continuous \ac{CDF} $F$, then
@@ -37,9 +38,7 @@ F(Y) \sim U[0,1].
 \label{eq:probability_transformation}
 \end{equation}
 
-\hfill $\square$ \\
 
-The reverse of the \textit{probability transformation} is the \textit{quantile transformation}.\\
 
 \textbf{Quantile Transformation}\\
 If $U \sim U[0,1]$ and $F$ be a \ac{CDF}, then
@@ -48,9 +47,7 @@ P\left(F^{\leftarrow}(U) \leq x\right)=F(x)
 \label{eq:quantile_transformation}
 \end{equation}
 
-\hfill $\square$ \\
-
-The above two transformations allow us to move back and forth between $\mathbb{R}^d$ and $[0,1]^d$ and are the primary building blocks when it comes to copulas. Against this backdrop, \textit{Sklar's theorem} is introduced, which is considered the foundation of all copula related applications.\\
+The \textit{probability transformation} is the reverse of the \textit{quantile transformation}. These two transformations allow us to move back and forth between $\mathbb{R}^d$ and $[0,1]^d$ and are the primary building blocks when it comes to copulas. Against this backdrop, \textit{Sklar's theorem} is introduced, which is considered the foundation of all copula related applications.\\
 
 
 
@@ -67,9 +64,7 @@ The copula $C$ is unique, if $ \hspace{0.25em} \forall i = 1, \ldots, d \hspace{
 $Ran(F_1) \times \ldots \times Ran(F_d)$, where $Ran(F_{i})$ is the range of $F_i$.\\
 Conversely, if $C$ is a $d$-dimensional copula and $F_1, \ldots, F_d$ are univariate \ac{CDF}'s, then $F$ as defined in \autoref{eq:sklar} is a 
 $d$-dimensional \ac{CDF}.
-
-\hfill $\square$ \\
-
+\\
 
 If the copula has a \ac{PDF}, then the \textit{copula density} is defined as
 \begin{equation}
@@ -77,7 +72,6 @@ c(\mathbf{u})=\frac{\partial^{d} C\left(u_{1}, \ldots, u_{d}\right)}{\partial u_
 \label{eq:copula_density_1}
 \end{equation}
 for a differentiable copula function $C$ and the realization of a random vector $ \bm{u} = (u_1, \ldots, u_d)$.\\
-
 By virtue of \autoref{eq:sklar} in Sklar's theorem and given that
 \begin{equation} 
 C(\mathbf{u})=F\left(F_{1}^{\leftarrow}\left(u_{1}\right), \ldots, F_{d}^{\leftarrow}\left(u_{d}\right)\right) ,
@@ -91,33 +85,32 @@ c\left(u_{1}, \ldots, u_{d}\right)=\frac{f\left(F_{1}^{\leftarrow}\left(u_{1}\ri
 for densities $f$ of $F$ and $f_1, \ldots, f_d$ of the corresponding margins.\\
 
 
+
+Often times, a transformation is applied to the data, such as a log- or square root transformation. However, due to the \textit{invariance principle}, this does not affect the copula.\\
+
 \textbf{Invariance Principal}\\
 Suppose the \ac{RV}s $ X_1, \ldots, X_d $  have continuous margins and copula $C$. For strictly increasing functions $T_i : \mathbb{R} \rightarrow \mathbb{R}, i = 1, \ldots, d$, the \ac{RV}s $T_1(X_1), \ldots, T_d(X_d)$ also have copula $C$.
-
-\hfill $\square$ \\
-
-
-\textbf{Fr\'echet-Hoeffding Bounds}\\
-Let $C(\bm{u}) = C(u_1, \ldots, u_d)$ be any $d$-dimensional copula.\\
-Then, for
-\begin{equation}
-W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\}
-\label{eq:frechet_hoeffding_lower}
-\end{equation}
-as well as
-\begin{equation}
-M(\boldsymbol{u})=\min \limits _{1 \leq i \leq d}\left\{u_{i}\right\},
-\label{eq:frechet_hoeffding_upper}
-\end{equation}
-it holds that
-\begin{equation}
-W(\bm{u}) \leq C(\bm{u}) \leq M(\bm{u}), \quad \bm{u} \in[0,1]^{d}.
-\label{eq:frechet_hoeffding}
-\end{equation}\\
-$W$ is called the \textit{lower Fr\'echet-Hoeffding bound} and $M$ the \textit{upper Fr\'echet-Hoeffding bound}.\\
-Note that $W$ is a copula if and only if $d=2$, whereas $M$ is a copula for all $d \geq 2$ (more on this later in Section \ref{sssec:fundamental_copulas}).
-
-\hfill $\square$ \\
+%\\
+%
+%\textbf{Fr\'echet-Hoeffding Bounds}\\
+%Let $C(\bm{u}) = C(u_1, \ldots, u_d)$ be any $d$-dimensional copula.\\
+%Then, for
+%\begin{equation}
+%W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\}
+%\label{eq:frechet_hoeffding_lower}
+%\end{equation}
+%as well as
+%\begin{equation}
+%M(\boldsymbol{u})=\min \limits _{1 \leq i \leq d}\left\{u_{i}\right\},
+%\label{eq:frechet_hoeffding_upper}
+%\end{equation}
+%it holds that
+%\begin{equation}
+%W(\bm{u}) \leq C(\bm{u}) \leq M(\bm{u}), \quad \bm{u} \in[0,1]^{d}.
+%\label{eq:frechet_hoeffding}
+%\end{equation}\\
+%$W$ is called the \textit{lower Fr\'echet-Hoeffding bound} and $M$ the \textit{upper Fr\'echet-Hoeffding bound}.\\
+%Note that $W$ is a copula if and only if $d=2$, whereas $M$ is a copula for all $d \geq 2$ (more on this later in Section \ref{sssec:fundamental_copulas}).
 
 
 

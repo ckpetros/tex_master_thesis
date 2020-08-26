@@ -5,40 +5,38 @@ Fundamental copulas are a basic class of copulas, which emerge directly from the
 \textbf{Independence Copula}\\
 It is well known that the joint \ac{CDF} of a finite set of \acp{RV}
 $X_i, i = 1, \ldots, n$, is equal to the product of the margins if and only if the \acp{RV} $X_i$ are mutually independent, i.e.
-$$
-F_{X_{1}, \ldots, X_{n}}\left(x_{1}, \ldots, x_{n}\right)= \prod_{i=1}^{n} F_{X_{i}}\left(x_{i}\right)) 
-$$
-$\forall x_1, \ldots, x_n$.\\
-Equally, the exact same concept applies when we talk about the \textit{independence copula}
+\begin{equation}
+F_{X_{1}, \ldots, X_{n}}\left(x_{1}, \ldots, x_{n}\right)= \prod_{i=1}^{n} F_{X_{i}}\left(x_{i}\right)) \quad \forall x_1, \ldots, x_n.
+\end{equation}
+
+Equally, the exact same concept applies when we talk about the \textit{independence copula}, i.e.
 \begin{equation}
 \Pi (\bm{u}) = \prod \limits _{i = 1}^d u_i.
 \end{equation}
-As a result of Sklar's theorem the \ac{RV}s $u_i$ are independent if and only if their copula is the independence copula, i.e.
-$$ C(\bm{u}) = \Pi (\bm{u}) $$
+As a result of Sklar's theorem, the \ac{RV}s $u_i$ are independent if and only if their copula is the independence copula, i.e.
+\begin{equation}
+ C(\bm{u}) = \Pi (\bm{u}) 
+ \end{equation}
 and thus the copula density would be 
-$$c(\boldsymbol{u})=1, \quad \boldsymbol{u} \in[0,1]^{d}.$$
+\begin{equation}
+c(\boldsymbol{u})=1, \quad \boldsymbol{u} \in[0,1]^{d}.
+\end{equation}
 
-\hfill $\square$ \\
+%From \autoref{eq:frechet_hoeffding}, it is obvious that the Fr\'echet-Hoeffding bounds correspond to the extreme cases of perfect dependence between the \ac{RV}s $X_i, i = 1, \ldots, d$. \\
 
-
-From \autoref{eq:frechet_hoeffding}, it is obvious that the Fr\'echet-Hoeffding bounds correspond to the extreme cases of perfect dependence between the \ac{RV}s $X_i, i = 1, \ldots, d$. \\
-
-\textbf{Comonotonicity Copula}\\
-Consider the \ac{RV}s $X_1, \ldots, X_d$ and strictly increasing transformations $T_1, \ldots, T_d$ and $X_i = T(X_i)$ for $i = 2, \ldots, d$. Making use of the \textit{invariance principal}, it can be shown that these \ac{RV}s have as copula the upper Fr\'echet-Hoeffding bound 
-$$M(\bm{u}) = \min\{ u_1, \ldots, u_d \}.$$ Since there is perfect positive dependence between those \ac{RV}s, $M$ is called the \textit{comonotonicity copula}. The number of dimensions $d$ can be any finite number greater than or equal to $2$ for $M$ to be a copula, as the minimum remains well defined.
-
-\hfill $\square$ \\
-
-
-
-\textbf{Countermonotonicity Copula}\\
-Similar to the comonotonic case, it can be shown that if two \acp{RV} $X_1$ and $X_2$ are perfectly negatively dependent, their copula is the lower Fr\'echet-Hoeffding bound
-$$
-W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\}.
-$$
-Therefore, $W$ is known as the \textit{countermonotonicity copula}. Because of the fact that countermonotonicity is not valid for a dimension greater than $2$, we end up with the restriction $d=2$ for $W$ to be indeed a copula.
-
-\hfill $\square$ \\
+%\textbf{Comonotonicity Copula}\\
+%Consider the \ac{RV}s $X_1, \ldots, X_d$ and strictly increasing transformations $T_1, \ldots, T_d$ and $X_i = T(X_i)$ for $i = 2, \ldots, d$. Making use of the \textit{invariance principal}, it can be shown that these \ac{RV}s have as copula the upper Fr\'echet-Hoeffding bound 
+%$$M(\bm{u}) = \min\{ u_1, \ldots, u_d \}.$$ Since there is perfect positive dependence between those \ac{RV}s, $M$ is called the \textit{comonotonicity copula}. The number of dimensions $d$ can be any finite number greater than or equal to $2$ for $M$ to be a copula, as the minimum remains well defined.
+%
+%
+%
+%
+%\textbf{Countermonotonicity Copula}\\
+%Similar to the comonotonic case, it can be shown that if two \acp{RV} $X_1$ and $X_2$ are perfectly negatively dependent, their copula is the lower Fr\'echet-Hoeffding bound
+%$$
+%W(\boldsymbol{u})=\max \left\{\sum\limits_{i=1}^{d} u_{i}-d+1, \hspace{0.25em} 0\right\}.
+%$$
+%Therefore, $W$ is known as the \textit{countermonotonicity copula}. Because of the fact that countermonotonicity is not valid for a dimension greater than $2$, we end up with the restriction $d=2$ for $W$ to be indeed a copula.
 
 
 

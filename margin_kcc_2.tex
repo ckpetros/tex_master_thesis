@@ -54,8 +54,8 @@ $\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
 \end{figure}
 
 As can be seen in \autoref{fig:res_kcc_2_no_covariates}, the residuals of the fitted distribution are not too far from a normal distribution. 
-In fact, a Shapiro-Wilk normality test (see Section \ref{ssec:shapiro_wilk}) will fail to reject the null hypothesis, returning a p-value of 0.6645.
-There still exist skewness in the distribution of the residuals and correction will be attempted in the following. 
+In fact, a Shapiro-Wilk normality test (see Section \ref{ssec:shapiro_wilk}) fails to reject the null hypothesis, returning a p-value of 0.6645.
+There still exist skewness in the distribution of the residuals and correction is attempted in the following. 
 \\
 
 The findings so far indicate that the overall fit for this cluster is quite satisfiable and also supports interpretability of the estimated parameters. \\
@@ -63,15 +63,16 @@ To make the estimation more precise and to get a better understanding of what is
 %The temporal effects in particular are of special interest. 
 
 After multiple equation setups for the marginal distribution of \ac{KCC} 2, the chosen \ac{GAMLSS} model specification (see Section \ref{ssec:gamlss}) is as follows:
-
 \begin{equation}
 \begin{aligned}
-\mu &= \beta_{01} + f_{11}(\textit{time}) + f_{12}(\textit{total\_markdown\_pct}) + \textit{promo\_type*total\_markdown\_pct} \\ \noalign{\vskip5pt}
+\mu &= \beta_{01} + f_{11}(\textit{time}) + f_{12}(\textit{total\_markdown\_pct}) + \\
+ & \textit{promo\_type*total\_markdown\_pct} \\ \noalign{\vskip5pt}
 log(\sigma) &= \beta_{02} + f_{21}(\textit{time}) \\ \noalign{\vskip5pt}
 log(\nu) &=  \beta_{03}, 
 \end{aligned}
 \label{eq:gamlss_kcc_2}
-\end{equation} \\
+\end{equation} 
+
 where \textit{promo\_type} is a factor variable with levels \textit{"No Promotion"} (reference category), \textit{"Black Friday"} and \textit{"Friends \& Family"}. The smooth functions $f_{11}$, $f_{21}$ and $f_{12}$ are build upon P-splines with 40 knots each. For the scale and shape parameters ($\sigma$ and $\nu$ respectively) the logarithmic link function is used to ensure that they are mapped to the real positive line as the ex-Gaussian distribution family can only capture positive skewness ($\nu$). For $\sigma$ we just use time as the only regressor and we set the skewness $\nu$ as a constant.\\
  The estimated location and scale parameters over time are depicted in \autoref{fig:gamlss_kcc_2_estimated_parameters} and in \autoref{tab:nu_ci_kcc_2} the estimated skewness parameter value with its 95\% confidence interval is shown. The fitted values approximate the actual values quite adequately given the present limitations. The sale peaks are also well captured, especially for Black Friday. The scale parameter has an increasing trend up until roughly mid-January (60th observation) and then decreases again. However, the overall range of deviation is kept to a minimum, ranging from 0.05 to 0.20. The estimated skewness parameter is closer to zero than in the maximum likelihood approach without any covariate effects.
 \\

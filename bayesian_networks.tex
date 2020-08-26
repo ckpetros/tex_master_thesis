@@ -26,7 +26,7 @@ In real-world settings, entities often represent variables which vary over time.
 \end{figure}
 
 
-Dependence relationships in \acp{DBN} are often represented by a \ac{VAR} process as in \autoref{eq:multivariate_ts}. Assuming a \ac{VAR}(1) process with $k$ variables, each variable $X_i$, $i = 1,\ldots,k$ satisfies
+Dependence relationships in \acp{DBN} are often represented by a \ac{VAR} process as in \autoref{eq:multivariate_ts}. Assuming a \ac{VAR}(1) process with $k$ variables, each variable $X_i$ with $i = 1,\ldots,k$ satisfies
 \begin{equation}
 X_{i}(t)=\sum_{j=1}^{k} a_{i j} X_{j}(t-1)+b_{i}+\varepsilon_{i}(t) \quad \text { where } \quad \varepsilon_{i}(t) \sim N\left(0, \sigma_{i}(t)\right),
 \end{equation}
