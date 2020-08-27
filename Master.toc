@@ -36,7 +36,8 @@
 \contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{63}{subsubsection.5.2.3}
 \contentsline {subsection}{\numberline {5.3}Article Dependencies}{67}{subsection.5.3}
 \contentsline {section}{\numberline {6}Conclusion}{71}{section.6}
-\contentsline {section}{List of Abbreviations}{73}{section.6}
-\contentsline {section}{List of Figures}{75}{section*.84}
-\contentsline {section}{List of Tables}{79}{section*.85}
-\contentsline {section}{References}{81}{section*.86}
+\contentsline {section}{Appendix}{73}{section.6}
+\contentsline {section}{List of Abbreviations}{75}{section*.84}
+\contentsline {section}{List of Figures}{77}{section*.85}
+\contentsline {section}{List of Tables}{81}{section*.86}
+\contentsline {section}{References}{83}{section*.87}

@@ -1,25 +1,27 @@
 % !TEX root = Master.tex
 
-Simple maximum likelihood estimation based on the log-sales of the margins allow us to estimate the ex-Gaussian distribution parameters. \autoref{fig:kcc_2_density} describes how the histogram of the data match to the theoretical density of an ex-Gaussian distribution considering the estimated parameter values represented in \autoref{tab:estimated_parameters_kcc_2_no_covariates}.
+Simple maximum likelihood estimation based on the log-sales of the margins allow us to estimate the ex-Gaussian distribution parameters. \autoref{fig:kcc_2_density} describes how the histogram of the data match to the theoretical density of an ex-Gaussian distribution. The estimated parameter values are $\hat{\mu} = 7.85$, $\hat{\sigma} = 0.26$ and $\hat{\nu} = 0.33$.
 \\
+%represented in \autoref{tab:estimated_parameters_kcc_2_no_covariates}.
 
 
 
 
-\begin{table}[H]
-\setlength\arrayrulewidth{1pt}  
-\centering
-\begin{adjustbox}{max width=\textwidth}\
-\begin{tabular}{|c|c|c|}
-\hline
-\rowcolor{lightgray} 
-$\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
-7.85        & 0.26           & 0.33        \\ \hline
-\end{tabular}
-\end{adjustbox}
-\caption{Estimated parameters for log-sales of KCC 2 fitted to ex-Gaussian distribution with no covariate effects}
-\label{tab:estimated_parameters_kcc_2_no_covariates}
-\end{table}
+
+%\begin{table}[H]
+%\setlength\arrayrulewidth{1pt}  
+%\centering
+%\begin{adjustbox}{max width=\textwidth}\
+%\begin{tabular}{|c|c|c|}
+%\hline
+%\rowcolor{lightgray} 
+%$\hat{\mu}$ & $\hat{\sigma}$ & $\hat{\nu}$ \\ \hline
+%7.85        & 0.26           & 0.33        \\ \hline
+%\end{tabular}
+%\end{adjustbox}
+%\caption{Estimated parameters for log-sales of KCC 2 fitted to ex-Gaussian distribution with no covariate effects}
+%\label{tab:estimated_parameters_kcc_2_no_covariates}
+%\end{table}
 
 
 
@@ -66,7 +68,7 @@ After multiple equation setups for the marginal distribution of \ac{KCC} 2, the 
 \begin{equation}
 \begin{aligned}
 \mu &= \beta_{01} + f_{11}(\textit{time}) + f_{12}(\textit{total\_markdown\_pct}) + \\
- & \textit{promo\_type*total\_markdown\_pct} \\ \noalign{\vskip5pt}
+ & \quad \textit{promo\_type*total\_markdown\_pct} \\ \noalign{\vskip5pt}
 log(\sigma) &= \beta_{02} + f_{21}(\textit{time}) \\ \noalign{\vskip5pt}
 log(\nu) &=  \beta_{03}, 
 \end{aligned}

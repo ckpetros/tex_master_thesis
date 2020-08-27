@@ -12,29 +12,10 @@ As mentioned in Section \ref{ssec:data_sources}, the data contain the informatio
   \label{fig:total_sold_articles_ts}
 \end{figure}
 
-Another promotion type we are interested in is \textit{"Friends \& Family"}, occurring yearly around April-May and October, where on the eCom website plenty of articles are available for reduced prices. On these weeks, we have elevated numbers of sold articles as well (blue vertical lines). Tables \ref{tab:black_friday} and \ref{tab:friends_and_family} show the weeks were Black Friday and Friends \& Family took place respectively. The dates on those tables are one week apart each and they always indicate the Monday of the respective week (which is the European standard).
+Another promotion type we are interested in is \textit{"Friends \& Family"}, occurring yearly around April-May and October, where on the eCom website plenty of articles are available for reduced prices. On these weeks, we have elevated numbers of sold articles as well (blue vertical lines). Tables \ref{tab:promotion_weeks} and \ref{tab:promotion_weeks} show the weeks were Black Friday and Friends \& Family took place respectively. The dates on those tables are one week apart each and they always indicate the Monday of the respective week (which is the European standard).
 \\
 
 
-\begin{table}[H]
-\setlength\arrayrulewidth{1pt}  
-\centering
-\begin{adjustbox}{max width=\textwidth}
-
-\
-\begin{tabular}{|
->{\columncolor{lightgray}}c |c|c|c|c|c|c|}
-\hline
-\textbf{Black Friday weeks} & 2016-11-28 & 2017-11-20 & 2017-11-27 & 2018-11-12 & 2018-11-19 & 2018-11-26 \\ \hline
-\end{tabular}
-
-\end{adjustbox}
-\caption{Black Friday weeks}
-\label{tab:black_friday}
-\end{table}
-
-
-
 
 \begin{table}[H]
 \setlength\arrayrulewidth{1pt}  
@@ -42,18 +23,18 @@ Another promotion type we are interested in is \textit{"Friends \& Family"}, occ
 \begin{adjustbox}{max width=\textwidth}
 
 \
-\begin{tabular}{|
->{\columncolor{lightgray}}c |c|c|c|c|c|c|c}
-\hline
-\cellcolor{lightgray}                                              & 2017-04-10 & 2017-04-17 & 2017-04-24 & 2017-10-09 & 2017-10-16 & 2017-10-23 & \multicolumn{1}{l|}{2018-04-09} \\ \cline{2-8} 
-\multirow{-2}{*}{\cellcolor{lightgray}\textbf{Friends \& Family weeks}} & 2018-04-16 & 2018-04-23 & 2018-05-07 & 2018-05-14 & 2018-10-15 & 2018-10-22 &            \\ \cline{1-7}
+\begin{tabular}{cccccccc}
+\cline{1-7}
+\multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{Black Friday weeks}}                                                                   & \multicolumn{1}{c|}{2016-11-28} & \multicolumn{1}{c|}{2017-11-20} & \multicolumn{1}{c|}{2017-11-27} & \multicolumn{1}{c|}{2018-11-12} & \multicolumn{1}{c|}{2018-11-19} & \multicolumn{1}{c|}{2018-11-26} &                                 \\ \cline{1-7}
+\multicolumn{1}{l}{}                                                                                                                        & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            \\ \hline
+\multicolumn{1}{|c|}{\cellcolor{lightgray}}                                                                                              & \multicolumn{1}{c|}{2017-04-10} & \multicolumn{1}{c|}{2017-04-17} & \multicolumn{1}{c|}{2017-04-24} & \multicolumn{1}{c|}{2017-10-09} & \multicolumn{1}{c|}{2017-10-16} & \multicolumn{1}{c|}{2017-10-23} & \multicolumn{1}{c|}{2018-04-09} \\ \cline{2-8} 
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor{lightgray}\textbf{\begin{tabular}[c]{@{}c@{}}Friends \& Family \\ weeks\end{tabular}}}} & \multicolumn{1}{c|}{2018-04-16} & \multicolumn{1}{c|}{2018-04-23} & \multicolumn{1}{c|}{2018-05-07} & \multicolumn{1}{c|}{2018-05-14} & \multicolumn{1}{c|}{2018-10-15} & \multicolumn{1}{c|}{2018-10-22} &                                 \\ \cline{1-7}
 \end{tabular}
 
 \end{adjustbox}
-\caption{Friends \& Family weeks}
-\label{tab:friends_and_family}
+\caption{Promotion weeks}
+\label{tab:promotion_weeks}
 \end{table}
-
 \autoref{fig:promos_against_sales} depicts scatterplots of 10,000 randomly chosen observations in the dataset, where the two main promotion intensities are plotted against article unit sales. An overall positive relationship is visible as we would expect, even more so for Black Friday. Due to the huge noise persisting in these relationships however, Pearson's correlation coefficient for Black Friday against sales and Friends \& Family against sales take on values of 0.32 and 0.11 respectively. Notice the high concentration of different sale quantities when there is neither Black Friday nor Friends \& Family promotion activity (vertical points on the y-axes of \autoref{fig:promos_against_sales}). Similar behavioural conclusions can be made about the total markdown percentage, with a correlation coefficient of 0.27 (see \autoref{fig:markdown_against_logsales}). The type of season (Fall-Winter (FW) or Spring-Summer (SS)) doesn't seem to make an overall difference in the sale quantities, as a glimpse at \autoref{fig:season_type_against_logsales} points out (at least for modelling purposes as discussed in Chapter \ref{sec:modelling}). 
 \\
 
@@ -119,7 +100,7 @@ Another promotion type we are interested in is \textit{"Friends \& Family"}, occ
 Regarding the months, they don't seem to differ much in their sale quantities, that is of course excluding the months of the two mentioned promotion types. The monthly sales portions for those months can be observed in \autoref{fig:sales_without_promo_months}. We have slightly higher sale portions on January, June and July. 
 Most probably this is due to Christmas and "end of the year" shopping habits, which are carried forward from December to the very next month January. 
 Regarding June and July, they indicate summer periods and frequent occurrence of big sports events, which may drive sales. 
-Notice that, despite the fact that December is not explicitly present in \autoref{tab:black_friday}, it is nonetheless a Black Friday month as the promotion is still activated moving from November to December (see \autoref{fig:monthly_ts}). 
+Notice that, despite the fact that December is not explicitly present in \autoref{tab:promotion_weeks}, it is nonetheless a Black Friday month as the promotion is still activated moving from November to December (see \autoref{fig:monthly_ts}). 
 \\
 
 
