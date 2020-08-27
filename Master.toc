@@ -28,13 +28,15 @@
 \contentsline {section}{\numberline {5}Modelling}{39}{section.5}
 \contentsline {subsection}{\numberline {5.1}Key Category Cluster - Marginal Distributions}{39}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Key Category Cluster 2}{40}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Key Category Cluster 6}{45}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2}Key Category Cluster 6}{44}{subsubsection.5.1.2}
 \contentsline {subsubsection}{\numberline {5.1.3}Key Category Cluster 8}{48}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Summary - KCC Marginal Fits}{52}{subsubsection.5.1.4}
 \contentsline {subsection}{\numberline {5.2}Key Category Cluster - Pairwise Copulas}{52}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{54}{subsubsection.5.2.1}
 \contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{58}{subsubsection.5.2.2}
 \contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{61}{subsubsection.5.2.3}
 \contentsline {subsection}{\numberline {5.3}Article Dependencies}{64}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Discussion}{66}{subsection.5.4}
 \contentsline {section}{\numberline {6}Conclusion}{67}{section.6}
 \contentsline {section}{Appendix}{69}{section.6}
 \contentsline {section}{List of Abbreviations}{77}{lstnumber.Routput-.7.40}

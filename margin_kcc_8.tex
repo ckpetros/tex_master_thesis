@@ -4,7 +4,8 @@ The procedure is continued also for key category cluster 8 with the same conditi
 \\
 
 Maximum likelihood estimation return parameters $\hat{\mu} = 7.21$, $\hat{\sigma} = 0.27$ and $\hat{\nu} = 0.46$ of the log-sales of \ac{KCC} 8 fitted to an ex-Gaussian distribution with no regressors.
-\autoref{fig:kcc_8_margin} summarizes the findings in a histogram with an ex-Gaussian density curve with respect to the estimated parameters (\autoref{fig:kcc_8_density}) as well as the corresponding QQ-plot, where the points approximate the diagonal line (\autoref{fig:kcc_8_qqplot}). Normality of the residuals can be assumed, as the Shapiro-Wilk test returns a p-value of 0.99 and thus fails to reject the null hypothesis of non-normality. A histogram of the residuals and their density curve are shown in \autoref{fig:res_kcc_8_no_covariates}.
+\autoref{fig:kcc_8_margin} summarizes the findings in a histogram of the log-sales along with an ex-Gaussian density curve with respect to the estimated parameters (\autoref{fig:kcc_8_density}) as well as the corresponding QQ-plot, where the points approximate the diagonal line (\autoref{fig:kcc_8_qqplot}). Normality of the residuals can be assumed, as the Shapiro-Wilk test returns a p-value of 0.99 and thus fails to reject the null hypothesis of non-normality. A histogram of the residuals and their density curve are shown in \autoref{fig:res_kcc_8_no_covariates}.\\
+ Despite the high p-value of the Shapiro-Wilk test, flexible estimation of the parameters including explanatory variables should be able to provide a better overall fit to the aggregated demand quantities of this cluster. Subsequently, we enter the \ac{GAMLSS} framework to obtain time-varying parameters and therefore enhance the estimation procedure.
 \\
 
 
@@ -55,45 +56,8 @@ Maximum likelihood estimation return parameters $\hat{\mu} = 7.21$, $\hat{\sigma
 
 
 
-Again, Model \ref{eq:gamlss_kcc_2} is applied to the log-sales. The summary output and estimated parameters with confidence intervals can be seen in \autoref{fig:gamlss_kcc_8_estimated_parameters} and in \autoref{tab:nu_ci_kcc_8}. We notice that models fit is acceptable matching the elevated sales during promo weeks and that the variability is strictly decreasing with the overall range having a range between 0.1 and 0.3. Skewness remains low in the data.
+Again, Model \ref{eq:gamlss_kcc_2} (see Subsection \ref{sssec:kcc_26}) is applied to the logarithmized values of the demand quantities. The estimated parameters with confidence intervals are depicted in \autoref{fig:gamlss_kcc_8_estimated_parameters} ($\hat{\mu}$ and $\hat{\sigma}$) and in \autoref{tab:nu_ci_kcc_8} (skewness parameter $\hat{\nu}$). We notice that the model fit is acceptable, matching the elevated sales during promo weeks. Especially for the two Black Friday weeks, the fitted values are close to the observed values. Furthermore, the variability is strictly decreasing over time. The overall range of the standard deviation is between 0.1 and 0.3. Skewness still remains low in the data, as can be seen in \autoref{tab:nu_ci_kcc_8}.
 \\
-
-
-
-
-%\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 8" ]{gamlss_fit_kcc_8_try1.txt}
-
-
-\begin{table}[H]
-\centering
-\begin{tabular}{l|c|c|c|l}
-  \hline
-  \rowcolor{white}
- \textbf{$\hat{\mu}$ Coefficients} & \textbf{Estimate} & \textbf{Std. Error} & \textbf{t value} & \textbf{p-value} \\ 
-  \hline\hline
-\textit{$\beta_{01}$ (Intercept)} & 5.51 & 0.17 & 31.56 & 0.00 *** \\ 
-  \textit{$f_{11}$(time)} & 0.00 & 0.00 & 5.06 & 0.00 *** \\ 
-  \textit{$f_{12}$(total\_markdown\_pct)} & 4.53 & 0.45 & 10.02 & 0.00 *** \\ 
-  \textit{promo\_typeBlack Friday} & -0.65 & 0.37 & -1.75 & 0.08  \\ 
-  \textit{promo\_typeFriends \& Family} & -0.04 & 0.66 & -0.55 & 0.96 \\ 
-  \textit{promo\_typeBlack Friday:total\_markdown\_pct} & 0.88 & 0.73 & 1.20 & 0.23  \\ 
-  \textit{promo\_typeFriends \& Family:total\_markdown\_pct} & -0.76 & 1.24 & -0.62 & 0.54  \\ \hline
-\end{tabular}
-\caption{Estimated coefficients of \ac{GAMLSS} fit on log-sales of \ac{KCC} 8}
-\label{tab:gamlss_coeff_kcc_8}
-\end{table}
-
-
-
-
-
-
-\begin{figure}[H]
-\centering
-  \includegraphics[width=0.95\linewidth]{figures/gamlss_kcc_8_estimated_parameters.png}
-  \caption{Estimated location parameter $\hat{\mu}$ compared to the observed values and scale parameter $\hat{\sigma}$ with confidence bands of GAMLSS fit - KCC 8}
-  \label{fig:gamlss_kcc_8_estimated_parameters}
-\end{figure}
 
 
 
@@ -112,9 +76,25 @@ Again, Model \ref{eq:gamlss_kcc_2} is applied to the log-sales. The summary outp
 \label{tab:nu_ci_kcc_8}
 \end{table}
 
+%\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 8" ]{gamlss_fit_kcc_8_try1.txt}
 
 
-Time as well as the total markdown percentage exhibit similar positive effects on the response as in \ac{KCC} 6, collapsing into a straight line. The promo effects seem to be more balanced, with different interquartile ranges for all cases.
+
+
+
+
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.95\linewidth]{figures/gamlss_kcc_8_estimated_parameters.png}
+  \caption{Estimated location parameter $\hat{\mu}$ compared to the observed values and scale parameter $\hat{\sigma}$ with confidence bands of GAMLSS fit - KCC 8}
+  \label{fig:gamlss_kcc_8_estimated_parameters}
+\end{figure}
+
+
+\autoref{fig:gamlss_effects_kcc_8} displays the effects of the covariates on the expected log-sales.
+Time as well as the total markdown percentage exhibit similar positive effects on the response as in \ac{KCC} 6, collapsing into a straight line. The promotion effects seem to be more balanced, with different interquartile ranges for all three cases, with Black Friday having the highest spread and Friends \& Family the highest effects in general. This pattern of boxplots for the two big promotions is therefore noticeable in the \ac{GAMLSS} fits of all three key category clusters. 
 \\
 
 
@@ -126,8 +106,30 @@ Time as well as the total markdown percentage exhibit similar positive effects o
 \end{figure}
 
 
+The $\hat{\mu}$ coefficients along with standard errors and p-values are printed in \autoref{tab:gamlss_coeff_kcc_8}. The interaction between Black Friday and total markdown percentage is positive, however the standard error is relatively high resulting in a non-significant estimate. The linear effect of Black Friday is slightly negative. The interaction between markdowns and Friends \& Family is also negative, although non-significant. More details are in the \nameref{sec:appendix}, where the entire output of the model fit can be found (R output \ref{output:gamlss_fit_kcc_8_try1}).
+\\
 
-Looking at \autoref{fig:gamlss_residuals_kcc_8} and \autoref{tab:gamlss_residuals_kcc_8} for the distribution of the quantile residuals, the fitting method for this cluster is also justified. The Shapiro-Wilk test is "weaker" in comparison to the fit without covariate effects with a p-value of 0.86, which is still a solid reason to retail the null hypothesis of normality.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c|c|c|l}
+  \hline
+  \rowcolor{white}
+ \textbf{$\hat{\mu}$ Coefficients} & \textbf{Estimate} & \textbf{Std. Error} & \textbf{t value} & \textbf{p-value} \\ 
+  \hline\hline
+\textit{$\beta_{01}$ (Intercept)} & 5.51 & 0.17 & 31.56 & 0.00 *** \\ 
+  \textit{$f_{11}$(time)} & 0.00 & 0.00 & 5.06 & 0.00 *** \\ 
+  \textit{$f_{12}$(total\_markdown\_pct)} & 4.53 & 0.45 & 10.02 & 0.00 *** \\ 
+  \textit{promo\_typeBlack Friday} & -0.65 & 0.37 & -1.75 & 0.08 . \\ 
+  \textit{promo\_typeFriends \& Family} & -0.04 & 0.66 & -0.55 & 0.96 \\ 
+  \textit{promo\_typeBlack Friday:total\_markdown\_pct} & 0.88 & 0.73 & 1.20 & 0.23  \\ 
+  \textit{promo\_typeFriends \& Family:total\_markdown\_pct} & -0.76 & 1.24 & -0.62 & 0.54  \\ \hline
+\end{tabular}
+\caption{Estimated coefficients of \ac{GAMLSS} fit on log-sales of \ac{KCC} 8}
+\label{tab:gamlss_coeff_kcc_8}
+\end{table}
+
+
 
 
 \begin{figure}[H]
@@ -136,6 +138,16 @@ Looking at \autoref{fig:gamlss_residuals_kcc_8} and \autoref{tab:gamlss_residual
   \caption{Residuals of GAMLSS fit - KCC 8}
   \label{fig:gamlss_residuals_kcc_8}
 \end{figure}
+
+
+
+
+
+
+Looking at \autoref{fig:gamlss_residuals_kcc_8} and \autoref{tab:gamlss_residuals_kcc_8} for the distribution of the quantile residuals, the fitting method for this cluster is also justified. The values in \autoref{tab:gamlss_residuals_kcc_8} are close enough to those of a standard normal distribution. The diagnostic plots in \autoref{fig:gamlss_residuals_kcc_8} are in favour of a normal distribution as well, especially when looking at the QQ-plot. The Shapiro-Wilk test is "weaker" in comparison to the fit without covariate effects with a p-value of 0.86, which is still a solid reason to retain the null hypothesis of normality.
+\\
+
+
 
 
 %\VerbatimInput[frame = single, label = "Residuals of GAMLSS Fit on KCC 8" ]{gamlss_residuals_kcc_8.txt}

@@ -35,12 +35,12 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Residuals of KCC 6 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve\relax }}{45}{figure.caption.57}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ compared to the observed values and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 6\relax }}{46}{figure.caption.58}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 6\relax }}{47}{figure.caption.59}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Residuals of GAMLSS fit - KCC 6\relax }}{48}{figure.caption.60}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Residuals of GAMLSS fit - KCC 6\relax }}{47}{figure.caption.60}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces ex-Gaussian distribution fitted to log-sales of \ac {KCC} 8\relax }}{49}{figure.caption.61}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Residuals of KCC 8 log-sales fitted to an ex-Gaussian distribution with no covariate effects together with their density curve\relax }}{49}{figure.caption.62}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Estimated location parameter $\mathaccentV {hat}05E{\mu }$ compared to the observed values and scale parameter $\mathaccentV {hat}05E{\sigma }$ with confidence bands of GAMLSS fit - KCC 8\relax }}{50}{figure.caption.63}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 8\relax }}{51}{figure.caption.64}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Residuals of GAMLSS fit - KCC 8\relax }}{52}{figure.caption.65}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Covariate effects on the expected response variable (log-sales) of GAMLSS fit - KCC 8\relax }}{50}{figure.caption.64}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Residuals of GAMLSS fit - KCC 8\relax }}{51}{figure.caption.65}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Estimated residuals of GAMLSS fits for the three key category clusters\relax }}{53}{figure.caption.66}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Scatterplot of estimated residuals of GAMLSS fits for key category clusters 2 \& 6\relax }}{54}{figure.caption.68}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Diagnostic plots of quantile residuals based on \ac {GJRM} models for key category clusters 2 \& 6\relax }}{56}{figure.caption.70}
