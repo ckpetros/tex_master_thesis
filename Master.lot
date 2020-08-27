@@ -5,6 +5,15 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces Promotion weeks\relax }}{29}{table.4.1}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Number of sold units per week \& number of affected articles for different quantiles of sales\relax }}{31}{table.4.2}
 \contentsline {table}{\numberline {5.1}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 2\relax }}{42}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 6\relax }}{48}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 8\relax }}{52}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Articles in key category cluster 1\relax }}{68}{table.5.4}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Estimated $\mathaccentV {hat}05E{\mu }$ coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 2\relax }}{42}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Residuals of GAMLSS Fit on KCC 2\relax }}{44}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Estimated $\mathaccentV {hat}05E{\mu }$ coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 6\relax }}{46}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 6\relax }}{46}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Residuals of GAMLSS Fit on KCC 2\relax }}{48}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Estimated coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 8\relax }}{50}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 8\relax }}{50}{table.5.8}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Residuals of GAMLSS Fit on KCC 8\relax }}{52}{table.5.9}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 2 \& 6\relax }}{56}{table.5.10}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 2 \& 8\relax }}{59}{table.5.11}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 6 \& 8\relax }}{62}{table.5.12}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Articles in key category cluster 1\relax }}{65}{table.5.13}

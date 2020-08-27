@@ -425,6 +425,9 @@ font=footnotesize
 
 
 
+% work with appendix
+%\usepackage[toc,page]{appendix}
+
 
 
 
@@ -631,17 +634,30 @@ font=footnotesize
 
 
 % Now clear headnotes again and get settings
+%\fancyhf{}
+%\fancyhead[LO]{\footnotesize \nouppercase{\rightmark}}
+%\fancyhead[RE]{\footnotesize \nouppercase{\leftmark}}
+%\fancyhead[RO,LE]{\footnotesize \thepage}
+
+
+
+
+
+% Now clear headnotes again and get settings
 \fancyhf{}
-\fancyhead[LO]{\footnotesize \nouppercase{\rightmark}}
-\fancyhead[RE]{\footnotesize \nouppercase{\leftmark}}
+\fancyhead[LO,RE]{\footnotesize Appendix}
 \fancyhead[RO,LE]{\footnotesize \thepage}
 
 
 
 \addcontentsline{toc}{section}{Appendix}
 \thispagestyle{plain}
-\section*{Appendix} \label{sec:appendix}
+\appendix
+\section*{Appendix} 
 \input{appendix}
+%\begin{appendices}
+%\input{appendix}
+%\end{appendices}
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
@@ -661,6 +677,7 @@ font=footnotesize
 \newpage
 \thispagestyle{empty}
 \cleardoublepage
+
 
 
 

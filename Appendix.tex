@@ -1,21 +1,40 @@
 % !TEX root = Master.tex
 
-Include appendix here...
 
 
-\begin{table}[H]
-\centering
-\begin{tabular}{|l|c|c|c|c|}
-  \hline
-  \rowcolor{lightgray}
- \textbf{Mu Coefficients} & \textbf{Estimate} & \textbf{Std. Error} & \textbf{t value} & \textbf{Pr($>$$|$t$|$)} \\ 
-  \hline
-(Intercept) & 5.54 & 0.07 & 75.90 & 0.00 *** \\ \hline
-  pb(time\_obs) & 0.00 & 0.00 & 3.83 & 0.00 *** \\ \hline
-  pb(total\_markdown\_pct) & 6.79 & 0.18 & 36.77 & 0.00 *** \\ \hline
-  promo\_typeBlack Friday & 1.33 & 0.19 & 7.02 & 0.00 *** \\ \hline
-  promo\_typeFriends \& Family & 2.31 & 0.41 & 5.56 & 0.00 *** \\ \hline
-  promo\_typeBlack Friday:total\_markdown\_pct & -3.87 & 0.37 & -10.54 & 0.00 *** \\ \hline
-  promo\_typeFriends \& Family:total\_markdown\_pct & -6.10 & 0.75 & -8.13 & 0.00 *** \\ \hline
-\end{tabular}
-\end{table}
+
+\inputRoutput[caption={GAMLSS Fit on KCC 2}, numbers=left,numberstyle=\tiny, label=output:gamlss_fit_kcc_2_try20]{gamlss_fit_kcc_2_try20.txt}
+
+
+
+
+\inputRoutput[caption={GAMLSS Fit on KCC 6}, numbers=left,numberstyle=\tiny, label=output:gamlss_fit_kcc_6_try1]
+{gamlss_fit_kcc_6_try1.txt}
+
+
+
+
+\inputRoutput[caption={GAMLSS Fit on KCC 8}, numbers=left,numberstyle=\tiny, label=output:gamlss_fit_kcc_8_try1]
+{gamlss_fit_kcc_8_try1.txt}
+
+
+
+
+\inputRoutput[caption={Summary of GJRM fit on key category clusters 2 \& 6},numbers=left,numberstyle=\tiny, label=output:summary_kcc_26]{summary_kcc_26.txt}
+
+
+
+\inputRoutput[caption={Summary of GJRM fit on key category clusters 2 \& 8},numbers=left,numberstyle=\tiny, label=output:summary_kcc_28]{summary_kcc_28.txt}
+
+
+
+\inputRoutput[caption={Summary of GJRM fit on key category clusters 6 \& 8},numbers=left,numberstyle=\tiny, label=output:summary_kcc_68]{summary_kcc_68.txt}
+
+
+
+\inputRoutput[caption={Learned structure of a DBN from articles in KCC 1},numbers=left,numberstyle=\tiny, label=output:dbnR_output_kcc_1]{dbnR_output_kcc_1.txt}
+
+
+
+
+

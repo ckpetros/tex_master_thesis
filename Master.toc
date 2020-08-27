@@ -29,15 +29,15 @@
 \contentsline {subsection}{\numberline {5.1}Key Category Cluster - Marginal Distributions}{39}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Key Category Cluster 2}{40}{subsubsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.2}Key Category Cluster 6}{45}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Key Category Cluster 8}{49}{subsubsection.5.1.3}
-\contentsline {subsection}{\numberline {5.2}Key Category Cluster - Pairwise Copulas}{53}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{55}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{60}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{63}{subsubsection.5.2.3}
-\contentsline {subsection}{\numberline {5.3}Article Dependencies}{67}{subsection.5.3}
-\contentsline {section}{\numberline {6}Conclusion}{71}{section.6}
-\contentsline {section}{Appendix}{73}{section.6}
-\contentsline {section}{List of Abbreviations}{75}{section*.84}
-\contentsline {section}{List of Figures}{77}{section*.85}
-\contentsline {section}{List of Tables}{81}{section*.86}
-\contentsline {section}{References}{83}{section*.87}
+\contentsline {subsubsection}{\numberline {5.1.3}Key Category Cluster 8}{48}{subsubsection.5.1.3}
+\contentsline {subsection}{\numberline {5.2}Key Category Cluster - Pairwise Copulas}{52}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Key Category Clusters 2 \& 6}{54}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Key Category Clusters 2 \& 8}{58}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Key Category Clusters 6 \& 8}{61}{subsubsection.5.2.3}
+\contentsline {subsection}{\numberline {5.3}Article Dependencies}{64}{subsection.5.3}
+\contentsline {section}{\numberline {6}Conclusion}{67}{section.6}
+\contentsline {section}{Appendix}{69}{section.6}
+\contentsline {section}{List of Abbreviations}{77}{lstnumber.Routput-.7.40}
+\contentsline {section}{List of Figures}{79}{section*.85}
+\contentsline {section}{List of Tables}{83}{section*.86}
+\contentsline {section}{References}{85}{section*.87}

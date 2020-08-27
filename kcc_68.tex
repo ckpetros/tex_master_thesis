@@ -35,17 +35,34 @@ Keeping the complexity of the model to a minimum, the model setup remains as is,
 log(\sigma_{KCC 6})=\beta_{\sigma,KCC6} \qquad log(\sigma_{KCC 8})=\beta_{\sigma,KCC8} \\  \noalign{\vskip5pt}
 
 
-log(\theta)=\beta_{\theta}+f\left(t_{time}\right),
+log(\theta)=\beta_{\theta}+f\left(time\right),
 \end{array}
 \label{eq:gjrm_formula_68}
 \end{equation}
 \\
 
-where now there are no degrees of freedom to determine and the copula parameter receives a logarithmic link function to ensure that $\hat{\theta}$ is well defined on the non-negative real line. Equation 5 in R output \ref{output:summary_kcc_68} shows the significance of time on $\hat{\theta}$ and its smooth effect is visualized in \autoref{fig:time_effect_on_theta_68}. The diagnostic plots of quantile residuals in \autoref{fig:res_hist_qqplot_68} demonstrate the proper fit qualities once more.
+where now there are no degrees of freedom to determine and the copula parameter receives a logarithmic link function to ensure that $\hat{\theta}$ is well defined on the non-negative real line. \autoref{tab:theta_coeff_kcc_68} shows the significance of time on $\hat{\theta}$ and its smooth effect is visualized in \autoref{fig:time_effect_on_theta_68}. The diagnostic plots of quantile residuals in \autoref{fig:res_hist_qqplot_68} demonstrate the proper fit qualities once more.
 \\
 
 
-\inputRoutput[caption={Summary of GJRM fit on key category clusters 6 \& 8},numbers=left,numberstyle=\tiny, label=output:summary_kcc_68]{summary_kcc_68.txt}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c|c|c|c}
+\hline
+                               \textbf{$\hat{\theta}$ Coefficients}       & \textbf{Estimate} & \textbf{Std. Error} & \textbf{z value} & \textbf{p-value}  \\ \hline\hline
+$\beta_{\theta}$ \textit{(Intercept)}                  & -8.24     & 3.77       & -2.19    & 0.03 *   \\ \hline
+& & & & \\ \hline
+\textbf{Smooth components}            & \textbf{edf}      & \textbf{Ref.df}     & \textbf{Chi.sq}  & \textbf{p-value}  \\ \hline\hline
+\textit{$f$(time)}                 & 21.88    & 23.85      & 1560   & 0.00 *** \\ \hline
+\end{tabular}
+\caption{Estimated $\hat{\theta}$ coefficients of \ac{GJRM} fit on key category clusters 6 \& 8}
+\label{tab:theta_coeff_kcc_68}
+\end{table}
+
+
+
+
 
 
 \begin{figure}[H]

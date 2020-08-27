@@ -38,7 +38,7 @@ Excluding all covariates, simple maximum likelihood estimation results in parame
 \begin{subfigure}{.45\textwidth}
   \centering
   \includegraphics[width=\linewidth]{figures/kcc_6_qqplot.png}
-  \caption{QQ-Plot}
+  \caption{QQ-plot}
   \label{fig:kcc_6_qqplot}
 \end{subfigure}
 \caption{ex-Gaussian distribution fitted to log-sales of \ac{KCC} 6}
@@ -54,14 +54,35 @@ Excluding all covariates, simple maximum likelihood estimation results in parame
 \end{figure}
 
 
-Reviewing different model specifications, an equivalent model as in the previous Subsection is chosen (Model \ref{eq:gamlss_kcc_2}) with an ex-Gaussian distribution family for the response variable. A summary is printed below in R output \ref{output:gamlss_fit_kcc_6_try1}.
+Reviewing different model specifications, an equivalent model as in the previous Subsection is chosen (Model \ref{eq:gamlss_kcc_2}) with an ex-Gaussian distribution family for the response variable. The resulting parameter coefficients for $\hat{\mu}$ are printed in \autoref{tab:gamlss_coeff_kcc_6}.
 The estimated time-varying location and scale parameters can be seen in \autoref{fig:gamlss_kcc_6_estimated_parameters} and the skewness parameter $\hat{\nu}$ with 95\% CI in \autoref{tab:nu_ci_kcc_6}. Fitted values are close to real values, capturing the promotion peaks fairly well. The standard deviation fluctuates throughout time within a range between 0.1 and 0.3.
 \\
 
 
 %\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 6" ]{gamlss_fit_kcc_6_try1.txt}
 
-\inputRoutput[caption={GAMLSS Fit on KCC 6}, numbers=left,numberstyle=\tiny, label=output:gamlss_fit_kcc_6_try1]{gamlss_fit_kcc_6_try1.txt}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c|c|c|l}
+  \hline
+  \rowcolor{white}
+ \textbf{$\hat{\mu}$ Coefficients} & \textbf{Estimate} & \textbf{Std. Error} & \textbf{t value} & \textbf{p-value} \\ 
+  \hline\hline
+\textit{$\beta_{01}$ (Intercept)} & 8.31 & 0.11 & 71.80 & 0.00 *** \\ 
+  \textit{$f_{11}$(time)} & 0.00 & 0.00 & 5.20 & 0.00 *** \\ 
+  \textit{$f_{12}$(total\_markdown\_pct)} & 4.01 & 0.30 & 13.29 & 0.00 *** \\ 
+  \textit{promo\_typeBlack Friday} & -0.81 & 0.30 & -2.73 & 0.01 ** \\ 
+  \textit{promo\_typeFriends \& Family} & 0.87 & 0.48 & 1.81 & 0.07 . \\ 
+  \textit{promo\_typeBlack Friday:total\_markdown\_pct} & 1.02 & 0.54 & 1.90 & 0.06 . \\ 
+  \textit{promo\_typeFriends \& Family:total\_markdown\_pct} & -2.47 & 0.88 & -2.81 & 0.01 ** \\ \hline
+\end{tabular}
+\caption{Estimated $\hat{\mu}$ coefficients of \ac{GAMLSS} fit on log-sales of \ac{KCC} 6}
+\label{tab:gamlss_coeff_kcc_6}
+\end{table}
+
+
 
 
 
@@ -78,10 +99,10 @@ The estimated time-varying location and scale parameters can be seen in \autoref
 \setlength\arrayrulewidth{1pt}  
 \centering
 \begin{adjustbox}{max width=\textwidth}\
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{c|c|c}
 \hline
-\rowcolor{lightgray} 
-Lower & $\hat{\nu}$ & Upper \\ \hline
+\rowcolor{white} 
+\textbf{Lower} & $\hat{\nu}$ & \textbf{Upper} \\ \hline\hline
 0.044        & 0.031           & 0.057        \\ \hline
 \end{tabular}
 \end{adjustbox}
@@ -107,11 +128,11 @@ Lower & $\hat{\nu}$ & Upper \\ \hline
 \autoref{fig:gamlss_effects_kcc_6} reveals some interesting points regarding covariate effects. The temporal effect, just like the total markdown percentage, collapses to an increasing straight line. 
 %The temporal effect also exhibits symmetrical behaviour around zero, including uncertainty. 
 %Just like in \ac{KCC} 2, the effect of Spring-Summer is slightly smaller than that of Fall-Winter.
-As opposed to the \ac{GAMLSS} fit for \ac{KCC} 2, Friends \& Family seems to have the highest effect of all promos for this \ac{KCC}. Controversial results are again the case here, as can be seen in R output \ref{output:gamlss_fit_kcc_6_try1}. The two promotions seem to negatively interact with the total markdown percentage. Those kinds of behaviour might need further investigation.
+As opposed to the \ac{GAMLSS} fit for \ac{KCC} 2, Friends \& Family seems to have the highest effect of all promos for this \ac{KCC}. Controversial results are again the case here, as can be seen in \autoref{tab:gamlss_coeff_kcc_6}. The two promotions seem to negatively interact with the total markdown percentage. Those kinds of behaviour might need further investigation.
 \\
 
 
-Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residuals_kcc_6} along with the associated R output \ref{output:gamlss_residuals_kcc_6}, we can again confirm an appropriate fit. A Shapiro-Wilk test returns a p-value of 0.7, which is below the p-value of the fit without covariate effects. Nevertheless, normality is a steady assumption for the quantile residuals.
+Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residuals_kcc_6} along with the associated summary in \autoref{tab:gamlss_residuals_kcc_6}, we can again confirm an appropriate fit. A Shapiro-Wilk test returns a p-value of 0.7, which is below the p-value of the fit without covariate effects. Nevertheless, normality is a steady assumption for the quantile residuals.
 \\
 
 
@@ -127,7 +148,28 @@ Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residua
 
 %\VerbatimInput[frame = single, label = "Residuals of GAMLSS Fit on KCC 6" ]{gamlss_residuals_kcc_6.txt}
 
-\inputRoutput[caption={Residuals of GAMLSS Fit on KCC 6},numbers=left,numberstyle=\tiny, label=output:gamlss_residuals_kcc_6]{gamlss_residuals_kcc_6.txt}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c}
+\hline
+\rowcolor{white} 
+\textbf{Summary of the Quantile Residuals} \\ \hline\hline
+ $\begin{array}[t]{ r @{{}={}} l }
+\text{mean} & -0.01692598                         \\ 
+\text{variance} & 1.011483                         \\ 
+\text{coef. of skewness} & -0.1401063               \\ 
+\text{coef. of kurtosis} & 3.144701                \\ \hline
+\end{array}$
+\end{tabular}
+\caption{Residuals of GAMLSS Fit on KCC 2}
+\label{tab:gamlss_residuals_kcc_6}
+\end{table}
+
+
+
+%\inputRoutput[caption={Residuals of GAMLSS Fit on KCC 6},numbers=left,numberstyle=\tiny, label=output:gamlss_residuals_kcc_6]{gamlss_residuals_kcc_6.txt}
 
 
 

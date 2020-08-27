@@ -24,12 +24,28 @@ tanh^{-1}(\theta)=\beta_{\theta}  +f(\textit{time})
 \end{array}
 \label{eq:gjrm_formula_28}
 \end{equation} \\
-We can see the summary in R output \ref{output:summary_kcc_28}. All model parameters but the copula parameter are set as constants. We first examine copulas which account for positive as well as negative dependencies with the help of the \textit{BiCopSelect()} function. The t-copula is again the most appropriate within a set of copula families including the independence copula, the Gaussian copula, the Student's t-copula and the Frank copula. Looking at equation 6 of the output, we can see that time has a significant effect on $\hat{\theta}$ and its partial smooth effect can be checked visually in \autoref{fig:time_effect_on_theta_28}.
+We can see the summary in \autoref{tab:theta_coeff_kcc_28}. All model parameters but the copula parameter are set as constants. We first examine copulas which account for positive as well as negative dependencies with the help of the \textit{BiCopSelect()} function. The t-copula is again the most appropriate within a set of copula families including the independence copula, the Gaussian copula, the Student's t-copula and the Frank copula. Looking at equation 6 of the output, we can see that time has a significant effect on $\hat{\theta}$ and its partial smooth effect can be checked visually in \autoref{fig:time_effect_on_theta_28}.
 \\
 
 
 
-\inputRoutput[caption={Summary of GJRM fit on key category clusters 2 \& 8},numbers=left,numberstyle=\tiny, label=output:summary_kcc_28]{summary_kcc_28.txt}
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c|c|c|c}
+\hline
+                               \textbf{$\hat{\theta}$ Coefficients}       & \textbf{Estimate} & \textbf{Std. Error} & \textbf{z value} & \textbf{p-value}  \\ \hline\hline
+$\beta_{\theta}$ \textit{(Intercept)}                  & 0.64     & 0.11       & 5.82    & 0.00 ***   \\ \hline
+& & & & \\ \hline
+\textbf{Smooth components}            & \textbf{edf}      & \textbf{Ref.df}     & \textbf{Chi.sq}  & \textbf{p-value}  \\ \hline\hline
+\textit{$f$(time)}                 & 18.50    & 21.75      & 41.44   & 0.01 ** \\ \hline
+\end{tabular}
+\caption{Estimated $\hat{\theta}$ coefficients of \ac{GJRM} fit on key category clusters 2 \& 8}
+\label{tab:theta_coeff_kcc_28}
+\end{table}
+
+
+
+
 
 
 

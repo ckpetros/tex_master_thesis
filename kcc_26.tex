@@ -35,11 +35,29 @@ tanh^{-1}(\theta)=\beta_{\theta} + \textit{promo\_type} +f(\textit{time}),
 
 where $\nu$ denotes the degrees of freedom of the t-copula, $tanh^{-1} = $ is the inverse hyperbolic tangent function\footnote{Defined as $\tanh ^{-1} (x)=\frac{1}{2} \ln \left(\frac{1+x}{1-x}\right)$ on the domain $ \{ x \in \mathbb{R}:-1<x<1\}$.} relating the expected value of the copula parameter $\hat{\theta}$ to the additive predictor $\beta_{\theta}+f\left(t_{time}\right)$ and $f$ being a smooth function build upon thin plate regression splines and 30 equidistant knots. Note that as the chosen copula is a Student's t-copula, $\theta$ equates Pearson's correlation coefficient $\rho$. The rest of the model parameters are all set as constant values as the model seems to be robust to any changes including covariates. Incorporating covariates within smooth functions with high numbers of knots on the contrary lead to less reliable estimations (especially due to increasing number of parameters compared to this sample size). The promo types don't seem to be significant for the correlation structure. \\
 
-Model \ref{eq:gjrm_formula_26} along with the mentioned prespecified settings in the \textit{gjrm()} function generates a good overall fit, which is confirmed when checking the histogram and the QQ-Plots of the quantile residuals for the two margins (see \autoref{fig:res_hist_qqplot_26}). A summary can be found in R output \ref{output:summary_kcc_26}.
+Model \ref{eq:gjrm_formula_26} along with the mentioned prespecified settings in the \textit{gjrm()} function generates a good overall fit, which is confirmed when checking the histogram and the QQ-plots of the quantile residuals for the two margins (see \autoref{fig:res_hist_qqplot_26}). A summary can be found in \autoref{tab:theta_coeff_kcc_26}.
 \\
 
 
-\inputRoutput[caption={Summary of GJRM fit on key category clusters 2 \& 6},numbers=left,numberstyle=\tiny, label=output:summary_kcc_26]{summary_kcc_26.txt}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c|c|c|c}
+\hline
+                               \textbf{$\hat{\theta}$ Coefficients}       & \textbf{Estimate} & \textbf{Std. Error} & \textbf{z value} & \textbf{p-value}  \\ \hline\hline
+$\beta_{\theta}$ \textit{(Intercept)}                  & 0.88     & 0.12       & 7.36    & 0.00 *** \\ 
+\textit{promo\_typeBlack Friday}      & -0.87    & 0.74       & -1.19   & 0.24     \\ 
+\textit{promo\_typeFriends \& Family} & -0.65    & 0.38       & -1.71   & 0.09 .   \\ \hline
+& & & & \\ \hline
+\textbf{Smooth components}            & \textbf{edf}      & \textbf{Ref.df}     & \textbf{Chi.sq}  & \textbf{p-value}  \\ \hline\hline
+\textit{$f$(time)}                 & 20.44    & 23.79      & 63.54   & 0.00 *** \\ \hline
+\end{tabular}
+\caption{Estimated $\hat{\theta}$ coefficients of \ac{GJRM} fit on key category clusters 2 \& 6}
+\label{tab:theta_coeff_kcc_26}
+\end{table}
+
+
+
 
 
 
@@ -52,7 +70,7 @@ Model \ref{eq:gjrm_formula_26} along with the mentioned prespecified settings in
 
 
 
-The effect of time on the copula parameter turns out to be significant (R output \ref{output:summary_kcc_26} and can be viewed in \autoref{fig:time_effect_on_theta_26}, where the number 26.64 in brackets on the y-axis denotes the effective degrees of freedom of the smooth curve, which is centered around zero due to identifiability constraints.
+The effect of time on the copula parameter turns out to be significant (\autoref{tab:theta_coeff_kcc_26} and can be viewed in \autoref{fig:time_effect_on_theta_26}, where the number 26.64 in brackets on the y-axis denotes the effective degrees of freedom of the smooth curve, which is centered around zero due to identifiability constraints.
 \\
 
 \begin{figure}[H]

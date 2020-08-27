@@ -23,12 +23,11 @@ Another promotion type we are interested in is \textit{"Friends \& Family"}, occ
 \begin{adjustbox}{max width=\textwidth}
 
 \
-\begin{tabular}{cccccccc}
+\begin{tabular}{c||c|c|c|c|c|c|c}
 \cline{1-7}
-\multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{Black Friday weeks}}                                                                   & \multicolumn{1}{c|}{2016-11-28} & \multicolumn{1}{c|}{2017-11-20} & \multicolumn{1}{c|}{2017-11-27} & \multicolumn{1}{c|}{2018-11-12} & \multicolumn{1}{c|}{2018-11-19} & \multicolumn{1}{c|}{2018-11-26} &                                 \\ \cline{1-7}
-\multicolumn{1}{l}{}                                                                                                                        & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            & \multicolumn{1}{l}{}            \\ \hline
-\multicolumn{1}{|c|}{\cellcolor{lightgray}}                                                                                              & \multicolumn{1}{c|}{2017-04-10} & \multicolumn{1}{c|}{2017-04-17} & \multicolumn{1}{c|}{2017-04-24} & \multicolumn{1}{c|}{2017-10-09} & \multicolumn{1}{c|}{2017-10-16} & \multicolumn{1}{c|}{2017-10-23} & \multicolumn{1}{c|}{2018-04-09} \\ \cline{2-8} 
-\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor{lightgray}\textbf{\begin{tabular}[c]{@{}c@{}}Friends \& Family \\ weeks\end{tabular}}}} & \multicolumn{1}{c|}{2018-04-16} & \multicolumn{1}{c|}{2018-04-23} & \multicolumn{1}{c|}{2018-05-07} & \multicolumn{1}{c|}{2018-05-14} & \multicolumn{1}{c|}{2018-10-15} & \multicolumn{1}{c|}{2018-10-22} &                                 \\ \cline{1-7}
+\textbf{Black Friday weeks}                                                                 & 2016-11-28 & 2017-11-20 & 2017-11-20 & 2018-11-12 & 2018-11-19 & 2018-11-26 &                                 \\ \hline\hline
+\multirow{2}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Friends \& Family\\ weeks\end{tabular}}} & 2017-04-10 & 2017-04-17 & 2017-04-24 & 2017-10-09 & 2017-10-16 & 2017-10-23 & \multicolumn{1}{c|}{2018-04-09} \\ \cline{2-8} 
+                                                                                            & 2018-04-16 & 2018-04-23 & 2018-05-07 & 2018-05-14 & 2018-10-15 & 2018-10-22 &                                 \\ \cline{1-7}
 \end{tabular}
 
 \end{adjustbox}
@@ -133,10 +132,10 @@ Moving forward, reviewing some sale summary statistics along with the findings s
 \centering
 \begin{adjustbox}{max width=\textwidth}\
  \begin{tabular}{|
->{\columncolor{lightgray}}c |c|c|c|c|c|c|c|c|c|}
+>{\columncolor{white}}c ||c|c|c|c|c|c|c|c|c|}
 \hline
-\textbf{Quantile}             & Min   & 25\%  & 50\%  & 75\%  & 90\%  & 95\%  & 99\%   & 99.9\% & Max \\ \hline
-\textbf{\# Sold units / week} & 0     & 0.45  & 2.71  & 8.14  & 19.45 & 34.39 & 102.71 & 360.12 & 6,816.74 \\ \hline
+\textbf{Quantile}             & \textbf{Min}   & \textbf{25\%}  & \textbf{50\%}  & \textbf{75\%}  & \textbf{90\%}  & \textbf{95\%}  & \textbf{99\%}   & \textbf{99.9\%} & \textbf{Max} \\ \hline\hline
+\textbf{\# Sold units / week} & 0     & 0.45  & 2.71  & 8.14  & 19.45 & 34.39 & 102.71 & 360.12 & 6,816.74 \\ 
 \textbf{\# Affected articles} & 26,203 & 26,195 & 23,797 & 17,014 & 10,275 & 6,458  & 1,800   & 273  & 1  \\ \hline
 \end{tabular}
 \end{adjustbox}

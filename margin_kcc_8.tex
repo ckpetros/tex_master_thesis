@@ -37,7 +37,7 @@ Maximum likelihood estimation return parameters $\hat{\mu} = 7.21$, $\hat{\sigma
 \begin{subfigure}{.45\textwidth}
   \centering
   \includegraphics[width=\linewidth]{figures/kcc_8_qqplot.png}
-  \caption{QQ-Plot}
+  \caption{QQ-plot}
   \label{fig:kcc_8_qqplot}
 \end{subfigure}
 \caption{ex-Gaussian distribution fitted to log-sales of \ac{KCC} 8}
@@ -63,7 +63,28 @@ Again, Model \ref{eq:gamlss_kcc_2} is applied to the log-sales. The summary outp
 
 %\VerbatimInput[frame = single, label = "GAMLSS Fit on KCC 8" ]{gamlss_fit_kcc_8_try1.txt}
 
-\inputRoutput[caption={GAMLSS Fit on KCC 8}, numbers=left,numberstyle=\tiny, label=output:gamlss_fit_kcc_8_try1]{gamlss_fit_kcc_8_try1.txt}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l|c|c|c|l}
+  \hline
+  \rowcolor{white}
+ \textbf{$\hat{\mu}$ Coefficients} & \textbf{Estimate} & \textbf{Std. Error} & \textbf{t value} & \textbf{p-value} \\ 
+  \hline\hline
+\textit{$\beta_{01}$ (Intercept)} & 5.51 & 0.17 & 31.56 & 0.00 *** \\ 
+  \textit{$f_{11}$(time)} & 0.00 & 0.00 & 5.06 & 0.00 *** \\ 
+  \textit{$f_{12}$(total\_markdown\_pct)} & 4.53 & 0.45 & 10.02 & 0.00 *** \\ 
+  \textit{promo\_typeBlack Friday} & -0.65 & 0.37 & -1.75 & 0.08  \\ 
+  \textit{promo\_typeFriends \& Family} & -0.04 & 0.66 & -0.55 & 0.96 \\ 
+  \textit{promo\_typeBlack Friday:total\_markdown\_pct} & 0.88 & 0.73 & 1.20 & 0.23  \\ 
+  \textit{promo\_typeFriends \& Family:total\_markdown\_pct} & -0.76 & 1.24 & -0.62 & 0.54  \\ \hline
+\end{tabular}
+\caption{Estimated coefficients of \ac{GAMLSS} fit on log-sales of \ac{KCC} 8}
+\label{tab:gamlss_coeff_kcc_8}
+\end{table}
+
+
+
 
 
 
@@ -80,10 +101,10 @@ Again, Model \ref{eq:gamlss_kcc_2} is applied to the log-sales. The summary outp
 \setlength\arrayrulewidth{1pt}  
 \centering
 \begin{adjustbox}{max width=\textwidth}\
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{c|c|c}
 \hline
-\rowcolor{lightgray} 
-Lower & $\hat{\nu}$ & Upper \\ \hline
+\rowcolor{white} 
+\textbf{Lower} & $\hat{\nu}$ & \textbf{Upper} \\ \hline\hline
 0.181        & 0.158           & 0.203        \\ \hline
 \end{tabular}
 \end{adjustbox}
@@ -106,7 +127,7 @@ Time as well as the total markdown percentage exhibit similar positive effects o
 
 
 
-Looking at \autoref{fig:gamlss_residuals_kcc_8} and R output \ref{output:gamlss_residuals_kcc_8} for the distribution of the quantile residuals, the fitting method for this cluster is also justified. The Shapiro-Wilk test is "weaker" in comparison to the fit without covariate effects with a p-value of 0.86, which is still a solid reason to retail the null hypothesis of normality.
+Looking at \autoref{fig:gamlss_residuals_kcc_8} and \autoref{tab:gamlss_residuals_kcc_8} for the distribution of the quantile residuals, the fitting method for this cluster is also justified. The Shapiro-Wilk test is "weaker" in comparison to the fit without covariate effects with a p-value of 0.86, which is still a solid reason to retail the null hypothesis of normality.
 
 
 \begin{figure}[H]
@@ -119,6 +140,26 @@ Looking at \autoref{fig:gamlss_residuals_kcc_8} and R output \ref{output:gamlss_
 
 %\VerbatimInput[frame = single, label = "Residuals of GAMLSS Fit on KCC 8" ]{gamlss_residuals_kcc_8.txt}
 
-\inputRoutput[caption={Residuals of GAMLSS Fit on KCC 8},numbers=left,numberstyle=\tiny, label=output:gamlss_residuals_kcc_8]{gamlss_residuals_kcc_8.txt}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c}
+\hline
+\rowcolor{white} 
+\textbf{Summary of the Quantile Residuals} \\ \hline\hline
+ $\begin{array}[t]{ r @{{}={}} l }
+\text{mean} & 0.0004673878                          \\ 
+\text{variance} & 1.008849                          \\ 
+\text{coef. of skewness} & -0.02817569              \\ 
+\text{coef. of kurtosis} & 3.04467                 \\ \hline
+\end{array}$
+\end{tabular}
+\caption{Residuals of GAMLSS Fit on KCC 8}
+\label{tab:gamlss_residuals_kcc_8}
+\end{table}
+
+
+
+%\inputRoutput[caption={Residuals of GAMLSS Fit on KCC 8},numbers=left,numberstyle=\tiny, label=output:gamlss_residuals_kcc_8]{gamlss_residuals_kcc_8.txt}
 
 
