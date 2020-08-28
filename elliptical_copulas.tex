@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
 
-Copulas which can be derived from known multivariate distributions like for example the \textit{Multivariate Normal (or Gaussian) Distribution} or the \textit{Multivariate Student's t-Distribution} are called \textit{implicit copulas}. \textit{Elliptical copulas} are implicit copulas which arise via Sklar's theorem from elliptical distributions like the mentioned examples.\\
+Copulas which can be derived from known multivariate distributions, like for example the \textit{Multivariate Normal (or Gaussian) Distribution} or the \textit{Multivariate Student's t-Distribution}, are called \textit{implicit copulas}. \textit{Elliptical copulas} are implicit copulas, which arise via Sklar's theorem from elliptical distributions like the mentioned examples.\\
 
 \textbf{Gaussian Copula}\\
 Without loss of generality, for a random vector $\bm{X} \sim {\mathcal{N}_{d}(\bm{0}, \mathbf{P})} $ and \textit{correlation matrix} $\bm{P}$,
@@ -52,7 +52,7 @@ Consider without loss of generality $\bm{X} \sim {t_{d}(\nu, \bm{0}, \mathbf{P})
 C_{\nu, \bm{P}}^{t}(\mathbf{u})=t_{\nu, \bm{P}}\left(t_{\nu}^{-1}\left(u_{1}\right), \ldots, t_{\nu}^{-1}\left(u_{d}\right)\right),
 \end{equation}
 where $t_{\nu}$ is the \ac{CDF} of the univariate Student's t-distribution  and $t_{\nu, \bm{P}}$ is the \ac{CDF} of the multivariate Student's t-distribution (both with $\nu$ \ac{dof}).\\
-For the \textit{bivariate t-copula} ($d=2$), the special cases are the same as for the Gaussian copula except that $d=0$ does not yield the independence copula (unless $\nu \rightarrow \infty$ in which case  $ C_{\nu, \rho}^{t} = C_{\rho}^{G a}$). The density of $C_{\nu, \bm{P}}^{t}$ is given by
+For the \textit{bivariate t-copula} ($d=2$), the special cases are the same as for the Gaussian copula, except that $d=0$ does not yield the independence copula (unless $\nu \rightarrow \infty$ in which case  $ C_{\nu, \rho}^{t} = C_{\rho}^{G a}$). The density of $C_{\nu, \bm{P}}^{t}$ is given by
 \begin{equation}
 c_{\nu, \mathbf{P}}^{t}(\boldsymbol{u})=\frac{\Gamma((\nu+d) / 2)}{\Gamma(\nu / 2) \sqrt{\operatorname{det} \mathbf{P}}}\left(\frac{\Gamma(\nu / 2)}{\Gamma((\nu+1) / 2)}\right)^{d} \frac{\left(1+\boldsymbol{x}^{\prime} \mathbf{P}^{-1} \boldsymbol{x} / \nu\right)^{-(\nu+d) / 2}}{\prod_{j=1}^{d}\left(1+x_{j}^{2} / \nu\right)^{-(\nu+1) / 2}},
 \end{equation}

@@ -3,12 +3,12 @@
 
 To gain some insights on a hierarchical level of interest, some quick analysis is performed on different groups (nodes) of the key category cluster level in the tree (see \autoref{fig:article_hierarchy}). We start out with a broad picture on this upper level 
 %in Subsection \ref{sssec:kcc_exploration} 
-and eventually reach a better understanding for the the article behaviour.
+and eventually reach a better understanding for the the article demand quantities.
 \\
 
 
 
-By viewing the sale trends separately for each key category cluster, we can observe in \autoref{fig:ts_log_sales_kcc} that they climax similarly among the weekly noise. Just like in the previous section, those peaks come about primarily during the big promotions weeks. To put it into perspective, we can see logarithmic sale behaviour in \autoref{fig:boxplot_log_sales_kcc}, were patterns are quite similar although they differ strongly in volume. 
+By viewing the sale trends separately for each key category cluster, we can observe in \autoref{fig:ts_log_sales_kcc} that they climax similarly among the weekly noise. Just like in the previous section, those peaks come about primarily during the two big promotions weeks. To put it into perspective, we can see boxplots of logarithmic sales for each of the three \acp{KCC} in \autoref{fig:boxplot_log_sales_kcc}, where patterns are quite similar although they differ strongly in volume. 
 \\
 
  \begin{figure}[H]
@@ -40,8 +40,8 @@ By viewing the sale trends separately for each key category cluster, we can obse
 \end{figure}
 
 
-All the more interesting are the joint distributions of our \acp{KCC}. \autoref{fig:kcc_pair_scatterplots} shows scatterplots of \ac{KCC} pairs. In the first row we can see some isolated points on the upper tails representing outliers. We took the logarithmized sales to spot differences that would be otherwise hard to see. The outliers produced by the promotions still remain outliers in the log-scale. Also, by checking the densities for the margins, pertinent marginal distributions are hardly determined but not to be ruled out.\\
-The second row displays the pairs of the according \textit{pseudo observations}. Pseudo observations are calculated by taking the data ranks and dividing them by "1 + number of observations", which makes them robust against outliers and restricts the value range to $(0, 1)$. Here we are faced with a strange shape of the histograms. They practically look uniformly distributed, however there are seemingly regular step patterns in the pseudo data. This might be traced back to the fact that we are dealing in reality with discrete data of not necessarily unique occurrence.\\
+All the more interesting are the joint distributions of our \acp{KCC}. \autoref{fig:kcc_pair_scatterplots} portrays scatterplots of \ac{KCC} pairs. In the first row, we can see some isolated points on the upper tails representing outliers. We took the logarithmized sales to spot differences that would be otherwise hard to see. The outliers produced by the promotions still remain outliers in the log-scale. Also, by checking the densities for the margins, pertinent marginal distributions are hardly determined but not to be ruled out.\\
+The second row displays the pairs of the according \textit{pseudo observations}. Pseudo observations are calculated by taking the data ranks and dividing them by "1 + number of observations", which makes them robust against outliers and restricts the value range to $(0, 1)$. Here, we are faced with a strange shape of the histograms. They practically look uniformly distributed, however there are seemingly regular step patterns in the pseudo data. This might be traced back to the fact that in reality we are dealing with discrete data of not necessarily unique occurrence.\\
 
 For the above reasons, on \ac{KCC} level we fit parametric distributions to the margins (see Chapter \ref{sec:modelling}). 
 %The reason being for the latter is that our primary objective is to capture a dependence structure, whereas the margins per se are of secondary interest. 
@@ -59,7 +59,7 @@ In addition, looking at both rows of \autoref{fig:kcc_pair_scatterplots}, we sus
 
 
  
-As we aggregate our data to higher levels such as \ac{KCC}, promotion intensities of Black Friday and Friends \& Family (see \autoref{tab:transactional_data}) become binary values indicating whether the respective promotion took place in those respective weeks. Also note that Black Friday and Friends \& Family weeks do not overlap. The boxplots of the two promotion types depicted in \autoref{fig:bf_kcc_boxplot} and \autoref{fig:ff_kcc_boxplot} point out how they affect the sales. Though, one shall keep in mind that, out of 109 weeks, only the minority include promo activation. Precisely, Black Friday is activated over 6 weeks out of 109 and Friends \& Family is activated over 13 weeks
+As we aggregate our data to higher levels such as \ac{KCC}, promotion intensities of Black Friday and Friends \& Family (see \autoref{tab:transactional_data}) become binary values, indicating whether the respective promotion took place in those respective weeks. Also, note that Black Friday and Friends \& Family weeks do not overlap. The boxplots of the two promotion types depicted in \autoref{fig:bf_kcc_boxplot} and \autoref{fig:ff_kcc_boxplot} point out how they affect the sales. Though, one shall keep in mind that, out of 109 weeks, only the minority include promo activation. Precisely, Black Friday is activated over 6 weeks out of 109 and Friends \& Family is activated over 13 weeks
 %\footnote{And of course not in a row, as can be clearly observed in \autoref{fig:total_sold_articles_ts}.} 
 (see \autoref{tab:promotion_weeks}). In \autoref{fig:ff_kcc_boxplot}, one shall also be aware of large outliers being present during no Friends \& Family weeks, which is fairly aligned with what we figured out in the previous subsection (i.e. many sale occurrences do not have any promotion).
 \\

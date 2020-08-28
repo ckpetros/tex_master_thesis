@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  28 AUG 2020 04:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.29)  28 AUG 2020 07:07
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -1265,9 +1265,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--56
 [1
 
 {C:/Users/Petro Ck/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figure
-s/uni_goettingen_logo-eps-converted-to.pdf>]) [2
-
-] (confidentiality_clause.tex) [3] [4
+s/uni_goettingen_logo-eps-converted-to.pdf>]) (confidentiality_clause.tex)
+[2
 
 ] (acknowledgments.tex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
@@ -1283,7 +1282,9 @@ LaTeX Font Warning: Font shape `LGR/ua1/bx/n' undefined
 
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-3.def"
 File: uni-3.def 2013/05/13 UCS: Unicode data U+0300..U+03FF
-)) [5] [6] (abstract.tex
+)) [3
+
+] (abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
@@ -1295,11 +1296,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
 LaTeX Font Info:    Font shape `T1/ua1/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ua1/b/it' tried instead on input line 18.
-) [7] [8] (Master.toc [9])
+) (Master.toc
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+[5])
 \tf@toc=\write6
 \openout6 = `Master.toc'.
 
- [10] (introduction.tex
+ [6] (introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
@@ -1322,9 +1327,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.5 
-     [1
-
-]
+     [1]
 Package epstopdf Info: Source file: <figures/adidas_performance_logo.eps>
 (epstopdf)                    date: 2020-07-14 14:01:53
 (epstopdf)                    size: 6163397 bytes
@@ -1336,7 +1339,7 @@ ted-to.pdf>
 logo-eps-converted-to.pdf figures/adidas_performance_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<figures/adidas_performance_logo-eps-converted-to.pdf, id=301, 1204.5pt x 846.1
+<figures/adidas_performance_logo-eps-converted-to.pdf, id=285, 1204.5pt x 846.1
 6125pt>
 File: figures/adidas_performance_logo-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1355,7 +1358,7 @@ d-to.pdf>
 go-eps-converted-to.pdf figures/adidas_originals_logo.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
-<figures/adidas_originals_logo-eps-converted-to.pdf, id=302, 1204.5pt x 846.161
+<figures/adidas_originals_logo-eps-converted-to.pdf, id=286, 1204.5pt x 846.161
 25pt>
 File: figures/adidas_originals_logo-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1384,7 +1387,7 @@ df>
 -converted-to.pdf figures/adidas_70_years.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<figures/adidas_70_years-eps-converted-to.pdf, id=307, 784.9325pt x 280.04625pt
+<figures/adidas_70_years-eps-converted-to.pdf, id=291, 784.9325pt x 280.04625pt
 >
 File: figures/adidas_70_years-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/adidas_70_years-eps-converted-to.pdf>
@@ -1433,33 +1436,17 @@ name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.521 \newpage
-               [5]pdfTeX warning (ext4): destination with the same identifier (
-name{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.523 \cleardoublepage
-                       [6
-
-] (theory_and_methods.tex) (shapiro_wilk.tex) (glm.tex
+               [5] (theory_and_methods.tex) (shapiro_wilk.tex) (glm.tex
 Package acronym Info: Label `acro:GLM' newly defined as it shall be overridden
 although it is yet undefined on input line 2.
 Package acronym Info: Label `acro:LM' newly defined as it shall be overridden
 although it is yet undefined on input line 2.
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.16 \end{equation}
-                    [7]) (gam.texpdfTeX warning (ext4): destination with the sa
-me identifier (name{page.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 \end{equation}
-                    [8]
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
-
- []
-
+                    [6]) (gam.tex [7]
 Package acronym Info: Label `acro:GAM' newly defined as it shall be overridden
 although it is yet undefined on input line 61.
 Package acronym Info: Label `acro:GAMM' newly defined as it shall be overridden
@@ -1489,12 +1476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 
-     [9]
+
 Overfull \hbox (2.43413pt too wide) in paragraph at lines 6--7
 []\T1/ua1/m/n/10.95 Independent ob-ser-va-tions $\OML/cmm/m/it/10.95 y[]$ \T1/u
 a1/m/n/10.95 for $\OML/cmm/m/it/10.95 i \OT1/cmr/m/n/10.95 = 1\OML/cmm/m/it/10.
@@ -1503,24 +1485,18 @@ rob-a-bil-ity (den-sity) func-tion $\OML/cmm/m/it/10.95 f []$\T1/ua1/m/n/10.95
 ,
  []
 
-) (time_series.tex
+[8]) (time_series.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 
-     [10]
 Package acronym Info: Label `acro:RV' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:UTS' newly defined as it shall be overridden
 although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:AR' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
@@ -1535,7 +1511,7 @@ Overfull \hbox (7.73547pt too wide) in paragraph at lines 25--26
 -tive time-points is called a [][][]\T1/ua1/m/it/10.95 Multivariate
  []
 
-[11]) (graph_theory.tex
+) (graph_theory.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -1552,21 +1528,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<figures/dag_example.png, id=485, 325.215pt x 325.215pt>
+<figures/dag_example.png, id=468, 325.215pt x 325.215pt>
 File: figures/dag_example.png Graphic file (type png)
 <use figures/dag_example.png>
 Package pdftex.def Info: figures/dag_example.png  used on input line 16.
 (pdftex.def)             Requested size: 192.0548pt x 192.05879pt.
-
-Underfull \vbox (badness 4144) has occurred while \output is active []
-
- [12])
-(bayesian_networks.tex
+) (bayesian_networks.tex [11 <./figures/dag_example.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
@@ -1578,14 +1550,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
-[13 <./figures/dag_example.png>]
-<figures/dynamic_bn.png, id=528, 325.215pt x 325.215pt>
+<figures/dynamic_bn.png, id=499, 325.215pt x 325.215pt>
 File: figures/dynamic_bn.png Graphic file (type png)
 <use figures/dynamic_bn.png>
 Package pdftex.def Info: figures/dynamic_bn.png  used on input line 23.
 (pdftex.def)             Requested size: 192.0548pt x 192.05879pt.
-) [14 <./figures/dynamic_bn.png>]
-(copulas_and_dependence_structures.tex) (intro_to_copulas.tex
+[12 <./figures/dynamic_bn.png>]) [13] (copulas_and_dependence_structures.tex)
+(intro_to_copulas.tex
 Package acronym Info: Label `acro:CDF' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
 
@@ -1593,9 +1564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[15
-
-]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
@@ -1625,7 +1594,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-[16]) (copula_classes.tex) (fundamental_copulas.tex
+[15]) (copula_classes.tex) (fundamental_copulas.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1635,7 +1604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[17]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 22--25
 
  []
@@ -1651,7 +1620,7 @@ pdf>
 s-converted-to.pdf figures/bivariate_normal.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<figures/bivariate_normal-eps-converted-to.pdf, id=603, 526.96875pt x 376.40625
+<figures/bivariate_normal-eps-converted-to.pdf, id=585, 526.96875pt x 376.40625
 pt>
 File: figures/bivariate_normal-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/bivariate_normal-eps-converted-to.pdf>
@@ -1669,7 +1638,7 @@ Package epstopdf Info: Source file: <figures/normal_copula.eps>
 onverted-to.pdf figures/normal_copula.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
-<figures/normal_copula-eps-converted-to.pdf, id=604, 526.96875pt x 376.40625pt>
+<figures/normal_copula-eps-converted-to.pdf, id=586, 526.96875pt x 376.40625pt>
 
 File: figures/normal_copula-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/normal_copula-eps-converted-to.pdf>
@@ -1678,7 +1647,7 @@ put line 36.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
 Package acronym Info: Label `acro:dof' newly defined as it shall be overridden
 although it is yet undefined on input line 50.
-[18 <./figures/bivariate_normal-eps-converted-to.pdf> <./figures/normal_copula-
+[17 <./figures/bivariate_normal-eps-converted-to.pdf> <./figures/normal_copula-
 eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 58--61
 
@@ -1694,7 +1663,7 @@ Package epstopdf Info: Source file: <figures/bivariate_t.eps>
 verted-to.pdf figures/bivariate_t.eps>
 (epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
-<figures/bivariate_t-eps-converted-to.pdf, id=637, 526.96875pt x 376.40625pt>
+<figures/bivariate_t-eps-converted-to.pdf, id=620, 526.96875pt x 376.40625pt>
 File: figures/bivariate_t-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/bivariate_t-eps-converted-to.pdf>
 Package pdftex.def Info: figures/bivariate_t-eps-converted-to.pdf  used on inpu
@@ -1710,7 +1679,7 @@ Package epstopdf Info: Source file: <figures/t_copula.eps>
 ted-to.pdf figures/t_copula.eps>
 (epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
-<figures/t_copula-eps-converted-to.pdf, id=638, 526.96875pt x 376.40625pt>
+<figures/t_copula-eps-converted-to.pdf, id=621, 526.96875pt x 376.40625pt>
 File: figures/t_copula-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/t_copula-eps-converted-to.pdf>
 Package pdftex.def Info: figures/t_copula-eps-converted-to.pdf  used on input l
@@ -1732,7 +1701,7 @@ d-to.pdf>
 or-eps-converted-to.pdf figures/archimedean_generator.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<figures/archimedean_generator-eps-converted-to.pdf, id=640, 526.96875pt x 376.
+<figures/archimedean_generator-eps-converted-to.pdf, id=623, 526.96875pt x 376.
 40625pt>
 File: figures/archimedean_generator-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1740,7 +1709,7 @@ File: figures/archimedean_generator-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: figures/archimedean_generator-eps-converted-to.pdf  us
 ed on input line 21.
 (pdftex.def)             Requested size: 213.39568pt x 152.42645pt.
-[19 <./figures/bivariate_t-eps-converted-to.pdf> <./figures/t_copula-eps-conver
+[18 <./figures/bivariate_t-eps-converted-to.pdf> <./figures/t_copula-eps-conver
 ted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 41--44
 
@@ -1757,7 +1726,7 @@ Package epstopdf Info: Source file: <figures/bivariate_clayton.eps>
 ps-converted-to.pdf figures/bivariate_clayton.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<figures/bivariate_clayton-eps-converted-to.pdf, id=667, 526.96875pt x 376.4062
+<figures/bivariate_clayton-eps-converted-to.pdf, id=650, 526.96875pt x 376.4062
 5pt>
 File: figures/bivariate_clayton-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/bivariate_clayton-eps-converted-to.pdf>
@@ -1775,14 +1744,14 @@ f>
 converted-to.pdf figures/clayton_copula.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<figures/clayton_copula-eps-converted-to.pdf, id=668, 526.96875pt x 376.40625pt
+<figures/clayton_copula-eps-converted-to.pdf, id=651, 526.96875pt x 376.40625pt
 >
 File: figures/clayton_copula-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/clayton_copula-eps-converted-to.pdf>
 Package pdftex.def Info: figures/clayton_copula-eps-converted-to.pdf  used on i
 nput line 56.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-[20 <./figures/archimedean_generator-eps-converted-to.pdf> <./figures/bivariate
+[19 <./figures/archimedean_generator-eps-converted-to.pdf> <./figures/bivariate
 _clayton-eps-converted-to.pdf> <./figures/clayton_copula-eps-converted-to.pdf>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 75--80
@@ -1800,7 +1769,7 @@ pdf>
 s-converted-to.pdf figures/bivariate_gumbel.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<figures/bivariate_gumbel-eps-converted-to.pdf, id=703, 526.96875pt x 376.40625
+<figures/bivariate_gumbel-eps-converted-to.pdf, id=687, 526.96875pt x 376.40625
 pt>
 File: figures/bivariate_gumbel-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/bivariate_gumbel-eps-converted-to.pdf>
@@ -1818,7 +1787,7 @@ Package epstopdf Info: Source file: <figures/gumbel_copula.eps>
 onverted-to.pdf figures/gumbel_copula.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
-<figures/gumbel_copula-eps-converted-to.pdf, id=704, 526.96875pt x 376.40625pt>
+<figures/gumbel_copula-eps-converted-to.pdf, id=688, 526.96875pt x 376.40625pt>
 
 File: figures/gumbel_copula-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/gumbel_copula-eps-converted-to.pdf>
@@ -1841,7 +1810,7 @@ df>
 -converted-to.pdf figures/bivariate_frank.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
-<figures/bivariate_frank-eps-converted-to.pdf, id=705, 526.96875pt x 376.40625p
+<figures/bivariate_frank-eps-converted-to.pdf, id=689, 526.96875pt x 376.40625p
 t>
 File: figures/bivariate_frank-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/bivariate_frank-eps-converted-to.pdf>
@@ -1859,7 +1828,7 @@ Package epstopdf Info: Source file: <figures/frank_copula.eps>
 nverted-to.pdf figures/frank_copula.eps>
 (epstopdf)             \includegraphics on input line 126.
 Package epstopdf Info: Output file is already uptodate.
-<figures/frank_copula-eps-converted-to.pdf, id=706, 526.96875pt x 376.40625pt>
+<figures/frank_copula-eps-converted-to.pdf, id=690, 526.96875pt x 376.40625pt>
 File: figures/frank_copula-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/frank_copula-eps-converted-to.pdf>
 Package pdftex.def Info: figures/frank_copula-eps-converted-to.pdf  used on inp
@@ -1868,8 +1837,8 @@ ut line 126.
 
 Underfull \vbox (badness 3098) has occurred while \output is active []
 
- [21 <./figures/bivariate_gumbel-eps-converted-to.pdf> <./figures/gumbel_copula
--eps-converted-to.pdf>]) (dependence_measures.tex) (linear_correlation.tex [22 
+ [20 <./figures/bivariate_gumbel-eps-converted-to.pdf> <./figures/gumbel_copula
+-eps-converted-to.pdf>]) (dependence_measures.tex) (linear_correlation.tex [21 
 <./figures/bivariate_frank-eps-converted-to.pdf> <./figures/frank_copula-eps-co
 nverted-to.pdf>]) (rank_correlation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1882,22 +1851,22 @@ Overfull \hbox (2.86124pt too wide) in paragraph at lines 27--29
 -pal, we can di-rectly de-rive Kendall's
  []
 
-[23]) (tail_dependence.tex
+[22]) (tail_dependence.tex
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[24]) (conditional_copulas.tex
+[23]) (conditional_copulas.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-[25]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-) [26] (data_exploration.tex
+) [25] (data_exploration.tex
 Package acronym Info: Label `acro:KCC' newly defined as it shall be overridden
 although it is yet undefined on input line 7.
 Package acronym Info: Label `acro:BS' newly defined as it shall be overridden
@@ -1918,7 +1887,7 @@ to.pdf>
 -eps-converted-to.pdf figures/article_tree_KCC_BS.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
-<figures/article_tree_KCC_BS-eps-converted-to.pdf, id=835, 1470.49374pt x 457.7
+<figures/article_tree_KCC_BS-eps-converted-to.pdf, id=819, 1470.49374pt x 457.7
 1pt>
 File: figures/article_tree_KCC_BS-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/article_tree_KCC_BS-eps-converted-to.pdf>
@@ -1944,7 +1913,7 @@ converted-to.pdf>
 _childnode-eps-converted-to.pdf figures/article_tree_single_childnode.eps>
 (epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<figures/article_tree_single_childnode-eps-converted-to.pdf, id=842, 1095.09125
+<figures/article_tree_single_childnode-eps-converted-to.pdf, id=826, 1095.09125
 pt x 337.26pt>
 File: figures/article_tree_single_childnode-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1952,15 +1921,16 @@ type pdf)
 Package pdftex.def Info: figures/article_tree_single_childnode-eps-converted-to
 .pdf  used on input line 25.
 (pdftex.def)             Requested size: 298.75264pt x 92.0083pt.
-[27
 
- <./figures/article_tree_KCC_BS-eps-converted-to.pdf>])
-(universal_patterns.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <./figures/article_tree_KCC_BS-eps-converted-to.pdf>]) (universal_patterns
+.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-<figures/total_sold_articles_ts.png, id=862, 828.09375pt x 376.40625pt>
+<figures/total_sold_articles_ts.png, id=845, 828.09375pt x 376.40625pt>
 File: figures/total_sold_articles_ts.png Graphic file (type png)
 <use figures/total_sold_articles_ts.png>
 Package pdftex.def Info: figures/total_sold_articles_ts.png  used on input line
@@ -1971,29 +1941,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[28 <./figures/article_tree_single_childnode-eps-converted-to.pdf> <./figures/t
+[27 <./figures/article_tree_single_childnode-eps-converted-to.pdf> <./figures/t
 otal_sold_articles_ts.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
-<figures/bf_against_sales.png, id=880, 526.96875pt x 376.40625pt>
+<figures/bf_against_sales.png, id=865, 526.96875pt x 376.40625pt>
 File: figures/bf_against_sales.png Graphic file (type png)
 <use figures/bf_against_sales.png>
 Package pdftex.def Info: figures/bf_against_sales.png  used on input line 44.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/ff_against_sales.png, id=881, 526.96875pt x 376.40625pt>
+<figures/ff_against_sales.png, id=866, 526.96875pt x 376.40625pt>
 File: figures/ff_against_sales.png Graphic file (type png)
 <use figures/ff_against_sales.png>
 Package pdftex.def Info: figures/ff_against_sales.png  used on input line 50.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/markdown_against_logsales.png, id=882, 526.96875pt x 376.40625pt>
+<figures/markdown_against_logsales.png, id=867, 526.96875pt x 376.40625pt>
 File: figures/markdown_against_logsales.png Graphic file (type png)
 <use figures/markdown_against_logsales.png>
 Package pdftex.def Info: figures/markdown_against_logsales.png  used on input l
 ine 82.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/season_type_against_logsales.png, id=883, 526.96875pt x 376.40625pt>
+<figures/season_type_against_logsales.png, id=868, 526.96875pt x 376.40625pt>
 File: figures/season_type_against_logsales.png Graphic file (type png)
 <use figures/season_type_against_logsales.png>
 Package pdftex.def Info: figures/season_type_against_logsales.png  used on inpu
@@ -2002,7 +1972,7 @@ t line 88.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./figures/bf_against_sales.png> <./figures/ff_against_sales.png>]
+ [28 <./figures/bf_against_sales.png> <./figures/ff_against_sales.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 99--104
 
  []
@@ -2018,7 +1988,7 @@ verted-to.pdf>
 _months-eps-converted-to.pdf figures/sales_without_promo_months.eps>
 (epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
-<figures/sales_without_promo_months-eps-converted-to.pdf, id=895, 526.96875pt x
+<figures/sales_without_promo_months-eps-converted-to.pdf, id=880, 526.96875pt x
  376.40625pt>
 File: figures/sales_without_promo_months-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2026,7 +1996,7 @@ e pdf)
 Package pdftex.def Info: figures/sales_without_promo_months-eps-converted-to.pd
 f  used on input line 110.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/monthly_ts.png, id=896, 526.96875pt x 376.40625pt>
+<figures/monthly_ts.png, id=881, 526.96875pt x 376.40625pt>
 File: figures/monthly_ts.png Graphic file (type png)
 <use figures/monthly_ts.png>
 Package pdftex.def Info: figures/monthly_ts.png  used on input line 116.
@@ -2036,7 +2006,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
-[30 <./figures/markdown_against_logsales.png> <./figures/season_type_against_lo
+[29 <./figures/markdown_against_logsales.png> <./figures/season_type_against_lo
 gsales.png> <./figures/sales_without_promo_months-eps-converted-to.pdf> <./figu
 res/monthly_ts.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
@@ -2054,7 +2024,7 @@ rted-to.pdf>
 _week-eps-converted-to.pdf figures/bar_below_200_units_week.eps>
 (epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
-<figures/bar_below_200_units_week-eps-converted-to.pdf, id=919, 526.96875pt x 3
+<figures/bar_below_200_units_week-eps-converted-to.pdf, id=904, 526.96875pt x 3
 76.40625pt>
 File: figures/bar_below_200_units_week-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2073,7 +2043,7 @@ rted-to.pdf>
 _week-eps-converted-to.pdf figures/bar_above_200_units_week.eps>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
-<figures/bar_above_200_units_week-eps-converted-to.pdf, id=920, 451.6875pt x 37
+<figures/bar_above_200_units_week-eps-converted-to.pdf, id=905, 451.6875pt x 37
 6.40625pt>
 File: figures/bar_above_200_units_week-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2086,7 +2056,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
-[31 <./figures/bar_below_200_units_week-eps-converted-to.pdf> <./figures/bar_ab
+[30 <./figures/bar_below_200_units_week-eps-converted-to.pdf> <./figures/bar_ab
 ove_200_units_week-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/ecdf_all.eps>
 (epstopdf)                    date: 2020-07-14 14:01:54
@@ -2098,7 +2068,7 @@ Package epstopdf Info: Source file: <figures/ecdf_all.eps>
 ted-to.pdf figures/ecdf_all.eps>
 (epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
-<figures/ecdf_all-eps-converted-to.pdf, id=945, 526.96875pt x 376.40625pt>
+<figures/ecdf_all-eps-converted-to.pdf, id=930, 526.96875pt x 376.40625pt>
 File: figures/ecdf_all-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/ecdf_all-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ecdf_all-eps-converted-to.pdf  used on input l
@@ -2117,7 +2087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
- [32 <./figures/ecdf_all-eps-converted-to.pdf>]
+ [31 <./figures/ecdf_all-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/ts_log_sales_kcc.eps>
 (epstopdf)                    date: 2020-07-14 14:01:56
 (epstopdf)                    size: 14796 bytes
@@ -2129,14 +2099,14 @@ pdf>
 s-converted-to.pdf figures/ts_log_sales_kcc.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
-<figures/ts_log_sales_kcc-eps-converted-to.pdf, id=963, 526.96875pt x 376.40625
+<figures/ts_log_sales_kcc-eps-converted-to.pdf, id=950, 526.96875pt x 376.40625
 pt>
 File: figures/ts_log_sales_kcc-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/ts_log_sales_kcc-eps-converted-to.pdf>
 Package pdftex.def Info: figures/ts_log_sales_kcc-eps-converted-to.pdf  used on
  input line 18.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/boxplot_log_sales_kcc.png, id=964, 526.96875pt x 376.40625pt>
+<figures/boxplot_log_sales_kcc.png, id=951, 526.96875pt x 376.40625pt>
 File: figures/boxplot_log_sales_kcc.png Graphic file (type png)
 <use figures/boxplot_log_sales_kcc.png>
 Package pdftex.def Info: figures/boxplot_log_sales_kcc.png  used on input line 
@@ -2153,7 +2123,7 @@ d-to.pdf>
 ts-eps-converted-to.pdf figures/kcc_pair_scatterplots.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<figures/kcc_pair_scatterplots-eps-converted-to.pdf, id=965, 828.09375pt x 602.
+<figures/kcc_pair_scatterplots-eps-converted-to.pdf, id=952, 828.09375pt x 602.
 25pt>
 File: figures/kcc_pair_scatterplots-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2166,7 +2136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
-[33 <./figures/ts_log_sales_kcc-eps-converted-to.pdf> <./figures/boxplot_log_sa
+[32 <./figures/ts_log_sales_kcc-eps-converted-to.pdf> <./figures/boxplot_log_sa
 les_kcc.png> <./figures/kcc_pair_scatterplots-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
@@ -2182,7 +2152,7 @@ Package epstopdf Info: Source file: <figures/corplot_kcc.eps>
 verted-to.pdf figures/corplot_kcc.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
-<figures/corplot_kcc-eps-converted-to.pdf, id=998, 828.09375pt x 376.40625pt>
+<figures/corplot_kcc-eps-converted-to.pdf, id=984, 828.09375pt x 376.40625pt>
 File: figures/corplot_kcc-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/corplot_kcc-eps-converted-to.pdf>
 Package pdftex.def Info: figures/corplot_kcc-eps-converted-to.pdf  used on inpu
@@ -2193,24 +2163,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
-[34 <./figures/corplot_kcc-eps-converted-to.pdf>]
-<figures/bf_kcc_boxplot.png, id=1021, 828.09375pt x 301.125pt>
+[33 <./figures/corplot_kcc-eps-converted-to.pdf>]
+<figures/bf_kcc_boxplot.png, id=1007, 828.09375pt x 301.125pt>
 File: figures/bf_kcc_boxplot.png Graphic file (type png)
 <use figures/bf_kcc_boxplot.png>
 Package pdftex.def Info: figures/bf_kcc_boxplot.png  used on input line 70.
 (pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
-<figures/ff_kcc_boxplot.png, id=1022, 828.09375pt x 301.125pt>
+<figures/ff_kcc_boxplot.png, id=1008, 828.09375pt x 301.125pt>
 File: figures/ff_kcc_boxplot.png Graphic file (type png)
 <use figures/ff_kcc_boxplot.png>
 Package pdftex.def Info: figures/ff_kcc_boxplot.png  used on input line 78.
 (pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
-<figures/total_markdown_against_kcc.png, id=1023, 828.09375pt x 301.125pt>
+<figures/total_markdown_against_kcc.png, id=1009, 828.09375pt x 301.125pt>
 File: figures/total_markdown_against_kcc.png Graphic file (type png)
 <use figures/total_markdown_against_kcc.png>
 Package pdftex.def Info: figures/total_markdown_against_kcc.png  used on input 
 line 87.
 (pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
-<figures/season_type_against_kcc.png, id=1026, 828.09375pt x 301.125pt>
+<figures/season_type_against_kcc.png, id=1012, 828.09375pt x 301.125pt>
 File: figures/season_type_against_kcc.png Graphic file (type png)
 <use figures/season_type_against_kcc.png>
 Package pdftex.def Info: figures/season_type_against_kcc.png  used on input lin
@@ -2219,7 +2189,7 @@ e 97.
 
 Underfull \vbox (badness 3724) has occurred while \output is active []
 
- [35 <./figures/bf_kcc_boxplot.png> <./figures/ff_kcc_boxplot.png> <./figures/t
+ [34 <./figures/bf_kcc_boxplot.png> <./figures/ff_kcc_boxplot.png> <./figures/t
 otal_markdown_against_kcc.png>]) (individual_patterns.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
@@ -2230,7 +2200,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
-<figures/article_sample.png, id=1043, 828.09375pt x 376.40625pt>
+<figures/article_sample.png, id=1029, 828.09375pt x 376.40625pt>
 File: figures/article_sample.png Graphic file (type png)
 <use figures/article_sample.png>
 Package pdftex.def Info: figures/article_sample.png  used on input line 13.
@@ -2238,15 +2208,14 @@ Package pdftex.def Info: figures/article_sample.png  used on input line 13.
 
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
- [36 <./figures/season_type_against_kcc.png>]
-<figures/article_lifespan.png, id=1053, 828.09375pt x 376.40625pt>
+ [35 <./figures/season_type_against_kcc.png>]
+<figures/article_lifespan.png, id=1038, 828.09375pt x 376.40625pt>
 File: figures/article_lifespan.png Graphic file (type png)
 <use figures/article_lifespan.png>
 Package pdftex.def Info: figures/article_lifespan.png  used on input line 21.
 (pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
-) [37 <./figures/article_sample.png> <./figures/article_lifespan.png>] [38
-
-] (modelling.tex
+) [36 <./figures/article_sample.png> <./figures/article_lifespan.png>] (modelli
+ng.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
@@ -2257,22 +2226,22 @@ Overfull \hbox (7.01788pt too wide) in paragraph at lines 18--21
 log-a-rith-mic sales (semi-)parametrically
  []
 
-) (kcc_margins.tex [39]) (margin_kcc_2.tex
+) (kcc_margins.tex [37]) (margin_kcc_2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-<figures/kcc_2_density.png, id=1089, 526.96875pt x 376.40625pt>
+<figures/kcc_2_density.png, id=1070, 526.96875pt x 376.40625pt>
 File: figures/kcc_2_density.png Graphic file (type png)
 <use figures/kcc_2_density.png>
 Package pdftex.def Info: figures/kcc_2_density.png  used on input line 34.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/kcc_2_qqplot.png, id=1090, 526.96875pt x 376.40625pt>
+<figures/kcc_2_qqplot.png, id=1071, 526.96875pt x 376.40625pt>
 File: figures/kcc_2_qqplot.png Graphic file (type png)
 <use figures/kcc_2_qqplot.png>
 Package pdftex.def Info: figures/kcc_2_qqplot.png  used on input line 40.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/res_kcc_2_no_covariates.png, id=1093, 526.96875pt x 376.40625pt>
+<figures/res_kcc_2_no_covariates.png, id=1074, 526.96875pt x 376.40625pt>
 File: figures/res_kcc_2_no_covariates.png Graphic file (type png)
 <use figures/res_kcc_2_no_covariates.png>
 Package pdftex.def Info: figures/res_kcc_2_no_covariates.png  used on input lin
@@ -2283,13 +2252,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--62
 
  []
 
-[40 <./figures/kcc_2_density.png> <./figures/kcc_2_qqplot.png> <./figures/res_k
+[38 <./figures/kcc_2_density.png> <./figures/kcc_2_qqplot.png> <./figures/res_k
 cc_2_no_covariates.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
-<figures/gamlss_kcc_2_estimated_parameters.png, id=1111, 828.09375pt x 376.4062
+<figures/gamlss_kcc_2_estimated_parameters.png, id=1092, 828.09375pt x 376.4062
 5pt>
 File: figures/gamlss_kcc_2_estimated_parameters.png Graphic file (type png)
 <use figures/gamlss_kcc_2_estimated_parameters.png>
@@ -2299,7 +2268,7 @@ Package pdftex.def Info: figures/gamlss_kcc_2_estimated_parameters.png  used on
 
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
- [41]
+ [39]
 Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
@@ -2314,8 +2283,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--156
 
  []
 
-[42 <./figures/gamlss_kcc_2_estimated_parameters.png>]
-<figures/gamlss_effects_kcc_2.png, id=1141, 828.09375pt x 526.96875pt>
+[40 <./figures/gamlss_kcc_2_estimated_parameters.png>]
+<figures/gamlss_effects_kcc_2.png, id=1122, 828.09375pt x 526.96875pt>
 File: figures/gamlss_effects_kcc_2.png Graphic file (type png)
 <use figures/gamlss_effects_kcc_2.png>
 Package pdftex.def Info: figures/gamlss_effects_kcc_2.png  used on input line 1
@@ -2326,8 +2295,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
-[43 <./figures/gamlss_effects_kcc_2.png>]
-<figures/gamlss_residuals_kcc_2.png, id=1153, 526.96875pt x 451.6875pt>
+[41 <./figures/gamlss_effects_kcc_2.png>]
+<figures/gamlss_residuals_kcc_2.png, id=1134, 526.96875pt x 451.6875pt>
 File: figures/gamlss_residuals_kcc_2.png Graphic file (type png)
 <use figures/gamlss_residuals_kcc_2.png>
 Package pdftex.def Info: figures/gamlss_residuals_kcc_2.png  used on input line
@@ -2343,18 +2312,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
  []
 
-[44 <./figures/gamlss_residuals_kcc_2.png>]
-<figures/kcc_6_density.png, id=1165, 488.57532pt x 405.76593pt>
+[42 <./figures/gamlss_residuals_kcc_2.png>]
+<figures/kcc_6_density.png, id=1146, 488.57532pt x 405.76593pt>
 File: figures/kcc_6_density.png Graphic file (type png)
 <use figures/kcc_6_density.png>
 Package pdftex.def Info: figures/kcc_6_density.png  used on input line 34.
 (pdftex.def)             Requested size: 192.0548pt x 159.50494pt.
-<figures/kcc_6_qqplot.png, id=1166, 526.96875pt x 376.40625pt>
+<figures/kcc_6_qqplot.png, id=1147, 526.96875pt x 376.40625pt>
 File: figures/kcc_6_qqplot.png Graphic file (type png)
 <use figures/kcc_6_qqplot.png>
 Package pdftex.def Info: figures/kcc_6_qqplot.png  used on input line 40.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/res_kcc_6_no_covariates.png, id=1169, 526.96875pt x 376.40625pt>
+<figures/res_kcc_6_no_covariates.png, id=1150, 526.96875pt x 376.40625pt>
 File: figures/res_kcc_6_no_covariates.png Graphic file (type png)
 <use figures/res_kcc_6_no_covariates.png>
 Package pdftex.def Info: figures/res_kcc_6_no_covariates.png  used on input lin
@@ -2370,9 +2339,9 @@ Overfull \hbox (44.24438pt too wide) in paragraph at lines 68--81
  [][] 
  []
 
-[45 <./figures/kcc_6_density.png> <./figures/kcc_6_qqplot.png> <./figures/res_k
+[43 <./figures/kcc_6_density.png> <./figures/kcc_6_qqplot.png> <./figures/res_k
 cc_6_no_covariates.png>]
-<figures/gamlss_kcc_6_estimated_parameters.png, id=1192, 828.09375pt x 376.4062
+<figures/gamlss_kcc_6_estimated_parameters.png, id=1173, 828.09375pt x 376.4062
 5pt>
 File: figures/gamlss_kcc_6_estimated_parameters.png Graphic file (type png)
 <use figures/gamlss_kcc_6_estimated_parameters.png>
@@ -2384,7 +2353,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--121
 
  []
 
-<figures/gamlss_effects_kcc_6.png, id=1197, 828.09375pt x 526.96875pt>
+<figures/gamlss_effects_kcc_6.png, id=1178, 828.09375pt x 526.96875pt>
 File: figures/gamlss_effects_kcc_6.png Graphic file (type png)
 <use figures/gamlss_effects_kcc_6.png>
 Package pdftex.def Info: figures/gamlss_effects_kcc_6.png  used on input line 1
@@ -2393,8 +2362,8 @@ Package pdftex.def Info: figures/gamlss_effects_kcc_6.png  used on input line 1
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./figures/gamlss_kcc_6_estimated_parameters.png>]
-<figures/gamlss_residuals_kcc_6.png, id=1204, 526.96875pt x 451.6875pt>
+ [44 <./figures/gamlss_kcc_6_estimated_parameters.png>]
+<figures/gamlss_residuals_kcc_6.png, id=1185, 526.96875pt x 451.6875pt>
 File: figures/gamlss_residuals_kcc_6.png Graphic file (type png)
 <use figures/gamlss_residuals_kcc_6.png>
 Package pdftex.def Info: figures/gamlss_residuals_kcc_6.png  used on input line
@@ -2405,7 +2374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
-[47 <./figures/gamlss_effects_kcc_6.png> <./figures/gamlss_residuals_kcc_6.png>
+[45 <./figures/gamlss_effects_kcc_6.png> <./figures/gamlss_residuals_kcc_6.png>
 ]) (margin_kcc_8.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
@@ -2416,12 +2385,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
  []
 
-<figures/kcc_8_density.png, id=1223, 526.96875pt x 376.40625pt>
+<figures/kcc_8_density.png, id=1204, 526.96875pt x 376.40625pt>
 File: figures/kcc_8_density.png Graphic file (type png)
 <use figures/kcc_8_density.png>
 Package pdftex.def Info: figures/kcc_8_density.png  used on input line 34.
 (pdftex.def)             Requested size: 192.0548pt x 137.18324pt.
-<figures/kcc_8_qqplot.png, id=1224, 526.96875pt x 376.40625pt>
+<figures/kcc_8_qqplot.png, id=1205, 526.96875pt x 376.40625pt>
 File: figures/kcc_8_qqplot.png Graphic file (type png)
 <use figures/kcc_8_qqplot.png>
 Package pdftex.def Info: figures/kcc_8_qqplot.png  used on input line 40.
@@ -2429,8 +2398,8 @@ Package pdftex.def Info: figures/kcc_8_qqplot.png  used on input line 40.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-<figures/res_kcc_8_no_covariates.png, id=1233, 526.96875pt x 376.40625pt>
+ [46]
+<figures/res_kcc_8_no_covariates.png, id=1214, 526.96875pt x 376.40625pt>
 File: figures/res_kcc_8_no_covariates.png Graphic file (type png)
 <use figures/res_kcc_8_no_covariates.png>
 Package pdftex.def Info: figures/res_kcc_8_no_covariates.png  used on input lin
@@ -2441,7 +2410,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
-<figures/gamlss_kcc_8_estimated_parameters.png, id=1239, 828.09375pt x 376.4062
+<figures/gamlss_kcc_8_estimated_parameters.png, id=1220, 828.09375pt x 376.4062
 5pt>
 File: figures/gamlss_kcc_8_estimated_parameters.png Graphic file (type png)
 <use figures/gamlss_kcc_8_estimated_parameters.png>
@@ -2451,13 +2420,13 @@ Package pdftex.def Info: figures/gamlss_kcc_8_estimated_parameters.png  used on
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./figures/kcc_8_density.png> <./figures/kcc_8_qqplot.png> <./figures/res_
+ [47 <./figures/kcc_8_density.png> <./figures/kcc_8_qqplot.png> <./figures/res_
 kcc_8_no_covariates.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
-<figures/gamlss_effects_kcc_8.png, id=1252, 828.09375pt x 526.96875pt>
+<figures/gamlss_effects_kcc_8.png, id=1233, 828.09375pt x 526.96875pt>
 File: figures/gamlss_effects_kcc_8.png Graphic file (type png)
 <use figures/gamlss_effects_kcc_8.png>
 Package pdftex.def Info: figures/gamlss_effects_kcc_8.png  used on input line 1
@@ -2468,13 +2437,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-[50 <./figures/gamlss_kcc_8_estimated_parameters.png> <./figures/gamlss_effects
+[48 <./figures/gamlss_kcc_8_estimated_parameters.png> <./figures/gamlss_effects
 _kcc_8.png>]
 Overfull \hbox (44.24438pt too wide) in paragraph at lines 115--128
  [][] 
  []
 
-<figures/gamlss_residuals_kcc_8.png, id=1268, 526.96875pt x 451.6875pt>
+<figures/gamlss_residuals_kcc_8.png, id=1249, 526.96875pt x 451.6875pt>
 File: figures/gamlss_residuals_kcc_8.png Graphic file (type png)
 <use figures/gamlss_residuals_kcc_8.png>
 Package pdftex.def Info: figures/gamlss_residuals_kcc_8.png  used on input line
@@ -2485,7 +2454,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
-[51 <./figures/gamlss_residuals_kcc_8.png>]) (margin_kcc_summary.tex)
+[49 <./figures/gamlss_residuals_kcc_8.png>]) (margin_kcc_summary.tex)
 (kcc_copulas.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
@@ -2496,8 +2465,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-[52]
-<figures/res_gamlss_over_time.png, id=1299, 828.09375pt x 526.96875pt>
+[50]
+<figures/res_gamlss_over_time.png, id=1280, 828.09375pt x 526.96875pt>
 File: figures/res_gamlss_over_time.png Graphic file (type png)
 <use figures/res_gamlss_over_time.png>
 Package pdftex.def Info: figures/res_gamlss_over_time.png  used on input line 1
@@ -2510,8 +2479,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[53 <./figures/res_gamlss_over_time.png>]
-<figures/scatter_res_kcc_26.png, id=1325, 526.96875pt x 376.40625pt>
+[51 <./figures/res_gamlss_over_time.png>]
+<figures/scatter_res_kcc_26.png, id=1306, 526.96875pt x 376.40625pt>
 File: figures/scatter_res_kcc_26.png Graphic file (type png)
 <use figures/scatter_res_kcc_26.png>
 Package pdftex.def Info: figures/scatter_res_kcc_26.png  used on input line 9.
@@ -2527,7 +2496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54 <./figures/scatter_res_kcc_26.png>]
+ [52 <./figures/scatter_res_kcc_26.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
@@ -2537,18 +2506,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-<figures/res_hist_qqplot_26.png, id=1357, 526.96875pt x 451.6875pt>
+<figures/res_hist_qqplot_26.png, id=1338, 526.96875pt x 451.6875pt>
 File: figures/res_hist_qqplot_26.png Graphic file (type png)
 <use figures/res_hist_qqplot_26.png>
 Package pdftex.def Info: figures/res_hist_qqplot_26.png  used on input line 63.
 
 (pdftex.def)             Requested size: 341.43437pt x 292.66983pt.
-[55]
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
-<figures/time_effect_on_theta_26.png, id=1372, 828.09375pt x 376.40625pt>
+<figures/time_effect_on_theta_26.png, id=1353, 828.09375pt x 376.40625pt>
 File: figures/time_effect_on_theta_26.png Graphic file (type png)
 <use figures/time_effect_on_theta_26.png>
 Package pdftex.def Info: figures/time_effect_on_theta_26.png  used on input lin
@@ -2559,8 +2528,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[56 <./figures/res_hist_qqplot_26.png> <./figures/time_effect_on_theta_26.png>]
-<figures/estimated_theta_kcc_26.png, id=1382, 828.09375pt x 301.125pt>
+[54 <./figures/res_hist_qqplot_26.png> <./figures/time_effect_on_theta_26.png>]
+<figures/estimated_theta_kcc_26.png, id=1363, 828.09375pt x 301.125pt>
 File: figures/estimated_theta_kcc_26.png Graphic file (type png)
 <use figures/estimated_theta_kcc_26.png>
 Package pdftex.def Info: figures/estimated_theta_kcc_26.png  used on input line
@@ -2571,7 +2540,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-<figures/scatter_res_kcc_28.png, id=1388, 526.96875pt x 376.40625pt>
+<figures/scatter_res_kcc_28.png, id=1369, 526.96875pt x 376.40625pt>
 File: figures/scatter_res_kcc_28.png Graphic file (type png)
 <use figures/scatter_res_kcc_28.png>
 Package pdftex.def Info: figures/scatter_res_kcc_28.png  used on input line 8.
@@ -2579,19 +2548,19 @@ Package pdftex.def Info: figures/scatter_res_kcc_28.png  used on input line 8.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./figures/estimated_theta_kcc_26.png>]
+ [55 <./figures/estimated_theta_kcc_26.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 26--30
 
  []
 
-<figures/time_effect_on_theta_28.png, id=1407, 828.09375pt x 376.40625pt>
+<figures/time_effect_on_theta_28.png, id=1388, 828.09375pt x 376.40625pt>
 File: figures/time_effect_on_theta_28.png Graphic file (type png)
 <use figures/time_effect_on_theta_28.png>
 Package pdftex.def Info: figures/time_effect_on_theta_28.png  used on input lin
 e 59.
 (pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
-[58 <./figures/scatter_res_kcc_28.png>]
-<figures/res_hist_qqplot_28.png, id=1419, 526.96875pt x 451.6875pt>
+[56 <./figures/scatter_res_kcc_28.png>]
+<figures/res_hist_qqplot_28.png, id=1400, 526.96875pt x 451.6875pt>
 File: figures/res_hist_qqplot_28.png Graphic file (type png)
 <use figures/res_hist_qqplot_28.png>
 Package pdftex.def Info: figures/res_hist_qqplot_28.png  used on input line 70.
@@ -2603,12 +2572,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
  []
 
 
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+ [57 <./figures/time_effect_on_theta_28.png> <./figures/res_hist_qqplot_28.png>
+]
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
-[59 <./figures/time_effect_on_theta_28.png> <./figures/res_hist_qqplot_28.png>]
-<figures/estimated_theta_kcc_28.png, id=1431, 828.09375pt x 301.125pt>
+<figures/estimated_theta_kcc_28.png, id=1412, 828.09375pt x 301.125pt>
 File: figures/estimated_theta_kcc_28.png Graphic file (type png)
 <use figures/estimated_theta_kcc_28.png>
 Package pdftex.def Info: figures/estimated_theta_kcc_28.png  used on input line
@@ -2619,7 +2591,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-<figures/scatter_res_kcc_68.png, id=1435, 526.96875pt x 376.40625pt>
+<figures/scatter_res_kcc_68.png, id=1416, 526.96875pt x 376.40625pt>
 File: figures/scatter_res_kcc_68.png Graphic file (type png)
 <use figures/scatter_res_kcc_68.png>
 Package pdftex.def Info: figures/scatter_res_kcc_68.png  used on input line 11.
@@ -2630,23 +2602,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--21
 
  []
 
-<figures/estimated_theta_t_copula_kcc_68.png, id=1439, 828.09375pt x 301.125pt>
+<figures/estimated_theta_t_copula_kcc_68.png, id=1420, 828.09375pt x 301.125pt>
 
 File: figures/estimated_theta_t_copula_kcc_68.png Graphic file (type png)
 <use figures/estimated_theta_t_copula_kcc_68.png>
 Package pdftex.def Info: figures/estimated_theta_t_copula_kcc_68.png  used on i
 nput line 25.
 (pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
-[60 <./figures/estimated_theta_kcc_28.png> <./figures/scatter_res_kcc_68.png>]
-<figures/time_effect_on_theta_68.png, id=1461, 828.09375pt x 376.40625pt>
+[58 <./figures/estimated_theta_kcc_28.png> <./figures/scatter_res_kcc_68.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59 <./figures/estimated_theta_t_copula_kcc_68.png>]
+<figures/time_effect_on_theta_68.png, id=1453, 828.09375pt x 376.40625pt>
 File: figures/time_effect_on_theta_68.png Graphic file (type png)
 <use figures/time_effect_on_theta_68.png>
 Package pdftex.def Info: figures/time_effect_on_theta_68.png  used on input lin
 e 65.
 (pdftex.def)             Requested size: 405.45047pt x 184.29707pt.
-
-[61 <./figures/estimated_theta_t_copula_kcc_68.png>]
-<figures/res_hist_qqplot_68.png, id=1471, 526.96875pt x 451.6875pt>
+<figures/res_hist_qqplot_68.png, id=1454, 526.96875pt x 451.6875pt>
 File: figures/res_hist_qqplot_68.png Graphic file (type png)
 <use figures/res_hist_qqplot_68.png>
 Package pdftex.def Info: figures/res_hist_qqplot_68.png  used on input line 78.
@@ -2657,20 +2630,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
+[60 <./figures/time_effect_on_theta_68.png> <./figures/res_hist_qqplot_68.png>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 91--96
 
  []
 
-[62 <./figures/time_effect_on_theta_68.png> <./figures/res_hist_qqplot_68.png>]
-<figures/estimated_tau_clayton_kcc_68.png, id=1485, 828.09375pt x 301.125pt>
+<figures/estimated_tau_clayton_kcc_68.png, id=1468, 828.09375pt x 301.125pt>
 File: figures/estimated_tau_clayton_kcc_68.png Graphic file (type png)
 <use figures/estimated_tau_clayton_kcc_68.png>
 Package pdftex.def Info: figures/estimated_tau_clayton_kcc_68.png  used on inpu
 t line 101.
 (pdftex.def)             Requested size: 405.45047pt x 147.43767pt.
-) (kcc_pairs_summary.tex) (article_dependencies.tex [63 <./figures/estimated_ta
-u_clayton_kcc_68.png>]) (dbn_exercise.tex
+) (kcc_pairs_summary.tex) [61 <./figures/estimated_tau_clayton_kcc_68.png>]
+(article_dependencies.tex) (dbn_exercise.tex
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
@@ -2678,19 +2651,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
  []
 
-<figures/dbn_kcc_1_all.png, id=1507, 1001.7425pt x 641.39626pt>
+<figures/dbn_kcc_1_all.png, id=1490, 1001.7425pt x 641.39626pt>
 File: figures/dbn_kcc_1_all.png Graphic file (type png)
 <use figures/dbn_kcc_1_all.png>
 Package pdftex.def Info: figures/dbn_kcc_1_all.png  used on input line 31.
 (pdftex.def)             Requested size: 362.77525pt x 232.28242pt.
-<figures/dbn_kcc_1_article_10328_t_0.png, id=1508, 1001.7425pt x 574.145pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+<figures/dbn_kcc_1_article_10328_t_0.png, id=1497, 1001.7425pt x 574.145pt>
 File: figures/dbn_kcc_1_article_10328_t_0.png Graphic file (type png)
 <use figures/dbn_kcc_1_article_10328_t_0.png>
 Package pdftex.def Info: figures/dbn_kcc_1_article_10328_t_0.png  used on input
  line 41.
 (pdftex.def)             Requested size: 362.77525pt x 207.9273pt.
-[64 <./figures/dbn_kcc_1_all.png>]) (outlook.tex) [65 <./figures/dbn_kcc_1_arti
-cle_10328_t_0.png>] [66] (conclusion.tex
+)
+[63 <./figures/dbn_kcc_1_all.png> <./figures/dbn_kcc_1_article_10328_t_0.png>]
+(outlook.tex) [64] (conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -2708,11 +2686,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
 Underfull \vbox (badness 5756) has occurred while \output is active []
 
- [67
-
-])
-[68] (appendix.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
+ [65])
+[66] (appendix.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
@@ -2721,17 +2697,15 @@ nput line 8.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 ("C:\Users\Petro Ck\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) (gamlss_fit_kcc_2_try20.txt) [69
-
-] (gamlss_fit_kcc_6_try1.txt)
-(gamlss_fit_kcc_8_try1.txt [70])
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+) (gamlss_fit_kcc_2_try20.txt [67]) (gamlss_fit_kcc_6_try1.txt)
+(gamlss_fit_kcc_8_try1.txt [68])
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
  []
 
-(summary_kcc_26.txt [71]) (summary_kcc_28.txt [72] [73]) (summary_kcc_68.txt)
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
+(summary_kcc_26.txt [69] [70]) (summary_kcc_28.txt [71]) (summary_kcc_68.txt
+[72])
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
  []
 
@@ -2745,11 +2719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
-(dbnR_output_kcc_1.txt [75])) [76] (abbreviations.tex) [77
-
-] [78
-
-] (Master.lof
+(dbnR_output_kcc_1.txt [73])) [74] (abbreviations.tex) [75] (Master.lof
 Overfull \hbox (10.68088pt too wide) in paragraph at lines 21--21
  \T1/ua1/m/n/10.95 with marginal den-si-ties, Sec-ond row: Pseudo sales ob-ser-
 va-tion with marginal 
@@ -2758,7 +2728,7 @@ va-tion with marginal
 
 Underfull \vbox (badness 1331) has occurred while \output is active []
 
- [79]
+ [76]
 Overfull \hbox (2.07532pt too wide) in paragraph at lines 32--32
  [][] [][]\T1/ua1/m/n/10.95 Covariate ef-fects on the ex-pected re-sponse vari-
 able (log-sales) of GAMLSS 
@@ -2776,19 +2746,15 @@ Overfull \hbox (2.07532pt too wide) in paragraph at lines 42--42
 able (log-sales) of GAMLSS 
  []
 
-[80])
+[77])
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
- [81] [82] (Master.lot)
+ [78] [79] (Master.lot)
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [83
-
-] [84
-
-] (Master.bbl
+ [80] (Master.bbl
 
 LaTeX Font Warning: Font shape `T1/ua1/m/sc' undefined
 (Font)              using `T1/ua1/m/n' instead on input line 11.
@@ -2799,11 +2765,9 @@ Underfull \hbox (badness 3557) in paragraph at lines 11--18
 es-[]70th-[]anniversary$[]\T1/ua1/m/n/10.95 , Last
  []
 
-[85] [86]) [87] [88
-
-] (statutory_declaration.tex)
+[81] [82]) [83] (statutory_declaration.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 741.
- [89]
+ [84]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 741.
  (Master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 741.
@@ -2817,13 +2781,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 741.
  ) 
 Here is how much of TeX's memory you used:
- 29418 strings out of 493305
- 505018 string characters out of 3128495
- 699119 words of memory out of 3000000
+ 29412 strings out of 493305
+ 504970 string characters out of 3128495
+ 699772 words of memory out of 3000000
  31541 multiletter control sequences out of 15000+200000
  650996 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,19n,134p,2758b,2067s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,19n,134p,2758b,2068s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{lstnumber.Routput-.8.40} has been referenced but 
 does not exist, replaced by a fixed one
 
@@ -2864,9 +2828,9 @@ ic/amsfonts/symbols/msbm10.pfb><C:/Users/Petro Ck/AppData/Local/Programs/MiKTeX
 /MiKTeX 2.9/fonts/type1/urw/arial/ua1bi8a.pfb><C:/Users/Petro Ck/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/Petro Ck/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on Master.pdf (99 pages, 3009715 bytes).
+Output written on Master.pdf (90 pages, 3005902 bytes).
 PDF statistics:
- 2629 PDF objects out of 2984 (max. 8388607)
- 806 named destinations out of 1000 (max. 500000)
+ 2598 PDF objects out of 2984 (max. 8388607)
+ 800 named destinations out of 1000 (max. 500000)
  734 words of extra memory for PDF output out of 10000 (max. 10000000)
 

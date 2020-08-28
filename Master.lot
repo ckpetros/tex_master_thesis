@@ -1,19 +1,19 @@
 \babel@toc {english}{}
 \contentsline {table}{\numberline {1.1}{\ignorespaces Transactional raw data description from online purchases of western European countries\relax }}{3}{table.1.1}
 \contentsline {table}{\numberline {1.2}{\ignorespaces Article attribute data\relax }}{4}{table.1.2}
-\contentsline {table}{\numberline {3.1}{\ignorespaces Bivariate relationships in copula families, with $T_{\nu }$ being the Student's t-distribution function with $\nu $ degrees of freedom and $D_{k}(x)=\frac {k}{x^{k}} \DOTSI \intop \ilimits@ _{0}^{x} \frac {t^{k}}{e^{t}-1} d t$ being the Debye function \citep {stanfordphd}\relax }}{25}{table.3.1}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Promotion weeks\relax }}{29}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Number of sold units per week \& number of affected articles for different quantiles of sales\relax }}{31}{table.4.2}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 2\relax }}{41}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Estimated $\mathaccentV {hat}05E{\mu }$ coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 2\relax }}{42}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Residuals of GAMLSS Fit on KCC 2\relax }}{43}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Estimated $\mathaccentV {hat}05E{\mu }$ coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 6\relax }}{46}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 6\relax }}{46}{table.5.5}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Residuals of GAMLSS Fit on KCC 2\relax }}{48}{table.5.6}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 8\relax }}{49}{table.5.7}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Estimated coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 8\relax }}{51}{table.5.8}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Residuals of GAMLSS Fit on KCC 8\relax }}{52}{table.5.9}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 2 \& 6\relax }}{55}{table.5.10}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 2 \& 8\relax }}{58}{table.5.11}
-\contentsline {table}{\numberline {5.12}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 6 \& 8\relax }}{61}{table.5.12}
-\contentsline {table}{\numberline {5.13}{\ignorespaces Articles in key category cluster 1\relax }}{64}{table.5.13}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Bivariate relationships in copula families, with $T_{\nu }$ being the Student's t-distribution function with $\nu $ degrees of freedom and $D_{k}(x)=\frac {k}{x^{k}} \DOTSI \intop \ilimits@ _{0}^{x} \frac {t^{k}}{e^{t}-1} d t$ being the Debye function \citep {stanfordphd}\relax }}{24}{table.3.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Promotion weeks\relax }}{28}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Number of sold units per week \& number of affected articles for different quantiles of sales\relax }}{30}{table.4.2}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 2\relax }}{39}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Estimated $\mathaccentV {hat}05E{\mu }$ coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 2\relax }}{40}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Residuals of GAMLSS Fit on KCC 2\relax }}{41}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Estimated $\mathaccentV {hat}05E{\mu }$ coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 6\relax }}{44}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 6\relax }}{44}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Residuals of GAMLSS Fit on KCC 2\relax }}{46}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Estimated skewness parameter $\mathaccentV {hat}05E{\nu }$ of GAMLSS fit with 95\% confidence interval bounds - KCC 8\relax }}{47}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Estimated coefficients of \ac {GAMLSS} fit on log-sales of \ac {KCC} 8\relax }}{49}{table.5.8}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Residuals of GAMLSS Fit on KCC 8\relax }}{50}{table.5.9}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 2 \& 6\relax }}{53}{table.5.10}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 2 \& 8\relax }}{56}{table.5.11}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Estimated $\mathaccentV {hat}05E{\theta }$ coefficients of \ac {GJRM} fit on key category clusters 6 \& 8\relax }}{60}{table.5.12}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Articles in key category cluster 1\relax }}{62}{table.5.13}

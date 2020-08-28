@@ -5,7 +5,7 @@ The same procedure as in Subsection \ref{sssec:margin_kcc_6} for key category cl
 Excluding all covariates, simple maximum likelihood estimation results in parameters $\hat{\mu} = 9.62$, $\hat{\sigma} = 0.20$ and $\hat{\nu} = 0.41$ of the ex-Gaussian distribution.
 \autoref{fig:kcc_6_density} shows the histogram of the observed log-sales along with a density curve fitted with the estimated parameters. A QQ-plot is displayed in \autoref{fig:kcc_6_qqplot}, where the data points match the line $y=x$ well, excluding a few outliers on the upper part of the plot.
  %can be summarized within \autoref{tab:estimated_parameters_kcc_6_no_covariates}, \autoref{fig:kcc_6_margin} and \autoref{fig:res_kcc_6_no_covariates}. 
- A Shapiro-Wilk test on the residuals returns a p-value of 0.87 and thus fails to reject the null hypothesis of non-normality. \autoref{fig:res_kcc_6_no_covariates} portrays a histogram of the residuals along with a density curve. Although it looks platykurtic to a certain extend, normality cannot be excluded as the Shapiro-Wilk test indicated.
+ A Shapiro-Wilk test on the residuals returns a p-value of 0.87 and thus fails to reject the null hypothesis of normality. \autoref{fig:res_kcc_6_no_covariates} portrays a histogram of the residuals along with a density curve. Although it looks platykurtic to a certain extend, normality cannot be excluded as the Shapiro-Wilk test indicated.
 \\
 
 
@@ -144,7 +144,7 @@ As opposed to the \ac{GAMLSS} fit for \ac{KCC} 2, Friends \& Family seems to hav
 \end{figure}
 
 
-Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residuals_kcc_6} along with the associated summary in \autoref{tab:gamlss_residuals_kcc_6}, we can again confirm an appropriate fit. The plots in the upper row of \autoref{fig:gamlss_residuals_kcc_6} show how the points are scattered around (horizontal) zero without a clear pattern. The left lower plot resembles a normally distributed density curve adequately and the QQ-plot in the lower left corner displays the data matching to the diagona line. In \autoref{tab:gamlss_residuals_kcc_6}, metrics of the residuals are displayed. Those metrics indeed indicate an approximation of a standard normal distribution.  A Shapiro-Wilk test returns a p-value of 0.7, which is below the p-value of the fit without covariate effects. Nevertheless, normality is a steady assumption for the quantile residuals.
+Inspecting the diagnostic plots for the residuals in \autoref{fig:gamlss_residuals_kcc_6} along with the associated summary in \autoref{tab:gamlss_residuals_kcc_6}, we can again confirm an appropriate fit. The plots in the upper row of \autoref{fig:gamlss_residuals_kcc_6} show how the points are scattered around (horizontal) zero without a clear pattern. The left lower plot resembles a normally distributed density curve adequately and the QQ-plot in the lower right corner displays the data matching the diagonal line. In \autoref{tab:gamlss_residuals_kcc_6}, metrics of the residuals are displayed. Those metrics indeed indicate an approximation of a standard normal distribution.  A Shapiro-Wilk test returns a p-value of 0.7, which is below the p-value of the fit without covariate effects. Nevertheless, normality is a steady assumption for the quantile residuals.
 \\
 
 

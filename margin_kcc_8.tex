@@ -1,10 +1,10 @@
 % !TEX root = Master.tex
 
-The procedure is continued also for key category cluster 8 with the same conditions, since we have similar issues as in the previous two clusters.
+The procedure is continued also for key category cluster 8 with the same conditions, since we have similar initial situations as in the previous two clusters.
 \\
 
 Maximum likelihood estimation return parameters $\hat{\mu} = 7.21$, $\hat{\sigma} = 0.27$ and $\hat{\nu} = 0.46$ of the log-sales of \ac{KCC} 8 fitted to an ex-Gaussian distribution with no regressors.
-\autoref{fig:kcc_8_margin} summarizes the findings in a histogram of the log-sales along with an ex-Gaussian density curve with respect to the estimated parameters (\autoref{fig:kcc_8_density}) as well as the corresponding QQ-plot, where the points approximate the diagonal line (\autoref{fig:kcc_8_qqplot}). Normality of the residuals can be assumed, as the Shapiro-Wilk test returns a p-value of 0.99 and thus fails to reject the null hypothesis of non-normality. A histogram of the residuals and their density curve are shown in \autoref{fig:res_kcc_8_no_covariates}.\\
+\autoref{fig:kcc_8_margin} summarizes the findings in a histogram of the log-sales along with an ex-Gaussian density curve with respect to the estimated parameters (\autoref{fig:kcc_8_density}) as well as the corresponding QQ-plot, where the points approximate the diagonal line (\autoref{fig:kcc_8_qqplot}). Normality of the residuals can be assumed, as the Shapiro-Wilk test returns a p-value of 0.99 and thus fails to reject the null hypothesis of normality. A histogram of the residuals and their density curve are shown in \autoref{fig:res_kcc_8_no_covariates}.\\
  Despite the high p-value of the Shapiro-Wilk test, flexible estimation of the parameters including explanatory variables should be able to provide a better overall fit to the aggregated demand quantities of this cluster. Subsequently, we enter the \ac{GAMLSS} framework to obtain time-varying parameters and therefore enhance the estimation procedure.
 \\
 
@@ -94,7 +94,7 @@ Again, Model \ref{eq:gamlss_kcc_2} (see Subsection \ref{sssec:kcc_26}) is applie
 
 
 \autoref{fig:gamlss_effects_kcc_8} displays the effects of the covariates on the expected log-sales.
-Time as well as the total markdown percentage exhibit similar positive effects on the response as in \ac{KCC} 6, collapsing into a straight line. The promotion effects seem to be more balanced, with different interquartile ranges for all three cases, with Black Friday having the highest spread and Friends \& Family the highest effects in general. This pattern of boxplots for the two big promotions is therefore noticeable in the \ac{GAMLSS} fits of all three key category clusters. 
+Time as well as the total markdown percentage exhibit similar positive effects on the response as in \ac{KCC} 6, collapsing into a straight line. The promotion effects seem to be more balanced, with different interquartile ranges for all three cases; Black Friday having the highest spread and Friends \& Family the highest effects in general. This pattern of boxplots for the two big promotions is therefore noticeable in the \ac{GAMLSS} fits of all three key category clusters. 
 \\
 
 

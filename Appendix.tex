@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
 
-
+\textbf{GAMLSS fits on key category clusters}\\
 The summary outputs for the \ac{GAMLSS} fits of the log-scaled demand quantities are printed below in R outputs \ref{output:gamlss_fit_kcc_2_try20},  \ref{output:gamlss_fit_kcc_6_try1} and \ref{output:gamlss_fit_kcc_8_try1}.
 \\
 
@@ -21,7 +21,7 @@ The summary outputs for the \ac{GAMLSS} fits of the log-scaled demand quantities
 
 
 
-
+\textbf{GJRM fits on pairs of key category clusters}\\
 The summaries of \ac{GJRM} fits on pairs of the residuals from the previous step are printed in R outputs \ref{output:summary_kcc_26}, \ref{output:summary_kcc_28} and \ref{output:summary_kcc_68} below.
 \\
 
@@ -40,7 +40,7 @@ The summaries of \ac{GJRM} fits on pairs of the residuals from the previous step
 
 
 
-
+\textbf{AIC values of \textit{gamlss::fitDist()} function} \\
 When the three sets of residuals are passed into the \textit{fitDist()} function of the \textit{gamlss} package, it returns multiple suggestions of parametric distribution that can be used to fit to the data, ordered by ascending \ac{AIC}. An excerpt is given in R output \ref{output:gamlss_distributions_aic}. 
 \\
 
@@ -55,7 +55,7 @@ With the help of the function \textit{BiCopSelect()} of the R package \textit{Vi
 
 
 \textbf{Exercise of dynamic Bayesian network on articles from KCC 1} \\ 
-The below output is a summary from the \textit{dbnR\:\:learn\_dbn\_struc()} function call.
+The below output is a summary from the \textit{dbnR::learn\_dbn\_struc()} function call.
 \\
 
 \inputRoutput[caption={Learned structure of a DBN from articles in KCC 1},numbers=left,numberstyle=\tiny, label=output:dbnR_output_kcc_1]{dbnR_output_kcc_1.txt}
