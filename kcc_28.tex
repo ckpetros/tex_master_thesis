@@ -1,6 +1,6 @@
 % !TEX root = Master.tex
 
-The same strategy as in the previous Subsection \ref{sssec:kcc_26} shall be followed. In \autoref{fig:scatter_res_kcc_28} a lower tail dependence can be suspected. Whether both positive and negative dependence are hiding in the the data is being tested beforehand, so that we can narrow down the number of plausible copula families.
+The same strategy as in the previous subsection (\ref{sssec:kcc_26}) shall be followed. In \autoref{fig:scatter_res_kcc_28}, a lower tail dependence can be suspected. Whether both positive and negative dependencies are hiding in the the data is being tested beforehand, so that we can narrow down the number of plausible copula families.
 \\
 
 \begin{figure}[H]
@@ -11,7 +11,7 @@ The same strategy as in the previous Subsection \ref{sssec:kcc_26} shall be foll
 \end{figure}
 
 
-A \ac{GJRM} approach equivalent to Model \ref{eq:gjrm_formula_26} is applied here, with the only difference that we leave out the promo type (see Model \ref{eq:gjrm_formula_28}) since it not only has a non-significant effect, but unlike for the previous pair it also heavily distorts the outcome for this pair. \\
+A \ac{GJRM} approach equivalent to Model \ref{eq:gjrm_formula_26} is applied here, with the only difference that we leave out the promo type (see Model \ref{eq:gjrm_formula_28}) since it not only has a non-significant effect, but unlike for the previous pair it also heavily distorts the outcome for this pair. 
 \begin{equation}
 \begin{array}{c}
 \mu_{KCC 2}=\beta_{\mu,KCC2} \qquad \mu_{KCC 6}=\beta_{\mu,KCC6}  \\  \noalign{\vskip5pt}
@@ -23,8 +23,9 @@ log(\nu) = \beta_{\nu} \\  \noalign{\vskip5pt}
 tanh^{-1}(\theta)=\beta_{\theta}  +f(\textit{time})
 \end{array}
 \label{eq:gjrm_formula_28}
-\end{equation} \\
-We can see the summary in \autoref{tab:theta_coeff_kcc_28}. All model parameters but the copula parameter are set as constants. We first examine copulas which account for positive as well as negative dependencies with the help of the \textit{BiCopSelect()} function. The t-copula is again the most appropriate within a set of copula families including the independence copula, the Gaussian copula, the Student's t-copula and the Frank copula. Looking at equation 6 of the output, we can see that time has a significant effect on $\hat{\theta}$ and its partial smooth effect can be checked visually in \autoref{fig:time_effect_on_theta_28}.
+\end{equation} 
+All model parameters but the copula parameter are set as constants. Since a t-copula is again applied, the copula parameter obtains an inverse hyperbolic tangent function as link. Also, time is the only covariate in Model \ref{eq:gjrm_formula_28}. \\
+A summary about the coefficients of the estimated copula parameter $\hat{\theta}$ is printed in \autoref{tab:theta_coeff_kcc_28}.  We first examine copulas which account for positive as well as negative dependencies.\footnote{With the help of the \textit{BiCopSelect()} function of the \textit{VineCopula} package \citep{nagler2019vinecopula}.} The t-copula is again the most appropriate within a set of copula families including the independence copula, the Gaussian copula, the Student's t-copula and the Frank copula. Looking at \autoref{tab:theta_coeff_kcc_28}, we can see that time has a significant non-linear effect on $\hat{\theta}$ (18.50 edf) and its partial smooth effect can be checked visually in \autoref{fig:time_effect_on_theta_28}.
 \\
 
 
@@ -51,12 +52,6 @@ $\beta_{\theta}$ \textit{(Intercept)}                  & 0.64     & 0.11       &
 
 
 
-\begin{figure}[H]
-\centering
-  \includegraphics[width=0.95\linewidth]{figures/res_hist_qqplot_28.png}
-  \caption{Diagnostic plots of quantile residuals based on \ac{GJRM} models for key category clusters 2 \& 8}
-  \label{fig:res_hist_qqplot_28}
-\end{figure}
 
 
 \begin{figure}[H]
@@ -67,11 +62,23 @@ $\beta_{\theta}$ \textit{(Intercept)}                  & 0.64     & 0.11       &
 \end{figure}
 
 
-The parsimonious model setup produces a nice fit (see \autoref{fig:res_hist_qqplot_28}) so we proceed to analyzing the correlation parameter. Once again, $\hat{\theta}$ takes on positive as well as negative values interchangeably over time periods. Therefore considering further copula families like the Clayton copula would be arguably inappropriate.
+
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.80\linewidth]{figures/res_hist_qqplot_28.png}
+  \caption{Diagnostic plots of quantile residuals based on \ac{GJRM} models for key category clusters 2 \& 8}
+  \label{fig:res_hist_qqplot_28}
+\end{figure}
+
+The parsimonious model setup produces a nice fit. The quantile residuals are remarkably close to a standard normal distribution, which is reflected in the histograms and QQ-plots of both margins in \autoref{fig:res_hist_qqplot_28}.\\
+Consequently, we proceed to analyzing the correlation parameter. Once again, $\hat{\theta}$ takes on positive as well as negative values interchangeably over time periods. Therefore, considering further copula families like the Clayton copula would be arguably inappropriate.
 \\
 
-Looking at the correlation structure in \autoref{fig:estimated_theta_kcc_28}, we can see that during both mid-seasons of Fall-Winter 2017 and 2018 there is some negative dependence between the two clusters. End of Spring-Summer 2017 and beginning of Spring-Summer 2018 also show some negative correlation.
 
+Looking at the correlation structure in \autoref{fig:estimated_theta_kcc_28}, we can see that during both mid-seasons of Fall-Winter 2017 and 2018 there is some negative dependence between the two clusters. End of Spring-Summer 2017 and beginning of Spring-Summer 2018 also show some negative correlation.
+\\
 
 \begin{figure}[H]
 \centering

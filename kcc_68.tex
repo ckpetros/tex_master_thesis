@@ -14,7 +14,9 @@ This pair of clusters also let's us speculate whether tail dependence exists (se
 \end{figure}
 
 
-This time we fast forward to the outcome when a t-copula is applied (which is the proposed family of copulas allowing both concordance directions) under similar conditions as in Model \ref{eq:gjrm_formula_28} (the reasons for leaving out promo type being the same as in Subsection \ref{sssec:kcc_28}). Interestingly, the correlation parameter seems to be purely non-negative\footnote{Without considering the lower confidence bounds in the first part of the time window.} (see \autoref{fig:estimated_theta_t_copula_kcc_68}).
+This time, we fast forward to the outcome when a t-copula is applied (which is the proposed family of copulas allowing both concordance directions) under similar conditions as in Model \ref{eq:gjrm_formula_28} (the reasons for leaving out promo type being the same as in Subsection \ref{sssec:kcc_28}). Interestingly, the correlation parameter seems to be purely non-negative
+%\footnote{Without considering the lower confidence bounds in the first part of the time window.} 
+(see \autoref{fig:estimated_theta_t_copula_kcc_68}).
 \\
 
 
@@ -26,8 +28,7 @@ This time we fast forward to the outcome when a t-copula is applied (which is th
 \end{figure}
 
 
-Keeping the complexity of the model to a minimum, the model setup remains as is, with the only minor differences. Other copula families are considered in addition, particularly those that account for positive (and not negative) dependencies. Out of all implemented copula families in the \textit{VineCopula} package (rotated versions included), the Clayton copula yields the most fitting family for the given target variables. This result is sensible, as the Clayton copula is able to capture lower tail dependencies (\autoref{fig:scatter_res_kcc_68}) and accounts for positive dependence structures only (see Subsections \ref{sssec:archimedean_copulas} and \ref{sssec:tail_dependence}). Note that the new model specification is \\
-
+Keeping the complexity of the model to a minimum, the model setup remains as is, with only minor differences. Other copula families are considered in addition, particularly those that account for positive (and not negative) dependencies. Out of all implemented copula families in the \textit{VineCopula} package (rotated versions included, see \cite{nagler2019vinecopula}), the Clayton copula yields the most fitting family for the given target variables. This result is sensible, as the Clayton copula is able to capture lower tail dependencies (see \autoref{fig:scatter_res_kcc_68}) and accounts for positive dependence structures only (see Subsections \ref{sssec:archimedean_copulas} and \ref{sssec:tail_dependence}). Note that the new model specification is 
 \begin{equation}
 \begin{array}{c}
 \mu_{KCC 6}=\beta_{\mu,KCC6} \qquad \mu_{KCC 8}=\beta_{\mu,KCC8}  \\  \noalign{\vskip5pt}
@@ -35,14 +36,11 @@ Keeping the complexity of the model to a minimum, the model setup remains as is,
 log(\sigma_{KCC 6})=\beta_{\sigma,KCC6} \qquad log(\sigma_{KCC 8})=\beta_{\sigma,KCC8} \\  \noalign{\vskip5pt}
 
 
-log(\theta)=\beta_{\theta}+f\left(time\right),
+log(\theta)=\beta_{\theta}+f\left(\textit{time}\right),
 \end{array}
 \label{eq:gjrm_formula_68}
 \end{equation}
-\\
-
-where now there are no degrees of freedom to determine and the copula parameter receives a logarithmic link function to ensure that $\hat{\theta}$ is well defined on the non-negative real line. \autoref{tab:theta_coeff_kcc_68} shows the significance of time on $\hat{\theta}$ and its smooth effect is visualized in \autoref{fig:time_effect_on_theta_68}. The diagnostic plots of quantile residuals in \autoref{fig:res_hist_qqplot_68} demonstrate the proper fit qualities once more.
-\\
+where now there are no degrees of freedom to determine and the copula parameter receives a logarithmic link function to ensure that $\hat{\theta}$ is well defined on the non-negative real line. \autoref{tab:theta_coeff_kcc_68} displays the significance of the smooth effect of time on $\hat{\theta}$ having 21.88 effective degrees of freedom. The smooth effect of time on the copula parameter $\hat{\theta}$ with 95\% confidence bands is depicted in \autoref{fig:time_effect_on_theta_68}. Overall, the effect seems to be constant until mid of Fall-Winter 17, where a sudden drop is visible. Afterwards, it increases again to the same level as before and remains constant.
 
 
 
@@ -62,19 +60,6 @@ $\beta_{\theta}$ \textit{(Intercept)}                  & -8.24     & 3.77       
 
 
 
-
-
-
-\begin{figure}[H]
-\centering
-  \includegraphics[width=0.95\linewidth]{figures/res_hist_qqplot_68.png}
-  \caption{Diagnostic plots of quantile residuals based on \ac{GJRM} models for key category clusters 6 \& 8}
-  \label{fig:res_hist_qqplot_68}
-\end{figure}
-
-
-
-
 \begin{figure}[H]
 \centering
   \includegraphics[width=0.95\linewidth]{figures/time_effect_on_theta_68.png}
@@ -84,10 +69,28 @@ $\beta_{\theta}$ \textit{(Intercept)}                  & -8.24     & 3.77       
 
 
 
+
+
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.80\linewidth]{figures/res_hist_qqplot_68.png}
+  \caption{Diagnostic plots of quantile residuals based on \ac{GJRM} models for key category clusters 6 \& 8}
+  \label{fig:res_hist_qqplot_68}
+\end{figure}
+
+
+
+
+The diagnostic plots of quantile residuals in \autoref{fig:res_hist_qqplot_68} demonstrate the proper fit qualities once more. The histograms of the residuals and the associated density curves resemble the shape of normal distributions and the points on the QQ-plots match the diagonal lines almost perfectly. 
+\\
+
+
+
 Since Kendall's tau is more intuitive as a dependence measure of two random variables than the copula parameter $\theta$ (see Subsection \ref{sssec:rank_correlation}), this is what we inspect. The relationship between Kendall's tau and the parameter of the Clayton copula is $\tau = \frac{\theta}{\theta + 2}$ (see \autoref{tab:copula_relationships}). The estimated time-varying $\hat{\tau}$ is displayed in \autoref{fig:estimated_tau_clayton_kcc_68}, where we can observe that 
 %the confidence bands vary a lot and 
 there are some individual time windows of zero correlation.\\
-
 Any model configuration of this pair regarding covariates and copulas produce such kind of strictly non-negative dependence. These results should be interpreted with extraordinary caution if at all.
 \\
 
